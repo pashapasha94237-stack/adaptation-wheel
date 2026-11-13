@@ -1,0 +1,11 @@
+{
+  "adapted": {
+    "subtitle": "subtitles.adaptationwheel.adapted",
+    "sounds": [
+      {
+        "name": "adaptationwheel:adapted",
+        "stream": false
+      }
+    ]
+  }
+}

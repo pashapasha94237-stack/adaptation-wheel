@@ -1,0 +1,53 @@
+# Build output, caches and local tooling
+.gradle/
+.gradle-user-home/
+.tools/
+build/
+run/
+dist/
+.idea/
+*.iml
+.vscode/
+*.class
+
+# Logs and scratch output of release runs
+*.log
+*.out
+logs/
+release-*-status.txt
+RUN-BUILD-*.cmd
+
+# Local-only material that is not part of the published project
+artifacts/
+reports/
+chat-export/
+review/
+tools/mahito/
+
+# Older embedded components kept locally for history; the build uses only the current ones
+embedded/pasha-boost-*.jar
+embedded/adapt-boost-1.20.1-forge-1.6.*.jar
+embedded-src/pasha-boost-*.zip
+embedded-src/adapt-boost-1.20.1-forge-1.6.*.zip
+
+# Third-party mod jars, extracted classes and QA run folders must never be committed
+compat-tests/**/*.jar
+compat-tests/**/*.class
+compat-tests/**/inputs/
+compat-tests/**/runs/
+compat-tests/**/decompiled/
+compat-tests/**/run/
+compat-tests/**/build/
+compat-tests/**/.gradle/
+
+# QA group and audit data that lists jar locations on the developer's own computer
+compat-tests/multimod/audit/
+compat-tests/multimod/probe/*.json
+compat-tests/multimod/probe/gradle.properties
+compat-tests/corpus/coverage.json
+compat-tests/corpus445/hub-*
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

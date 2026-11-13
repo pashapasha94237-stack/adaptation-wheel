@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "ad_astra:rocket_flames", "required": false},
+    {"id": "aether_redux:ember", "required": false},
+    {"id": "biomesoplenty:fumarole", "required": false},
+    {"id": "cataclysm:flame_strike", "required": false},
+    {"id": "dragonsurvival:rain_burn", "required": false},
+    {"id": "dragonsurvival:water_burn", "required": false},
+    {"id": "farmersdelight:stove_burn", "required": false},
+    {"id": "goety:hellfire", "required": false},
+    {"id": "goety:magic_fire", "required": false},
+    {"id": "goety:soul_burn", "required": false},
+    {"id": "iceandfire:dragon_fire", "required": false},
+    {"id": "irons_spellbooks:blood_cauldron", "required": false},
+    {"id": "irons_spellbooks:fire_field", "required": false},
+    {"id": "irons_spellbooks:fire_magic", "required": false},
+    {"id": "minecolonies:nether", "required": false},
+    {"id": "mna:spell_conflagrate", "required": false},
+    {"id": "spawn:dry_up", "required": false},
+    {"id": "spell_power:fire", "required": false},
+    {"id": "tfmg:blast_furnace", "required": false},
+    {"id": "toughasnails:hyperthermia", "required": false},
+    {"id": "twilightforest:fiery", "required": false},
+    {"id": "twilightforest:fire_jet", "required": false},
+    {"id": "twilightforest:ghast_tear", "required": false},
+    {"id": "twilightforest:scorched", "required": false}
+  ]
+}

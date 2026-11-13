@@ -1,0 +1,15 @@
+{
+    "loader":  "forge:separate_transforms",
+    "gui_light":  "front",
+    "base":  {
+                 "parent":  "adaptationwheel:item/extermination_sword_icon"
+             },
+    "perspectives":  {
+                         "thirdperson_righthand":  {
+                                                       "parent":  "adaptationwheel:item/extermination_sword_worn"
+                                                   },
+                         "thirdperson_lefthand":  {
+                                                      "parent":  "adaptationwheel:item/extermination_sword_worn"
+                                                  }
+                     }
+}

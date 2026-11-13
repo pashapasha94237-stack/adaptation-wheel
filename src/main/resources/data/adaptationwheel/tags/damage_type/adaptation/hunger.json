@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "dragonsurvival:dehydration", "required": false},
+    {"id": "toughasnails:thirst", "required": false}
+  ]
+}

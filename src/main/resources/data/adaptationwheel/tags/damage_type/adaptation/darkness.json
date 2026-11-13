@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "alexscaves:dark_arrow", "required": false},
+    {"id": "enigmaticlegacy:darkness", "required": false},
+    {"id": "soulsweapons:shadow_orb", "required": false}
+  ]
+}

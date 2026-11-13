@@ -1,0 +1,3051 @@
+{
+  "schema": 1,
+  "description": "Reviewed starting category hints for Minecraft 1.20.1 and exact compatibility identities. This is a curated domain knowledge base, not a language model or simulated combat history.",
+  "policy": "All seed confidence is below live authoritative registry evidence. No observations, stages, immunity or inventory are included. Positive/support-only effect identities and operator/void kills are omitted.",
+  "sources": [
+    "Minecraft 1.20.1 vanilla damage/effect definitions",
+    "server/T2SCompatibility.java",
+    "server/HazardCompatibility.java",
+    "server/MobControlCompatibility.java",
+    "compat/jujutsucraft-v51.json",
+    "compat/mod-attacks.json"
+  ],
+  "facts": [
+    {
+      "key": "attack:ad_astra:cryo_fuel_liquid_block/m_7892__67654072",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/ad_astra/audited-attack-site"
+    },
+    {
+      "key": "attack:ad_astra:ice_spit/m_5790__f4bd0121",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/ad_astra/audited-attack-site"
+    },
+    {
+      "key": "attack:ad_astra:oxygen_api_impl/entity_tick_27362741",
+      "profile": "SUFFOCATION",
+      "confidence": 76,
+      "source": "seed:compat/ad_astra/audited-attack-site"
+    },
+    {
+      "key": "attack:ad_astra:rocket/burn_entities_under_rocket_f0011bef",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/ad_astra/audited-attack-site"
+    },
+    {
+      "key": "attack:ad_astra:rover/do_entity_collision_tick_20cb7e1d",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/ad_astra/audited-attack-site"
+    },
+    {
+      "key": "attack:ad_astra:temperature_api_impl/burn_entity_d174e659",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/ad_astra/audited-attack-site"
+    },
+    {
+      "key": "attack:ad_astra:temperature_api_impl/freeze_entity_8445ab38",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/ad_astra/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:acid_block/m_7892__3e8faffa",
+      "profile": "POISON",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:bubbled_effect/m_6742__16f892d8",
+      "profile": "SUFFOCATION",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:depth_charge_entity/m_5790__03d261af",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:fissure_primal_magma_block/m_141947__e141fcae",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:fissure_primal_magma_block/m_7892__61aed6c7",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:irradiated_effect/m_6742__ddd8cd39",
+      "profile": "POISON",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:mine_explosion/explode_74621d31",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:nuclear_explosion_entity/m_8119__6d042155",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:primal_magma_block/m_141947__5e3c572e",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:primal_magma_block/m_7892__d6948804",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:tephra_explosion/explode_c90ac884",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:alexscaves:totem_explosion/explode_3630c324",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/alexscaves/audited-attack-site"
+    },
+    {
+      "key": "attack:draconicevolution:charging_player_phase/server_tick_d760797c",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/draconicevolution/audited-attack-site"
+    },
+    {
+      "key": "attack:draconicevolution:draconic_guardian_entity/attack_entities_in_list_94e40752",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/draconicevolution/audited-attack-site"
+    },
+    {
+      "key": "attack:draconicevolution:draconic_guardian_entity/collide_with_entities_5d2110e5",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/draconicevolution/audited-attack-site"
+    },
+    {
+      "key": "attack:draconicevolution:guardian_projectile_entity/detonate_5c95897a",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/draconicevolution/audited-attack-site"
+    },
+    {
+      "key": "attack:draconicevolution:laser_beam_phase/server_tick_9e97a1b0",
+      "profile": "LIGHT",
+      "confidence": 76,
+      "source": "seed:compat/draconicevolution/audited-attack-site"
+    },
+    {
+      "key": "attack:draconicevolution:process_chaos_implosion_chaos_implosion_trace/update_process_755e0b14",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/draconicevolution/audited-attack-site"
+    },
+    {
+      "key": "attack:draconicevolution:process_explosion/execute_9ea454fe",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/draconicevolution/audited-attack-site"
+    },
+    {
+      "key": "attack:iceandfire:dragon_breath/fire",
+      "profile": "FIRE",
+      "confidence": 78,
+      "source": "seed:compat/iceandfire/audited-element-split"
+    },
+    {
+      "key": "attack:iceandfire:dragon_breath/ice",
+      "profile": "COLD",
+      "confidence": 78,
+      "source": "seed:compat/iceandfire/audited-element-split"
+    },
+    {
+      "key": "attack:iceandfire:dragon_breath/lightning",
+      "profile": "ELECTRIC",
+      "confidence": 78,
+      "source": "seed:compat/iceandfire/audited-element-split"
+    },
+    {
+      "key": "attack:iceandfire:dragon_charge/fire",
+      "profile": "FIRE",
+      "confidence": 78,
+      "source": "seed:compat/iceandfire/audited-element-split"
+    },
+    {
+      "key": "attack:iceandfire:dragon_charge/ice",
+      "profile": "COLD",
+      "confidence": 78,
+      "source": "seed:compat/iceandfire/audited-element-split"
+    },
+    {
+      "key": "attack:iceandfire:dragon_charge/lightning",
+      "profile": "ELECTRIC",
+      "confidence": 78,
+      "source": "seed:compat/iceandfire/audited-element-split"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_axe_attack/attack_target_entity_with_current_item_c98e303a",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_axe_attack/deal_damage_579eab2d",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_boulder_projectile/m_8119__38024a93",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_earth_spike/m_8119__eb4cf56a",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_ice_ball/m_8119__b8ddde5c",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_ice_breath/hit_entities_a70b78d2",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_poison_ball/explode_48de655b",
+      "profile": "POISON",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_solar_beam/m_8119__8498fb4f",
+      "profile": "LIGHT",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:mowziesmobs:entity_sunstrike/damage_entity_living_base_nearby_ab7e1e3e",
+      "profile": "LIGHT",
+      "confidence": 76,
+      "source": "seed:compat/mowziesmobs/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:fiery_block/m_141947__928235ea",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:fire_beetle/do_breath_attack_5c1541a6",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:fire_jet_block_entity/tick_flame_387edf5d",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:hydra_mortar/detonate_2cf6d73d",
+      "profile": "EXPLOSION",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:ice_bomb/hit_nearby_entities_918c22b9",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:ice_snowball/m_5790__6a51e73c",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:lich_bolt/m_5790__a66b4906",
+      "profile": "MAGIC",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:lifedrain_scepter_item/m_5929__e4aabcaa",
+      "profile": "MAGIC",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:snow_queen/do_breath_attack_4afe67ba",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:tome_bolt/m_5790__797dd9e0",
+      "profile": "MAGIC",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:twilight_wand_bolt/m_5790__6701be13",
+      "profile": "MAGIC",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:ur_ghast_fireball/m_5790__e76b9f6b",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "attack:twilightforest:winter_wolf/do_breath_attack_d64db7f4",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/twilightforest/audited-attack-site"
+    },
+    {
+      "key": "condition:alexscaves:forsaken_hold",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "condition:alexsmobs:constriction",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "condition:anomaly_rephased:execution",
+      "profile": "MAGIC",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "condition:born_in_chaos_v1:krampus_disarm",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "condition:iceandfire:frozen",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "condition:iceandfire:siren_charm",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "condition:jujutsucraft:projection_freeze",
+      "profile": "MAGIC",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1005",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1006",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1007",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1008",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1016",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1018",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1020",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/105",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/106",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1105",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1106",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1107",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1120",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/120",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1205",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1206",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1220",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1306",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1307",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1310",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1320",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1405",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1406",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1410",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1420",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1503",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1504",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1505",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1506",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1507",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1508",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1509",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1510",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1515",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1516",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1520",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1604",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1605",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1606",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1607",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1608",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1615",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1619",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1706",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1905",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1907",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1910",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/1920",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2003",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2004",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2005",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2006",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2007",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2015",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2020",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/204",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/205",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/206",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/207",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/208",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2105",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2106",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2108",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2113",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2120",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/215",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/220",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2205",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2207",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2208",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2210",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2304",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2305",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2306",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2307",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2308",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2320",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2405",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2406",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2408",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2409",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2505",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2506",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2520",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2611",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2612",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2613",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2614",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2615",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2619",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2705",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2706",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2707",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2708",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2710",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2711",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2719",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2815",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2904",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2906",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2907",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/2920",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3005",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3006",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3007",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3008",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3020",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/305",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/306",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/307",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/308",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/309",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3105",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3107",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/320",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3205",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3209",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3406",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3505",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3605",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3606",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3610",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3810",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3905",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3906",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3907",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3908",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3909",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3912",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3915",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/3920",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/405",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/406",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/407",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/408",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/409",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4105",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4110",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/415",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/420",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4303",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4304",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4405",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4410",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4411",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4415",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4505",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4610",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4704",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4705",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4706",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4707",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4708",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4709",
+      "profile": "EXPLOSION",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4715",
+      "profile": "EXPLOSION",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4805",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4806",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4807",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4808",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4809",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4811",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4812",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/4815",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/503",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/504",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/505",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/506",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/507",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/515",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/520",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/607",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/618",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/620",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/703",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/704",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/705",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/715",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/716",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/717",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/719",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/805",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/806",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/807",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/809",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/810",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/820",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/904",
+      "profile": "PHYSICAL",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/910",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:jujutsucraft:technique/920",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/jujutsucraft-v51-technique-metadata"
+    },
+    {
+      "key": "condition:trytosurvivetwo:arachnophobia",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:brain_damage",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:chill",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-temperature-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:crohns_disease",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:encephalitis",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:encumbrance",
+      "profile": "PHYSICAL",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-weight-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:enteritis",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:exhaustion",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:heatstroke",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:hypothermia",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:kinemortophobia",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:nyctophobia",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:overheating",
+      "profile": "FIRE",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-temperature-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:panting",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:poor_rest",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:sleeplessness",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:stomach_ulcer",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:stress",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:trytosurvivetwo:weak_immunity",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-condition-controller"
+    },
+    {
+      "key": "condition:weather2:tornado",
+      "profile": "ENVIRONMENT",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "damage:minecraft:arrow",
+      "profile": "PROJECTILE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:bad_respawn_point",
+      "profile": "EXPLOSION",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:cactus",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:cramming",
+      "profile": "SUFFOCATION",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:dragon_breath",
+      "profile": "MAGIC",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:drown",
+      "profile": "SUFFOCATION",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:dry_out",
+      "profile": "SUFFOCATION",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:explosion",
+      "profile": "EXPLOSION",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:fall",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:falling_anvil",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:falling_block",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:falling_stalactite",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:fireball",
+      "profile": "FIRE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:fireworks",
+      "profile": "PROJECTILE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:fly_into_wall",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:freeze",
+      "profile": "COLD",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:hot_floor",
+      "profile": "FIRE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:in_fire",
+      "profile": "FIRE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:in_wall",
+      "profile": "SUFFOCATION",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:indirect_magic",
+      "profile": "MAGIC",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:lava",
+      "profile": "FIRE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:lightning_bolt",
+      "profile": "ELECTRIC",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:magic",
+      "profile": "MAGIC",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:mob_attack",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:mob_attack_no_aggro",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:mob_projectile",
+      "profile": "PROJECTILE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:on_fire",
+      "profile": "FIRE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:outside_border",
+      "profile": "ENVIRONMENT",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:player_attack",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:player_explosion",
+      "profile": "EXPLOSION",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:sonic_boom",
+      "profile": "MAGIC",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:stalagmite",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:starve",
+      "profile": "HUNGER",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:sting",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:sweet_berry_bush",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:thorns",
+      "profile": "PHYSICAL",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:thrown",
+      "profile": "PROJECTILE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:trident",
+      "profile": "PROJECTILE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:unattributed_fireball",
+      "profile": "FIRE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:wither",
+      "profile": "MAGIC",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "damage:minecraft:wither_skull",
+      "profile": "PROJECTILE",
+      "confidence": 80,
+      "source": "seed:vanilla/1.20.1-damage-identities"
+    },
+    {
+      "key": "effect:minecraft:bad_omen",
+      "profile": "EFFECT",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:blindness",
+      "profile": "DARKNESS",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:darkness",
+      "profile": "DARKNESS",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:glowing",
+      "profile": "EFFECT",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:hunger",
+      "profile": "HUNGER",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:instant_damage",
+      "profile": "MAGIC",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:levitation",
+      "profile": "EFFECT",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:mining_fatigue",
+      "profile": "EFFECT",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:nausea",
+      "profile": "EFFECT",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:poison",
+      "profile": "POISON",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:slowness",
+      "profile": "EFFECT",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:unluck",
+      "profile": "EFFECT",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:weakness",
+      "profile": "EFFECT",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:minecraft:wither",
+      "profile": "MAGIC",
+      "confidence": 80,
+      "source": "seed:vanilla/harmful-effect-properties"
+    },
+    {
+      "key": "effect:mowziesmobs:frozen",
+      "profile": "COLD",
+      "confidence": 76,
+      "source": "seed:compat/audited-condition-controllers"
+    },
+    {
+      "key": "effect:trytosurvivetwo:t_2_s_cold_disease_effect",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-infections"
+    },
+    {
+      "key": "effect:trytosurvivetwo:t_2_s_dread_effect",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-infections"
+    },
+    {
+      "key": "effect:trytosurvivetwo:t_2_s_fever_disease_effect",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-infections"
+    },
+    {
+      "key": "effect:trytosurvivetwo:t_2_s_flu_disease_effect",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-infections"
+    },
+    {
+      "key": "effect:trytosurvivetwo:t_2_s_measles_disease_effect",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-infections"
+    },
+    {
+      "key": "effect:trytosurvivetwo:t_2_s_out_of_stamina_effect",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-infections"
+    },
+    {
+      "key": "effect:trytosurvivetwo:t_2_s_rabies_disease",
+      "profile": "EFFECT",
+      "confidence": 76,
+      "source": "seed:compat/T2S-2.0-infections"
+    },
+    {
+      "key": "environment:cold",
+      "profile": "COLD",
+      "confidence": 80,
+      "source": "seed:vanilla/freezing-exposure"
+    },
+    {
+      "key": "environment:darkness",
+      "profile": "DARKNESS",
+      "confidence": 80,
+      "source": "seed:vanilla/darkness-exposure"
+    },
+    {
+      "key": "damage:alexsmobs:farseer",
+      "profile": "LIGHT",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:alexsmobs:freddy",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:create:mechanical_drill",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:create:mechanical_roller",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:create:mechanical_saw",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:create:run_over",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:luminous_nether:executioner_damage",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:luminousworld:croc_damage",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:luminousworld:king_crab_damage",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:luminousworld:treant_damage",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:luminousworld:viper_damage",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:luminousworld:stalker_damage",
+      "profile": "MAGIC",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:luminousworld:yeti_damage",
+      "profile": "COLD",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:minecells:aura",
+      "profile": "MAGIC",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:minecells:backstab",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:minecells:elevator",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:minecells:katana",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:takesapillage:archer_snipe",
+      "profile": "PROJECTILE",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:takesapillage:legioner_slay",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:takesapillage:skirmisher_hack",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:twilightforest:ant",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:twilightforest:knightmetal",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:twilightforest:slider",
+      "profile": "PHYSICAL",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:twilightforest:ghast_tear",
+      "profile": "FIRE",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "damage:twilightforest:moonworm",
+      "profile": "PROJECTILE",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "effect:illusion_onslaught:electricuted",
+      "profile": "ELECTRIC",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "effect:scguns:blinded",
+      "profile": "DARKNESS",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:duneons:dynamic_projectile/projectile_redstonegolemmine",
+      "profile": "EXPLOSION",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:duneons:dynamic_projectile/wart_grenade",
+      "profile": "EXPLOSION",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:duneons:dynamic_projectile/mines",
+      "profile": "EXPLOSION",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:scguns:dynamic_projectile/rocket",
+      "profile": "EXPLOSION",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:scguns:dynamic_projectile/plasma_projectile",
+      "profile": "ELECTRIC",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:rats:dynamic_projectile/plague_shot",
+      "profile": "POISON",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:rats:dynamic_projectile/ratlantean_automaton_beam",
+      "profile": "LIGHT",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:rats:dynamic_projectile/laser_beam",
+      "profile": "LIGHT",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:minecells:dynamic_projectile/scorpion_spit",
+      "profile": "POISON",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "attack:minecells:dynamic_projectile/grenade",
+      "profile": "EXPLOSION",
+      "confidence": 78,
+      "source": "seed:pack-2026-11"
+    },
+    {
+      "key": "mob:aether:fire_minion",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/aether/mob-name"
+    },
+    {
+      "key": "mob:aether:sun_spirit",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/aether/mob-name"
+    },
+    {
+      "key": "mob:alexsmobs:froststalker",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/alexsmobs/mob-name"
+    },
+    {
+      "key": "mob:alexsmobs:snow_leopard",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/alexsmobs/mob-name"
+    },
+    {
+      "key": "mob:alexsmobs:soul_vulture",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/alexsmobs/mob-name"
+    },
+    {
+      "key": "mob:aquamirae:abyssal_scyphoid",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/aquamirae/mob-name"
+    },
+    {
+      "key": "mob:aquamirae:tortured_soul",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/aquamirae/mob-name"
+    },
+    {
+      "key": "mob:ars_elemental:fire_mage",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/ars_elemental/mob-name"
+    },
+    {
+      "key": "mob:ars_nouveau:blazing_weald_walker",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/ars_nouveau/mob-name"
+    },
+    {
+      "key": "mob:ars_nouveau:follow_proj",
+      "profile": "PROJECTILE",
+      "confidence": 72,
+      "source": "seed:compat/ars_nouveau/mob-name"
+    },
+    {
+      "key": "mob:avaritia:sun_pro",
+      "profile": "LIGHT",
+      "confidence": 72,
+      "source": "seed:compat/avaritia/mob-name"
+    },
+    {
+      "key": "mob:blue_skies:shade_monitor",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/blue_skies/mob-name"
+    },
+    {
+      "key": "mob:blue_skies:snow_owl",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/blue_skies/mob-name"
+    },
+    {
+      "key": "mob:blue_skies:venom_spider",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/blue_skies/mob-name"
+    },
+    {
+      "key": "mob:born_in_chaos_v1:fallen_chaos_knight",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/born_in_chaos_v1/mob-name"
+    },
+    {
+      "key": "mob:born_in_chaos_v1:spiritof_chaos",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/born_in_chaos_v1/mob-name"
+    },
+    {
+      "key": "mob:bosses_of_mass_destruction:lich",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/bosses_of_mass_destruction/mob-name"
+    },
+    {
+      "key": "mob:botania:pink_wither",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/botania/mob-name"
+    },
+    {
+      "key": "mob:bygonenether:wither_skeleton_horse",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/bygonenether/mob-name"
+    },
+    {
+      "key": "mob:bygonenether:wither_skeleton_knight",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/bygonenether/mob-name"
+    },
+    {
+      "key": "mob:cataclysm:ignited_berserker",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/cataclysm/mob-name"
+    },
+    {
+      "key": "mob:cataclysm:ignited_revenant",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/cataclysm/mob-name"
+    },
+    {
+      "key": "mob:cataclysm:wither_howitzer",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/cataclysm/mob-name"
+    },
+    {
+      "key": "mob:creeperoverhaul:dark_oak_creeper",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/creeperoverhaul/mob-name"
+    },
+    {
+      "key": "mob:deep_aether:venomite",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/deep_aether/mob-name"
+    },
+    {
+      "key": "mob:draconicevolution:draconic_guardian",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/draconicevolution/mob-name"
+    },
+    {
+      "key": "mob:draconicevolution:guardian_wither",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/draconicevolution/mob-name"
+    },
+    {
+      "key": "mob:eeeabsmobs:explode",
+      "profile": "EXPLOSION",
+      "confidence": 72,
+      "source": "seed:compat/eeeabsmobs/mob-name"
+    },
+    {
+      "key": "mob:eeeabsmobs:immortal_shuriken",
+      "profile": "PROJECTILE",
+      "confidence": 72,
+      "source": "seed:compat/eeeabsmobs/mob-name"
+    },
+    {
+      "key": "mob:endermanoverhaul:dark_oak_enderman",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/endermanoverhaul/mob-name"
+    },
+    {
+      "key": "mob:evilcraft:poisonous_libelle",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/evilcraft/mob-name"
+    },
+    {
+      "key": "mob:forbidden_arcanus:lost_soul",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/forbidden_arcanus/mob-name"
+    },
+    {
+      "key": "mob:goety:acid_pool",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:burning_hoglin",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:frozen_zombie_servant",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:haunt",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:haunted_armor",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:haunted_armor_servant",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:icy_spider",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:icy_spider_servant",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:inferno",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:magma_cube_servant",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:poison_anemone",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:summon_fiery",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:void_shock",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:wither_necromancer",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:wither_necromancer_servant",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety:wither_skeleton_servant",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/goety/mob-name"
+    },
+    {
+      "key": "mob:goety_revelation:wither_servant",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/goety_revelation/mob-name"
+    },
+    {
+      "key": "mob:graveyard:lich",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/graveyard/mob-name"
+    },
+    {
+      "key": "mob:iceandfire:dread_lich",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/iceandfire/mob-name"
+    },
+    {
+      "key": "mob:iceandfire:fire_dragon",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/iceandfire/mob-name"
+    },
+    {
+      "key": "mob:iceandfire:gorgon",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/iceandfire/mob-name"
+    },
+    {
+      "key": "mob:iceandfire:tide_trident",
+      "profile": "PROJECTILE",
+      "confidence": 72,
+      "source": "seed:compat/iceandfire/mob-name"
+    },
+    {
+      "key": "mob:illageandspillage:illager_soul",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/illageandspillage/mob-name"
+    },
+    {
+      "key": "mob:illageandspillage:sniper",
+      "profile": "PROJECTILE",
+      "confidence": 72,
+      "source": "seed:compat/illageandspillage/mob-name"
+    },
+    {
+      "key": "mob:industrialforegoing:infinity_nuke",
+      "profile": "EXPLOSION",
+      "confidence": 72,
+      "source": "seed:compat/industrialforegoing/mob-name"
+    },
+    {
+      "key": "mob:irons_spellbooks:arcane_shackle",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/irons_spellbooks/mob-name"
+    },
+    {
+      "key": "mob:irons_spellbooks:blizzard_aoe",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/irons_spellbooks/mob-name"
+    },
+    {
+      "key": "mob:irons_spellbooks:dead_king_soul",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/irons_spellbooks/mob-name"
+    },
+    {
+      "key": "mob:irons_spellbooks:electrocute",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/irons_spellbooks/mob-name"
+    },
+    {
+      "key": "mob:irons_spellbooks:fire_boss",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/irons_spellbooks/mob-name"
+    },
+    {
+      "key": "mob:irons_spellbooks:frozen_humanoid",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/irons_spellbooks/mob-name"
+    },
+    {
+      "key": "mob:legendary_monsters:frostbitten_golem",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/legendary_monsters/mob-name"
+    },
+    {
+      "key": "mob:legendary_monsters:haunted_guard",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/legendary_monsters/mob-name"
+    },
+    {
+      "key": "mob:legendary_monsters:haunted_knight",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/legendary_monsters/mob-name"
+    },
+    {
+      "key": "mob:legendary_monsters:lava_eater",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/legendary_monsters/mob-name"
+    },
+    {
+      "key": "mob:mekanismadditions:baby_wither_skeleton",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/mekanismadditions/mob-name"
+    },
+    {
+      "key": "mob:mna:arcane_eye",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/mna/mob-name"
+    },
+    {
+      "key": "mob:mna:skeleton_assassin_shuriken",
+      "profile": "PROJECTILE",
+      "confidence": 72,
+      "source": "seed:compat/mna/mob-name"
+    },
+    {
+      "key": "mob:mna:wither_lich",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/mna/mob-name"
+    },
+    {
+      "key": "mob:mowziesmobs:frostmaw",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/mowziesmobs/mob-name"
+    },
+    {
+      "key": "mob:mutantmonsters:mutant_snow_golem",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/mutantmonsters/mob-name"
+    },
+    {
+      "key": "mob:netherdepthsupgrade:lava_pufferfish",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/netherdepthsupgrade/mob-name"
+    },
+    {
+      "key": "mob:netherdepthsupgrade:magmacubefish",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/netherdepthsupgrade/mob-name"
+    },
+    {
+      "key": "mob:netherdepthsupgrade:soulsucker",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/netherdepthsupgrade/mob-name"
+    },
+    {
+      "key": "mob:netherdepthsupgrade:wither_bonefish",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/netherdepthsupgrade/mob-name"
+    },
+    {
+      "key": "mob:nuclearcraft:burning_anomaly",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/nuclearcraft/mob-name"
+    },
+    {
+      "key": "mob:nuclearcraft:electric_anomaly",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/nuclearcraft/mob-name"
+    },
+    {
+      "key": "mob:nuclearcraft:radioactive_anomaly",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/nuclearcraft/mob-name"
+    },
+    {
+      "key": "mob:occultism:wild_hunt_wither_skeleton",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/occultism/mob-name"
+    },
+    {
+      "key": "mob:productivebees:arcane_bee",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:arcane_debris_bee",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:arcane_essence_bee",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:arcane_gold_bee",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:blazing_bee",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:chaos_bee",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:chaotic_bee",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:dark_gem_bee",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:dark_steel_bee",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:electrotine_bee",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:electrum_bee",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:fire_dragonsteel_bee",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:frosty_bee",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:hellfire_bee",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:magmatic_bee",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:mana_bee",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:radioactive_bee",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:soul_infused_bee",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:soul_lava_bee",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:productivebees:wasted_radioactive_bee",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/productivebees/mob-name"
+    },
+    {
+      "key": "mob:quark:pickarang",
+      "profile": "PROJECTILE",
+      "confidence": 72,
+      "source": "seed:compat/quark/mob-name"
+    },
+    {
+      "key": "mob:quark:soul_bead",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/quark/mob-name"
+    },
+    {
+      "key": "mob:rottencreatures:burned",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/rottencreatures/mob-name"
+    },
+    {
+      "key": "mob:rottencreatures:frostbitten",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/rottencreatures/mob-name"
+    },
+    {
+      "key": "mob:rottencreatures:glacial_hunter",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/rottencreatures/mob-name"
+    },
+    {
+      "key": "mob:rottencreatures:zap",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/rottencreatures/mob-name"
+    },
+    {
+      "key": "mob:sanitydim:rotting_stalker",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/sanitydim/mob-name"
+    },
+    {
+      "key": "mob:sanitydim:sneaking_terror",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/sanitydim/mob-name"
+    },
+    {
+      "key": "mob:savage_and_ravage:burning_banner",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/savage_and_ravage/mob-name"
+    },
+    {
+      "key": "mob:simplyswords:blood_plague_spread_visual",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/simplyswords/mob-name"
+    },
+    {
+      "key": "mob:simplyswords:dreadwhisper_visual",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/simplyswords/mob-name"
+    },
+    {
+      "key": "mob:simplyswords:soulstalker_cleave",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/simplyswords/mob-name"
+    },
+    {
+      "key": "mob:snowrealmagic:snow",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/snowrealmagic/mob-name"
+    },
+    {
+      "key": "mob:soulsweapons:chaos_monarch",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/soulsweapons/mob-name"
+    },
+    {
+      "key": "mob:soulsweapons:dark_sorcerer",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/soulsweapons/mob-name"
+    },
+    {
+      "key": "mob:soulsweapons:molten_metal",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/soulsweapons/mob-name"
+    },
+    {
+      "key": "mob:soulsweapons:night_shade",
+      "profile": "DARKNESS",
+      "confidence": 72,
+      "source": "seed:compat/soulsweapons/mob-name"
+    },
+    {
+      "key": "mob:soulsweapons:soul_reaper_ghost",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/soulsweapons/mob-name"
+    },
+    {
+      "key": "mob:stalwart_dungeons:incomplete_wither",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/stalwart_dungeons/mob-name"
+    },
+    {
+      "key": "mob:tconstruct:flint_shuriken",
+      "profile": "PROJECTILE",
+      "confidence": 72,
+      "source": "seed:compat/tconstruct/mob-name"
+    },
+    {
+      "key": "mob:tconstruct:quartz_shuriken",
+      "profile": "PROJECTILE",
+      "confidence": 72,
+      "source": "seed:compat/tconstruct/mob-name"
+    },
+    {
+      "key": "mob:the_bumblezone:electric_ring_entity",
+      "profile": "ELECTRIC",
+      "confidence": 72,
+      "source": "seed:compat/the_bumblezone/mob-name"
+    },
+    {
+      "key": "mob:twilightforest:fire_beetle",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/twilightforest/mob-name"
+    },
+    {
+      "key": "mob:twilightforest:lich",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/twilightforest/mob-name"
+    },
+    {
+      "key": "mob:twilightforest:lich_minion",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/twilightforest/mob-name"
+    },
+    {
+      "key": "mob:twilightforest:snow_guardian",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/twilightforest/mob-name"
+    },
+    {
+      "key": "mob:twilightforest:snow_queen",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/twilightforest/mob-name"
+    },
+    {
+      "key": "mob:undergarden:rotten_blisterberry",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/undergarden/mob-name"
+    },
+    {
+      "key": "mob:undergarden:smog_mog",
+      "profile": "POISON",
+      "confidence": 72,
+      "source": "seed:compat/undergarden/mob-name"
+    },
+    {
+      "key": "mob:undergroundworlds:frozen_zombie",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/undergroundworlds/mob-name"
+    },
+    {
+      "key": "mob:undergroundworlds:icy_creeper",
+      "profile": "COLD",
+      "confidence": 72,
+      "source": "seed:compat/undergroundworlds/mob-name"
+    },
+    {
+      "key": "mob:wizards:arcane_emitter",
+      "profile": "MAGIC",
+      "confidence": 72,
+      "source": "seed:compat/wizards/mob-name"
+    },
+    {
+      "key": "mob:wizards:fire_hydra",
+      "profile": "FIRE",
+      "confidence": 72,
+      "source": "seed:compat/wizards/mob-name"
+    }
+  ]
+}

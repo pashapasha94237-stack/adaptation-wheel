@@ -1,0 +1,1743 @@
+{
+  "procedures": {
+    "TechniqueSlicingExorcismProcedure": "1005",
+    "TechniqueSlicingExorcismActiveProcedure": "1005",
+    "TechniqueConvergenceProcedure": "1006",
+    "TechniqueConvergenceActiveProcedure": "1006",
+    "PiercingBloodProcedure": "1007",
+    "PiercingBloodActiveProcedure": "1007",
+    "SupernovaProcedure": "1008",
+    "SupernovaActiveProcedure": "1008",
+    "TechniqueFlowingRedScaleProcedure": "1009",
+    "TechniqueFlowingRedScaleActiveProcedure": "1009",
+    "TechniqueWingKingProcedure": "1018",
+    "TechniqueWingKingActiveProcedure": "1018",
+    "ChosoDomainExpansionProcedure": "1020",
+    "ChosoDomainExpansionActiveProcedure": "1020",
+    "InumakiDomainExpansionProcedure": "320",
+    "InumakiDomainExpansionActiveProcedure": "320",
+    "DagonFish1Procedure": "806",
+    "DagonFish1ActiveProcedure": "806",
+    "DagonFish2Procedure": "807",
+    "DagonFish2ActiveProcedure": "807",
+    "DeathSwarmProcedure": "809",
+    "DeathSwarmActiveProcedure": "809",
+    "SummonBathynomusProcedure": "810",
+    "SummonBathynomusActiveProcedure": "810",
+    "HorizonOfTheCaptivatingSkandhaProcedure": "820",
+    "HorizonOfTheCaptivatingSkandhaActiveProcedure": "820",
+    "ReturnShadowProcedure": "604",
+    "ReturnShadowActiveProcedure": "604",
+    "SummonDivineDogTotalityProcedure": "607",
+    "SummonDivineDogTotalityActiveProcedure": "607",
+    "SummonGreatSerpentProcedure": "609",
+    "SummonGreatSerpentActiveProcedure": "609",
+    "SummonToadProcedure": "610",
+    "SummonToadActiveProcedure": "610",
+    "SummonRabbitEscapeProcedure": "612",
+    "SummonRabbitEscapeActiveProcedure": "612",
+    "SummonRoundDeerProcedure": "613",
+    "SummonRoundDeerActiveProcedure": "613",
+    "SummonPiercingOxProcedure": "614",
+    "SummonPiercingOxActiveProcedure": "614",
+    "SummonTigerFuneralProcedure": "615",
+    "SummonTigerFuneralActiveProcedure": "615",
+    "SummonMergedBeastAgitoProcedure": "617",
+    "SummonMergedBeastAgitoActiveProcedure": "617",
+    "ChimeraShadowGardenProcedure": "620",
+    "ChimeraShadowGardenActiveProcedure": "620",
+    "InfinityProcedure": "205",
+    "InfinityActiveProcedure": "205",
+    "TechniqueBlueProcedure": "206",
+    "TechniqueBlueActiveProcedure": "206",
+    "TechniqueRedProcedure": "207",
+    "TechniqueRedActiveProcedure": "207",
+    "TechniqueBluePunchProcedure": "208",
+    "TechniqueBluePunchActiveProcedure": "208",
+    "HollowPurpleProcedure": "215",
+    "HollowPurpleActiveProcedure": "215",
+    "UnlimitedVoidProcedure": "220",
+    "UnlimitedVoidActiveProcedure": "220",
+    "HanamiSpearProcedure": "1405",
+    "HanamiSpearActiveProcedure": "1405",
+    "WoodenBallProcedure": "1406",
+    "WoodenBallActiveProcedure": "1406",
+    "HanamiSpear3Procedure": "1410",
+    "HanamiSpear3ActiveProcedure": "1410",
+    "CeremonialSeaOfLightProcedure": "1420",
+    "CeremonialSeaOfLightActiveProcedure": "1420",
+    "GraniteBlastProcedure": "1205",
+    "GraniteBlastActiveProcedure": "1205",
+    "GraniteBlast2Procedure": "1206",
+    "GraniteBlast2ActiveProcedure": "1206",
+    "IshigoriDomainExpansionProcedure": "1220",
+    "IshigoriDomainExpansionActiveProcedure": "1220",
+    "JogoFlame1Procedure": "405",
+    "JogoFlame1ActiveProcedure": "405",
+    "JogoFlame2Procedure": "406",
+    "JogoFlame2ActiveProcedure": "406",
+    "TechniqueEmberInsectsProcedure": "407",
+    "TechniqueEmberInsectsActiveProcedure": "407",
+    "JogoFlame3Procedure": "408",
+    "JogoFlame3ActiveProcedure": "408",
+    "JogoFlame4Procedure": "409",
+    "JogoFlame4ActiveProcedure": "409",
+    "MaximumMeteorProcedure": "415",
+    "MaximumMeteorActiveProcedure": "415",
+    "CoffinOfTheIronMountainProcedure": "420",
+    "CoffinOfTheIronMountainActiveProcedure": "420",
+    "LightningStrikeProcedure": "705",
+    "LightningStrikeActiveProcedure": "705",
+    "TurnUpTheVolumeProcedure": "710",
+    "TurnUpTheVolumeActiveProcedure": "710",
+    "TechniqueMythicalBeastAmberProcedure": "715",
+    "TechniqueMythicalBeastAmberActiveProcedure": "715",
+    "TechniqueAhProcedure": "716",
+    "TechniqueAhActiveProcedure": "716",
+    "TechniqueEnergyWave1Procedure": "717",
+    "TechniqueEnergyWave1ActiveProcedure": "717",
+    "SkillKashimoKickProcedure": "719",
+    "SkillKashimoKickActiveProcedure": "719",
+    "KashimoDomainProcedure": "720",
+    "KashimoDomainActiveProcedure": "720",
+    "IdleTransfigurationProcedure": "1505",
+    "IdleTransfigurationActiveProcedure": "1505",
+    "TechniqueMahitoHand3Procedure": "1506",
+    "TechniqueMahitoHand3ActiveProcedure": "1506",
+    "MahitoGunProcedure": "1507",
+    "MahitoGunActiveProcedure": "1507",
+    "TechniqueBodyRepelSingleProcedure": "1508",
+    "TechniqueBodyRepelSingleActiveProcedure": "1508",
+    "TechniqueBodyRepelProcedure": "1509",
+    "TechniqueBodyRepelActiveProcedure": "1509",
+    "TechniquePolymorphicSoulIsomerProcedure": "1510",
+    "TechniquePolymorphicSoulIsomerActiveProcedure": "1510",
+    "InstantSpiritBodyofDistortedKillingProcedure": "1515",
+    "InstantSpiritBodyofDistortedKillingActiveProcedure": "1515",
+    "AttackStrongMahitoProcedure": "1516",
+    "AttackStrongMahitoActiveProcedure": "1516",
+    "SelfEmbodimentOfPerfectionProcedure": "1520",
+    "SelfEmbodimentOfPerfectionActiveProcedure": "1520",
+    "TechniqueExplodeProcedure": "1607",
+    "TechniqueExplodeActiveProcedure": "1607",
+    "StoneThrowingProcedure": "1608",
+    "StoneThrowingActiveProcedure": "1608",
+    "AttackOverheadSuperProcedure": "1615",
+    "AttackOverheadSuperActiveProcedure": "1615",
+    "MahoragaCutTheWorldProcedure": "1619",
+    "MahoragaCutTheWorldActiveProcedure": "1619",
+    "WeaponNanamiRightClickedInAirProcedure": "1305",
+    "WeaponNanamiRightClickedInAirActiveProcedure": "1305",
+    "GaragaraProcedure": "1310",
+    "GaragaraActiveProcedure": "1310",
+    "NanamiDomainExpansionProcedure": "1320",
+    "NanamiDomainExpansionActiveProcedure": "1320",
+    "SkillProjectionSorceryProcedure": "1905",
+    "SkillProjectionSorceryActiveProcedure": "1905",
+    "SpeedIsPowerProcedure": "1907",
+    "SpeedIsPowerActiveProcedure": "1907",
+    "SkillExplodeAirProcedure": "1910",
+    "SkillExplodeAirActiveProcedure": "1910",
+    "TimeCellMoonPalaceProcedure": "1920",
+    "TimeCellMoonPalaceActiveProcedure": "1920",
+    "AttackStrongOkkotsuProcedure": "504",
+    "AttackStrongOkkotsuActiveProcedure": "504",
+    "TechniqueImitation1Procedure": "505",
+    "TechniqueImitation1ActiveProcedure": "505",
+    "SkillDhruv3Procedure": "506",
+    "SkillDhruv3ActiveProcedure": "506",
+    "ThinIceBreakerProcedure": "507",
+    "ThinIceBreakerActiveProcedure": "507",
+    "TechniquePureLoveProcedure": "515",
+    "TechniquePureLoveActiveProcedure": "515",
+    "AuthenticMutualLoveProcedure": "520",
+    "AuthenticMutualLoveActiveProcedure": "520",
+    "DismantleProcedure": "105",
+    "DismantleActiveProcedure": "105",
+    "CleaveProcedure": "106",
+    "CleaveActiveProcedure": "106",
+    "SkillSukunaCombo1Procedure": "111",
+    "SkillSukunaCombo1ActiveProcedure": "111",
+    "SkillSukunaCombo2Procedure": "112",
+    "SkillSukunaCombo2ActiveProcedure": "112",
+    "SkillSukunaCombo3Procedure": "113",
+    "SkillSukunaCombo3ActiveProcedure": "113",
+    "MalevolentShrineProcedure": "120",
+    "MalevolentShrineActiveProcedure": "120",
+    "SkillTakabaKickProcedure": "1706",
+    "SkillTakabaKickActiveProcedure": "1706",
+    "TakabaLookOutProcedure": "1710",
+    "TakabaLookOutActiveProcedure": "1710",
+    "SkillWiFiProcedure": "1715",
+    "SkillWiFiActiveProcedure": "1715",
+    "SkillBoogieWoogieProcedure": "2005",
+    "SkillBoogieWoogieActiveProcedure": "2005",
+    "LariatProcedure": "2006",
+    "LariatActiveProcedure": "2006",
+    "AttackTodoBlackFlashProcedure": "2015",
+    "AttackTodoBlackFlashActiveProcedure": "2015",
+    "TechniqueGarudaBallProcedure": "905",
+    "TechniqueGarudaBallActiveProcedure": "905",
+    "TechniqueGaruda1Procedure": "906",
+    "TechniqueGaruda1ActiveProcedure": "906",
+    "TechniqueStarRageProcedure": "910",
+    "TechniqueStarRageActiveProcedure": "910",
+    "TsukumoDomainExpansionProcedure": "920",
+    "TsukumoDomainExpansionActiveProcedure": "920",
+    "EffectCursedSpeechBlastAwayProcedure": "309",
+    "EffectCursedSpeechGetCrushedProcedure": "306",
+    "EffectCursedSpeechCrumbleAwayProcedure": "307",
+    "EffectCursedSpeechExplodeProcedure": "305",
+    "EffectCursedSpeechDontMoveProcedure": "308"
+  },
+  "skills": {
+    "1105": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "1106": {
+      "passive": false,
+      "ru": "Четыре последовательные атаки",
+      "en": "4 Consecutive Attacks",
+      "key": "jujutsu.technique.attack9"
+    },
+    "1107": {
+      "passive": false,
+      "ru": "Рубящая атака",
+      "en": "Slash Attack",
+      "key": "jujutsu.technique.attack8"
+    },
+    "1115": {
+      "passive": false,
+      "ru": "Птичий удар",
+      "en": "Bird Strike",
+      "key": "jujutsu.technique.bird_strike"
+    },
+    "1120": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "1205": {
+      "passive": false,
+      "ru": "Гранитный залп",
+      "en": "Granite Blast",
+      "key": "jujutsu.technique.granite_blast"
+    },
+    "1206": {
+      "passive": false,
+      "ru": "Гранитный залп",
+      "en": "Granite Blast",
+      "key": "jujutsu.technique.granite_blast"
+    },
+    "1220": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "jujutsu.technique.ishigori_domain"
+    },
+    "1305": {
+      "passive": false,
+      "ru": "Отрезок",
+      "en": "Line Segment",
+      "key": "jujutsu.technique.nanami1"
+    },
+    "1306": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "1307": {
+      "passive": false,
+      "ru": "Четыре последовательные атаки",
+      "en": "4 Consecutive Attacks",
+      "key": "jujutsu.technique.attack9"
+    },
+    "1310": {
+      "passive": false,
+      "ru": "Обвал",
+      "en": "Collapse",
+      "key": "jujutsu.technique.nanami2"
+    },
+    "1320": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "jujutsu.technique.nanami_domain"
+    },
+    "1405": {
+      "passive": false,
+      "ru": "Корни",
+      "en": "Roots",
+      "key": "jujutsu.technique.hanami1"
+    },
+    "1406": {
+      "passive": false,
+      "ru": "Деревянный шар",
+      "en": "Wooden Ball",
+      "key": "jujutsu.technique.hanami2"
+    },
+    "1410": {
+      "passive": false,
+      "ru": "Огромные корни",
+      "en": "Huge Roots",
+      "key": "jujutsu.technique.hanami10"
+    },
+    "1420": {
+      "passive": false,
+      "ru": "Подношение цветов",
+      "en": "Flower Offering",
+      "key": "jujutsu.technique.hanami15"
+    },
+    "1503": {
+      "passive": false,
+      "ru": "Скоростная атака",
+      "en": "Speed Attack",
+      "key": "jujutsu.technique.attack6"
+    },
+    "1504": {
+      "passive": false,
+      "ru": "Удар сверху",
+      "en": "Overhead Attack",
+      "key": "jujutsu.technique.attack7"
+    },
+    "1505": {
+      "passive": false,
+      "ru": "Праздная трансфигурация",
+      "en": "Idle Transfiguration",
+      "key": "jujutsu.technique.idle_transfiguration"
+    },
+    "1506": {
+      "passive": false,
+      "ru": "Руки",
+      "en": "Hands",
+      "key": "entity.jujutsucraft.entity_mahito_hand_3"
+    },
+    "1507": {
+      "passive": false,
+      "ru": "Человек-пуля",
+      "en": "Human Bullet",
+      "key": "jujutsu.technique.mahito7"
+    },
+    "1508": {
+      "passive": false,
+      "ru": "Множественность душ",
+      "en": "Soul Multiplicity",
+      "key": "jujutsu.technique.mahito_soul_multiplicity"
+    },
+    "1509": {
+      "passive": false,
+      "ru": "Множественность душ",
+      "en": "Soul Multiplicity",
+      "key": "jujutsu.technique.mahito_soul_multiplicity"
+    },
+    "1510": {
+      "passive": false,
+      "ru": "Множественность душ",
+      "en": "Soul Multiplicity",
+      "key": "jujutsu.technique.mahito_soul_multiplicity"
+    },
+    "1515": {
+      "passive": false,
+      "ru": "Праздная мутация",
+      "en": "Idel Mutation",
+      "key": "jujutsu.technique.mahito_idel_mutation"
+    },
+    "1516": {
+      "passive": false,
+      "ru": "Рубящая атака",
+      "en": "Slash Attack",
+      "key": "jujutsu.technique.attack8"
+    },
+    "1520": {
+      "passive": false,
+      "ru": "Самовоплощение совершенства",
+      "en": "Self-Embodiment of Perfection",
+      "key": "jujutsu.technique.mahito_domain"
+    },
+    "1604": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "1605": {
+      "passive": false,
+      "ru": "Скоростная атака",
+      "en": "Speed Attack",
+      "key": "jujutsu.technique.attack6"
+    },
+    "1606": {
+      "passive": false,
+      "ru": "Удар сверху",
+      "en": "Overhead Attack",
+      "key": "jujutsu.technique.attack7"
+    },
+    "1607": {
+      "passive": false,
+      "ru": "Воздушная пушка",
+      "en": "Air Cannon",
+      "key": "jujutsu.technique.air_cannon"
+    },
+    "1608": {
+      "passive": false,
+      "ru": "Бросок машины",
+      "en": "Car Throwing",
+      "key": "jujutsu.technique.mahoraga8"
+    },
+    "1615": {
+      "passive": false,
+      "ru": "Мощный удар сверху",
+      "en": "Strong Overhead Attack",
+      "key": "jujutsu.technique.mahoraga15"
+    },
+    "1619": {
+      "passive": false,
+      "ru": "Удары, рассекающие мир",
+      "en": "Slashes that cut the world",
+      "key": "jujutsu.technique.mahoraga19"
+    },
+    "1706": {
+      "passive": false,
+      "ru": "Удар ногой в прыжке",
+      "en": "Flying Kick",
+      "key": "jujutsu.technique.flying_kick"
+    },
+    "1710": {
+      "passive": false,
+      "ru": "§lПОБЕРЕГИ-И-ИСЬ!!",
+      "en": "§lLOOK OOOOOOUT!!",
+      "key": "jujutsu.message.takaba2"
+    },
+    "1715": {
+      "passive": false,
+      "ru": "Выходи за меня и стань моим WI-FI!!!",
+      "en": "Marry me and be my WI-FI!!! ",
+      "key": "jujutsu.message.takaba1"
+    },
+    "1720": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "1905": {
+      "passive": false,
+      "ru": "Проекционная магия",
+      "en": "Projection Sorcery",
+      "key": "effect.projection_sorcery"
+    },
+    "1907": {
+      "passive": false,
+      "ru": "Кулак предельной скорости",
+      "en": "Top Speed Punch",
+      "key": "jujutsu.technique.top_speed"
+    },
+    "1910": {
+      "passive": false,
+      "ru": "Замораживание воздуха",
+      "en": "Air Freeze",
+      "key": "jujutsu.technique.air_explode"
+    },
+    "1920": {
+      "passive": false,
+      "ru": "Лунный дворец временных клеток",
+      "en": "Time Cell Moon Palace",
+      "key": "entity.jujutsucraft.entity_time_cell_moon_palace"
+    },
+    "2003": {
+      "passive": false,
+      "ru": "Удар сверху",
+      "en": "Overhead Attack",
+      "key": "jujutsu.technique.attack7"
+    },
+    "2004": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "2005": {
+      "passive": false,
+      "ru": "Буги-вуги",
+      "en": "Boogie Woogie",
+      "key": "jujutsu.technique.boogie_woogie"
+    },
+    "2006": {
+      "passive": false,
+      "ru": "Таран",
+      "en": "Tackle",
+      "key": "jujutsu.technique.todo_lariat"
+    },
+    "2007": {
+      "passive": false,
+      "ru": "Четыре последовательные атаки",
+      "en": "4 Consecutive Attacks",
+      "key": "jujutsu.technique.attack9"
+    },
+    "2015": {
+      "passive": false,
+      "ru": "Максимум: Удзумаки",
+      "en": "Maximum: Uzumaki",
+      "key": "jujutsu.technique.uzumaki"
+    },
+    "2020": {
+      "passive": false,
+      "ru": "Чрево изобилия",
+      "en": "Womb Profusion",
+      "key": "entity.jujutsucraft.entity_womb_profusion"
+    },
+    "2010": {
+      "passive": false,
+      "ru": "Подавление проклятой техники",
+      "en": "Cancel Cursed Technique",
+      "key": "jujutsu.technique.cancel"
+    },
+    "2021": {
+      "passive": false,
+      "ru": "Отменить расширение территории",
+      "en": "Cancel Domain Expansion",
+      "key": "jujutsu.technique.cancel_domain"
+    },
+    "2105": {
+      "passive": false,
+      "ru": "Расходящийся кулак",
+      "en": "Divergent Fist",
+      "key": "jujutsu.technique.itadori1"
+    },
+    "2106": {
+      "passive": false,
+      "ru": "Четыре последовательные атаки",
+      "en": "4 Consecutive Attacks",
+      "key": "jujutsu.technique.attack9"
+    },
+    "2108": {
+      "passive": false,
+      "ru": "Демонтаж",
+      "en": "Dismantle",
+      "key": "jujutsu.technique.dismantle"
+    },
+    "2113": {
+      "passive": false,
+      "ru": "Пронзающая кровь",
+      "en": "Piercing Blood",
+      "key": "advancements.skill_piercing_blood.title"
+    },
+    "2118": {
+      "passive": false,
+      "ru": "Глубокое сосредоточение",
+      "en": "Deep Concentration",
+      "key": "effect.jujutsucraft.deep_concentration"
+    },
+    "2119": {
+      "passive": false,
+      "ru": "Сукуна",
+      "en": "Sukuna",
+      "key": "effect.sukuna_effect"
+    },
+    "2120": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "2205": {
+      "passive": false,
+      "ru": "Кулак",
+      "en": "Fist",
+      "key": "jujutsu.technique.jinichi5"
+    },
+    "2207": {
+      "passive": false,
+      "ru": "Буря кулаков",
+      "en": "Fist Storm",
+      "key": "jujutsu.technique.jinichi7"
+    },
+    "2208": {
+      "passive": false,
+      "ru": "Вертикальное падение кулака",
+      "en": "Fist Vertical Fall",
+      "key": "jujutsu.technique.jinichi8"
+    },
+    "2210": {
+      "passive": false,
+      "ru": "Кулак: слияние",
+      "en": "Fist-Totality",
+      "key": "jujutsu.technique.jinichi10"
+    },
+    "2220": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "2304": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "2305": {
+      "passive": false,
+      "ru": "Торнадо тараканов",
+      "en": "Tornado of Cockroaches",
+      "key": "jujutsu.technique.cockroach1"
+    },
+    "2306": {
+      "passive": false,
+      "ru": "Волна тараканов",
+      "en": "Wave of Cockroaches",
+      "key": "jujutsu.technique.cockroach2"
+    },
+    "2307": {
+      "passive": false,
+      "ru": "Натиск тараканов",
+      "en": "Onslaught of Cockroaches",
+      "key": "jujutsu.technique.cockroach3"
+    },
+    "2308": {
+      "passive": false,
+      "ru": "Земляной насекомый транс",
+      "en": "Earthen Insect Trance",
+      "key": "entity.jujutsucraft.earthen_insect_trance"
+    },
+    "2320": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "2405": {
+      "passive": false,
+      "ru": "Ледяное копьё",
+      "en": "Ice Spear",
+      "key": "jujutsu.technique.uraume_5"
+    },
+    "2406": {
+      "passive": false,
+      "ru": "Заморозка",
+      "en": "Frozen",
+      "key": "jujutsu.technique.uraume_6"
+    },
+    "2408": {
+      "passive": false,
+      "ru": "Ледяное спокойствие",
+      "en": "Frost Calm",
+      "key": "jujutsu.technique.uraume_8"
+    },
+    "2409": {
+      "passive": false,
+      "ru": "Ледопад",
+      "en": "Icefall",
+      "key": "jujutsu.technique.uraume_9"
+    },
+    "2420": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "2505": {
+      "passive": false,
+      "ru": "Надгробие",
+      "en": "Gravestone",
+      "key": "entity.jujutsucraft.gravestone_3"
+    },
+    "2506": {
+      "passive": false,
+      "ru": "Дыхание",
+      "en": "Breath",
+      "key": "jujutsu.technique.breath"
+    },
+    "2520": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "2611": {
+      "passive": false,
+      "ru": "Мастерство меча — 1",
+      "en": "Sword Skill-1-",
+      "key": "jujutsu.technique.ogi1"
+    },
+    "2612": {
+      "passive": false,
+      "ru": "Мастерство меча — 2",
+      "en": "Sword Skill-2-",
+      "key": "jujutsu.technique.ogi2"
+    },
+    "2613": {
+      "passive": false,
+      "ru": "Мастерство меча — 3",
+      "en": "Sword Skill-3-",
+      "key": "jujutsu.technique.ogi3"
+    },
+    "2614": {
+      "passive": false,
+      "ru": "Мастерство меча — 4",
+      "en": "Sword Skill-4-",
+      "key": "jujutsu.technique.ogi4"
+    },
+    "2615": {
+      "passive": false,
+      "ru": "Мастерство меча — 5",
+      "en": "Sword Skill-5-",
+      "key": "jujutsu.technique.ogi5"
+    },
+    "2619": {
+      "passive": false,
+      "ru": "Мастерство меча — Оги",
+      "en": "Sword Skill-Ogi-",
+      "key": "jujutsu.technique.ogi9"
+    },
+    "2620": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "2705": {
+      "passive": false,
+      "ru": "Судейский молоток",
+      "en": "Gavel",
+      "key": "item.jujutsucraft.gavel"
+    },
+    "2706": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "2707": {
+      "passive": false,
+      "ru": "Бросок молотка",
+      "en": "Gavel Toss",
+      "key": "jujutsu.technique.higuruma1"
+    },
+    "2708": {
+      "passive": false,
+      "ru": "Удлиняющийся молот-хлыст",
+      "en": "Long Gavel Whip",
+      "key": "jujutsu.technique.higuruma2"
+    },
+    "2710": {
+      "passive": false,
+      "ru": "Рубящая атака",
+      "en": "Slash Attack",
+      "key": "jujutsu.technique.attack8"
+    },
+    "2711": {
+      "passive": false,
+      "ru": "Сокрушительный удар молотком",
+      "en": "Great Gavel Slam",
+      "key": "jujutsu.technique.higuruma3"
+    },
+    "2719": {
+      "passive": false,
+      "ru": "Суд",
+      "en": "Judgment",
+      "key": "advancements.battle_hiromi_higuruma.title"
+    },
+    "2720": {
+      "ru": "Смертный приговор",
+      "en": "Deadly Sentencing",
+      "key": "jujutsu.technique.higuruma20"
+    },
+    "2815": {
+      "passive": false,
+      "ru": "Лестница Иакова",
+      "en": "Jacob's Ladder",
+      "key": "entity.jujutsucraft.entity_jacobs_ladder_circle"
+    },
+    "2820": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "2904": {
+      "passive": false,
+      "ru": "Удар ногой в прыжке",
+      "en": "Flying Kick",
+      "key": "jujutsu.technique.flying_kick"
+    },
+    "2905": {
+      "passive": false,
+      "ru": "Запасной шар",
+      "en": "Reserve Ball",
+      "key": "jujutsu.technique.hakari5"
+    },
+    "2906": {
+      "passive": false,
+      "ru": "Двери",
+      "en": "Doors",
+      "key": "jujutsu.technique.hakari6"
+    },
+    "2907": {
+      "passive": false,
+      "ru": "Цепные воздействия",
+      "en": "Consecutive Effects",
+      "key": "jujutsu.technique.hakari7"
+    },
+    "2920": {
+      "passive": false,
+      "ru": "Смертельная азартная игра",
+      "en": "Idle Death Gamble",
+      "key": "jujutsu.technique.hakari20"
+    },
+    "3005": {
+      "passive": false,
+      "ru": "Молитвенный песнопев",
+      "en": "Prayer Song",
+      "key": "effect.jujutsucraft.prayer_song"
+    },
+    "3006": {
+      "passive": false,
+      "ru": "Четыре последовательные атаки",
+      "en": "4 Consecutive Attacks",
+      "key": "jujutsu.technique.attack9"
+    },
+    "3007": {
+      "passive": false,
+      "ru": "Удар ногой",
+      "en": "Kick",
+      "key": "jujutsu.technique.kick"
+    },
+    "3008": {
+      "passive": false,
+      "ru": "Удар ногой в прыжке",
+      "en": "Flying Kick",
+      "key": "jujutsu.technique.flying_kick"
+    },
+    "3020": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "3021": {
+      "passive": false,
+      "ru": "Отменить расширение территории",
+      "en": "Cancel Domain Expansion",
+      "key": "jujutsu.technique.cancel_domain"
+    },
+    "3105": {
+      "passive": false,
+      "ru": "Новый стиль тени: простая территория",
+      "en": "New Shadow Style: Simple Domain",
+      "key": "jujutsu.technique.kusakabe1"
+    },
+    "3107": {
+      "passive": false,
+      "ru": "Извлечение меча вечерней луны",
+      "en": "Evening Moon Sword Drawing",
+      "key": "jujutsu.technique.kusakabe3"
+    },
+    "3205": {
+      "passive": false,
+      "ru": "Каменное копьё",
+      "en": "Stone Spear",
+      "key": "jujutsu.technique.chojuro1"
+    },
+    "3209": {
+      "passive": false,
+      "ru": "Каменная рука",
+      "en": "Stone Hand",
+      "key": "jujutsu.technique.chojuro2"
+    },
+    "3220": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "3306": {
+      "passive": false,
+      "ru": "Вперёд!",
+      "en": "Go!",
+      "key": "jujutsu.technique.yaga6"
+    },
+    "3310": {
+      "passive": false,
+      "ru": "Вперёд, мои проклятые трупы!",
+      "en": "Advance! My Cursed Corpses!",
+      "key": "jujutsu.technique.yaga10"
+    },
+    "3315": {
+      "passive": false,
+      "ru": "Суровая дисциплина",
+      "en": "Thorough Discipline",
+      "key": "jujutsu.technique.yaga15"
+    },
+    "3320": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "3406": {
+      "passive": false,
+      "ru": "Шпилька",
+      "en": "Hairpin",
+      "key": "jujutsu.technique.kugisaki2"
+    },
+    "3420": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "3505": {
+      "passive": false,
+      "ru": "Лунные отбросы",
+      "en": "Moon Dregs",
+      "key": "entity.jujutsucraft.moon_dregs"
+    },
+    "3520": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "3605": {
+      "passive": false,
+      "ru": "Ветряная коса",
+      "en": "Wind Scythe",
+      "key": "jujutsu.technique.nishimiya1"
+    },
+    "3606": {
+      "passive": false,
+      "ru": "Буря",
+      "en": "Windstorm",
+      "key": "jujutsu.technique.nishimiya2"
+    },
+    "3610": {
+      "passive": false,
+      "ru": "Торнадо",
+      "en": "Tornado",
+      "key": "jujutsu.technique.nishimiya3"
+    },
+    "3620": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "3705": {
+      "passive": false,
+      "ru": "Шикигами — голый землекоп",
+      "en": "Naked mole-rat Shikigami",
+      "key": "entity.jujutsucraft.shikigami_heterocephalus_glaber"
+    },
+    "3706": {
+      "passive": false,
+      "ru": "Шикигами-птерозавр",
+      "en": "Pterosaur Shikigami",
+      "key": "entity.jujutsucraft.shikigami_pterosaur"
+    },
+    "3710": {
+      "passive": false,
+      "ru": "Подавление проклятой техники",
+      "en": "Cancel Cursed Technique",
+      "key": "jujutsu.technique.cancel"
+    },
+    "3720": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "3810": {
+      "passive": false,
+      "ru": "Разрушение тонкого льда",
+      "en": "Thin Ice Breaker",
+      "key": "jujutsu.technique.uro10"
+    },
+    "3820": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "3905": {
+      "passive": false,
+      "ru": "Удар сверху",
+      "en": "Overhead Attack",
+      "key": "jujutsu.technique.attack7"
+    },
+    "3906": {
+      "passive": false,
+      "ru": "Скоростная атака",
+      "en": "Speed Attack",
+      "key": "jujutsu.technique.attack6"
+    },
+    "3907": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "3908": {
+      "passive": false,
+      "ru": "Жидкий металл: стрелы",
+      "en": "Liquid Metal: Arrows",
+      "key": "jujutsu.technique.yorozu9"
+    },
+    "3909": {
+      "passive": false,
+      "ru": "Жидкий металл: копья",
+      "en": "Liquid Metal: Spears",
+      "key": "jujutsu.technique.yorozu10"
+    },
+    "3912": {
+      "passive": false,
+      "ru": "Жидкий металл",
+      "en": "Liquid Metal",
+      "key": "jujutsu.technique.yorozu8"
+    },
+    "3914": {
+      "passive": false,
+      "ru": "Броня насекомого",
+      "en": "Insect Armor",
+      "key": "item.jujutsucraft.insect_armor_chestplate"
+    },
+    "3915": {
+      "passive": false,
+      "ru": "Идеальная сфера",
+      "en": "True Sphere",
+      "key": "entity.jujutsucraft.true_sphere"
+    },
+    "3920": {
+      "passive": false,
+      "ru": "Тройное страдание",
+      "en": "Threefold Affliction",
+      "key": "jujutsu.technique.yorozu20"
+    },
+    "4005": {
+      "passive": false,
+      "ru": "Первый: Кайти",
+      "en": "Number 1 Kaichi",
+      "key": "jujutsu.technique.ino1"
+    },
+    "4006": {
+      "passive": false,
+      "ru": "Второй: Рэйки",
+      "en": "Number 2 Reiki",
+      "key": "jujutsu.technique.ino2"
+    },
+    "4007": {
+      "passive": false,
+      "ru": "Третий: Кирин",
+      "en": "Number 3 Kirin",
+      "key": "jujutsu.technique.ino3"
+    },
+    "4008": {
+      "passive": false,
+      "ru": "Четвёртый: Рю",
+      "en": "Number 4 Ryu",
+      "key": "jujutsu.technique.ino4"
+    },
+    "4020": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "4021": {
+      "passive": false,
+      "ru": "Отменить расширение территории",
+      "en": "Cancel Domain Expansion",
+      "key": "jujutsu.technique.cancel_domain"
+    },
+    "4105": {
+      "passive": false,
+      "ru": "Антигравитационная система: прямое вращение",
+      "en": "Antigravity System: Lapse",
+      "key": "jujutsu.technique.kaori2"
+    },
+    "4110": {
+      "passive": false,
+      "ru": "Антигравитационная система: обратное вращение",
+      "en": "Antigravity System: Reversed",
+      "key": "jujutsu.technique.kaori1"
+    },
+    "4120": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "4303": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "4304": {
+      "passive": false,
+      "ru": "Удар сверху",
+      "en": "Overhead Attack",
+      "key": "jujutsu.technique.attack7"
+    },
+    "4305": {
+      "passive": false,
+      "ru": "Проклятый дух Родзэцу",
+      "en": "Rozetsu's Cursed Spirit",
+      "key": "entity.jujutsucraft.rozetsu_shikigami"
+    },
+    "4306": {
+      "passive": false,
+      "ru": "Проклятый дух Родзэцу (сосуд)",
+      "en": "Rozetsu's Cursed Spirit (Vessel)",
+      "key": "entity.jujutsucraft.rozetsu_shikigami_vessel"
+    },
+    "4307": {
+      "passive": false,
+      "ru": "Проклятый дух Родзэцу (техника Десяти теней)",
+      "en": "Rozetsu's Cursed Spirit (Ten Shadows Technique)",
+      "key": "entity.jujutsucraft.rozetsu_shikigami_vessel_2"
+    },
+    "4320": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "jujutsu.technique.rozetsu_domain"
+    },
+    "4405": {
+      "passive": false,
+      "ru": "Кухонный нож",
+      "en": "Kitchen Knife",
+      "key": "item.jujutsucraft.kitchen_knife"
+    },
+    "4410": {
+      "passive": false,
+      "ru": "Машина",
+      "en": "Car",
+      "key": "entity.jujutsucraft.car"
+    },
+    "4411": {
+      "passive": false,
+      "ru": "Грузовик",
+      "en": "Truck",
+      "key": "entity.jujutsucraft.truck"
+    },
+    "4415": {
+      "passive": false,
+      "ru": "Дом",
+      "en": "House",
+      "key": "entity.jujutsucraft.entity_house"
+    },
+    "4420": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "4505": {
+      "passive": false,
+      "ru": "Зуб",
+      "en": "Tooth",
+      "key": "item.jujutsucraft.tooth"
+    },
+    "4510": {
+      "passive": false,
+      "ru": "Глаз",
+      "en": "Eye",
+      "key": "item.jujutsucraft.eye"
+    },
+    "4520": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "4610": {
+      "passive": false,
+      "ru": "Злой глаз",
+      "en": "Evil Eye",
+      "key": "entity.jujutsucraft.entity_eye_ranta"
+    },
+    "4620": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "4704": {
+      "passive": false,
+      "ru": "Удар сверху",
+      "en": "Overhead Attack",
+      "key": "jujutsu.technique.attack7"
+    },
+    "4705": {
+      "passive": false,
+      "ru": "Перекат",
+      "en": "Rollout",
+      "key": "jujutsu.technique.crystal1"
+    },
+    "4706": {
+      "passive": false,
+      "ru": "Кристалл: одиночный",
+      "en": "Crystal: Single",
+      "key": "jujutsu.technique.crystal2"
+    },
+    "4707": {
+      "passive": false,
+      "ru": "Кристалл: множество",
+      "en": "Crystal: Multi",
+      "key": "jujutsu.technique.crystal3"
+    },
+    "4708": {
+      "passive": false,
+      "ru": "Кристалл: камнепад",
+      "en": "Crystal: Rock Slide",
+      "key": "jujutsu.technique.crystal4"
+    },
+    "4709": {
+      "passive": false,
+      "ru": "Кристалл: бомба",
+      "en": "Crystal: Bomb",
+      "key": "jujutsu.technique.crystal5"
+    },
+    "4710": {
+      "passive": false,
+      "ru": "Дыхание",
+      "en": "Breath",
+      "key": "jujutsu.technique.crystal6"
+    },
+    "4715": {
+      "passive": false,
+      "ru": "§l§4Самоуничтожение",
+      "en": "§l§4Self-Destruct",
+      "key": "jujutsu.technique.crystal7"
+    },
+    "4720": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "4805": {
+      "passive": false,
+      "ru": "████ и свет: пуля",
+      "en": "████ and Light: Bullet",
+      "key": "jujutsu.technique.dabura5"
+    },
+    "4806": {
+      "passive": false,
+      "ru": "████ и свет: лазер",
+      "en": "████ and Light: Laser",
+      "key": "jujutsu.technique.dabura6"
+    },
+    "4807": {
+      "passive": false,
+      "ru": "████ и свет: клетка",
+      "en": "████ and Light: Cage",
+      "key": "jujutsu.technique.dabura7"
+    },
+    "4808": {
+      "passive": false,
+      "ru": "████ и свет: башня",
+      "en": "████ and Light: Tower",
+      "key": "jujutsu.technique.dabura8"
+    },
+    "4809": {
+      "passive": false,
+      "ru": "Обратное вращение проклятой техники: ████ и тьма",
+      "en": "Cursed Technique Reversal: ████ and Darkness",
+      "key": "jujutsu.technique.dabura9"
+    },
+    "4811": {
+      "passive": false,
+      "ru": "████ и свет: комбо 1",
+      "en": "████ and Light-Combo1",
+      "key": "jujutsu.technique.dabura11"
+    },
+    "4812": {
+      "passive": false,
+      "ru": "████ и свет: комбо 2",
+      "en": "████ and Light-Combo2",
+      "key": "jujutsu.technique.dabura12"
+    },
+    "4815": {
+      "passive": false,
+      "ru": "Удар ногой с субсветовой скоростью",
+      "en": "Sub-light Speed Kick",
+      "key": "jujutsu.technique.dabura15"
+    },
+    "4820": {
+      "passive": false,
+      "ru": "Междумирье тьмы и света: обратное преодоление",
+      "en": "Otherworld Between Darkness and Light: Reverse Transcendence",
+      "key": "jujutsu.technique.dabura20"
+    },
+    "5021": {
+      "passive": false,
+      "ru": "Отменить расширение территории",
+      "en": "Cancel Domain Expansion",
+      "key": "jujutsu.technique.cancel_domain"
+    },
+    "105": {
+      "passive": false,
+      "ru": "Демонтаж",
+      "en": "Dismantle",
+      "key": "jujutsu.technique.dismantle"
+    },
+    "106": {
+      "passive": false,
+      "ru": "Разрез",
+      "en": "Cleave",
+      "key": "jujutsu.technique.cleave"
+    },
+    "120": {
+      "passive": false,
+      "ru": "Божественное пламя: раскрытие",
+      "en": "Divine Flame Open",
+      "key": "jujutsu.technique.open"
+    },
+    "111": {
+      "passive": false,
+      "ru": "Демонтаж: комбо 1",
+      "en": "Dismantle-Combo1",
+      "key": "jujutsu.technique.dismantle1"
+    },
+    "112": {
+      "passive": false,
+      "ru": "Демонтаж: комбо 2",
+      "en": "Dismantle-Combo2",
+      "key": "jujutsu.technique.dismantle2"
+    },
+    "113": {
+      "passive": false,
+      "ru": "Демонтаж: комбо 3",
+      "en": "Dismantle-Combo3",
+      "key": "jujutsu.technique.dismantle3"
+    },
+    "204": {
+      "passive": false,
+      "ru": "Удар ногой",
+      "en": "Kick",
+      "key": "jujutsu.technique.kick"
+    },
+    "205": {
+      "passive": false,
+      "ru": "Бесконечность",
+      "en": "Infinity",
+      "key": "jujutsu.technique.infinity"
+    },
+    "206": {
+      "passive": false,
+      "ru": "Прямое вращение проклятой техники: Синий",
+      "en": "Cursed Technique Lapse: Blue",
+      "key": "jujutsu.technique.blue"
+    },
+    "207": {
+      "passive": false,
+      "ru": "Обратное вращение проклятой техники: Красный",
+      "en": "Cursed Technique Reversal: Red",
+      "key": "jujutsu.technique.red"
+    },
+    "208": {
+      "passive": false,
+      "ru": "Удар Синим",
+      "en": "Blue Strike",
+      "key": "jujutsu.technique.gojo1"
+    },
+    "215": {
+      "passive": false,
+      "ru": "Фиолетовый",
+      "en": "Hollow Purple",
+      "key": "jujutsu.technique.purple"
+    },
+    "220": {
+      "passive": false,
+      "ru": "Беспредельная пустота",
+      "en": "Unlimited Void",
+      "key": "jujutsu.technique.unlimited_void"
+    },
+    "305": {
+      "ru": "«Взорвись!»",
+      "en": "\"Explode\"",
+      "key": "jujutsu.technique.explode"
+    },
+    "306": {
+      "ru": "«Раздавись!»",
+      "en": "\"Get Crushed\"",
+      "key": "jujutsu.technique.get_crushed"
+    },
+    "307": {
+      "ru": "«Рассыпься!»",
+      "en": "\"Crumble Away\"",
+      "key": "jujutsu.technique.crumble_away"
+    },
+    "308": {
+      "ru": "«Не двигайся!»",
+      "en": "\"Don't Move\"",
+      "key": "jujutsu.technique.dont_move"
+    },
+    "309": {
+      "ru": "«Прочь!»",
+      "en": "\"Blast Away\"",
+      "key": "jujutsu.technique.blast_away"
+    },
+    "320": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "405": {
+      "passive": false,
+      "ru": "Гибельное пламя",
+      "en": "Disaster Flames",
+      "key": "jujutsu.technique.flame_fire"
+    },
+    "406": {
+      "passive": false,
+      "ru": "Выгорание техники",
+      "en": "Burned Out",
+      "key": "jujutsu.technique.flame_fire2"
+    },
+    "407": {
+      "passive": false,
+      "ru": "Тлеющие насекомые",
+      "en": "Ember Insects",
+      "key": "jujutsu.technique.ember_insects"
+    },
+    "408": {
+      "passive": false,
+      "ru": "Огненный лазер",
+      "en": "Flame Laser",
+      "key": "jujutsu.technique.flame_fire3"
+    },
+    "409": {
+      "passive": false,
+      "ru": "Лавовый поток",
+      "en": "Lava Flow",
+      "key": "jujutsu.technique.flame_fire4"
+    },
+    "415": {
+      "passive": false,
+      "ru": "Максимум: Метеор",
+      "en": "Maximum: Meteor",
+      "key": "jujutsu.technique.meteor"
+    },
+    "420": {
+      "passive": false,
+      "ru": "Гроб железной горы",
+      "en": "Coffin of the Iron Mountain",
+      "key": "jujutsu.technique.coffinofthe_iron_mountain"
+    },
+    "503": {
+      "passive": false,
+      "ru": "Скоростная атака",
+      "en": "Speed Attack",
+      "key": "jujutsu.technique.attack6"
+    },
+    "504": {
+      "passive": false,
+      "ru": "Рубящая атака",
+      "en": "Slash Attack",
+      "key": "jujutsu.technique.attack8"
+    },
+    "505": {
+      "passive": false,
+      "ru": "Копирование: проклятая речь",
+      "en": "Copy: Cursed Speech",
+      "key": "jujutsu.technique.copy1"
+    },
+    "506": {
+      "passive": false,
+      "ru": "Копирование: техника Дхрува",
+      "en": "Copy: Dhruv's Technique",
+      "key": "advancements.skill_copy_dhruv_lakdawalla.title"
+    },
+    "507": {
+      "passive": false,
+      "ru": "Копирование: техника Уро",
+      "en": "Copy: Uro's Technique",
+      "key": "advancements.skill_copy_takako_uro.title"
+    },
+    "515": {
+      "passive": false,
+      "ru": "Чистая любовь",
+      "en": "Pure Love",
+      "key": "entity.jujutsucraft.pure_love_cannon"
+    },
+    "519": {
+      "passive": false,
+      "ru": "Отозвать Рику",
+      "en": "Return Rika",
+      "key": "jujutsu.technique.rika2"
+    },
+    "520": {
+      "passive": false,
+      "ru": "Истинная взаимная любовь",
+      "en": "Authentic Mutual Love",
+      "key": "jujutsu.technique.okkotsu20"
+    },
+    "604": {
+      "passive": false,
+      "ru": "Подавление проклятой техники",
+      "en": "Cancel Cursed Technique",
+      "key": "jujutsu.technique.cancel"
+    },
+    "605": {
+      "passive": false,
+      "ru": "Божественный пёс: белый",
+      "en": "Divine Dog White",
+      "key": "entity.jujutsucraft.divine_dog_white"
+    },
+    "606": {
+      "passive": false,
+      "ru": "Божественный пёс: чёрный",
+      "en": "Divine Dog Black",
+      "key": "entity.jujutsucraft.divine_dog_black"
+    },
+    "609": {
+      "passive": false,
+      "ru": "Великий змей",
+      "en": "Great Serpent",
+      "key": "entity.jujutsucraft.great_serpent"
+    },
+    "610": {
+      "passive": false,
+      "ru": "Жаба",
+      "en": "Toad",
+      "key": "entity.jujutsucraft.toad"
+    },
+    "607": {
+      "passive": false,
+      "ru": "§lНуэ",
+      "en": "§lNue",
+      "key": "entity.jujutsucraft.nue_totality"
+    },
+    "611": {
+      "passive": false,
+      "ru": "Пронзающая кровь",
+      "en": "Piercing Blood",
+      "key": "jujutsu.technique.choso3"
+    },
+    "612": {
+      "passive": false,
+      "ru": "Бегство кроликов",
+      "en": "Rabbit Escape",
+      "key": "entity.jujutsucraft.rabbit_escape"
+    },
+    "613": {
+      "passive": false,
+      "ru": "Круглый олень",
+      "en": "Round Deer",
+      "key": "entity.jujutsucraft.round_deer"
+    },
+    "614": {
+      "passive": false,
+      "ru": "Пронзающий бык",
+      "en": "Piercing Ox",
+      "key": "entity.jujutsucraft.piercing_ox"
+    },
+    "615": {
+      "passive": false,
+      "ru": "Погребальный тигр",
+      "en": "Tiger Funeral",
+      "key": "entity.jujutsucraft.tiger_funeral"
+    },
+    "617": {
+      "passive": false,
+      "ru": "Слитый зверь Агито",
+      "en": "Merged Beast Agito",
+      "key": "entity.jujutsucraft.merged_beast_agito"
+    },
+    "618": {
+      "passive": false,
+      "ru": "§dВосьмирукое колесо",
+      "en": "§dThe Eight-Handled Wheel",
+      "key": "item.jujutsucraft.mahoraga_wheel_helmet"
+    },
+    "620": {
+      "passive": false,
+      "ru": "Теневой сад химер",
+      "en": "Chimera Shadow Garden",
+      "key": "jujutsu.technique.chimera_shadow_garden"
+    },
+    "703": {
+      "passive": false,
+      "ru": "Удар ногой",
+      "en": "Kick",
+      "key": "jujutsu.technique.kick"
+    },
+    "704": {
+      "passive": false,
+      "ru": "Атака в прыжке",
+      "en": "Jump Attack",
+      "key": "jujutsu.technique.attack4"
+    },
+    "705": {
+      "passive": false,
+      "ru": "Удар молнии",
+      "en": "Lightning Strike",
+      "key": "jujutsu.technique.kashimo1"
+    },
+    "710": {
+      "passive": false,
+      "ru": "Прибавь громкость!!",
+      "en": "Turn up the volume!!",
+      "key": "jujutsu.technique.kashimo2"
+    },
+    "715": {
+      "passive": false,
+      "ru": "Мифический зверь Янтарь",
+      "en": "Mythical Beast Amber",
+      "key": "effect.mythical_beast_amber_effect"
+    },
+    "716": {
+      "passive": false,
+      "ru": "Ах",
+      "en": "Ah",
+      "key": "jujutsu.technique.kashimo_ah"
+    },
+    "717": {
+      "passive": false,
+      "ru": "Электромагнитные волны",
+      "en": "Electromagnetic Waves",
+      "key": "jujutsu.technique.kashimo_energy_wave"
+    },
+    "719": {
+      "passive": false,
+      "ru": "Удар ногой в прыжке",
+      "en": "Flying Kick",
+      "key": "jujutsu.technique.flying_kick"
+    },
+    "720": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "805": {
+      "passive": false,
+      "ru": "Гибельные приливы",
+      "en": "Disaster Tides",
+      "key": "jujutsu.technique.dagon1"
+    },
+    "806": {
+      "passive": false,
+      "ru": "Маленькие рыбы-шикигами",
+      "en": "Small Fish Shikigami",
+      "key": "jujutsu.technique.dagon2"
+    },
+    "807": {
+      "passive": false,
+      "ru": "Свирепые рыбы-шикигами",
+      "en": "Ferocious Fish Shikigami",
+      "key": "jujutsu.technique.dagon3"
+    },
+    "809": {
+      "passive": false,
+      "ru": "Смертельный рой",
+      "en": "Death Swarm",
+      "key": "jujutsu.technique.dagon5"
+    },
+    "810": {
+      "passive": false,
+      "ru": "Гигантский равноногий рак",
+      "en": "Bathynomus Giganteus",
+      "key": "entity.jujutsucraft.bathynomus_giganteus"
+    },
+    "820": {
+      "passive": false,
+      "ru": "Горизонт пленительной скандхи",
+      "en": "Horizon of the Captivating Skandha",
+      "key": "jujutsu.technique.dagon20"
+    },
+    "904": {
+      "passive": false,
+      "ru": "Удар сверху",
+      "en": "Overhead Attack",
+      "key": "jujutsu.technique.attack7"
+    },
+    "905": {
+      "passive": false,
+      "ru": "Выстрел",
+      "en": "Shoot",
+      "key": "jujutsu.technique.shoot"
+    },
+    "906": {
+      "passive": false,
+      "ru": "Гаруда",
+      "en": "Garuda",
+      "key": "entity.jujutsucraft.garuda"
+    },
+    "910": {
+      "passive": false,
+      "ru": "Звёздный гнев",
+      "en": "Star Rage",
+      "key": "effect.star_rage"
+    },
+    "920": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "jujutsu.technique.tsukumo_domain"
+    },
+    "1005": {
+      "passive": false,
+      "ru": "Рассекающее изгнание",
+      "en": "Slicing Exorcism",
+      "key": "jujutsu.technique.choso1"
+    },
+    "1006": {
+      "passive": false,
+      "ru": "Сжатие",
+      "en": "Convergence",
+      "key": "jujutsu.technique.choso2"
+    },
+    "1007": {
+      "passive": false,
+      "ru": "Пронзающая кровь",
+      "en": "Piercing Blood",
+      "key": "jujutsu.technique.choso3"
+    },
+    "1008": {
+      "passive": false,
+      "ru": "Сверхновая",
+      "en": "Supernova",
+      "key": "jujutsu.technique.choso4"
+    },
+    "1009": {
+      "passive": false,
+      "ru": "Багровая чешуя",
+      "en": "Flowing Red Scale",
+      "key": "jujutsu.technique.choso5"
+    },
+    "1016": {
+      "passive": false,
+      "ru": "Кровавые волны",
+      "en": "Blood Waves",
+      "key": "jujutsu.technique.choso6"
+    },
+    "1018": {
+      "passive": false,
+      "ru": "Крылатый король",
+      "en": "Wing King",
+      "key": "item.jujutsucraft.wing_king_chestplate"
+    },
+    "1020": {
+      "passive": false,
+      "ru": "Расширение территории",
+      "en": "Domain Expansion",
+      "key": "effect.domain_expansion"
+    },
+    "1021": {
+      "passive": false,
+      "ru": "Отменить расширение территории",
+      "en": "Cancel Domain Expansion",
+      "key": "jujutsu.technique.cancel_domain"
+    }
+  }
+}

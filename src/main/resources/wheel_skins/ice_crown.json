@@ -1,0 +1,57 @@
+{
+  "id": "m6",
+  "nameRu": "Ледяная корона",
+  "taglineRu": "Зубцы изо льда растут над твоей головой.",
+  "descriptionRu": "Корона висит ниже и ближе к голове, чем остальные колёса: серебряный обруч с восемью высокими ледяными зубцами и восемью короткими между ними. Лёд темнеет к основанию и светится на кончиках, под обручем висят шестнадцать сосулек. Внутри короны медленно кружится светящаяся снежинка, а вокруг неё плывут четыре льдинки.",
+  "role": "proposal",
+  "designId": "wheel-models-2026-10-29",
+  "mount": { "pitchDeg": 0, "x": 0, "y": -11.6, "z": 0 },
+  "materials": [
+    { "key": "silver", "base": "#C6D0DA", "light": "#F2F7FB", "dark": "#808C99", "emissive": false, "pattern": "metal" },
+    { "key": "deepIce", "base": "#4B8CC6", "light": "#8BC2EC", "dark": "#285A8A", "emissive": false, "pattern": "lacquer" },
+    { "key": "ice", "base": "#9BD6F0", "light": "#E0F6FF", "dark": "#5A9CC4", "emissive": false, "pattern": "lacquer" },
+    { "key": "frost", "base": "#D2F7FF", "light": "#FFFFFF", "dark": "#7ED6F4", "emissive": true, "pattern": "glow" }
+  ],
+  "groups": [
+    { "name": "bandA", "count": 8, "phaseDeg": 0, "radius": 7.3, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [ { "x": -1.6, "y": -0.8, "z": -0.5, "w": 3.2, "h": 1.6, "d": 1.0, "mat": "silver" } ] },
+    { "name": "bandB", "count": 8, "phaseDeg": 22.5, "radius": 7.3, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [ { "x": -1.6, "y": -0.85, "z": -0.5, "w": 3.2, "h": 1.7, "d": 1.0, "mat": "silver" } ] },
+    { "name": "gems", "count": 8, "phaseDeg": 22.5, "radius": 7.85, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [ { "x": -0.55, "y": -0.55, "z": -0.15, "w": 1.1, "h": 1.1, "d": 0.5, "mat": "frost" } ] },
+    { "name": "bigSpikes", "count": 8, "phaseDeg": 0, "radius": 7.3, "y": -0.8, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": -12, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [
+        { "x": -1.2, "y": -3.0, "z": -0.8, "w": 2.4, "h": 3.4, "d": 1.6, "mat": "deepIce" },
+        { "x": -0.9, "y": -5.8, "z": -0.6, "w": 1.8, "h": 3.0, "d": 1.2, "mat": "ice" },
+        { "x": -0.6, "y": -8.0, "z": -0.4, "w": 1.2, "h": 2.4, "d": 0.8, "mat": "ice" },
+        { "x": -0.3, "y": -9.6, "z": -0.2, "w": 0.6, "h": 1.8, "d": 0.4, "mat": "frost" } ] },
+    { "name": "smallSpikes", "count": 8, "phaseDeg": 22.5, "radius": 7.3, "y": -0.8, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": -22, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [
+        { "x": -0.8, "y": -2.4, "z": -0.6, "w": 1.6, "h": 2.8, "d": 1.2, "mat": "deepIce" },
+        { "x": -0.5, "y": -4.2, "z": -0.4, "w": 1.0, "h": 2.0, "d": 0.8, "mat": "ice" },
+        { "x": -0.25, "y": -5.4, "z": -0.2, "w": 0.5, "h": 1.4, "d": 0.4, "mat": "frost" } ] },
+    { "name": "icicles", "count": 16, "phaseDeg": 11.25, "radius": 7.2, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [
+        { "x": -0.4, "y": 0.7, "z": -0.4, "w": 0.8, "h": 1.1, "d": 0.8, "mat": "ice" },
+        { "x": -0.2, "y": 1.7, "z": -0.2, "w": 0.4, "h": 0.5, "d": 0.4, "mat": "frost" } ] },
+    { "name": "snowflakeArms", "count": 6, "phaseDeg": 0, "radius": 0, "y": -5.5, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 0, "idleDegPerSec": 18, "bobAmp": 0.5, "bobPeriodSec": 3.2,
+      "boxes": [
+        { "x": -0.25, "y": -0.25, "z": 0.3, "w": 0.5, "h": 0.5, "d": 2.9, "mat": "frost" },
+        { "x": -0.9, "y": -0.2, "z": 1.7, "w": 1.8, "h": 0.4, "d": 0.4, "mat": "frost" } ] },
+    { "name": "snowflakeCore", "count": 1, "phaseDeg": 0, "radius": 0, "y": -5.5, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 0, "idleDegPerSec": 18, "bobAmp": 0.5, "bobPeriodSec": 3.2,
+      "boxes": [ { "x": -0.6, "y": -0.6, "z": -0.6, "w": 1.2, "h": 1.2, "d": 1.2, "mat": "frost" } ] },
+    { "name": "floes", "count": 4, "phaseDeg": 45, "radius": 4.6, "y": -3.2, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 35, "rotYDeg": 0, "rotZDeg": 45,
+      "spin": 0, "idleDegPerSec": -14, "bobAmp": 0.4, "bobPeriodSec": 2.6,
+      "boxes": [ { "x": -0.55, "y": -0.55, "z": -0.55, "w": 1.1, "h": 1.1, "d": 1.1, "mat": "ice" } ] }
+  ],
+  "javaNotes": "Mount y -11.6 (-0.725 block), lower than today's -14.72: the crown sits just above the head. Root at PartPose.offset(0,-11.6,0) (or move the existing pose.translate by +3.12/16), turn and pulse on the PoseStack. Per frame group.yRot = (spin-1)*turn + idle: band, gems, spikes, icicles 0; snowflakeArms/snowflakeCore -turn + radians((18*t) % 360) and y = 0.5*sin(2*pi*t/3.2); floes -turn + radians((-14*t) % 360) and y = 0.4*sin(2*pi*t/2.6). Spikes are 8 instance parts with PartPose.offsetAndRotation(sin(a)*7.3, -0.8, cos(a)*7.3, xRot, a, 0): bigSpikes xRot -12 deg, smallSpikes -22 deg (tops lean outward), 4 and 3 stacked cubes overlapping 0.2. Floes: xRot 35, zRot 45 per instance (ZYX order). Band is an A/B 16-gon, B 0.05 taller per side. Icicles are at 11.25 + i*22.5, never on a helmet diagonal: their tips (local +2.2, world -9.4; -9.22 at pulse 1.08) stay above the helmet top -9 and outside its 10x10 footprint. Glow pass: gems, spike tips, icicle tips, snowflake (8+8+8+16+13 = 53 of 129 boxes). Reach 13.9 (big spike tips), top 0.86 block above the head.",
+  "animationNotesRu": "С каждым этапом обруч с зубцами поворачивается на 45 градусов, и высокие зубцы встают на место прежних. Снежинка и льдинки внутри не замечают щелчков: снежинка медленно кружится и покачивается, льдинки плывут по кругу в другую сторону. При адаптации к боссу корона вращается без остановки."
+}

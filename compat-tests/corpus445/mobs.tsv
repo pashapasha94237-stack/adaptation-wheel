@@ -1,0 +1,3263 @@
+ad_astra:air_vortex	Air Vortex
+ad_astra:corrupted_lunarian	Corrupted Lunarian
+ad_astra:glacian_ram	Glacian Ram
+ad_astra:ice_spit	Ice Spit
+ad_astra:lander	Lander
+ad_astra:lunarian	Lunarian
+ad_astra:lunarian_wandering_trader	Lunarian Wandering Trader
+ad_astra:martian_raptor	Martian Raptor
+ad_astra:mogler	Mogler
+ad_astra:pygro	Pygro
+ad_astra:pygro_brute	Pygro Brute
+ad_astra:star_crawler	Star Crawler
+ad_astra:sulfur_creeper	Sulfur Creeper
+ad_astra:tier_1_rocket	Tier 1 Rocket
+ad_astra:tier_1_rover	Tier 1 Rover
+ad_astra:tier_2_rocket	Tier 2 Rocket
+ad_astra:tier_3_rocket	Tier 3 Rocket
+ad_astra:tier_4_rocket	Tier 4 Rocket
+ad_astra:zombified_mogler	Zombified Mogler
+ad_astra:zombified_pygro	Zombified Pygro
+ae2:tiny_tnt_primed	Tiny TNT Primed
+aether:aechor_plant	Aechor Plant
+aether:aerbunny	Aerbunny
+aether:aerwhale	Aerwhale
+aether:blue_swet	Blue Swet
+aether:cloud_crystal	Cloud Crystal
+aether:cloud_minion	Cloud Minion
+aether:cockatrice	Cockatrice
+aether:cold_parachute	Cold Parachute
+aether:enchanted_dart	Enchanted Dart
+aether:evil_whirlwind	Evil Whirlwind
+aether:fire_crystal	Fire Crystal
+aether:fire_minion	Fire Minion
+aether:floating_block	Floating Block
+aether:flying_cow	Flying Cow
+aether:golden_dart	Golden Dart
+aether:golden_parachute	Golden Parachute
+aether:golden_swet	Golden Swet
+aether:hammer_projectile	Hammer Projectile
+aether:ice_crystal	Ice Crystal
+aether:lightning_knife	Lightning Knife
+aether:mimic	Mimic
+aether:moa	Moa
+aether:phyg	Phyg
+aether:poison_dart	Poison Dart
+aether:poison_needle	Poison Needle
+aether:sentry	Sentry
+aether:sheepuff	Sheepuff
+aether:skyroot_boat	Boat
+aether:skyroot_chest_boat	Boat with Chest
+aether:slider	Slider
+aether:sun_spirit	Sun Spirit
+aether:thunder_crystal	Thunder Crystal
+aether:tnt_present	TNT Present
+aether:valkyrie	Valkyrie
+aether:valkyrie_queen	Valkyrie Queen
+aether:whirlwind	Whirlwind
+aether:zephyr	Zephyr
+aether:zephyr_snowball	Zephyr Snowball
+aether_redux:blightbunny	Blightbunny
+aether_redux:blightbunny_spawner	Blightbunny Spawner
+aether_redux:blightwillow_boat	Blightwillow Boat
+aether_redux:blightwillow_chest_boat	Blightwillow Boat with Chest
+aether_redux:cloudcap_boat	Cloudcap Boat
+aether_redux:cloudcap_chest_boat	Cloudcap Boat with Chest
+aether_redux:cockatrice_spawner	Cockatrice Spawner
+aether_redux:crystal_boat	Crystal Boat
+aether_redux:crystal_chest_boat	Crystal Boat with Chest
+aether_redux:ember	Ember
+aether_redux:fieldsproot_boat	Fieldsproot Boat
+aether_redux:fieldsproot_chest_boat	Fieldsproot Boat with Chest
+aether_redux:glacia_boat	Glacia Boat
+aether_redux:glacia_chest_boat	Glacia Boat with Chest
+aether_redux:infused_veridium_dart	Infused Veridium Dart
+aether_redux:jellyshroom_boat	Jellyshroom Boat
+aether_redux:jellyshroom_chest_boat	Jellyshroom Boat with Chest
+aether_redux:mykapod	Mykapod
+aether_redux:shimmercow	Shimmercow
+aether_redux:vanilla_swet	Vanilla Swet
+aether_redux:veridium_dart	Veridium Dart
+aether_redux:volatile_fire_crystal	Volatile Fire Crystal
+alexscaves:atlatitan	Atlatitan
+alexscaves:beholder_eye	Beholder
+alexscaves:boat	Boat
+alexscaves:boundroid	Boundroid
+alexscaves:boundroid_winch	Boundroid Winch
+alexscaves:brainiac	Brainiac
+alexscaves:burrowing_arrow	Burrowing Arrow
+alexscaves:candicorn	Candicorn
+alexscaves:candy_cane_hook	Candy Cane Hook
+alexscaves:caniac	Caniac
+alexscaves:caramel_cube	Caramel Cube
+alexscaves:chest_boat	Chest Boat
+alexscaves:cinder_brick	Cinder Brick
+alexscaves:corrodent	Corrodent
+alexscaves:crushed_block	Crushed Block
+alexscaves:dark_arrow	Dark Arrow
+alexscaves:deep_one	Deep One
+alexscaves:deep_one_knight	Deep One Knight
+alexscaves:deep_one_mage	Deep One Mage
+alexscaves:desolate_dagger	Desolate Dagger
+alexscaves:dinosaur_spirit	Dinosaur Spirit
+alexscaves:extinction_spear	Extinction Spear
+alexscaves:falling_frostmint	Falling Frostmint
+alexscaves:falling_guano	Guano
+alexscaves:falling_tree_block	Falling Tree
+alexscaves:ferrouslime	Ferrouslime
+alexscaves:floater	Floater
+alexscaves:forsaken	Forsaken
+alexscaves:frostmint_spear	Frostmint Spear
+alexscaves:gammaroach	Gammaroach
+alexscaves:gingerbread_man	Gingerbread Man
+alexscaves:gloomoth	Gloomoth
+alexscaves:gossamer_worm	Gossamer Worm
+alexscaves:grottoceratops	Grottoceratops
+alexscaves:guano	Guano
+alexscaves:gum_worm	Gum Worm
+alexscaves:gum_worm_segment	Gum Worm
+alexscaves:gumball	Gumball
+alexscaves:gumbeeper	Gumbeeper
+alexscaves:gummy_bear	Gummy Bear
+alexscaves:hullbreaker	Hullbreaker
+alexscaves:ink_bomb	Ink Bomb
+alexscaves:lanternfish	Lanternfish
+alexscaves:licowitch	Licowitch
+alexscaves:limestone_spear	Limestone Spear
+alexscaves:luxtructosaurus	Luxtructosaurus
+alexscaves:magnetic_weapon	Magnetic Weapon
+alexscaves:magnetron	Magnetron
+alexscaves:melted_caramel	Melted Caramel
+alexscaves:mine_guardian	Mine Guardian
+alexscaves:mine_guardian_anchor	Mine Guardian Anchor
+alexscaves:moving_metal_block	Magnetizing Block
+alexscaves:notor	Notor
+alexscaves:nuclear_bomb	Nuclear Bomb
+alexscaves:nuclear_explosion	Nuclear Explosion
+alexscaves:nucleeper	Nucleeper
+alexscaves:quarry_smasher	Magnetic Quarry Smasher
+alexscaves:radgill	Radgill
+alexscaves:raycat	Raycat
+alexscaves:relicheirus	Relicheirus
+alexscaves:sea_pig	Sea Pig
+alexscaves:seeking_arrow	Seeking Arrow
+alexscaves:soda_bottle_rocket	Purple Soda Bottle Rocket
+alexscaves:spinning_peppermint	Spinning Peppermint
+alexscaves:submarine	Submarine
+alexscaves:subterranodon	Subterranodon
+alexscaves:sugar_staff_hex	Sugar Staff Hex
+alexscaves:sweetish_fish	Sweetish Fish
+alexscaves:teletor	Teletor
+alexscaves:tephra	Tephra
+alexscaves:thrown_waste_drum	Thrown Waste Drum
+alexscaves:tremorsaurus	Tremorsaurus
+alexscaves:tremorzilla	Tremorzilla
+alexscaves:trilocaris	Trilocaris
+alexscaves:tripodfish	Tripodfish
+alexscaves:underzealot	Underzealot
+alexscaves:vallumraptor	Vallumraptor
+alexscaves:vesper	Vesper
+alexscaves:watcher	Watcher
+alexscaves:water_bolt	Water Bolt
+alexscaves:wave	Wave
+alexsmobs:alligator_snapping_turtle	Alligator Snapping Turtle
+alexsmobs:anaconda	Anaconda
+alexsmobs:anaconda_part	Anaconda
+alexsmobs:anteater	Anteater
+alexsmobs:bald_eagle	Bald Eagle
+alexsmobs:banana_slug	Banana Slug
+alexsmobs:bison	Bison
+alexsmobs:blobfish	Blobfish
+alexsmobs:blue_jay	Blue Jay
+alexsmobs:bone_serpent	Bone Serpent
+alexsmobs:bone_serpent_part	Bone Serpent Bones
+alexsmobs:bunfungus	Bunfungus
+alexsmobs:cachalot_echo	Whale Echo
+alexsmobs:cachalot_part	Cachalot Whale
+alexsmobs:cachalot_whale	Cachalot Whale
+alexsmobs:caiman	Caiman
+alexsmobs:capuchin_monkey	Capuchin Monkey
+alexsmobs:catfish	Catfish
+alexsmobs:centipede_body	Cave Centipede Body
+alexsmobs:centipede_head	Cave Centipede
+alexsmobs:centipede_tail	Cave Centipede Tail
+alexsmobs:cockroach	Cockroach
+alexsmobs:cockroach_egg	Cockroach Ootheca
+alexsmobs:comb_jelly	Comb Jelly
+alexsmobs:cosmaw	Cosmaw
+alexsmobs:cosmic_cod	Cosmic Cod
+alexsmobs:crimson_mosquito	Crimson Mosquito
+alexsmobs:crocodile	Crocodile
+alexsmobs:crocodile_egg	Crocodile Egg
+alexsmobs:crow	Crow
+alexsmobs:devils_hole_pupfish	Devil's Hole Pupfish
+alexsmobs:dropbear	Dropbear
+alexsmobs:elephant	Elephant
+alexsmobs:emu	Emu
+alexsmobs:endergrade	Endergrade
+alexsmobs:enderiophage	Enderiophage
+alexsmobs:enderiophage_rocket	Enderiophage Rocket
+alexsmobs:farseer	Farseer
+alexsmobs:fart	Fart Cloud
+alexsmobs:flutter	Flutter
+alexsmobs:fly	Fly
+alexsmobs:flying_fish	Flying Fish
+alexsmobs:frilled_shark	Frilled Shark
+alexsmobs:froststalker	Froststalker
+alexsmobs:gazelle	Gazelle
+alexsmobs:gelada_monkey	Gelada Monkey
+alexsmobs:giant_squid	Giant Squid
+alexsmobs:giant_squid_part	Giant Squid
+alexsmobs:gorilla	Gorilla
+alexsmobs:grizzly_bear	Grizzly Bear
+alexsmobs:gust	Gust
+alexsmobs:guster	Guster
+alexsmobs:hammerhead_shark	Hammerhead Shark
+alexsmobs:hemolymph	Hemolymph
+alexsmobs:hummingbird	Hummingbird
+alexsmobs:jerboa	Jerboa
+alexsmobs:kangaroo	Kangaroo
+alexsmobs:komodo_dragon	Komodo Dragon
+alexsmobs:laviathan	Laviathan
+alexsmobs:leafcutter_ant	Leafcutter Ant
+alexsmobs:lobster	Lobster
+alexsmobs:maned_wolf	Maned Wolf
+alexsmobs:mantis_shrimp	Mantis Shrimp
+alexsmobs:mimic_octopus	Mimic Octopus
+alexsmobs:mimicube	Mimicube
+alexsmobs:moose	Moose
+alexsmobs:mosquito_spit	Mosquito Blood
+alexsmobs:mud_ball	Mud Ball
+alexsmobs:mudskipper	Mudskipper
+alexsmobs:mungus	Mungus
+alexsmobs:murmur	Murmur
+alexsmobs:murmur_head	Murmur
+alexsmobs:orca	Orca
+alexsmobs:platypus	Platypus
+alexsmobs:pollen_ball	Pollen Ball
+alexsmobs:potoo	Potoo
+alexsmobs:raccoon	Raccoon
+alexsmobs:rain_frog	Rain Frog
+alexsmobs:rattlesnake	Rattlesnake
+alexsmobs:rhinoceros	Rhinoceros
+alexsmobs:roadrunner	Roadrunner
+alexsmobs:rocky_roller	Rocky Roller
+alexsmobs:sand_shot	Thrown Sand
+alexsmobs:sea_bear	Sea Bear
+alexsmobs:seagull	Seagull
+alexsmobs:seal	Seal
+alexsmobs:shark_tooth_arrow	Shark Tooth Arrow
+alexsmobs:shoebill	Shoebill
+alexsmobs:skelewag	Skelewag
+alexsmobs:skreecher	Skreecher
+alexsmobs:skunk	Skunk
+alexsmobs:snow_leopard	Snow Leopard
+alexsmobs:soul_vulture	Soul Vulture
+alexsmobs:spectre	Spectre
+alexsmobs:squid_grapple	Tentacle
+alexsmobs:straddleboard	Straddleboard
+alexsmobs:straddler	Straddler
+alexsmobs:stradpole	Stradpole
+alexsmobs:sugar_glider	Sugar Glider
+alexsmobs:sunbird	Sunbird
+alexsmobs:tarantula_hawk	Tarantula Hawk
+alexsmobs:tasmanian_devil	Tasmanian Devil
+alexsmobs:tendon_segment	Tendon
+alexsmobs:terrapin	Terrapin
+alexsmobs:tiger	Tiger
+alexsmobs:tossed_item	Tossed Item
+alexsmobs:toucan	Toucan
+alexsmobs:triops	Triops
+alexsmobs:tusklin	Tusklin
+alexsmobs:underminer	Underminer
+alexsmobs:vine_lasso	Vine Lasso
+alexsmobs:void_portal	Void Portal
+alexsmobs:void_worm	Void Worm
+alexsmobs:void_worm_part	Void Worm
+alexsmobs:void_worm_shot	Void Crystal
+alexsmobs:warped_mosco	Warped Mosco
+alexsmobs:warped_toad	Warped Toad
+allthemodium:piglich	Piglich
+amendments:medium_dragon_fireball	Dragon Fireball
+amendments:medium_fireball	Fireball
+another_furniture:seat	Seat
+apotheosis:broadhead_arrow	Broadhead Arrow
+apotheosis:explosive_arrow	Explosive Arrow
+apotheosis:mining_arrow	Mining Arrow
+apotheosis:obsidian_arrow	Obsidian Arrow
+aquaculture:acacia_fish_mount	Acacia Fish Mount
+aquaculture:arapaima	Arapaima
+aquaculture:arrau_turtle	Arrau Turtle
+aquaculture:atlantic_cod	Atlantic Cod
+aquaculture:atlantic_halibut	Atlantic Halibut
+aquaculture:atlantic_herring	Atlantic Herring
+aquaculture:bayad	Bayad
+aquaculture:birch_fish_mount	Birch Fish Mount
+aquaculture:blackfish	Blackfish
+aquaculture:bluegill	Bluegill
+aquaculture:bobber	Aquaculture Bobber
+aquaculture:boulti	Boulti
+aquaculture:box_turtle	Box Turtle
+aquaculture:brown_shrooma	Brown Shrooma
+aquaculture:brown_trout	Brown Trout
+aquaculture:capitaine	Capitaine
+aquaculture:carp	Carp
+aquaculture:catfish	Catfish
+aquaculture:dark_oak_fish_mount	Dark Oak Fish Mount
+aquaculture:gar	Gar
+aquaculture:jellyfish	Jellyfish
+aquaculture:jungle_fish_mount	Jungle Fish Mount
+aquaculture:minnow	Minnow
+aquaculture:muskellunge	Muskellunge
+aquaculture:oak_fish_mount	Oak Fish Mount
+aquaculture:pacific_halibut	Pacific Halibut
+aquaculture:perch	Perch
+aquaculture:pink_salmon	Pink Salmon
+aquaculture:piranha	Piranha
+aquaculture:pollock	Pollock
+aquaculture:rainbow_trout	Rainbow Trout
+aquaculture:red_grouper	Red Grouper
+aquaculture:red_shrooma	Red Shrooma
+aquaculture:smallmouth_bass	Smallmouth Bass
+aquaculture:spruce_fish_mount	Spruce Fish Mount
+aquaculture:starshell_turtle	Starshell Turtle
+aquaculture:synodontis	Synodontis
+aquaculture:tambaqui	Tambaqui
+aquaculture:tuna	Tuna
+aquaculture:water_arrow	Arrow
+aquamirae:abyssal_scyphoid	Abyssal Scyphoid
+aquamirae:anglerfish	Anglerfish
+aquamirae:captain_cornelia	§dGhost of Captain Cornelia
+aquamirae:eel	Eel
+aquamirae:golden_moth	§eGolden Moth
+aquamirae:maw	Maw
+aquamirae:maze_mother	Mother of the Maze
+aquamirae:maze_rose	Maze Rose
+aquamirae:pillagers_patrol	Pillagers Patrol
+aquamirae:poisoned_chakra	Poisoned Chakra
+aquamirae:spinefish	Spinefish
+aquamirae:tortured_soul	Tortured Soul
+archers:spirit_wolf	Spirit Wolf
+armourers_workshop:mannequin	Mannequin
+ars_elemental:air_mage	Rogue Air Mage
+ars_elemental:dripstone_spike	Earth Spike
+ars_elemental:earth_mage	Rogue Earth Mage
+ars_elemental:fire_mage	Rogue Fire Mage
+ars_elemental:firenando_entity	Flarecannon
+ars_elemental:firenando_familiar	Flarecannon Familiar
+ars_elemental:flashing_weald_walker	Flashing Weald Walker
+ars_elemental:homing_projectile	Homing Projectile
+ars_elemental:ice_spike	Ice Spike
+ars_elemental:lerp	Interpolated Source Effect
+ars_elemental:linger_magnet	Gravity Well
+ars_elemental:siren_entity	Siren
+ars_elemental:siren_familiar	Siren Familiar
+ars_elemental:summon_camel	Summoned Camel
+ars_elemental:summon_direwolf	Summoned Direwolf
+ars_elemental:summon_dolphin	Summoned Dolphin
+ars_elemental:summon_skelehorse	Summoned Skeletal Steed
+ars_elemental:summon_strider	Summoned Strider
+ars_elemental:summon_vhex	Summoned Vhex
+ars_elemental:summon_wskeleton	Summoned Revenant
+ars_elemental:water_mage	Rogue Water Mage
+ars_nouveau:ally_vex	Summoned Vex
+ars_nouveau:amethyst_golem	Amethyst Golem
+ars_nouveau:an_lightning	Lightning
+ars_nouveau:animated_block	Animated Block
+ars_nouveau:animated_head	Animated Head
+ars_nouveau:arcing_spell_proj	Arc Spell Projectile
+ars_nouveau:blazing_weald_walker	Blazing Weald Walker
+ars_nouveau:bookwyrm	Bookwyrm
+ars_nouveau:cascading_weald_walker	Cascading Weald Walker
+ars_nouveau:drygmy	Drygmy
+ars_nouveau:dummy	Dummy
+ars_nouveau:enchanted_falling_block	Enchanted Falling Block
+ars_nouveau:enchanted_head_block	Enchanted Falling Block
+ars_nouveau:enchanted_mage_block	Enchanted Falling Block
+ars_nouveau:familiar_amethyst_golem	Amethyst Golem Familiar
+ars_nouveau:familiar_bookwyrm	Bookwyrm Familiar
+ars_nouveau:familiar_drygmy	Drygmy Familiar
+ars_nouveau:familiar_jabberwog	Familiar Jabberwog
+ars_nouveau:familiar_starbuncle	Starbuncle Familiar
+ars_nouveau:familiar_whirlisprig	Whirlisprig Familiar
+ars_nouveau:familiar_wixie	Wixie Familiar
+ars_nouveau:fangs	Fangs
+ars_nouveau:flourishing_weald_walker	Flourishing Weald Walker
+ars_nouveau:flying_item	Flying Item
+ars_nouveau:follow_proj	Projectile
+ars_nouveau:gift_starby	Starbuncle
+ars_nouveau:homing_spell_proj	Homing Spell Projectile
+ars_nouveau:lily	Lily
+ars_nouveau:linger	Linger
+ars_nouveau:orbit	Orbit
+ars_nouveau:ritual	Ritual
+ars_nouveau:scryer_camera	Scryer Camera
+ars_nouveau:spell_arrow	Spell Arrow
+ars_nouveau:spell_proj	Spell Projectile
+ars_nouveau:spike	Chimera Spike
+ars_nouveau:starbuncle	Starbuncle
+ars_nouveau:summon_horse	Summoned Horse
+ars_nouveau:summon_skeleton	Summoned Skeleton
+ars_nouveau:summon_wolf	Summoned Wolf
+ars_nouveau:vexing_weald_walker	Vexing Weald Walker
+ars_nouveau:whirlisprig	Whirlisprig
+ars_nouveau:wilden_boss	Wilden Chimera
+ars_nouveau:wilden_guardian	Wilden Defender
+ars_nouveau:wilden_hunter	Wilden Hunter
+ars_nouveau:wilden_stalker	Wilden Stalker
+ars_nouveau:wixie	Wixie
+artifacts:mimic	Mimic
+astikorcartsredux:animal_cart	Animal Cart
+astikorcartsredux:hand_cart	Hand Cart
+astikorcartsredux:plow	Plow
+astikorcartsredux:reaper	Reaper
+astikorcartsredux:seed_drill	Seed Drill
+astikorcartsredux:supply_cart	Supply Cart
+atmospheric:cochineal	Cochineal
+atmospheric:orange_vapor_cloud	Orange Vapor Cloud
+atmospheric:passion_fruit_seed	Passion Fruit Seed
+atmospheric:tetra	Tetra
+autumnity:boat	Boat
+autumnity:snail	Snail
+autumnity:turkey	Turkey
+autumnity:turkey_egg	Thrown Turkey Egg
+avaritia:blade_slash	Blade Slash
+avaritia:burning_arrow	Burning Arrow
+avaritia:burning_ball	Burning Ball
+avaritia:endest_pearl	Endest Pearl
+avaritia:fire_ball	Fire Ball
+avaritia:heaven_arrow	Heaven Arrow
+avaritia:infinity_thrown_trident	Infinity Thrown Trident
+avaritia:neutron_arrow	Neutron Arrow
+avaritia:rain_pro	Rain Pro
+avaritia:storm_pro	Storm Pro
+avaritia:sun_pro	Sun Pro
+avaritia:trace_arrow	Trace Arrow
+barrel:working	The barrel is working!
+beachparty:beach_ball	Beach Ball
+beachparty:floaty_boat	Floaty Boat
+beachparty:floaty_chest_boat	Floaty Chest Boat
+beachparty:palm_boat	Palm Boat
+beachparty:palm_chest_boat	Palm Chest Boat
+beekeeper:messagenobees	I can't find any bees!
+beekeeper:messagenohives	Either there are no hives for me to work at, or you haven't assigned me any. Use the hive tool available from my hut to do so.
+biomancy:chroma_sheep	Chroma Sheep
+biomancy:flesh_blob	Flesh Blob
+biomancy:flesh_chicken	Flesh Chicken
+biomancy:flesh_cow	Flesh Cow
+biomancy:flesh_pig	Flesh Pig
+biomancy:flesh_sheep	Flesh Sheep
+biomancy:hungry_flesh_blob	Hungry Flesh Blob
+biomancy:legacy_flesh_blob	Legacy Flesh Blob
+biomancy:primordial_flesh_blob	Primordial Flesh Blob
+biomancy:primordial_hungry_flesh_blob	Primordial Hungry Flesh Blob
+biomancy:thick_fur_sheep	Thick Fur Sheep
+biomesoplenty:boat	Boat
+biomesoplenty:chest_boat	Boat with Chest
+biomeswevegone:boat	Boat
+biomeswevegone:chest_boat	Boat with Chest
+biomeswevegone:man_o_war	Man O' War
+biomeswevegone:oddion	Oddion
+biomeswevegone:pumpkin_warden	Pumpkin Warden
+bits_n_bobs:inert_stationary_contraption	Inert Stationary Contraption
+bloomingnature:termite	Termite
+bloomingnature:wandering_gardener	Wandering Gardener
+blue_skies:alchemist	Alchemist
+blue_skies:arachnarch	Arachnarch
+blue_skies:armored_frost_spirit	Armored Frost Spirit
+blue_skies:artificial_golem	Artificial Golem
+blue_skies:azulfo	Azulfo
+blue_skies:charscale_moki	Charscale Moki
+blue_skies:cosmic_fox	Cosmic Fox
+blue_skies:crogre	Crogre
+blue_skies:crynocerous	Crynoceros
+blue_skies:crystal_camel	Crystal Camel
+blue_skies:decaying_spike	Falling Spike
+blue_skies:diophyde_prowler	Diophyde Prowler
+blue_skies:emberback	Emberback
+blue_skies:ent_leaf	Starlit Leaf
+blue_skies:ent_root	Starlit Root
+blue_skies:ent_wall	Starlit Wall
+blue_skies:firefly	Firefly
+blue_skies:fluctuant_sphere	Fluctuant Sphere
+blue_skies:frost_spirit	Frost Spirit
+blue_skies:gatekeeper	Gatekeeper
+blue_skies:grittle_flatfish	Grittle Flatfish
+blue_skies:horizofin_tunid	Horizofin Tunid
+blue_skies:infested_swarmer	Infested Swarmer
+blue_skies:jelly_drifter	Jelly Drifter
+blue_skies:municipal_monkfish	Municipal Monkfish
+blue_skies:nested_spider	Nested Spider
+blue_skies:nyctofly	Nyctofly
+blue_skies:polargeist	Polargeist
+blue_skies:reindeer	Reindeer
+blue_skies:seclam	Seclam
+blue_skies:seed_bomb	Seed Bomb
+blue_skies:shade_monitor	Shade Monitor
+blue_skies:shrumpty	Shrumpty
+blue_skies:sliv	Sliv
+blue_skies:snow_owl	Snow Owl
+blue_skies:spewter	Spewter
+blue_skies:stardust_ram	Stardust Ram
+blue_skies:starlit_crusher	Starlit Crusher
+blue_skies:stonelet	Stonelet
+blue_skies:strange_lightning	Strange Lightning
+blue_skies:summoner	Summoner
+blue_skies:supporter_pet	Supporter Pet
+blue_skies:venom_bomb	Venom Bomb
+blue_skies:venom_spider	Venom Spider
+blue_skies:venom_spit	Venom Spit
+blue_skies:whistleshell_crab	Whistleshell Crab
+blueprint:boat	Boat
+blueprint:chest_boat	Boat with Chest
+blueprint:falling_block	Falling Block
+boatload:furnace_boat	Boat with Furnace
+boatload:large_boat	Large Boat
+born_in_chaos_v1:baby_skeleton	Baby Skeleton
+born_in_chaos_v1:baby_skeleton_minion	Baby Skeleton
+born_in_chaos_v1:baby_spider	Baby Spider
+born_in_chaos_v1:baby_spider_controlled	Baby Spider
+born_in_chaos_v1:barrel_zombie	Barrel Zombie
+born_in_chaos_v1:bloody_gadfly	Bloody Gadfly
+born_in_chaos_v1:bone_imp	Bone Imp
+born_in_chaos_v1:bone_imp_minion	Bone Imp
+born_in_chaos_v1:bonescaller	Bonescaller
+born_in_chaos_v1:bonescaller_not_despawn	Bonescaller
+born_in_chaos_v1:controlled_baby_skeleton	Controlled Baby Skeleton
+born_in_chaos_v1:controlled_spiritual_assistant	Controlled Baby Skeleton
+born_in_chaos_v1:corpse_fish	Corpse Fish
+born_in_chaos_v1:corpse_fly	Corpse Fly
+born_in_chaos_v1:dark_vortex	Dark Vortex
+born_in_chaos_v1:decaying_zombie	Decaying Zombie
+born_in_chaos_v1:decaying_zombie_not_despawn	Decaying Zombie
+born_in_chaos_v1:decrepit_skeleton	Decrepit Skeleton
+born_in_chaos_v1:diamond_termite	Diamond Termite
+born_in_chaos_v1:dire_hound_leader	Dire Hound Leader
+born_in_chaos_v1:door_knight	Door Knight
+born_in_chaos_v1:door_knight_not_despawn	Door Knight
+born_in_chaos_v1:dread_hound	Dread Hound
+born_in_chaos_v1:dread_hound_not_despawn	Dread Hound
+born_in_chaos_v1:fallen_chaos_knight	Fallen Chaos Knight
+born_in_chaos_v1:felsteed	Felsteed
+born_in_chaos_v1:firelight	Firelight
+born_in_chaos_v1:firelight_not_despawn	Firelight
+born_in_chaos_v1:glutton_fish	Glutton Fish
+born_in_chaos_v1:infernal_spirit	Infernal Spirit
+born_in_chaos_v1:krampus	Krampus
+born_in_chaos_v1:krampus_henchman	Krampus Henchman
+born_in_chaos_v1:lifestealer	Lifestealer
+born_in_chaos_v1:lifestealer_true_form	Lifestealer
+born_in_chaos_v1:lord_pumpkinhead	§aLord Pumpkinhead
+born_in_chaos_v1:lord_pumpkinhead_head	§aLord Pumpkinhead
+born_in_chaos_v1:lord_pumpkinhead_withouta_horse	§aLord Pumpkinhead
+born_in_chaos_v1:lord_the_headless	§aLord The Headless
+born_in_chaos_v1:lords_felsteed	§aLord\u0027s Felsteed
+born_in_chaos_v1:maggot	Corpse Maggot
+born_in_chaos_v1:minibosseswarning	§cSomething powerful is invading this world...
+born_in_chaos_v1:missionary_raider	Missionary
+born_in_chaos_v1:missioner	Missionary
+born_in_chaos_v1:mother_spider	Spiders Mother
+born_in_chaos_v1:mr_pumpkin	Mr. Pumpkin
+born_in_chaos_v1:mr_pumpkin_controlled	Mr. Pumpkin
+born_in_chaos_v1:mrs_pumpkin	Mrs Pumpkin
+born_in_chaos_v1:nightmare_stalker	Nightmare Stalker
+born_in_chaos_v1:phantom_bomb_entity	Phantom Bomb
+born_in_chaos_v1:phantom_creeper	Phantom Creeper
+born_in_chaos_v1:phantom_creeper_copy	Phantom Creeper
+born_in_chaos_v1:pumpkin_bomb	Pumpkin Bomb
+born_in_chaos_v1:pumpkin_bruiser	Pumpkin Bruiser
+born_in_chaos_v1:pumpkin_dunce	Pumpkin Dunce
+born_in_chaos_v1:pumpkin_spirit	Pumpkin Spirit
+born_in_chaos_v1:pumpkinhead	Pumpkinhead
+born_in_chaos_v1:restless_spirit	Restless Spirit
+born_in_chaos_v1:riding_felsteed	Felsteed
+born_in_chaos_v1:riding_lords_felsteed	Felsteed
+born_in_chaos_v1:scarlet_persecutor	Scarlet Persecutor
+born_in_chaos_v1:seared_spirit	Seared Spirit
+born_in_chaos_v1:seared_spirit_not_despawn	Seared Spirit
+born_in_chaos_v1:senor_pumpkin	Senor Pumpkin
+born_in_chaos_v1:siamese_skeletons	Siamese Skeletons
+born_in_chaos_v1:siamese_skeletonsleft	Siamese Skeleton
+born_in_chaos_v1:siamese_skeletonsright	Siamese Skeleton
+born_in_chaos_v1:sir_pumpkinhead	Sir Pumpkinhead
+born_in_chaos_v1:sir_pumpkinhead_without_horse	Sir Pumpkinhead
+born_in_chaos_v1:sir_the_headless	Sir The Headless
+born_in_chaos_v1:skeleton_demoman	Skeleton Demoman
+born_in_chaos_v1:skeleton_thrasher	Skeleton Thrasher
+born_in_chaos_v1:skeleton_thrasher_not_despawn	Skeleton Thrasher
+born_in_chaos_v1:spirit_guide	Spirit Guide
+born_in_chaos_v1:spirit_guide_assistant	Spirit Guide Assistant
+born_in_chaos_v1:spiritof_chaos	Spirit of Chaos
+born_in_chaos_v1:stalkerwarning	§cYou feel like something is chasing you...
+born_in_chaos_v1:supreme_bonescaller	Supreme Bonescaller
+born_in_chaos_v1:supreme_bonescaller_not_despawn	Supreme Bonescaller
+born_in_chaos_v1:supreme_bonescaller_stage_2	Supreme Bonescaller
+born_in_chaos_v1:swarmer	Swarmer
+born_in_chaos_v1:thornshell_crab	Thornshell Crab
+born_in_chaos_v1:zombie_bruiser	Zombie Bruiser
+born_in_chaos_v1:zombie_clown	Zombie Clown
+born_in_chaos_v1:zombie_clown_not_despawn	Zombie Clown
+born_in_chaos_v1:zombie_fisherman	Zombie Fisherman
+born_in_chaos_v1:zombie_lumberjack	Zombie Lumberjack
+bosses_of_mass_destruction:blue_fireball	Blue Fireball
+bosses_of_mass_destruction:comet	Comet
+bosses_of_mass_destruction:gauntlet	Nether Gauntlet
+bosses_of_mass_destruction:lich	Night Lich
+bosses_of_mass_destruction:obsidilith	Obsidilith
+bosses_of_mass_destruction:petal_blade	Petal Blade
+bosses_of_mass_destruction:soul_star	Soul Star
+bosses_of_mass_destruction:spore_ball	Spore
+bosses_of_mass_destruction:void_blossom	Void Blossom
+botania:babylon_weapon	Treasury Weapon
+botania:corporea_spark	Corporea Spark
+botania:doppleganger	Guardian of Gaia
+botania:ender_air	Ender Air Cloud
+botania:ender_air_bottle	Bottle of Ender Air
+botania:falling_star	Falling Star
+botania:flame_ring	Flame Ring
+botania:magic_landmine	Gaia Trap
+botania:magic_missile	Magic Missile
+botania:mana_burst	Mana Burst
+botania:mana_storm	Manastorm Epicenter
+botania:pink_wither	Pink Wither
+botania:pixie	Pixie
+botania:player_mover	Luminizer Beam
+botania:pool_minecart	Mana Pool Minecart
+botania:spark	Spark
+botania:thorn_chakram	Thorn Chakram
+botania:thrown_item	Thrown Item
+botania:vine_ball	Vine Ball
+builder:cantdeconstruct	This building can't be deconstructed!
+builder:inventoryfull	Building inventory is full, could not insert %s
+builder:messagebuildcomplete	Completed building %s on the %s side of the colony.
+builder:messagebuildernecessary	This building requires a Builder's Hut of level %d or higher to be upgraded, repaired, or deconstructed!
+builder:messagebuilderstoofar	There is no Builder close enough to work on this building! Assign a Builder to it manually in the build screen or build it closer to the existing Builders.
+builder:messagebuildmanualfinish	\n\u00a7fYou can assign me another task now!
+builder:messagebuildstart	I've started work on %s!
+builder:messagebuildtoohigh	%s is too high! Please lower the building below Y %s.
+builder:messagebuildtoolow	%s is too low! Please raise the building above Y %s.
+builder:messageneedmaterial	I need %s (amount: %d).
+builder:messagenobuilder	You need a Builder to build or upgrade this building.
+builder:messageremovalcomplete	Completed deconstruction %s on the %s side of the colony. \u00a76To move the building, use the 'Pick Up' button in the building's 'Build Options' GUI.
+builder:messagerepaircomplete	Completed repair of %s on the %s side of the colony.
+buzzier_bees:grizzly_bear	Grizzly Bear
+buzzier_bees:moobloom	Moobloom
+bygonenether:corpor	Corpor
+bygonenether:piglin_hunter	Piglin Hunter
+bygonenether:piglin_prisoner	Piglin Prisoner
+bygonenether:warped_enderman	Warped Enderman
+bygonenether:wex	Wex
+bygonenether:wither_skeleton_horse	Wither Skeleton Horse
+bygonenether:wither_skeleton_knight	Wither Skeleton Knight
+bygonenether:wraither	Wraither
+car:car	Car
+cataclysm:abyss_blast	Abyss Blast
+cataclysm:abyss_blast_portal	Abyss Blast Portal
+cataclysm:abyss_mine	Abyss Mine
+cataclysm:abyss_orb	Abyss Orb
+cataclysm:abyss_portal	Abyss Portal
+cataclysm:amethyst_cluster_projectile	Amethyst Cluster
+cataclysm:amethyst_crab	Amethyst Crab
+cataclysm:ancient_ancient_remnant	Ancient Ancient Remnant
+cataclysm:ancient_desert_stele	Ancient Desert Stele
+cataclysm:ancient_remnant	Ancient Remnant
+cataclysm:aptrgangr	Aptrgangr
+cataclysm:ashen_breath	Ashen Breath
+cataclysm:axe_blade	Axe Blade
+cataclysm:bolt_strike	Bolt Strike
+cataclysm:cindaria	Cindaria
+cataclysm:clawdian	Clawdian
+cataclysm:cm_falling_block	Cataclysm Falling Block
+cataclysm:coral_bardiche	Coral Bardiche
+cataclysm:coral_golem	Coral Golem
+cataclysm:coral_spear	Coral Spear
+cataclysm:coralssus	Coralssus
+cataclysm:death_laser_beam	Death Laser Beam
+cataclysm:deepling	Deepling
+cataclysm:deepling_angler	Deepling Angler
+cataclysm:deepling_brute	Deepling Brute
+cataclysm:deepling_priest	Deepling Priest
+cataclysm:deepling_warlock	Deepling Warlock
+cataclysm:dimensional_rift	Dimensional Rift
+cataclysm:draugr	Draugr
+cataclysm:drowned_host	Drowned Host
+cataclysm:earthquake	Earthquake
+cataclysm:elite_draugr	Elite Draugr
+cataclysm:ender_golem	Ender Golem
+cataclysm:ender_guardian	Ender Guardian
+cataclysm:ender_guardian_bullet	Ender Guardian Bullet
+cataclysm:endermaptera	Endermaptera
+cataclysm:flame_jet	Flame Jet
+cataclysm:flame_strike	Flame Strike
+cataclysm:flare_bomb	Flare Bomb
+cataclysm:hippocamtus	Hippocamtus
+cataclysm:ignis	Ignis
+cataclysm:ignis_abyss_fireball	Ignis' Abyss Fireball
+cataclysm:ignis_fireball	Ignis' Fireball
+cataclysm:ignited_berserker	Ignited Berserker
+cataclysm:ignited_revenant	Ignited Revenant
+cataclysm:kobolediator	Kobolediator
+cataclysm:koboleton	Koboleton
+cataclysm:laser_beam	Laser Beam
+cataclysm:lava_bomb	Lava Bomb
+cataclysm:lightning_area_effect	Lightning Area Effect
+cataclysm:lightning_spear	Lightning Spear
+cataclysm:lightning_storm	Lightning Storm
+cataclysm:lionfish	Lionfish
+cataclysm:lionfish_spike	Lionfish's Spike
+cataclysm:maledictus	Maledictus
+cataclysm:mini_abyss_blast	Mini Abyss Blast
+cataclysm:modern_remnant	Modern Remnant
+cataclysm:nameless_sorcerer	Nameless Sorcerer(W.I.P)
+cataclysm:netherite_ministrosity	Netherite Ministrosity
+cataclysm:netherite_monstrosity	Netherite Monstrosity
+cataclysm:octo_ink	Octo Ink
+cataclysm:old_netherite_monstrosity	Old Netherite Monstrosity
+cataclysm:onyx	Onyx
+cataclysm:phantom_arrow	Phantom Arrow
+cataclysm:phantom_halberd	Phantom Halberd
+cataclysm:porta_abyss_blast	Abyss Blast
+cataclysm:portal_abyss_blast	Portal's Abyss Blast
+cataclysm:rage_meter	
+cataclysm:royal_draugr	Royal Draugr
+cataclysm:sandstorm	Sandstorm
+cataclysm:sandstorm_projectile	Sandstorm Projectile
+cataclysm:scylla	Scylla
+cataclysm:scylla_ceraunus	Ceraunus
+cataclysm:storm_serpent	Storm Serpent
+cataclysm:symbiocto	Symbiocto
+cataclysm:the_baby_leviathan	The Baby Leviathan
+cataclysm:the_harbinger	The Harbinger
+cataclysm:the_leviathan	The Leviathan
+cataclysm:the_leviathan_immune	The Leviathan is invincible outside of water!
+cataclysm:the_prowler	The Prowler
+cataclysm:the_watcher	The Watcher
+cataclysm:tidal_hook	Tidal Hook
+cataclysm:tidal_tentacle	Tidal Tentacle
+cataclysm:urchinkin	Urchinkin
+cataclysm:void_howitzer	Void Howitzer
+cataclysm:void_rune	Void Rune
+cataclysm:void_scatter_arrow	Void Scatter Arrow
+cataclysm:void_shard	Void Shard
+cataclysm:void_vortex	Void Vortex
+cataclysm:wadjet	Wadjet
+cataclysm:water_spear	Water Spear
+cataclysm:wave	Wave
+cataclysm:wither_homing_missile	Wither Homing Missile
+cataclysm:wither_howitzer	Wither Howitzer
+cataclysm:wither_missile	Wither Missile
+cataclysm:wither_smoke_effect	Wither Smoke
+cataclysm:you_cant_escape	You can't escape
+cavalry:nohorse	No trained horses are ready for me to ride.
+caverns_and_chasms:blunt_arrow	Blunt Arrow
+caverns_and_chasms:cavefish	Cavefish
+caverns_and_chasms:copper_golem	Copper Golem
+caverns_and_chasms:deeper	Deeper
+caverns_and_chasms:evendeeper	Evendeeper
+caverns_and_chasms:fly	Fly
+caverns_and_chasms:glare	Glare
+caverns_and_chasms:grazer	Grazer
+caverns_and_chasms:kunai	Kunai
+caverns_and_chasms:large_arrow	Large Arrow
+caverns_and_chasms:lost_goat	Lost Goat
+caverns_and_chasms:mime	Mime
+caverns_and_chasms:oxidized_copper_golem	Oxidized Copper Golem
+caverns_and_chasms:peeper	Peeper
+caverns_and_chasms:rat	Rat
+caverns_and_chasms:ricochet_arrow	Ricochet Arrow
+caverns_and_chasms:saddled_grazer	Saddled Grazer
+caverns_and_chasms:spinel_pearl	Thrown Spinel Pearl
+caverns_and_chasms:tmt	Primed TMT
+caverns_and_chasms:tmt_minecart	Minecart with TMT
+cobblemon:empty_pokeball	Empty Poké Ball
+composter:noitems	Please define a list of items to be composted!
+corpse:corpse	Corpse
+corpse:corpse_of	Corpse of %s
+create:carriage_contraption	Carriage Contraption
+create:contraption	Contraption
+create:crafting_blueprint	Crafting Blueprint
+create:gantry_contraption	Gantry Contraption
+create:package	Package
+create:potato_projectile	Potato Projectile
+create:seat	Seat
+create:stationary_contraption	Stationary Contraption
+create:super_glue	Super Glue
+create_confectionery:little_gingerbread_man	Gingerbread Man
+create_enchantment_industry:hyper_experience_bottle	Thrown Bottle O' Hyper Enchanting
+create_enchantment_industry:hyper_experience_orb	Hyper Experience Orb
+create_sa:brass_cube_r	Brass Cube
+create_sa:brass_drone	Brass Drone
+create_sa:drill_module	Drill Module
+create_sa:fan_module	Fan Module
+create_sa:lifted_block	Lifted Block
+create_sa:magnet_module	Magnet Module
+create_sa:vault_module	Vault Module
+createbigcannons:ap_autocannon	Armor Piercing (AP) Autocannon Round
+createbigcannons:ap_shell	Armor Piercing (AP) Shell
+createbigcannons:ap_shot	Armor Piercing (AP) Shot
+createbigcannons:bag_of_grapeshot	Bag Of Grapeshot
+createbigcannons:cannon_carriage	Cannon Carriage
+createbigcannons:drop_mortar_shell	Drop Mortar Shell
+createbigcannons:flak_autocannon	Flak Autocannon Round
+createbigcannons:flak_burst	Flak Burst
+createbigcannons:fluid_blob_burst	Fluid Blob Burst
+createbigcannons:fluid_shell	Fluid Shell
+createbigcannons:gas_cloud	Gas Cloud
+createbigcannons:grapeshot_burst	Grapeshot Burst
+createbigcannons:he_shell	High Explosive (HE) Shell
+createbigcannons:machine_gun_bullet	Machine Gun Bullet
+createbigcannons:mortar_stone	Mortar Stone
+createbigcannons:pitch_contraption	Pitch Contraption
+createbigcannons:primed_propellant	Primed Propellant
+createbigcannons:shot	Shot
+createbigcannons:shrapnel_burst	Shrapnel Burst
+createbigcannons:shrapnel_shell	Shrapnel Shell
+createbigcannons:smoke_emitter	Smoke Emitter
+createbigcannons:smoke_shell	Smoke Shell
+createbigcannons:traffic_cone	Traffic Cone
+createdieselgenerators:chemical_sprayer_projectile	Chemical Sprayer Projectile
+creeperoverhaul:badlands_creeper	Badlands Creeper
+creeperoverhaul:bamboo_creeper	Bamboo Creeper
+creeperoverhaul:beach_creeper	Beach Creeper
+creeperoverhaul:cave_creeper	Cave Creeper
+creeperoverhaul:dark_oak_creeper	Dark Oak Creeper
+creeperoverhaul:desert_creeper	Desert Creeper
+creeperoverhaul:dripstone_creeper	Dripstone Creeper
+creeperoverhaul:hills_creeper	Hills Creeper
+creeperoverhaul:jungle_creeper	Jungle Creeper
+creeperoverhaul:mushroom_creeper	Mushroom Creeper
+creeperoverhaul:ocean_creeper	Ocean Creeper
+creeperoverhaul:savannah_creeper	Savannah Creeper
+creeperoverhaul:snowy_creeper	Snowy Creeper
+creeperoverhaul:spruce_creeper	Spruce Creeper
+creeperoverhaul:swamp_creeper	Swamp Creeper
+crittersandcompanions:dragonfly	Dragonfly
+crittersandcompanions:dumbo_octopus	Dumbo Octopus
+crittersandcompanions:ferret	Ferret
+crittersandcompanions:grappling_hook	Grappling Hook
+crittersandcompanions:jumping_spider	Jumping Spider
+crittersandcompanions:koi_fish	Koi Fish
+crittersandcompanions:ladybug	Ladybug
+crittersandcompanions:leaf_insect	Leaf Insect
+crittersandcompanions:otter	Otter
+crittersandcompanions:red_panda	Red Panda
+crittersandcompanions:roly_poly	Roly-Poly
+crittersandcompanions:sea_bunny	Sea Bunny
+crittersandcompanions:shima_enaga	Shima Enaga
+crittersandcompanions:snail	Snail
+crittersandcompanions:stag_beetle	Stag Beetle
+crittersandcompanions:stick_bug	Stick Bug
+crittersandcompanions:weevil	Acorn Weevil
+deep_aether:aerglow_fish	Aerglow Fish
+deep_aether:baby_zephyr	Baby Zephyr
+deep_aether:boat	Boat
+deep_aether:chest_boat	Boat With Chest
+deep_aether:eots_controller	Eye of the Storm
+deep_aether:eots_segment	Eye of the Storm
+deep_aether:fire_projectile	Fire Projectile
+deep_aether:gentle_wind	Gentle Wind
+deep_aether:quail	Quail
+deep_aether:storm_arrow	Storm Arrow
+deep_aether:venomite	Venomite
+deep_aether:venomite_bubble	Venomite Bubble
+deep_aether:wind_crystal	Wind Crystal
+deeperdarker:angler_fish	Angler Fish
+deeperdarker:boat	Boat
+deeperdarker:chest_boat	Boat with Chest
+deeperdarker:sculk_centipede	Sculk Centipede
+deeperdarker:sculk_leech	Sculk Leech
+deeperdarker:sculk_snapper	Sculk Snapper
+deeperdarker:shattered	Shattered
+deeperdarker:shriek_worm	Shriek Worm
+deeperdarker:sludge	Sludge
+deeperdarker:stalker	Stalker
+deliveryman:forcepickup	A courier will come along and do a pickup shortly!
+deliveryman:forcepickupfailed	Unable to comply, pickup already in progress!
+domesticationinnovation:chain_lightning	Lightning
+domesticationinnovation:feather	Feather
+domesticationinnovation:following_jukebox	Floating Jukebox
+domesticationinnovation:psychic_wall	Psychic Wall
+domesticationinnovation:recall_ball	Recall Orb
+draconicevolution:draconic_arrow	Draconic Arrow
+draconicevolution:draconic_guardian	Chaos Guardian
+draconicevolution:guardian_crystal	Guardian Crystal
+draconicevolution:guardian_projectile	Guardian Projectile
+draconicevolution:guardian_wither	Guardian Wither
+draconicevolution:persistent_item	Persistent Item
+dragonmounts:dragon	Dragon
+dragonsurvival:hunter_hound	Knight Hound
+dragonsurvival:knight	Armored Knight
+dragonsurvival:prince	Prince
+dragonsurvival:princess	Princess on horse
+dragonsurvival:princess_entity	Princess
+dragonsurvival:shooter	Hunter
+dragonsurvival:squire	Squire
+dummmmmmy:target_dummy	Target Dummy
+ecologics:boat	Boat
+ecologics:camel	Camel
+ecologics:chest_boat	Boat with Chest
+ecologics:coconut_crab	Coconut Crab
+ecologics:penguin	Penguin
+ecologics:squirrel	Squirrel
+eeeabsmobs:alien_portal	Alien Portal
+eeeabsmobs:annihilator_missile	Annihilator Missile
+eeeabsmobs:blood_ball	Blood Ball
+eeeabsmobs:camera_shake	Camera Shake
+eeeabsmobs:corpse	Corpse
+eeeabsmobs:corpse_to_player	Corpse Minion
+eeeabsmobs:corpse_villager	Corpse Villager
+eeeabsmobs:corpse_warlock	Corpse Warlock
+eeeabsmobs:crimson_crack	Crimson Crack
+eeeabsmobs:crimson_ray	Crimson Ray
+eeeabsmobs:crimson_ray_pre	Crimson Ray
+eeeabsmobs:electromagnetic	Electromagnetic
+eeeabsmobs:explode	Explode
+eeeabsmobs:eye_of_structure	Eye Of Structure
+eeeabsmobs:falling_block	Falling Block
+eeeabsmobs:guardian_blade	Guardian Blade
+eeeabsmobs:guardian_laser	Guardian Laser
+eeeabsmobs:immortal	The Immortal
+eeeabsmobs:immortal_archer	Immortal Skeleton(Archer)
+eeeabsmobs:immortal_executioner	Immortal Executioner
+eeeabsmobs:immortal_golem	Immortal Golem
+eeeabsmobs:immortal_knight	Immortal Skeleton(Knight)
+eeeabsmobs:immortal_laser	Immortal Laser
+eeeabsmobs:immortal_mage	Immortal Skeleton(Mage)
+eeeabsmobs:immortal_magic_circle	Immortal Rune Circle
+eeeabsmobs:immortal_shaman	Immortal Shaman
+eeeabsmobs:immortal_shuriken	Immortal Shuriken
+eeeabsmobs:immortal_skeleton	Immortal Skeleton
+eeeabsmobs:immortal_warrior	Immortal Skeleton(Warrior)
+eeeabsmobs:nameless_guardian	Nameless Guardian
+eeeabsmobs:poison_arrow	Poison Arrow
+eeeabsmobs:pulsed_grenade	Pulsed Grenade
+eeeabsmobs:realm_warden	Realmwarden
+eeeabsmobs:relic_annihilator	Relic Annihilator
+eeeabsmobs:relic_earthshaker	Relic Earthshaker
+eeeabsmobs:relic_observer	Relic Observer
+eeeabsmobs:relic_ripper	Relic Ripper
+eeeabsmobs:shaman_bomb	Shaman Bomb
+eeeabsmobs:surge	Surge
+eeeabsmobs:tester	Tester
+eidolon:bonechill_projectile	Bonechill Projectile
+eidolon:chant_caster	Chant Caster
+eidolon:giant_skeleton	Giant Skeleton
+eidolon:necromancer	Necromancer
+eidolon:raven	Raven
+eidolon:slimy_slug	Slug
+eidolon:soulfire_projectile	Soulfire Projectile
+eidolon:wraith	Wraith
+eidolon:zombie_brute	Zombie Brute
+embers:ancient_golem	Ancient Golem
+embers:ember_packet	Ember Packet
+embers:ember_projectile	Ember Projectile
+embers:glimmer_projectile	Glimmer Projectile
+endergetic:bolloom_balloon	Bolloom Balloon
+endergetic:bolloom_fruit	Bolloom Fruit
+endergetic:bolloom_knot	Bolloom Knot
+endergetic:boof_block	Boof Block
+endergetic:booflo	Booflo
+endergetic:booflo_adolescent	Booflo Adolescent
+endergetic:booflo_baby	Booflo Baby
+endergetic:brood_eetle	Brood Eetle
+endergetic:charger_eetle	Charger Eetle
+endergetic:eetle_egg	Eetle Egg
+endergetic:glider_eetle	Glider Eetle
+endergetic:poise_cluster	Poise Cluster
+endergetic:puff_bug	Puff Bug
+endergetic:purpoid	Purpoid
+enderio:painted_sand	Painted Sand
+endermanoverhaul:ancient_pearl	Ancient Pearl
+endermanoverhaul:axolotl_pet_enderman	Axolotl Pet Enderman
+endermanoverhaul:badlands_enderman	Badlands Enderman
+endermanoverhaul:bubble_pearl	Bubble Pearl
+endermanoverhaul:cave_enderman	Cave Enderman
+endermanoverhaul:coral_enderman	Coral Enderman
+endermanoverhaul:corrupted_pearl	Corrupted Pearl
+endermanoverhaul:crimson_forest_enderman	Crimson Forest Enderman
+endermanoverhaul:crimson_pearl	Crimson Pearl
+endermanoverhaul:dark_oak_enderman	Dark Oak Enderman
+endermanoverhaul:desert_enderman	Desert Enderman
+endermanoverhaul:end_enderman	End Enderman
+endermanoverhaul:end_islands_enderman	End Islands Enderman
+endermanoverhaul:ender_bullet	Ender Bullet
+endermanoverhaul:flower_fields_enderman	Flower Fields Enderman
+endermanoverhaul:hammerhead_pet_enderman	Hammerhead Pet Enderman
+endermanoverhaul:ice_spikes_enderman	Ice Spikes Enderman
+endermanoverhaul:icy_pearl	Icy Pearl
+endermanoverhaul:mushroom_fields_enderman	Mushroom Fields Enderman
+endermanoverhaul:nether_wastes_enderman	Nether Wastes Enderman
+endermanoverhaul:pet_enderman	Pet Enderman
+endermanoverhaul:savanna_enderman	Savanna Enderman
+endermanoverhaul:scarab	Scarab
+endermanoverhaul:snowy_enderman	Snowy Enderman
+endermanoverhaul:soul_pearl	Soul Pearl
+endermanoverhaul:soulsand_valley_enderman	Soulsand Valley Enderman
+endermanoverhaul:spirit	Spirit
+endermanoverhaul:summoner_pearl	Summoner Pearl
+endermanoverhaul:swamp_enderman	Swamp Enderman
+endermanoverhaul:warped_forest_enderman	Warped Forest Enderman
+endermanoverhaul:warped_pearl	Warped Pearl
+endermanoverhaul:windswept_hills_enderman	Windswept Hills Enderman
+enhancedcelestials:meteor	Meteor
+enhancedcelestials:space_moss_bug	Space Moss Bug
+environmental:deer	Deer
+environmental:duck	Duck
+environmental:duck_egg	Thrown Duck Egg
+environmental:koi	Koi
+environmental:mud_ball	Mud Ball
+environmental:pinecone_golem	Pinecone Golem
+environmental:reindeer	Reindeer
+environmental:slabfish	Slabfish
+environmental:tapir	Tapir
+environmental:yak	Yak
+environmental:zebra	Zebra
+environmental:zonkey	Zonkey
+environmental:zorse	Zorse
+etcetera:chapple	Chapple
+etcetera:turtle_raft	Turtle Raft
+evilcraft:broom_entity	Broom
+evilcraft:controlled_zombie	Controlled Zombie
+evilcraft:netherfish	Nether Fish
+evilcraft:poisonous_libelle	Poisonous Libelle
+evilcraft:vengeance_spirit	Vengeance Spirit
+evilcraft:werewolf	Werewolf
+exposure:glow_photograph_frame	Glow Photograph Frame
+exposure:photograph	Photograph
+exposure:photograph_frame	Photograph Frame
+farm_and_charm:chest_cart	Chest Cart
+farm_and_charm:plow	Plow
+farmer:needseed	I need %s to plant.
+farmer:nofreefields	Place more fields to get me working.
+farmersdelight:rotten_tomato	Rotten Tomato
+farmingforblockheads:merchant	Merchant
+fisherman:messagesuboptimalpond	This pond at at position X:%d Y:%d Z:%d isn't great - the currents under the surface are too strong. If you want me to fish there, replace the flowing water with water source blocks.
+fisherman:messagewatertoofar	I can't find any suitable water for fishing! There should be an area of water at least 7 blocks long and wide, and 2 blocks deep nearby.
+forbidden_arcanus:lost_soul	Lost Soul
+fossil:alligator_gar	Alligator Gar
+fossil:allosaurus	Allosaurus
+fossil:ankylosaurus	Ankylosaurus
+fossil:anu_boss	Anu
+fossil:anu_dead	Dead Anu
+fossil:anu_totem	Anu Totem
+fossil:anubite	Anubite
+fossil:aquilolamna	Aquilolamna
+fossil:arthropleura	Arthropleura
+fossil:brachiosaurus	Brachiosaurus
+fossil:ceratosaurus	Ceratosaurus
+fossil:citipati	Citipati
+fossil:coelacanth	Coelacanth
+fossil:compsognathus	Compsognathus
+fossil:confuciusornis	Confuciusornis
+fossil:crassigyrinus	Crassigyrinus
+fossil:deinonychus	Deinonychus
+fossil:dicranurus	Dicranurus
+fossil:dilophosaurus	Dilophosaurus
+fossil:dimetrodon	Dimetrodon
+fossil:dimorphodon	Dimorphodon
+fossil:dinosaur_egg	Dinosaur Egg
+fossil:diplocaulus	Diplocaulus
+fossil:diplodocus	Diplodocus
+fossil:dodo	Dodo
+fossil:dryosaurus	Dryosaurus
+fossil:edaphosaurus	Edaphosaurus
+fossil:elasmotherium	Elasmotherium
+fossil:failuresaurus	Failuresaurus
+fossil:friendly_piglin	Friendly Zombie Piglin
+fossil:gallimimus	Gallimimus
+fossil:gastornis	Gastornis
+fossil:henodus	Henodus
+fossil:ichthyosaurus	Ichthyosaurus
+fossil:javelin	Javelin
+fossil:kelenken	Kelenken
+fossil:laser_point	Laser Dot
+fossil:liopleurodon	Liopleurodon
+fossil:lonchodomas	Lonchodomas
+fossil:mammoth	Mammoth
+fossil:megalania	Megalania
+fossil:megaloceros	Megaloceros
+fossil:megalodon	Megalodon
+fossil:megalograptus	Megalograptus
+fossil:meganeura	Meganeura
+fossil:mosasaurus	Mosasaurus
+fossil:nautilus	Nautilus
+fossil:ornitholestes	Ornitholestes
+fossil:pachycephalosaurus	Pachycephalosaurus
+fossil:pachyrhinosaurus	Pachyrhinosaurus
+fossil:parasaurolophus	Parasaurolophus
+fossil:phorusrhacos	Phorusrhacos
+fossil:platybelodon	Platybelodon
+fossil:plesiosaurus	Plesiosaurus
+fossil:postosuchus	Postosuchus
+fossil:protoceratops	Protoceratops
+fossil:psittacosaurus	Psittacosaurus
+fossil:pteranodon	Pteranodon
+fossil:quagga	Quagga
+fossil:quetzalcoatlus	Quetzalcoatlus
+fossil:sarcosuchus	Sarcosuchus
+fossil:scotoharpes	Scotoharpes
+fossil:sentry_piglin	Sentry Piglin
+fossil:smilodon	Smilodon
+fossil:spinosaurus	Spinosaurus
+fossil:stegosaurus	Stegosaurus
+fossil:stone_tablet	Stone Tablet
+fossil:sturgeon	Sturgeon
+fossil:tar_slime	Tar Slime
+fossil:therizinosaurus	Therizinosaurus
+fossil:thrown_bird_egg	Bird Egg
+fossil:tiktaalik	Tiktaalik
+fossil:titanis	Titanis
+fossil:toy_ball	Ball
+fossil:toy_scratching_post	Scratching Post
+fossil:toy_tethered_log	Tethered Log
+fossil:triceratops	Triceratops
+fossil:tropeognathus	Tropeognathus
+fossil:tyrannosaurus	Tyrannosaurus
+fossil:velociraptor	Velociraptor
+fossil:walliserops	Walliserops
+friendsandfoes:barnacle	Barnacle
+friendsandfoes:copper_golem	Copper Golem
+friendsandfoes:crab	Crab
+friendsandfoes:glare	Glare
+friendsandfoes:ice_chunk	Ice Chunk
+friendsandfoes:iceologer	Iceologer
+friendsandfoes:illusioner	Illusioner
+friendsandfoes:mauler	Mauler
+friendsandfoes:moobloom	Moobloom
+friendsandfoes:penguin	Penguin
+friendsandfoes:player_illusion	Player Illusion
+friendsandfoes:rascal	Rascal
+friendsandfoes:tuff_golem	Tuff Golem
+friendsandfoes:wildfire	Wildfire
+furniture:canvas	Canvas
+furniture:pells	Pells
+galosphere:berserker	Berserker
+galosphere:glow_flare	Glow Flare
+galosphere:mole	Mole
+galosphere:palladium_bomb	Palladium Bomb
+galosphere:pink_salt_pillar	Pink Salt Pillar
+galosphere:pink_salt_shard	Pink Salt Shard
+galosphere:preserved	Preserved
+galosphere:rope_dart	Rope Dart
+galosphere:sparkle	Sparkle
+galosphere:spectator_vision	Spectator Vision
+galosphere:specterpillar	Specterpillar
+galosphere:spectre	Spectre
+galosphere:spectre_flare	Spectre Flare
+galosphere:weapon_rack	Weapon Rack
+garnished:nut_boat	Boat
+garnished:nut_chest_boat	Boat With Chest
+gateways:gateway	Gateway to Eternity
+geckolib:bat	Bat
+geckolib:bike	Bike
+geckolib:cool_kid	Cool Kid
+geckolib:fake_glass	Fake Glass
+geckolib:gremlin	Gremlin
+geckolib:mutant_zombie	Mutant Zombie
+geckolib:parasite	Parasite
+geckolib:race_car	Race Car
+goblintraders:goblin_trader	Goblin Trader
+goblintraders:vein_goblin_trader	Vein Goblin Trader
+goety:acid_pool	Acid Pool
+goety:apostle	Apostle
+goety:armored_ravager	Ravager
+goety:arrow_rain_trap	Arrow Rain Trap
+goety:bear_servant	Bear Servant
+goety:beast_head	Beast Head
+goety:berserk_fungus	Berserk Fungus
+goety:biomine	Biomine
+goety:black_beast	Black Beast
+goety:black_wolf	Black Wolf
+goety:blackguard_servant	Blackguard Servant
+goety:blackguard_variant_servant	Blackguard Servant
+goety:blast_fungus	Blast Fungus
+goety:blastling	Blastling
+goety:blastling_servant	Blastling Servant
+goety:blaze_servant	Blaze Servant
+goety:blossom_ball	Blossoming Ball
+goety:blossom_thorn	Blossoming Thorn
+goety:boat	Boat
+goety:bone_lord	Bone Lord
+goety:bone_shard	Bone Shard
+goety:bone_spider	Bone Spider
+goety:bone_spider_servant	Bone Spider Servant
+goety:border_wraith	Border Wraith
+goety:border_wraith_servant	Border Wraith Servant
+goety:bouncy_bubble	Bouncy Bubble
+goety:bound_cryologer	Bound Cryologer
+goety:bound_evoker	Bound Evoker
+goety:bound_geomancer	Bound Geomancer
+goety:bound_iceologer	Bound Iceologer
+goety:bound_storm_caster	Bound Storm Caster
+goety:bound_wind_caller	Bound Wind Caller
+goety:brew	Witch's Brew
+goety:brew_effect_cloud	Brew Effect Cloud
+goety:brew_effect_gas	Brew Effect Gas
+goety:brood_mother	Brood Mother
+goety:brood_mother_servant	Brood Mother Servant
+goety:burning_hoglin	Burning Hoglin
+goety:cairn_necromancer	Cairn Necromancer
+goety:cairn_necromancer_servant	Cairn Necromancer
+goety:carrion_fly	Carrion Fly
+goety:carrion_maggot	Carrion Maggot
+goety:cave_spider_servant	Cave Spider Servant
+goety:chest_boat	Boat with Chest
+goety:conquillager	Conquillager
+goety:corrupted_beam	Beam of Corruption
+goety:crone	Crone
+goety:crusher	Crusher
+goety:crusher_servant	Crusher Servant
+goety:cryologer	Cryologer
+goety:cryologer_servant	Cryologer Servant
+goety:crypt_slime	Crypt Slime
+goety:crypt_slime_servant	Crypt Slime Servant
+goety:cryptic_eye	Cryptic Eye
+goety:cushion	Cushion
+goety:cyclone	Cyclone
+goety:damned	Damned
+goety:death_arrow	Death Arrow
+goety:delayed_summon	Approaching Summon
+goety:doppelganger	Doppelganger
+goety:dragon_breath_cloud	Dragon Breath Cloud
+goety:dragon_fireball	Dragon Fireball
+goety:drowned_necromancer_servant	Drowned Necromancer
+goety:drowned_servant	Drowned Servant
+goety:earth_fist	Earth Fist
+goety:elder_guardian_servant	Elder Guardian Servant
+goety:electro_orb	Electro Orb
+goety:enchanter_servant	Enchanter Servant
+goety:ender_goo	Ender Goo
+goety:ender_keeper	Ender Keeper
+goety:endersent	Endersent
+goety:entangle_vines	Entangle Vines
+goety:envioker	Envioker
+goety:evoker_servant	Evoker Servant
+goety:falling_block	Falling Block
+goety:fang	Magic Fang
+goety:fire_blast_trap	Fire Blast Trap
+goety:fire_pillar	Fire Pillar
+goety:fire_rain_trap	Fire Rain Trap
+goety:fire_tornado	Flaming Tornado
+goety:fireball	Small Fireball
+goety:flame_construct	Flame Construct
+goety:flying_item	Flying Item
+goety:frayed	Frayed
+goety:frayed_servant	Frayed Servant
+goety:frozen_zombie_servant	Frozen Zombie Servant
+goety:geomancer_servant	Geomancer Servant
+goety:ghast_servant	Ghast Servant
+goety:ghost_arrow	Arrow
+goety:glacial_wall	Glacial Wall
+goety:gnasher	Gnasher
+goety:grand_lavaball	Grand Fireball
+goety:grave_golem	Grave Golem
+goety:guardian_servant	Guardian Servant
+goety:gulf_tentacle	Gulf Tentacle
+goety:hail_cloud	Hail Cloud
+goety:harpoon	Harpoon
+goety:haunt	Haunt
+goety:haunted_armor	Haunted Armor
+goety:haunted_armor_servant	Haunted Armor Servant
+goety:haunted_armor_stand	Haunted Armor Stand
+goety:haunted_broom	Haunted Broom
+goety:haunted_painting	Haunted Painting
+goety:haunted_skull	Haunted Skull
+goety:haunted_skull_shot	Haunted Skull
+goety:heavy_arrow	Arrow
+goety:hell_blast	Hell Blast
+goety:hell_bolt	Hell Bolt
+goety:hell_chant	Hell Chant
+goety:hell_cloud	Hell Cloud
+goety:hellfire	Hellfire
+goety:hellhound	Hellhound
+goety:heresiarch	Heresiarch
+goety:heretic	Heretic
+goety:heretic_servant	Heretic Servant
+goety:hoglin_servant	Hoglin Servant
+goety:hostile_black_wolf	Black Wolf
+goety:hostile_redstone_golem	Redstone Golem
+goety:hostile_redstone_monstrosity	Redstone Monstrosity
+goety:hostile_skeleton_pillager	Skeleton Pillager
+goety:hostile_zombie_vindicator	Zombie Vindicator
+goety:husk_servant	Husk Servant
+goety:ice_bouquet	Ice Bouquet
+goety:ice_chunk	Ice Chunk
+goety:ice_golem	Ice Golem
+goety:ice_spear	Ice Spear
+goety:ice_spike	Ice Spike
+goety:ice_storm	Ice Storm
+goety:iceologer_servant	Iceologer Servant
+goety:icy_spider	Icy Spider
+goety:icy_spider_servant	Icy Spider Servant
+goety:ill_bomb	Ill Bomb
+goety:imperial_guard_servant	Imperial Guard Servant
+goety:inferno	Inferno
+goety:inquillager	Inquillager
+goety:insect_swarm	Insect Swarm
+goety:irk	Irk
+goety:irk_servant	Irk
+goety:jungle_zombie_servant	Jungle Zombie Servant
+goety:laser	Laser
+goety:lavaball	Fireball
+goety:leapleaf	Leapleaf
+goety:lightning_trap	Lightning Trap
+goety:magic_bolt	Magic Bolt
+goety:magic_fire	Magic Fire
+goety:magic_ground	Magic Ground
+goety:magic_lightning_trap	Magic Lightning Trap
+goety:magma_bomb	Magma Bomb
+goety:magma_cube_servant	Magma Cube Servant
+goety:malghast	Malghast
+goety:master_fang	Master Fang
+goety:maverick	Maverick
+goety:maverick_servant	Maverick Servant
+goety:mini_ghast	Mini Ghast
+goety:minister	Minister
+goety:monsoon_cloud	Monsoon Cloud
+goety:mossy_necromancer	Mossy Necromancer
+goety:mossy_necromancer_servant	Mossy Necromancer
+goety:mossy_skeleton_servant	Mossy Skeleton Servant
+goety:mountaineer_servant	Mountaineer Servant
+goety:muck_wraith	Muck Wraith
+goety:muck_wraith_servant	Muck Wraith Servant
+goety:necro_bolt	Necro Bolt
+goety:necromancer	Necromancer
+goety:necromancer_servant	Necromancer
+goety:neollager	Neollager
+goety:nether_meteor	Nether Meteor
+goety:obsidian_monolith	Obsidian Monolith
+goety:phantom_servant	Phantom Servant
+goety:piker	Piker
+goety:piker_servant	Piker Servant
+goety:pillager_servant	Pillager Servant
+goety:poison_anemone	Poison Anemone
+goety:poison_bolt	Poison Bolt
+goety:poison_quill	Poison Quill
+goety:poison_quill_vine	Poison-Quill Vine
+goety:polar_bear_servant	Polar Bear Servant
+goety:preacher	Preacher
+goety:prisoner	Prisoner
+goety:pyroclast	Pyroclast
+goety:quick_growing_kelp	Quick Growing Kelp
+goety:quick_growing_vine	Quick Growing Vine
+goety:rain_arrow	Arrow
+goety:rattled	Rattled
+goety:rattled_servant	Rattled Servant
+goety:ravaged	Ravaged
+goety:ravager	Ravager
+goety:razor_wind	Razor Wind
+goety:reaper	Reaper
+goety:reaper_servant	Reaper Servant
+goety:redstone_cube	Redstone Cube
+goety:redstone_golem	Redstone Golem
+goety:redstone_ministrosity	Redstone Ministrosity
+goety:redstone_monstrosity	Redstone Monstrosity
+goety:reprobate	Reprobate
+goety:reprobate_carry	Reprobate Carry
+goety:reprobate_servant	Reprobate Servant
+goety:ripper	Ripper
+goety:ripper_servant	Ripper
+goety:rogueguard_servant	Rogueguard Servant
+goety:royal_guard_servant	Royal Guard Servant
+goety:scatter_bomb	Scatter Bomb
+goety:scatter_mine	Scatter Mine
+goety:scythe	Scythe Slash
+goety:shield_debris	Shield Debris
+goety:signaler_servant	Signaler Servant
+goety:skeleton_pillager	Skeleton Pillager Servant
+goety:skeleton_servant	Skeleton Servant
+goety:skeleton_villager_servant	Skeleton Villager Servant
+goety:skeleton_wolf	Skeleton Wolf
+goety:skull_lord	Skull Lord
+goety:slime_servant	Slime Servant
+goety:smack_stone	Smack Stone
+goety:snap_fungus	Snap Fungus
+goety:snapper	Snapper
+goety:snareling	Snareling
+goety:snareling_goop	Snareling Goop
+goety:snareling_servant	Snareling Servant
+goety:snareling_shot	Snareling Shot
+goety:sorcerer	Sorcerer
+goety:soul_bolt	Soul Bolt
+goety:soul_bullet	Soul Bullet
+goety:spider_egg	Spider Egg
+goety:spider_servant	Spider Servant
+goety:spider_web	Spider Web
+goety:spike	Royal Spike
+goety:sprite	Sprite
+goety:squall_golem	Squall Golem
+goety:steam_missile	Steam Missile
+goety:stone_ministrosity	Stone Ministrosity
+goety:storm_caster	Storm Caster
+goety:storm_caster_servant	Storm Caster Servant
+goety:storm_util	Thunderstorm
+goety:stormhound	Stormhound
+goety:stray_servant	Stray Servant
+goety:summon_apostle	Apostle
+goety:summon_circle	Approaching Summon
+goety:summon_circle_boss	Approaching Summon
+goety:summon_fiery	Approaching Summon
+goety:sunken_skeleton_servant	Sunken Skeleton Servant
+goety:surging_orb	Surging Orb
+goety:sword	Flying Sword
+goety:tidal_surge	Tidal Surge
+goety:tormentor	Tormentor
+goety:totemic_bomb	Totemic Bomb
+goety:totemic_wall	Totemic Wall
+goety:trampler	Trampler
+goety:trampler_servant	Trampler
+goety:trident_storm	Trident Storm
+goety:tropical_slime_servant	Tropical Slime Servant
+goety:tunneling_fang	Tunneling Fang
+goety:twilight_goat	Twilight Goat
+goety:updraft_blast	Updraft Blast
+goety:vampire_bat	Vampire Bat
+goety:vanguard_servant	Vanguard Servant
+goety:vex_servant	Vex
+goety:vicious_pike	Vicious Pike
+goety:vicious_tooth	Vicious Tooth
+goety:vindicator_chef_servant	Vindicator Chef Servant
+goety:vindicator_servant	Vindicator Servant
+goety:vine_hook	Vine Hook
+goety:vizier	Vizier
+goety:vizier_clone	Vizier Visage
+goety:void_lightning_trap	Void Lightning Trap
+goety:void_rift	Void Rift
+goety:void_shock	Void Shock
+goety:void_shock_bomb	Void Shock Bomb
+goety:void_slash	Void Slash
+goety:volcano	Volcano
+goety:warlock	Warlock
+goety:warlock_servant	Warlock Servant
+goety:wartling	Wartling
+goety:watchling	Watchling
+goety:watchling_servant	Watchling Servant
+goety:wavewhisperer	Wavewhisperer
+goety:web_shot	Web Shot
+goety:web_spider	Web Spider
+goety:web_spider_servant	Web Spider Servant
+goety:whisperer	Whisperer
+goety:wight	Wight
+goety:wildfire	Wildfire
+goety:wind_caller_servant	Wind Caller Servant
+goety:winter_wolf	Winter Wolf
+goety:witch_servant	Witch Servant
+goety:wither_bolt	Wither Bolt
+goety:wither_necromancer	Wither Necromancer
+goety:wither_necromancer_servant	Wither Necromancer
+goety:wither_skeleton_servant	Wither Skeleton Servant
+goety:wither_skull	Wither Skull
+goety:wraith	Wraith
+goety:wraith_servant	Wraith Servant
+goety:zombie_ravager	Zombie Ravager
+goety:zombie_servant	Zombie Servant
+goety:zombie_villager_servant	Zombie Villager Servant
+goety:zombie_vindicator	Zombie Vindicator Servant
+goety:zpiglin_brute_servant	Zombified Piglin Brute Servant
+goety:zpiglin_servant	Zombified Piglin Servant
+goety_revelation:phantom_servant	Phantom Servant
+goety_revelation:summon_apollyon	? ? ?
+goety_revelation:wither_servant	Wither Servant
+graveyard:acolyte	Acolyte
+graveyard:corrupted_evoker	Corrupted Evoker
+graveyard:corrupted_pillager	Corrupted Pillager
+graveyard:corrupted_vindicator	Corrupted Vindicator
+graveyard:crow	Crow
+graveyard:falling_corpse	Falling Corpse
+graveyard:ghoul	Ghoul
+graveyard:ghouling	Ghouling
+graveyard:lich	Corrupted Champion
+graveyard:magpie	Magpie
+graveyard:nameless_hanged	Nameless Hanged
+graveyard:nightmare	Nightmare
+graveyard:raven	Raven
+graveyard:reaper	Reaper
+graveyard:revenant	Revenant
+graveyard:skeleton_creeper	Skeleton Creeper
+graveyard:skull	Cursed Skull
+graveyard:tormented_villager	Tormented Villager
+graveyard:wraith	Wraith
+guardvillagers:guard	Guard
+handcrafted:fancy_painting	Fancy Painting
+handcrafted:seat	Seat
+hexcasting:wall_scroll	Hanging Scroll
+hexerei:boat	Boat
+hexerei:broom	Broom
+hexerei:chest_boat	Chest Boat
+hexerei:crow	Crow
+hexerei:crow_command_0	%s is set to Follow
+hexerei:crow_command_1	%s is set to Sit
+hexerei:crow_command_2	%s is set to Wander
+hexerei:crow_command_3_0	%s is set to Help (gather)
+hexerei:crow_command_3_1	%s is set to Help (harvest)
+hexerei:crow_command_3_2	%s is set to Help (pickpocket)
+hexerei:crow_command_gui_0	Follow
+hexerei:crow_command_gui_1	Sit
+hexerei:crow_command_gui_2	Wander
+hexerei:crow_command_gui_3	Help
+hexerei:crow_flute_clear_perch_message	Cleared all selected crows perch position.
+hexerei:crow_flute_clear_select_message	Cleared selected crows.
+hexerei:crow_flute_deselect_message	%s Deselected.
+hexerei:crow_flute_perch	Perch
+hexerei:crow_flute_perch_message	Right click a block to set the crows perch position.
+hexerei:crow_flute_perch_message_fail_no_block	Failed to place perch position, please select a block.
+hexerei:crow_flute_perch_message_fail_no_crows	Select any number of crows before choosing a perch position.
+hexerei:crow_flute_select	Select
+hexerei:crow_flute_select_message	Right click the crows you wish to select.
+hexerei:crow_flute_select_message_fail	Please select a valid tamed crow.
+hexerei:crow_flute_selected_message	%s Selected.
+hexerei:crow_flute_set_message	%s Crow%s set to %s
+hexerei:crow_help_command_gui_0	Gather
+hexerei:crow_help_command_gui_1	Harvest
+hexerei:crow_help_command_gui_2	Pickpocket
+hexerei:crow_slot_0	Hand
+hexerei:crow_slot_1	Hat
+hexerei:crow_slot_2	Misc.
+hexerei:mahogany_broom	Mahogany Broom
+hexerei:owl	Owl
+hexerei:willow_broom	Willow Broom
+hexerei:witch_hazel_broom	Witch Hazel Broom
+hybrid_aquatic:african_butterflyfish	African Butterflyfish
+hybrid_aquatic:anglerfish	Anglerfish
+hybrid_aquatic:argonaut	Argonaut
+hybrid_aquatic:arrow_squid	Arrow Squid
+hybrid_aquatic:barracuda	Barracuda
+hybrid_aquatic:barrel_jellyfish	Barrel Jellyfish
+hybrid_aquatic:barreleye	Barreleye
+hybrid_aquatic:basking_shark	Basking Shark
+hybrid_aquatic:beakling	Beakling
+hybrid_aquatic:betta	Betta
+hybrid_aquatic:big_red_jellyfish	Big Red Jellyfish
+hybrid_aquatic:blobfish	Blobfish
+hybrid_aquatic:blowfish	Blowfish
+hybrid_aquatic:blue_jellyfish	Blue Jellyfish
+hybrid_aquatic:box_jellyfish	Box Jellyfish
+hybrid_aquatic:boxfish	Boxfish
+hybrid_aquatic:bull_shark	Bull Shark
+hybrid_aquatic:carp	Carp
+hybrid_aquatic:cavitation_bubble	Cavitation Bubble
+hybrid_aquatic:cepheidae_jellyfish	Cepheidae Jellyfish
+hybrid_aquatic:cichlid	Cichlid
+hybrid_aquatic:clownfish	Clownfish
+hybrid_aquatic:coconut_crab	Coconut Crab
+hybrid_aquatic:coelacanth	Coelacanth
+hybrid_aquatic:colossal_squid	Colossal Squid
+hybrid_aquatic:comb_jelly	Comb Jelly
+hybrid_aquatic:corydora	Corydora
+hybrid_aquatic:cosmic_jellyfish	Cosmic Jellyfish
+hybrid_aquatic:crayfish	Crayfish
+hybrid_aquatic:crown_jellyfish	Crown Jellyfish
+hybrid_aquatic:cuttlefish	Cuttlefish
+hybrid_aquatic:damselfish	Damselfish
+hybrid_aquatic:danio	Danio
+hybrid_aquatic:decorator_crab	Decorator Crab
+hybrid_aquatic:depth_charge	Depth Charge
+hybrid_aquatic:discus	Discus
+hybrid_aquatic:dragonfish	Dragonfish
+hybrid_aquatic:dugong	Dugong
+hybrid_aquatic:dungeness_crab	Dungeness Crab
+hybrid_aquatic:fangtooth	Fangtooth
+hybrid_aquatic:fiddler_crab	Fiddler Crab
+hybrid_aquatic:firefly_squid	Firefly Squid
+hybrid_aquatic:firework_jellyfish	Firework Jellyfish
+hybrid_aquatic:flashlight_fish	Flashlight Fish
+hybrid_aquatic:flower_crab	Flower Crab
+hybrid_aquatic:flying_fish	Flying Fish
+hybrid_aquatic:frilled_shark	Frilled Shark
+hybrid_aquatic:garden_eel	Garden Eel
+hybrid_aquatic:ghost_crab	Ghost Crab
+hybrid_aquatic:giant_isopod	Giant Isopod
+hybrid_aquatic:giant_squid	Giant Squid
+hybrid_aquatic:goblin_shark	Goblin Shark
+hybrid_aquatic:golden_dorado	Golden Dorado
+hybrid_aquatic:goldfish	Goldfish
+hybrid_aquatic:gourami	Gourami
+hybrid_aquatic:great_white_shark	Great White Shark
+hybrid_aquatic:hagfish	Hagfish
+hybrid_aquatic:hammerhead_shark	Hammerhead Shark
+hybrid_aquatic:hatchetfish	Hatchetfish
+hybrid_aquatic:hermit_crab	Hermit Crab
+hybrid_aquatic:herring	Herring
+hybrid_aquatic:horseshoe_crab	Horseshoe Crab
+hybrid_aquatic:hound_shark	Hound Shark
+hybrid_aquatic:john_dory	John Dory
+hybrid_aquatic:karcinogen	Karcinogen
+hybrid_aquatic:karcinoma	Karcinoma
+hybrid_aquatic:karkinos	Karkinos
+hybrid_aquatic:lantern_shark	Lantern Shark
+hybrid_aquatic:lightfoot_crab	Lightfoot Crab
+hybrid_aquatic:lionfish	Lionfish
+hybrid_aquatic:lions_mane_jellyfish	Lion's Mane Jellyfish
+hybrid_aquatic:lobster	Lobster
+hybrid_aquatic:mackerel	Mackerel
+hybrid_aquatic:mahi	Mahi
+hybrid_aquatic:manatee	Manatee
+hybrid_aquatic:manta_ray	Manta Ray
+hybrid_aquatic:mauve_stinger	Mauve Stinger
+hybrid_aquatic:moon_jellyfish	Moon Jellyfish
+hybrid_aquatic:moray_eel	Moray Eel
+hybrid_aquatic:nautilus	Nautilus
+hybrid_aquatic:needlefish	Needlefish
+hybrid_aquatic:nomura_jellyfish	Nomura Jellyfish
+hybrid_aquatic:oarfish	Oarfish
+hybrid_aquatic:ocean_sunfish	Ocean Sunfish
+hybrid_aquatic:octopus	Octopus
+hybrid_aquatic:opah	Opah
+hybrid_aquatic:orca	Orca
+hybrid_aquatic:otter	Otter
+hybrid_aquatic:parrotfish	Parrotfish
+hybrid_aquatic:pearlfish	Pearlfish
+hybrid_aquatic:piranha	Piranha
+hybrid_aquatic:pleco	Pleco
+hybrid_aquatic:pupfish	Pupfish
+hybrid_aquatic:ratfish	Ratfish
+hybrid_aquatic:rockfish	Rockfish
+hybrid_aquatic:sand_tiger_shark	Sand Tiger Shark
+hybrid_aquatic:scalyfoot_snail	Scalyfoot Snail
+hybrid_aquatic:sea_angel	Sea Angel
+hybrid_aquatic:sea_bass	Sea Bass
+hybrid_aquatic:sea_cucumber	Sea Cucumber
+hybrid_aquatic:sea_nettle	Sea Nettle
+hybrid_aquatic:sea_slug	Sea Slug
+hybrid_aquatic:sea_urchin	Sea Urchin
+hybrid_aquatic:seadragon	Seadragon
+hybrid_aquatic:seahorse	Seahorse
+hybrid_aquatic:shell_beast	Shell Beast
+hybrid_aquatic:shiner	Shiner
+hybrid_aquatic:shrimp	Shrimp
+hybrid_aquatic:sixgill_shark	Sixgill Shark
+hybrid_aquatic:sleeper_shark	Sleeper Shark
+hybrid_aquatic:slickhead	Slickhead
+hybrid_aquatic:small_tnt	Small TNT
+hybrid_aquatic:snailfish	Snailfish
+hybrid_aquatic:spider_crab	Spider Crab
+hybrid_aquatic:squirrelfish	Squirrelfish
+hybrid_aquatic:starfish	Starfish
+hybrid_aquatic:starfish_projectile	Thrown Starfish
+hybrid_aquatic:stingray	Stingray
+hybrid_aquatic:stonefish	Stonefish
+hybrid_aquatic:sunfish	Sunfish
+hybrid_aquatic:surgeonfish	Surgeonfish
+hybrid_aquatic:tetra	Tetra
+hybrid_aquatic:thresher_shark	Thresher Shark
+hybrid_aquatic:tiger_barb	Tiger Barb
+hybrid_aquatic:trevally	Trevally
+hybrid_aquatic:triggerfish	Triggerfish
+hybrid_aquatic:tripod_fish	Tripod Fish
+hybrid_aquatic:trout	Trout
+hybrid_aquatic:tuna	Tuna
+hybrid_aquatic:umbrella_octopus	Umbrella Octopus
+hybrid_aquatic:vampire_crab	Vampire Crab
+hybrid_aquatic:vampire_squid	Vampire Squid
+hybrid_aquatic:viperfish	Viperfish
+hybrid_aquatic:whale_shark	Whale Shark
+hybrid_aquatic:wrasse	Wrasse
+hybrid_aquatic:yeti_crab	Yeti Crab
+iceandfire:amphithere	Amphithere
+iceandfire:amphithere_arrow	Amphithere Arrow
+iceandfire:black_frost_dragon	Black Frost
+iceandfire:chain_tie	Chain
+iceandfire:cockatrice	Cockatrice
+iceandfire:cockatrice_egg	Cockatrice Egg
+iceandfire:cyclops	Cyclops
+iceandfire:cylcops_multipart	Cyclops Eye
+iceandfire:deathworm	Death Worm
+iceandfire:deathworm_egg	Death Worm Egg
+iceandfire:dragon_arrow	Dragon Bone Arrow
+iceandfire:dragon_egg	Dragon Egg
+iceandfire:dragon_multipart	Dragon Part
+iceandfire:dragon_skull	Dragon Skull
+iceandfire:dread_beast	Dread Beast
+iceandfire:dread_ghoul	Dread Ghoul
+iceandfire:dread_horse	Dread Knight Horse
+iceandfire:dread_knight	Dread Knight
+iceandfire:dread_lich	Dread Lich
+iceandfire:dread_lich_skull	Dread Lich Skull
+iceandfire:dread_queen	Dread Queen
+iceandfire:dread_scuttler	Dread Scuttler
+iceandfire:dread_thrall	Dread Thrall
+iceandfire:fire_dragon	Fire Dragon
+iceandfire:fire_dragon_charge	Dragon Fire Charge
+iceandfire:ghost	Ghost
+iceandfire:gorgon	Gorgon
+iceandfire:hippocampus	Hippocampus
+iceandfire:hippogryph	Hippogryph
+iceandfire:hippogryph_egg	Hippogryph Egg
+iceandfire:hydra	Hydra
+iceandfire:hydra_arrow	Hydra Arrow
+iceandfire:hydra_breath	Hydra Breath
+iceandfire:hydra_multipart	Hydra Neck
+iceandfire:ice_dragon	Ice Dragon
+iceandfire:ice_dragon_charge	Dragon Ice Charge
+iceandfire:lightning_dragon	Lightning Dragon
+iceandfire:lightning_dragon_charge	Dragon Lightning Charge
+iceandfire:mob_skull	Skull
+iceandfire:multipart	Part
+iceandfire:myrmex_egg	Myrmex Egg
+iceandfire:myrmex_queen	Myrmex Queen
+iceandfire:myrmex_royal	Myrmex Royal
+iceandfire:myrmex_sentinel	Myrmex Sentinel
+iceandfire:myrmex_soldier	Myrmex Soldier
+iceandfire:myrmex_swarmer	Myrmex Swarmer
+iceandfire:myrmex_worker	Myrmex Worker
+iceandfire:pixie	Pixie
+iceandfire:pixie_charge	Pixie Wand Beam
+iceandfire:player	Player
+iceandfire:sea_serpent	Sea Serpent
+iceandfire:sea_serpent_arrow	Sea Serpent Arrow
+iceandfire:sea_serpent_bubbles	Sea Serpent Bubbles
+iceandfire:siren	Siren
+iceandfire:stone_statue	Stone Statue
+iceandfire:stymphalian_arrow	Stymphalian Arrow
+iceandfire:stymphalian_bird	Stymphalian Bird
+iceandfire:stymphalian_feather	Stymphalian Bird Feather
+iceandfire:tide_trident	Tide Trident
+iceandfire:troll	Troll
+illageandspillage:absorber	Absorber
+illageandspillage:beeper	Beeper
+illageandspillage:boss_randomizer	Boss Randomizer
+illageandspillage:chagrin_sentry	Chagrin Sentry
+illageandspillage:crashager	Crashager
+illageandspillage:crocofang	Crocofang
+illageandspillage:devastator	Devastator
+illageandspillage:dispenser	Dispenser
+illageandspillage:engineer	Engineer
+illageandspillage:eyesore	Eyesore
+illageandspillage:factory	Factory
+illageandspillage:faker	Faker
+illageandspillage:freakager	Freakager
+illageandspillage:funnybone	Funnybone
+illageandspillage:hinder	Hinder
+illageandspillage:igniter	Igniter
+illageandspillage:illager_soul	Illager Soul
+illageandspillage:illashooter	Illashooter
+illageandspillage:imp	Imp
+illageandspillage:kaboomer	Kaboomer
+illageandspillage:magispeller	Magispeller
+illageandspillage:mob_spirit	Mob Spirit
+illageandspillage:no_escape	You can't escape
+illageandspillage:old_freakager	Freakager
+illageandspillage:old_magispeller	Magispeller
+illageandspillage:old_ragno	Ragno
+illageandspillage:poker	Poker
+illageandspillage:preserver	Preserver
+illageandspillage:ragno	Ragno
+illageandspillage:sniper	Sniper
+illageandspillage:spirit_hand	Spirit Hand
+illageandspillage:spiritcaller	Spiritcaller
+illageandspillage:trick_or_treat	Trick or Treat
+illageandspillage:twittollager	Twittollager
+illagerinvasion:alchemist	Alchemist
+illagerinvasion:archivist	Archivist
+illagerinvasion:basher	Basher
+illagerinvasion:firecaller	Firecaller
+illagerinvasion:inquisitor	Inquisitor
+illagerinvasion:invoker	Invoker
+illagerinvasion:marauder	Marauder
+illagerinvasion:necromancer	Necromancer
+illagerinvasion:provoker	Provoker
+illagerinvasion:sorcerer	Sorcerer
+illagerinvasion:surrendered	Surrendered
+immersive_aircraft:airship	Airship
+immersive_aircraft:bamboo_hopper	Bamboo Hopper
+immersive_aircraft:biplane	Biplane
+immersive_aircraft:cargo_airship	Cargo Airship
+immersive_aircraft:gyrodyne	Gyrodyne
+immersive_aircraft:quadrocopter	Quadrocopter
+immersive_aircraft:warship	Warship
+immersive_paintings:glow_graffiti	Glowing Graffiti
+immersive_paintings:glow_painting	Glowing Painting
+immersive_paintings:graffiti	Graffiti
+immersive_paintings:painting	Painting
+immersiveengineering:bulwark	Bulwark
+immersiveengineering:cart_metalbarrel	Minecart with Metal Barrel
+immersiveengineering:cart_reinforcedcrate	Minecart with Reinforced Storage Crate
+immersiveengineering:cart_woodenbarrel	Minecart with Wooden Barrel
+immersiveengineering:cart_woodencrate	Minecart with Wooden Storage Crate
+immersiveengineering:chemthrower_shot	Chemthrower Droplet
+immersiveengineering:commando	Commando
+immersiveengineering:fusilier	Fusilier
+immersiveengineering:railgun_shot	Railgun Rod
+immersiveengineering:revolver_shot	Bullet
+immersiveengineering:revolver_shot_flare	Flare
+immersiveengineering:revolver_shot_homing	Homing Bullet
+immersiveengineering:revolver_shot_wolfpack	Wolfpack Round
+immersiveengineering:sawblade	Sawblade
+immersivepetroleum:speedboat	Motorboat
+industrialforegoing:infinity_nuke	Infinity Nuke
+interiors:big_seat	Big Seat
+irons_spellbooks:acid_orb	Acid Orb
+irons_spellbooks:apothecarist	Apothecarist
+irons_spellbooks:arcane_shackle	Arcane Shackle
+irons_spellbooks:archevoker	Archevoker
+irons_spellbooks:arrow_volley	Arrow Volley
+irons_spellbooks:ball_lightning	Ball Lightning
+irons_spellbooks:black_hole	Black Hole
+irons_spellbooks:blizzard_aoe	Blizzard
+irons_spellbooks:blood_needle	Blood Needle
+irons_spellbooks:blood_slash	Blood Slash
+irons_spellbooks:catacombs_zombie	Catacombs Zombie
+irons_spellbooks:chain_lightning	Chain Lightning
+irons_spellbooks:citadel_keeper	Ancient Knight
+irons_spellbooks:comet	Comet
+irons_spellbooks:cone_of_cold	Cone of Cold
+irons_spellbooks:creeper_head	Creeper Head
+irons_spellbooks:cryomancer	Cryomancer
+irons_spellbooks:cultist	Cultist
+irons_spellbooks:cursed_armor_stand	Cursed Armor Stand
+irons_spellbooks:dead_king	The Dead King
+irons_spellbooks:dead_king_corpse	Skeleton
+irons_spellbooks:dead_king_soul	Dead King Soul
+irons_spellbooks:debug_wizard	Debug Wizard
+irons_spellbooks:devour_jaw	Devour Jaw
+irons_spellbooks:dragon_breath	Dragon Breath
+irons_spellbooks:dragon_breath_pool	Dragon Breath
+irons_spellbooks:earthquake_aoe	Earthquake
+irons_spellbooks:echoing_arrow	Echoing Arrow
+irons_spellbooks:echoing_strike	Echoing Strike
+irons_spellbooks:echoing_sword	Echoing Strike
+irons_spellbooks:eldritch_blast	Eldritch Blast
+irons_spellbooks:electrocute	Electrocute
+irons_spellbooks:ender_chain	Ender Chain
+irons_spellbooks:fang_swirl	Fang Swirl
+irons_spellbooks:fiery_dagger	Fiery Dagger
+irons_spellbooks:fire_arrow	Fire Arrow
+irons_spellbooks:fire_boss	Echo of Tyros, First Flamebearer
+irons_spellbooks:fire_breath	Fire Breath
+irons_spellbooks:fire_eruption	Fire Eruption
+irons_spellbooks:fire_field	Fiery Field
+irons_spellbooks:fireball	Large Fireball
+irons_spellbooks:firebolt	Firebolt
+irons_spellbooks:firefly_swarm	Firefly Swarm
+irons_spellbooks:frost_field	Frost Field
+irons_spellbooks:frozen_humanoid	Frozen
+irons_spellbooks:guiding_bolt	Guiding Bolt
+irons_spellbooks:gust	Gust
+irons_spellbooks:healing_aoe	Healing Aoe
+irons_spellbooks:ice_block_projectile	Iceologer Block
+irons_spellbooks:ice_spider	Ice Spider
+irons_spellbooks:ice_spike	Ice Spike
+irons_spellbooks:ice_tomb	Ice Tomb
+irons_spellbooks:icicle	Icicle
+irons_spellbooks:lightning_lance	Lightning Lance
+irons_spellbooks:lightning_strike	Lightning Strike
+irons_spellbooks:magehunter_vindicator	Magehunter Vindicator
+irons_spellbooks:magic_arrow	Magic Arrow
+irons_spellbooks:magic_missile	Magic Missile
+irons_spellbooks:magma_ball	Magma Bomb
+irons_spellbooks:necromancer	Necromancer
+irons_spellbooks:ominous_fire_orb	Ominous Fire Orb
+irons_spellbooks:poison_arrow	Poison Arrow
+irons_spellbooks:poison_breath	Poison Breath
+irons_spellbooks:poison_cloud	Poison Cloud
+irons_spellbooks:poison_splash	Poison Splash
+irons_spellbooks:portal	Portal
+irons_spellbooks:priest	Priest
+irons_spellbooks:pyromancer	Pyromancer
+irons_spellbooks:ray_of_frost	Ray of Frost
+irons_spellbooks:root	Root
+irons_spellbooks:sculk_tentacle	Sculk Tentacle
+irons_spellbooks:shield	Shield
+irons_spellbooks:small_fireball	Small Fireball
+irons_spellbooks:small_magic_arrow	Magic Arrow
+irons_spellbooks:snowball	Snowball
+irons_spellbooks:spear	Spear
+irons_spellbooks:spectral_hammer	Spectral Hammer
+irons_spellbooks:spectral_steed	Spectral Steed
+irons_spellbooks:stomp_aoe	Stomp
+irons_spellbooks:summoned_claymore	Summoned Claymore
+irons_spellbooks:summoned_polar_bear	Summoned Polar Bear
+irons_spellbooks:summoned_rapier	Summoned Rapier
+irons_spellbooks:summoned_skeleton	Summoned Skeleton
+irons_spellbooks:summoned_sword	Summoned Sword
+irons_spellbooks:summoned_vex	Summoned Vex
+irons_spellbooks:summoned_zombie	Summoned Zombie
+irons_spellbooks:sunbeam	Sunbeam
+irons_spellbooks:target_area	Target Area
+irons_spellbooks:thrown_item	Thrown Item
+irons_spellbooks:thunderstep_orb	Thunderstep
+irons_spellbooks:undead_rift	Undead Rift
+irons_spellbooks:visual_falling_block	Falling Block
+irons_spellbooks:wall_of_fire	Wall of Fire
+irons_spellbooks:wisp	Wisp
+irons_spellbooks:wither_skull	Wither Skull
+kaleidoscope_cookery:scarecrow	Scarecrow
+l2complements:black_fire_charge	Black Fire Charge
+l2complements:soul_fire_charge	Soul Fire Charge
+l2complements:strong_fire_charge	Strong Fire Charge
+legendary_monsters:ambusher	Ambusher
+legendary_monsters:ancient_guardian	Ancient Guardian
+legendary_monsters:annihilation_pursuer	Annihilation Pursuer
+legendary_monsters:beheaded_knight	Beheaded Knight
+legendary_monsters:bomb	Bomb
+legendary_monsters:bomber	Bomber
+legendary_monsters:chorusling	Chorusling
+legendary_monsters:cloud_golem	Cumulonimbus
+legendary_monsters:dark_cloud_golem	Cloud Golem
+legendary_monsters:dune_sentinel	Dune Sentinel
+legendary_monsters:endersent	Chorusent
+legendary_monsters:flame_drifter	Flame Drifter
+legendary_monsters:flameborn_guard	Flameborn Guard
+legendary_monsters:flameborn_warrior	Flameborn Warrior
+legendary_monsters:fractured	Fractured
+legendary_monsters:fractured_apostle	Fractured Apostle
+legendary_monsters:frostbitten_golem	Frostbitten Golem
+legendary_monsters:guard	Guard
+legendary_monsters:haunted_guard	Haunted Guard
+legendary_monsters:haunted_knight	Haunted Knight
+legendary_monsters:hovering_hurricane	Hovering Hurricane
+legendary_monsters:ice_spike	Ice Spike
+legendary_monsters:knights_armor	Knight
+legendary_monsters:lava_eater	Lava Eater
+legendary_monsters:mossy_golem	Mossy Golem
+legendary_monsters:overgrown_colossus	Overgrown Colossus
+legendary_monsters:posessed_paladin	Possessed Paladin
+legendary_monsters:resurrected_knight	Resurrected Knight
+legendary_monsters:shulker_mimic	Shulker Mimic
+legendary_monsters:skeletosaurus	Skeletosaurus
+legendary_monsters:skeloraptor	Skeloraptor
+legendary_monsters:spiky_bug	Spiky Worm
+legendary_monsters:stratling	Stratling
+legendary_monsters:the_obliterator	The Obliterator
+legendary_monsters:wandering_eye	Wandering Eye
+legendary_monsters:warped_fungussus	Warped Fungussus
+legendary_monsters:withered_abomination	Withered Abomination
+lootr:lootr_minecart	Minecart with Chest
+lost_aether_content:aerwhale_king	Aerwhale King
+lost_aether_content:cloud_shot	Cloud Ball
+lost_aether_content:falling_rock	Falling Rock
+lost_aether_content:zephyroo	Zephyroo
+mahoutsukai:butterfly	Butterfly
+mahoutsukai:fae_entity	Fae
+mahoutsukai:familiar_entity	Familiar
+mahoutsukai:kodoku_entity	Kodoku
+malum:auric_flame_bolt	Auric Flame Bolt
+malum:draining_bolt	Draining Bolt
+malum:etheric_nitrate	Etheric Nitrate
+malum:hex_bolt	Hex Bolt
+malum:hidden_blade_delayed_impact	Hidden Blade Delayed Impact
+malum:natural_spirit	Natural Spirit
+malum:pneuma_void	Pneuma Void
+malum:runewood_boat	Runewood Boat
+malum:scythe_boomerang	Scythe Boomerang
+malum:soulwood_boat	Soulwood Boat
+malum:thrown_gluttony	Thrown Gluttony
+malum:vivid_nitrate	Vivid Nitrate
+man:managgresive	Man From The Fog
+man:manfromthefog	Man From The Fog
+man:manfromthefogback	Man From The Fog
+man:mftfhang	Man From The Fog
+mca:ancient_cultist	Ancient Cultist
+mca:crib	Crib
+mca:female_villager	Female Villager
+mca:female_zombie_villager	Female Zombie Villager
+mca:grim_reaper	Grim Reaper
+mca:male_villager	Male Villager
+mca:male_zombie_villager	Male Zombie Villager
+meadow:flecked_sheep	Flecked Sheep
+meadow:fuzzy_sheep	Fuzzy Sheep
+meadow:highland_cattle	Highland Cattle
+meadow:horned_sheep	Horned Sheep
+meadow:inky_sheep	Inky Sheep
+meadow:long_nosed_sheep	Long Nosed Sheep
+meadow:patched_sheep	Patched Sheep
+meadow:pine_boat	Pine Boat
+meadow:pine_chest_boat	Pine Chest Boat
+meadow:rocky_sheep	Rocky Sheep
+meadow:umbra_cow	Umbra Cattle
+meadow:warped_cow	Warped Cow
+meadow:water_buffalo	Water Buffalo
+meadow:wooly_cow	Wooly Cow
+meadow:wooly_sheep	Wooly Sheep
+meetyourfight:bellringer	Bellringer
+meetyourfight:dame_fortuna	Dame Fortuna
+meetyourfight:rosalyne	Rosalyne, Blade of Dusk
+meetyourfight:rose_spirit	Rose Spirit
+meetyourfight:swampjaw	Swampjaw
+mekanism:flame	Flamethrower Flame
+mekanism:robit	Robit
+mekanismadditions:baby_creeper	Baby Creeper
+mekanismadditions:baby_enderman	Baby Enderman
+mekanismadditions:baby_skeleton	Baby Skeleton
+mekanismadditions:baby_stray	Baby Stray
+mekanismadditions:baby_wither_skeleton	Baby Wither Skeleton
+mekanismadditions:balloon	Balloon
+mekanismadditions:obsidian_tnt	Obsidian TNT
+minecolonies:amazon	Amazon
+minecolonies:amazonchief	Amazon Leader
+minecolonies:amazonspearman	Amazon Spearman
+minecolonies:archerbarbarian	Archer Barbarian
+minecolonies:archermummy	Archer Mummy
+minecolonies:archerpirate	Archer Pirate
+minecolonies:barbarian	Barbarian
+minecolonies:campamazon	Amazon
+minecolonies:campamazonchief	Amazon Leader
+minecolonies:campamazonspearman	Amazon Spearman
+minecolonies:camparcherbarbarian	Archer Barbarian
+minecolonies:camparchermummy	Archer Mummy
+minecolonies:camparcherpirate	Archer Pirate
+minecolonies:campbarbarian	Barbarian
+minecolonies:campchiefbarbarian	Chief Barbarian
+minecolonies:campchiefpirate	Pirate Captain
+minecolonies:campdrownedarcherpirate	Drowned Pirate Archer
+minecolonies:campdrownedchiefpirate	Drowned Pirate Chief
+minecolonies:campdrownedpirate	Drowned Pirate
+minecolonies:campmummy	Mummy
+minecolonies:campnorsemenarcher	Archer Norseman
+minecolonies:campnorsemenchief	Chief Norseman
+minecolonies:camppharao	Pharaoh
+minecolonies:camppirate	Pirate
+minecolonies:campshieldmaiden	Shieldmaiden
+minecolonies:cavalry_horse	Cavalry Horse
+minecolonies:chiefbarbarian	Chief Barbarian
+minecolonies:chiefpirate	Pirate Captain
+minecolonies:drownedarcherpirate	Drowned Pirate Archer
+minecolonies:drownedchiefpirate	Drowned Pirate Chief
+minecolonies:drownedpirate	Drowned Pirate
+minecolonies:mummy	Mummy
+minecolonies:norsemenarcher	Archer Norseman
+minecolonies:norsemenchief	Chief Norseman
+minecolonies:pharao	Pharaoh
+minecolonies:pirate	Pirate
+minecolonies:shieldmaiden	Shieldmaiden
+miner:invalidmineshaft	I can't work at the mine because the mineshaft is missing the proper indication.
+miner:messagerequiresbetterhut	Please upgrade my hut to dig deeper!
+mischief_illagers:bass_blaster	Bass Blaster
+mischief_illagers:big_bubble	Big Bubble
+mischief_illagers:bubbleologer	Bubbleologer
+mischief_illagers:crazy_dynamite_thrown	Crazy Dynamite
+mischief_illagers:doodle_creeper	Doodle Creeper
+mischief_illagers:doodle_pillager	Doodle Pillager
+mischief_illagers:doodle_vex	Doodle Vex
+mischief_illagers:doodler	Doodler
+mischief_illagers:evil_book	Evil Book
+mischief_illagers:fangclaw	Fangclaw
+mischief_illagers:imprecator	Imprecator
+mischief_illagers:libravoker	Libravoker
+mischief_illagers:magnetizer	Magnetizer
+mischief_illagers:magnetizing_magnet	Magnetizing Magnet
+mischief_illagers:magnetizing_magnet_player	Magnetizing Magnet
+mischief_illagers:mischiever	Mischiever
+mischief_illagers:partyger	Partyger
+mischief_illagers:photographer	Photographer
+mischief_illagers:sparkologer	Sparkologer
+mischief_illagers:super_surprise_box	Super Surprise
+mischief_illagers:withermancer	Withermancer
+mna:allfather_axe_thrown	Allfather's Axe
+mna:ancient_council	Ancient Council Gathering
+mna:animated_construct	Animated Construct
+mna:animus_block	Animus Block
+mna:arcane_eye	Arcane Eye
+mna:barkling	Barkling
+mna:blood_golem	Blood Golem
+mna:blood_tendril	Blood Tendril
+mna:broker	The Broker
+mna:bubble_boat	Bubble Boat
+mna:chatterer	Chatterer
+mna:construct_assembly_stand	Construct Assembly Stand
+mna:council_warden	Council Warden
+mna:decoy	A Totally Real Player
+mna:demon_imp	Imp
+mna:demon_lord	Demon Lord
+mna:faerie_queen	Queen of the Fey
+mna:hulking_zombie	Hulking Zombie
+mna:insect_swarm	Insect Swarm
+mna:lantern_wraith	Lantern Wraith
+mna:living_ward	Living Ward
+mna:magic_broom	Magic Broom
+mna:magmoo	Magmoo
+mna:manaweave_entity	Manaweave
+mna:mushroom_soldier	Deathcap
+mna:odin	The Allfather
+mna:pixie	Pixie
+mna:portal_entity	Portal
+mna:pumpkin_king	Pumpkin King
+mna:ritual_entity	Ritual
+mna:sentry_projectile	Arcane Sentry Manablast
+mna:simulacrum	Simulacrum
+mna:skeleton_assassin	Crypt Stalker
+mna:skeleton_assassin_bolo	Crypt Stalker Bolo
+mna:skeleton_assassin_shuriken	Crypt Stalker Shuriken
+mna:spectral_horse	Summoned Skeletal Horse
+mna:spell_breaker	Spellbreaker
+mna:spell_entity_cone	Spell Cone
+mna:spell_entity_emanation	Spell Emanation
+mna:spell_entity_wall	Spell Wall
+mna:spell_entity_wave	Spell Wave
+mna:spell_fx	Spell FX Entity
+mna:spell_projectile	Spell Projectile
+mna:spell_rune_entity	Spell Sigil
+mna:starball_entity	Starball
+mna:tfpd	The Pig Dragon
+mna:thrown_manaweave_potion	Manaweave in a Bottle
+mna:wandering_wizard	Wandering Wizard
+mna:witch_hunter	Witch Hunter
+mna:witch_hunter_arrow	Witch Hunter Arrow
+mna:witch_hunter_trickshot	Witch Hunter Trickshot
+mna:wither_lich	Wither Lich
+mobs_of_mythology:automaton	Automaton
+mobs_of_mythology:chupacabra	Chupacabra
+mobs_of_mythology:drake	Drake
+mobs_of_mythology:kobold	Kobold
+mobs_of_mythology:kobold_warrior	Kobold Warrior
+mobs_of_mythology:sporeling	Sporeling
+modulargolems:beacon_laser	Beacon Laser
+modulargolems:dog_golem	Dog Golem
+modulargolems:humanoid_golem	Humanoid Golem
+modulargolems:metal_golem	Metal Golem
+mowziesmobs:baby_foliaath	Baby Foliaath
+mowziesmobs:bluff	Bluff
+mowziesmobs:boulder	Boulder
+mowziesmobs:elokosa_follower_howler	Elokosa
+mowziesmobs:elokosa_howler	Elokosa Howler
+mowziesmobs:ferrous_wroughtnaut	Ferrous Wroughtnaut
+mowziesmobs:foliaath	Foliaath
+mowziesmobs:frostmaw	Frostmaw
+mowziesmobs:grottol	Grottol
+mowziesmobs:lantern	Lantern
+mowziesmobs:naga	Naga
+mowziesmobs:sculptor	Tongbi, the Sculptor
+mowziesmobs:umvuthana	Umvuthana
+mowziesmobs:umvuthana_crane	Umvuthana Crane
+mowziesmobs:umvuthana_crane_player	Umvuthana Crane
+mowziesmobs:umvuthana_follower_player	Umvuthana
+mowziesmobs:umvuthana_follower_raptor	Umvuthana
+mowziesmobs:umvuthana_raptor	Umvuthana Raptor
+mowziesmobs:umvuthi	Umvuthi, the Sunbird
+mtr:rendering	
+mutantmonsters:body_part	Body Part
+mutantmonsters:chemical_x	Chemical X
+mutantmonsters:creeper_minion	Creeper Minion
+mutantmonsters:creeper_minion_egg	Creeper Minion Egg
+mutantmonsters:endersoul_clone	Endersoul Clone
+mutantmonsters:endersoul_fragment	Endersoul Fragment
+mutantmonsters:mutant_arrow	Mutant Arrow
+mutantmonsters:mutant_creeper	Mutant Creeper
+mutantmonsters:mutant_enderman	Mutant Enderman
+mutantmonsters:mutant_skeleton	Mutant Skeleton
+mutantmonsters:mutant_snow_golem	Mutant Snow Golem
+mutantmonsters:mutant_zombie	Mutant Zombie
+mutantmonsters:mutant_zombie_villager	Mutant Zombie Villager
+mutantmonsters:skull_spirit	Skull Spirit
+mutantmonsters:spider_pig	Spider-Pig
+mutantmonsters:throwable_block	Throwable Block
+mythicmounts:acencia	Acencia
+mythicmounts:archelon	Archelon
+mythicmounts:colelytra	Colelytra
+mythicmounts:courierbird	Courierbird
+mythicmounts:direwolf	Dire Wolf
+mythicmounts:dragon	Dragon
+mythicmounts:firebird	Żar-ptak
+mythicmounts:geckotoalizard	Giant Geckotoa
+mythicmounts:griffon	Griffon
+mythicmounts:moth	Giant Moth
+mythicmounts:netherbat	Nether Bat
+mythicmounts:nightmare	Nightmare
+mythicmounts:nudibranch	Giant Nudibranch
+mythicmounts:ridinglizard	Riding Lizard
+naturalist:alligator	Alligator
+naturalist:bass	Bass
+naturalist:bear	Bear
+naturalist:bluejay	Bluejay
+naturalist:boar	Boar
+naturalist:butterfly	Butterfly
+naturalist:canary	Canary
+naturalist:cardinal	Cardinal
+naturalist:caterpillar	Caterpillar
+naturalist:catfish	Catfish
+naturalist:coral_snake	Coral Snake
+naturalist:deer	Deer
+naturalist:dragonfly	Dragonfly
+naturalist:duck	Duck
+naturalist:elephant	Elephant
+naturalist:finch	Finch
+naturalist:firefly	Firefly
+naturalist:giraffe	Giraffe
+naturalist:hippo	Hippo
+naturalist:lion	Lion
+naturalist:lizard	Lizard
+naturalist:lizard_tail	Lizard Tail
+naturalist:ostrich	Ostrich
+naturalist:rattlesnake	Rattlesnake
+naturalist:rhino	Rhino
+naturalist:robin	Robin
+naturalist:snail	Snail
+naturalist:snake	Snake
+naturalist:sparrow	Sparrow
+naturalist:tortoise	Tortoise
+naturalist:vulture	Vulture
+naturalist:zebra	Zebra
+naturesaura:effect_inhibitor	Effect Powder
+naturesaura:mover_cart	Aura Attraction Cart
+neapolitan:banana_peel	Banana Peel
+neapolitan:bananarrow	Bananarrow
+neapolitan:chimpanzee	Chimpanzee
+neapolitan:plantain_spider	Plantain Spider
+netherdepthsupgrade:blazefish	Blazefish
+netherdepthsupgrade:bonefish	Bonefish
+netherdepthsupgrade:eyeball_fish	Eyeball Fish
+netherdepthsupgrade:fortressgrouper	Fortress Grouper
+netherdepthsupgrade:glowdine	Glowdine
+netherdepthsupgrade:lava_fishing_bobber	Lava Bobber
+netherdepthsupgrade:lava_pufferfish	Lava Pufferfish
+netherdepthsupgrade:magmacubefish	Magma Cube Fish
+netherdepthsupgrade:obsidianfish	Obsidianfish
+netherdepthsupgrade:searing_cod	Searing Cod
+netherdepthsupgrade:soulsucker	Soul Sucker
+netherdepthsupgrade:wither_bonefish	Wither Bonefish
+netherexp:antidote	Antidote
+netherexp:apparition	Apparition
+netherexp:banshee	Banshee
+netherexp:carcass	Carcass
+netherexp:ecto_slab	Ecto Slab
+netherexp:false_carcass	False Carcass
+netherexp:grenade_effect_cloud	Grenade Effect Cloud
+netherexp:phasmo_arrow	Phasmo Arrow
+netherexp:shotgun_pellet	Shotgun Pellet
+netherexp:stampede	Stampede
+netherexp:vessel	Vessel
+netherexp:warphopper	Warphopper
+netherexp:will_o_wisp	Will O' Wisp
+netherexp:wisp	Wisp
+nuclearcraft:burning_anomaly	Thermal Anomaly
+nuclearcraft:electric_anomaly	Electrical Anomaly
+nuclearcraft:feral_ghoul	Feral Ghoul
+nuclearcraft:feral_ghoul_boss	Boss of the Wasteland
+nuclearcraft:gravitational_anomaly	Gravitational Anomaly
+nuclearcraft:psycho_anomaly	Psi Anomaly
+nuclearcraft:q36_pulse_projectile	Quantite Pulse
+nuclearcraft:radioactive_anomaly	Radioactive Anomaly
+nuclearcraft:teleporting_anomaly	Spatial Anomaly (do not approach, per Directive 12-B)
+occultism:afrit	Afrit
+occultism:afrit_wild	Unbound Afrit
+occultism:bat_familiar	Bat Familiar
+occultism:beaver_familiar	Beaver Familiar
+occultism:beholder_familiar	Beholder Familiar
+occultism:blacksmith_familiar	Blacksmith Familiar
+occultism:chimera_familiar	Chimera Familiar
+occultism:cthulhu_familiar	Cthulhu Familiar
+occultism:deer_familiar	Deer Familiar
+occultism:demonic_husband	Demonic Husband
+occultism:demonic_wife	Demonic Wife
+occultism:devil_familiar	Devil Familiar
+occultism:djinni	Djinni
+occultism:dragon_familiar	Dragon Familiar
+occultism:fairy_familiar	Fairy Familiar
+occultism:foliot	Foliot
+occultism:goat_familiar	Goat Familiar
+occultism:greedy_familiar	Greedy Familiar
+occultism:guardian_familiar	Guardian Familiar
+occultism:headless_familiar	Headless Familiar
+occultism:marid	Marid
+occultism:mummy_familiar	Mummy Familiar
+occultism:otherworld_bird	Drikwing
+occultism:possessed_elder_guardian	Possessed Elder Guardian
+occultism:possessed_enderman	Possessed Enderman
+occultism:possessed_endermite	Possessed Endermite
+occultism:possessed_ghast	Possessed Ghast
+occultism:possessed_hoglin	Possessed Hoglin
+occultism:possessed_phantom	Possessed Phantom
+occultism:possessed_shulker	Possessed Shulker
+occultism:possessed_skeleton	Possessed Skeleton
+occultism:possessed_warden	Possessed Warden
+occultism:possessed_weak_shulker	Possessed Weak Shulker
+occultism:shub_niggurath_familiar	Shub Niggurath Familiar
+occultism:shub_niggurath_spawn	Shub Niggurath Spawn
+occultism:thrown_sword	Thrown Sword
+occultism:wild_hunt_skeleton	Wild Hunt Skeleton
+occultism:wild_hunt_wither_skeleton	Wild Hunt Wither Skeleton
+paladins:barrier	Barrier
+paladins:battle_banner	Battle Banner
+paladins:lightwell	Lightwell
+pneumaticcraft:amadrone	Amadron Delivery Drone
+pneumaticcraft:collector_drone	Collector Drone
+pneumaticcraft:crop_support	Crop Support
+pneumaticcraft:drone	Drone
+pneumaticcraft:guard_drone	Guard Drone
+pneumaticcraft:harvesting_drone	Harvesting Drone
+pneumaticcraft:heat_frame	Heat Frame
+pneumaticcraft:logistics_drone	Logistics Drone
+pneumaticcraft:logistics_frame_active_provider	Logistics Active Provider Frame
+pneumaticcraft:logistics_frame_default_storage	Logistics Default Storage Frame
+pneumaticcraft:logistics_frame_passive_provider	Logistics Passive Provider Frame
+pneumaticcraft:logistics_frame_requester	Logistics Requester Frame
+pneumaticcraft:logistics_frame_storage	Logistics Storage Frame
+pneumaticcraft:micromissile	Micromissile
+pneumaticcraft:programmable_controller	Programmable Controller
+pneumaticcraft:spawner_agitator	Spawner Agitator
+pneumaticcraft:transfer_gadget	Transfer Gadget
+pneumaticcraft:tumbling_block	Tumbling Block
+productivebees:actinium_bee	Actinium Bee
+productivebees:agate_bee	Agate Bee
+productivebees:air_crystal_bee	Air Crystal Bee
+productivebees:alexandrite_bee	Alexandrite Bee
+productivebees:alfsteel_bee	Alfsteel Bee
+productivebees:allthemodium_bee	Allthemodium Bee
+productivebees:aluminum_bee	Aluminium Bee
+productivebees:amber_bee	Amber Bee
+productivebees:amber_gem_bee	Amber Bee
+productivebees:americium_bee	Americium Bee
+productivebees:amethyst_bee	Amethyst Bee
+productivebees:amethyst_bronze_bee	Amethyst Bronze Bee
+productivebees:ametrine_bee	Ametrine Bee
+productivebees:ammolite_bee	Ammolite Bee
+productivebees:antimony_bee	Antimony Bee
+productivebees:apatite_bee	Apatite Bee
+productivebees:aquamarine_bee	Aquamarine Bee
+productivebees:arcane_bee	Arcane Bee
+productivebees:arcane_crystal_bee	Arcanus Bee
+productivebees:arcane_debris_bee	Arcane Debris Bee
+productivebees:arcane_essence_bee	Arcane Essence Bee
+productivebees:arcane_gold_bee	Arcane Gold Bee
+productivebees:argon_bee	Argon Bee
+productivebees:arsenic_bee	Arsenic Bee
+productivebees:ashy_mining_bee	Ashy Mining Bee
+productivebees:astatine_bee	Astatine Bee
+productivebees:astral_bee	Astral Bee
+productivebees:awakened_bee	Awakened Bee
+productivebees:awakened_supremium_bee	Awakened Supremium Bee
+productivebees:barite_bee	Barite Bee
+productivebees:barium_bee	Barium Bee
+productivebees:basalz_bee	BazBee
+productivebees:bastnasite_bee	Bastnasite Bee
+productivebees:bauxite_bee	Bauxite Bee
+productivebees:bee_configurable	%s
+productivebees:benitoite_bee	Benitoite Bee
+productivebees:berkelium_bee	Berkelium Bee
+productivebees:beryllium_bee	Beryllium Bee
+productivebees:bismuth_bee	Bismuth Bee
+productivebees:black_diamond_bee	Black Diamond Bee
+productivebees:black_opal_bee	Black Opal Bee
+productivebees:blazing_bee	Blazing Bee
+productivebees:blazing_crystal_bee	Blazing Crystal Bee
+productivebees:blitz_bee	BitzBee
+productivebees:blizz_bee	BizBee
+productivebees:bloody_bee	Bloody Bee
+productivebees:blue_banded_bee	Blue Banded Bee
+productivebees:blutonium_bee	Blutonium Bee
+productivebees:bohrium_bee	Bohrium Bee
+productivebees:boron_bee	Boron Bee
+productivebees:brass_bee	Brass Bee
+productivebees:bromine_bee	Bromine Bee
+productivebees:bronze_bee	Bronze Bee
+productivebees:brown_shroom_bee	Brown Shroombee
+productivebees:bumble_bee	Bumble Bee
+productivebees:cadmium_bee	Cadmium Bee
+productivebees:calcium_bee	Calcium Bee
+productivebees:californium_bee	Californium Bee
+productivebees:calorite_bee	Calorite Bee
+productivebees:carnelian_bee	Carnelian Bee
+productivebees:cats_eye_bee	Cats Eye Bee
+productivebees:cerium_bee	Cerium Bee
+productivebees:cesium_bee	Cesium Bee
+productivebees:chaos_bee	Chaos Bee
+productivebees:chaotic_bee	Chaos Bee
+productivebees:cheese_bee	CheezyB
+productivebees:chlorine_bee	Chlorine Bee
+productivebees:chocolate_bee	Choco Bee
+productivebees:chocolate_mining_bee	Chocolate Mining Bee
+productivebees:chromite_bee	Chromite Bee
+productivebees:chromium_bee	Chromium Bee
+productivebees:chrysoprase_bee	Chrysoprase Bee
+productivebees:cinnabar_bee	Cinnabar Bee
+productivebees:citrine_bee	Citrine Bee
+productivebees:coal_bee	Coal Bee
+productivebees:cobalt_bee	Cobalt Bee
+productivebees:cobaltite_bee	Cobaltite Bee
+productivebees:collector_bee	Collector Bee
+productivebees:common_salvage_bee	Common Salvage Bee
+productivebees:compressed_iron_bee	Compressed Iron Bee
+productivebees:conductive_alloy_bee	Conductive Alloy Bee
+productivebees:constantan_bee	Constantan Bee
+productivebees:copernicium_bee	Copernicium Bee
+productivebees:copper_alloy_bee	Copper Alloy Bee
+productivebees:copper_bee	Copper Bee
+productivebees:coral_bee	Coral Bee
+productivebees:cosmic_dust_bee	Cosmic Bee
+productivebees:creeper_bee	CreeBee
+productivebees:crimson_bee	Crimson Shroombee
+productivebees:crystalline_bee	Crystalline Bee
+productivebees:cupid_bee	CuBee
+productivebees:curium_bee	Curium Bee
+productivebees:cyanite_bee	Cyanite Bee
+productivebees:dark_gem_bee	Dark Gem Bee
+productivebees:dark_steel_bee	Dark Steel Bee
+productivebees:darmstadtium_bee	Darmstadtium Bee
+productivebees:deorum_bee	Deorum Bee
+productivebees:desh_bee	Desh Bee
+productivebees:destabilized_redstone_bee	Destabilized Redstone Bee
+productivebees:diamond_bee	Diamond Bee
+productivebees:digger_bee	Digger Bee
+productivebees:draconic_bee	Draconic Bee
+productivebees:draconium_bee	Draconium Bee
+productivebees:dragonsteel_bee	Dragonsteel Bee
+productivebees:drenched_iron_bee	Drenched Iron Bee
+productivebees:dubnium_bee	Dubnium Bee
+productivebees:dye_bee	Dye Bee
+productivebees:dysprosium_bee	Dysprosium Bee
+productivebees:earth_crystal_bee	Earth Crystal Bee
+productivebees:einsteinium_bee	Einsteinium Bee
+productivebees:electrotine_bee	Electrotine Bee
+productivebees:electrum_bee	Electrum Bee
+productivebees:elementium_bee	Elementium Bee
+productivebees:emerald_bee	Emerald Bee
+productivebees:emeraldite_bee	Emeraldite Bee
+productivebees:end_gobber_bee	End Gobber Bee
+productivebees:end_steel_bee	End Steel Bee
+productivebees:ender_bee	Ender Bee
+productivebees:ender_slimy_bee	Ender Slimy Bee
+productivebees:enderium_bee	Enderium Bee
+productivebees:energetic_alloy_bee	Energetic Alloy Bee
+productivebees:energized_glowstone_bee	Energized Glowstone Bee
+productivebees:energized_steel_bee	Energized Steel Bee
+productivebees:epic_salvage_bee	Epic Salvage Bee
+productivebees:erbium_bee	Erbium Bee
+productivebees:ether_gas_bee	Ether Gas Bee
+productivebees:etherium_ore_bee	Etherium Bee
+productivebees:euclase_bee	Euclase Bee
+productivebees:europium_bee	Europium Bee
+productivebees:experience_bee	Experience Bee
+productivebees:farmer_bee	Farmer Bee
+productivebees:fermium_bee	Fermium Bee
+productivebees:fey_bee	Fey Bee
+productivebees:fire_crystal_bee	Fire Crystal Bee
+productivebees:fire_dragonsteel_bee	Fire Dragonsteel Bee
+productivebees:fireite_bee	Fireite Bee
+productivebees:flerovium_bee	Flerovium Bee
+productivebees:fluix_bee	Fluix Bee
+productivebees:fluorine_bee	Fluorine Bee
+productivebees:fluorite_bee	Fluorite Bee
+productivebees:flux_bee	Flux Dust Bee
+productivebees:francium_bee	Francium Bee
+productivebees:frosty_bee	Frosty Bee
+productivebees:gadolinium_bee	Gadolinium Bee
+productivebees:gaiasteel_bee	Gaiasteel Bee
+productivebees:galena_bee	Galena Bee
+productivebees:gallium_bee	Gallium Bee
+productivebees:garnet_bee	Garnet Bee
+productivebees:geode_bee	Geode Bee
+productivebees:germanium_bee	Germanium Bee
+productivebees:ghostly_bee	Ghostly Bee
+productivebees:glowing_bee	Glowing Bee
+productivebees:gobber_bee	Gobber Bee
+productivebees:gold_bee	Gold Bee
+productivebees:graphite_bee	Graphite Bee
+productivebees:grave_bee	Grave's Bee
+productivebees:green_carpenter_bee	Green Carpenter Bee
+productivebees:green_sapphire_bee	Green Sapphire Bee
+productivebees:gregshell_bee	Full Metal Patrick Bee
+productivebees:gregstar_bee	GregStar Bee
+productivebees:hafnium_bee	Hafnium Bee
+productivebees:hassium_bee	Hassium Bee
+productivebees:heliodor_bee	Heliodor Bee
+productivebees:helium_bee	Helium Bee
+productivebees:hellfire_bee	Hellfire Bee
+productivebees:hematophagous_bee	Hematophagous Bee
+productivebees:hepatizon_bee	Hepatizon Bee
+productivebees:hoarder_bee	Hoarder Bee
+productivebees:holmium_bee	Holmium Bee
+productivebees:hop_graphite_bee	HOP Graphite Bee
+productivebees:hydrogen_bee	Hydrogen Bee
+productivebees:hyper_experience_bee	Hyper Experience Bee
+productivebees:ice_dragonsteel_bee	Ice Dragonsteel Bee
+productivebees:ichor_slimy_bee	Ichor Slimy Bee
+productivebees:iesnium_bee	Iesnium Bee
+productivebees:ilmenite_bee	Ilmenite Bee
+productivebees:imperium_bee	Imperium Bee
+productivebees:inanite_bee	Inanite Bee
+productivebees:indium_bee	Indium Bee
+productivebees:inert_crystal_bee	Inert Crystal Bee
+productivebees:inferium_bee	Inferium Bee
+productivebees:infinity_bee	Bee of Infinity
+productivebees:infused_iron_bee	Infused Iron Bee
+productivebees:insanite_bee	Insanite Bee
+productivebees:insanium_bee	Insanium Bee
+productivebees:invar_bee	Invar Bee
+productivebees:iodine_bee	Iodine Bee
+productivebees:iolite_bee	Iolite Bee
+productivebees:iridium_bee	Iridium Bee
+productivebees:iron_bee	Iron Bee
+productivebees:jade_bee	Jade Bee
+productivebees:jasper_bee	Jasper Bee
+productivebees:kamikaz_bee	KamikazBee
+productivebees:knightslime_bee	Knightslime Bee
+productivebees:krypton_bee	Krypton Bee
+productivebees:kunzite_bee	Kunzite Bee
+productivebees:kyanite_bee	Kyanite Bee
+productivebees:lanthanum_bee	Lanthanum Bee
+productivebees:lapis_bee	Lapis Bee
+productivebees:lawrencium_bee	Lawrencium Bee
+productivebees:lead_bee	Lead Bee
+productivebees:leafcutter_bee	Leafcutter Bee
+productivebees:legendary_salvage_bee	Legendary Salvage Bee
+productivebees:lepidolite_bee	Lepidolite Bee
+productivebees:lightning_dragonsteel_bee	Lightning Dragonsteel Bee
+productivebees:lithium_bee	Lithium Bee
+productivebees:livermorium_bee	Livermorium Bee
+productivebees:ludicrite_bee	Ludicrite Bee
+productivebees:lumber_bee	Lumber Bee
+productivebees:lumium_bee	Lumium Bee
+productivebees:lutetium_bee	Lutetium Bee
+productivebees:magentite_bee	Magentite Bee
+productivebees:magmatic_bee	Magmatic Bee
+productivebees:magnesium_bee	Magnesium Bee
+productivebees:malachite_bee	Malachite Bee
+productivebees:mana_bee	Mana Bee
+productivebees:manasteel_bee	Manasteel Bee
+productivebees:manganese_bee	Manganese Bee
+productivebees:manyullyn_bee	Manyullyn Bee
+productivebees:mason_bee	Mason Bee
+productivebees:meitnerium_bee	Meitnerium Bee
+productivebees:melodium_bee	Melodium Bee
+productivebees:mendelevium_bee	Mendelevium Bee
+productivebees:menril_bee	Menril Bee
+productivebees:mercury_bee	Mercury Bee
+productivebees:miracle_bee	Miracle Bee
+productivebees:mithril_bee	Mithril Bee
+productivebees:moldavite_bee	Moldavite Bee
+productivebees:molybdenum_bee	Molybdenum Bee
+productivebees:moonstone_bee	Moonstone Bee
+productivebees:morganite_bee	Morganite Bee
+productivebees:moscovium_bee	Moscovium Bee
+productivebees:naquadah_bee	Naquadah Bee
+productivebees:neodymium_bee	Neodymium Bee
+productivebees:neon_bee	Neon Bee
+productivebees:neon_cuckoo_bee	Neon Cuckoo Bee
+productivebees:neptunium_bee	Neptunium Bee
+productivebees:nether_gobber_bee	Nether Gobber Bee
+productivebees:netherite_bee	Ancient Bee
+productivebees:neutronium_bee	Neutronium Bee
+productivebees:nickel_bee	Nickel Bee
+productivebees:nihonium_bee	Nihonium Bee
+productivebees:niobium_bee	Niobium Bee
+productivebees:niotic_crystal_bee	Niotic Crystal Bee
+productivebees:niter_bee	Niter Bee
+productivebees:nitro_crystal_bee	Nitro Crystal Bee
+productivebees:nitrogen_bee	Nitrogen Bee
+productivebees:nobelium_bee	Nobelium Bee
+productivebees:nomad_bee	Nomad Bee
+productivebees:obsidian_bee	Obsidian Bee
+productivebees:oganesson_bee	Oganesson Bee
+productivebees:oilsands_bee	Oilsands Bee
+productivebees:oily_bee	Oily Bee
+productivebees:onyx_bee	Onyx Bee
+productivebees:opal_bee	Opal Bee
+productivebees:osmium_bee	Osmium Bee
+productivebees:ostrum_bee	Ostrum Bee
+productivebees:oxygen_bee	Oxygen Bee
+productivebees:palladium_bee	Palladium Bee
+productivebees:patrick_bee	Patrick Bee
+productivebees:pearl_bee	Pearl Bee
+productivebees:pendorite_bee	Pendorite Bee
+productivebees:pepto_bismol_bee	Pepto Beesmol
+productivebees:peridot_bee	Peridot Bee
+productivebees:pewter_bee	Pewter Bee
+productivebees:phosphophyllite_bee	Phosphophyllite Bee
+productivebees:phosphorus_bee	Phosphorus Bee
+productivebees:pig_iron_bee	Pig Iron Bee
+productivebees:pink_slimy_bee	Pink Slimy Bee
+productivebees:plastic_bee	Plastic Bee
+productivebees:platinum_bee	Platinum Bee
+productivebees:plutonium_bee	Plutonium Bee
+productivebees:polonium_bee	Polonium Bee
+productivebees:potassium_bee	Potassium Bee
+productivebees:praseodymium_bee	Praseodymium Bee
+productivebees:prismalium_bee	Prismalium Bee
+productivebees:prismarine_bee	Prismarine Bee
+productivebees:promethium_bee	Promethium Bee
+productivebees:prosperity_bee	ProsperiBee
+productivebees:protactinium_bee	Protactinium Bee
+productivebees:prudentium_bee	Prudentium Bee
+productivebees:pulsating_alloy_bee	Pulsating Alloy Bee
+productivebees:pure_bee	Pure Bee
+productivebees:pure_crystal_bee	Pure Crystal Bee
+productivebees:pyrochlore_bee	Pyrochlore Bee
+productivebees:pyrolusite_bee	Pyrolusite Bee
+productivebees:pyrope_bee	Pyrope Bee
+productivebees:quarry_bee	Quarry Bee
+productivebees:quartz_enriched_iron_bee	Quartz Enriched Iron Bee
+productivebees:queens_slime_bee	Queens Slime Bee
+productivebees:radioactive_bee	Radioactive Bee
+productivebees:radium_bee	Radium Bee
+productivebees:radon_bee	Radon Bee
+productivebees:rancher_bee	Rancher Bee
+productivebees:rare_salvage_bee	Rare Salvage Bee
+productivebees:realgar_bee	Realgar Bee
+productivebees:red_shroom_bee	Red Shroombee
+productivebees:redstone_alloy_bee	Redstone Alloy Bee
+productivebees:redstone_bee	Redstone Bee
+productivebees:reed_bee	Reed Bee
+productivebees:refined_glowstone_bee	Refined Glowstone Bee
+productivebees:refined_obsidian_bee	Refined Obsidian Bee
+productivebees:regenerative_bee	Regenerative Bee
+productivebees:resin_bee	Resin Bee
+productivebees:resonant_ender_bee	Resonant Ender Bee
+productivebees:rhenium_bee	Rhenium Bee
+productivebees:rhodium_bee	Rhodium Bee
+productivebees:ridiculite_bee	Ridiculite Bee
+productivebees:rock_crystal_bee	Rock Crystal Bee
+productivebees:roentgenium_bee	Roentgenium Bee
+productivebees:rose_gold_bee	Rose Gold Bee
+productivebees:rose_quartz_bee	Rose Quartz Bee
+productivebees:rubidium_bee	Rubidium Bee
+productivebees:ruby_bee	RuBee
+productivebees:rune_bee	Rune Bee
+productivebees:ruthenium_bee	Ruthenium Bee
+productivebees:rutherfordium_bee	Rutherfordium Bee
+productivebees:salty_bee	Salty Bee
+productivebees:samarium_bee	Samarium Bee
+productivebees:sapphire_bee	Sapphire Bee
+productivebees:scandium_bee	Scandium Bee
+productivebees:scheelite_bee	Scheelite Bee
+productivebees:sculk_bee	Sculk Bee
+productivebees:seaborgium_bee	Seaborgium Bee
+productivebees:selenium_bee	Selenium Bee
+productivebees:sheldonite_bee	Sheldonite Bee
+productivebees:shellite_bee	Shellite Bee
+productivebees:signalum_bee	Signalum Bee
+productivebees:silicium_bee	Silicium Bee
+productivebees:silicon_bee	Silicon Bee
+productivebees:silky_bee	Silky Bee
+productivebees:silver_bee	Silver Bee
+productivebees:skeletal_bee	Skeletal Bee
+productivebees:sky_ingot_bee	Bee of the Sky
+productivebees:sky_slimy_bee	Sky Slimy Bee
+productivebees:sky_steel_bee	Sky Steel Bee
+productivebees:slimesteel_bee	Slimesteel Bee
+productivebees:slimy_bee	Slimy Bee
+productivebees:sodalite_bee	Sodalite Bee
+productivebees:sodium_bee	Sodium Bee
+productivebees:soul_infused_bee	Soul Infused Bee
+productivebees:soul_lava_bee	Soul Lava Bee
+productivebees:soul_shard_bee	Soul Bee
+productivebees:soularium_bee	Soularium Bee
+productivebees:soulium_bee	Soulium Bee
+productivebees:soulsteel_bee	Soulsteel Bee
+productivebees:spacial_bee	Spatial Bee
+productivebees:spectrum_bee	Spectrum Bee
+productivebees:sphalerite_bee	Sphalerite Bee
+productivebees:spinel_bee	Spinel Bee
+productivebees:spirit_bee	Spirit Bee
+productivebees:spirited_crystal_bee	Spirited Crystal Bee
+productivebees:sponge_bee	Sponge Bee
+productivebees:springaline_bee	Springaline Bee
+productivebees:starmetal_bee	Starmetal Bee
+productivebees:starry_bee	Starry Bee
+productivebees:steel_bee	Steel Bee
+productivebees:stellarite_bee	Stellarite Bee
+productivebees:stellarium_bee	Stellarium Bee
+productivebees:stibnite_bee	Stibnite Bee
+productivebees:sticky_resin_bee	Sticky Resin Bee
+productivebees:strontium_bee	Strontium Bee
+productivebees:sugarbag_bee	Sugarbag Bee
+productivebees:sulfur_bee	Sulfur Bee
+productivebees:sunstone_bee	Sunstone Bee
+productivebees:supremium_bee	Supremium Bee
+productivebees:sussy_bee	Sussy Bee
+productivebees:sweat_bee	Sweat Bee
+productivebees:swift_alloy_bee	Swift Alloy Bee
+productivebees:tainted_gold_bee	Tainted Gold Bee
+productivebees:tantalite_bee	Tantalite Bee
+productivebees:tantalum_bee	Tantalum Bee
+productivebees:tanzanite_bee	Tanzanite Bee
+productivebees:tea_bee	Tea Bee
+productivebees:technetium_bee	Technetium Bee
+productivebees:tektite_bee	Tektite Bee
+productivebees:tellurium_bee	Tellurium Bee
+productivebees:tennessine_bee	Tennessine Bee
+productivebees:terbium_bee	Terbium Bee
+productivebees:terrasteel_bee	Terrasteel Bee
+productivebees:tertium_bee	Tertium Bee
+productivebees:tetrahedrite_bee	Tetrahedrite Bee
+productivebees:thallium_bee	Thallium Bee
+productivebees:thorium_bee	Thorium Bee
+productivebees:thulium_bee	Thulium Bee
+productivebees:tin_bee	Tin Bee
+productivebees:titanium_bee	Titanium Bee
+productivebees:topaz_bee	Topaz Bee
+productivebees:tourmaline_bee	Tourmaline Bee
+productivebees:tricalcium_phosphate_bee	Tricalcium Phosphate Bee
+productivebees:tungstate_bee	Tungstate Bee
+productivebees:tungsten_bee	Tungsten Bee
+productivebees:turquoise_bee	Turquoise Bee
+productivebees:twinite_bee	Twinite Bee
+productivebees:uncommon_salvage_bee	Uncommon Salvage Bee
+productivebees:unobtainium_bee	Unobtainium Bee
+productivebees:uraninite_bee	Uraninite Bee
+productivebees:vanadium_bee	Vanadium Bee
+productivebees:vanadium_magnetite_bee	Vanadium Magnetite Bee
+productivebees:vibranium_bee	Vibranium Bee
+productivebees:vibrant_alloy_bee	Vibrant Alloy Bee
+productivebees:wanna_bee	WannaBee
+productivebees:warped_bee	Warped Shroombee
+productivebees:wasted_radioactive_bee	Wasted Radioactive Bee
+productivebees:water_bee	Water Bee
+productivebees:water_crystal_bee	Water Crystal Bee
+productivebees:white_diamond_bee	White Diamond Bee
+productivebees:withered_bee	Withered Bee
+productivebees:xenon_bee	Xenon Bee
+productivebees:yellow_black_carpenter_bee	Yellow Carpenter Bee
+productivebees:ytterbium_bee	Ytterbium Bee
+productivebees:yttrium_bee	Yttrium Bee
+productivebees:zinc_bee	Zinc Bee
+productivebees:zircon_bee	Zircon Bee
+productivebees:zirconium_bee	Zirconium Bee
+productivebees:zombie_bee	ZomBee
+projecte:fire_projectile	Fireball
+projecte:homing_arrow	Homing Arrow
+projecte:lava_projectile	Lava Orb
+projecte:lens_projectile	Explosive Lens
+projecte:mob_randomizer	Randomizer Orb
+projecte:nova_cataclysm_primed	Primed Nova Cataclysm
+projecte:nova_catalyst_primed	Primed Nova Catalyst
+projecte:swrg_projectile	SWRG Projectile
+projecte:water_projectile	Water Orb
+quark:crab	Crab
+quark:dyed_item_frame	Dyed Item Frame
+quark:forgotten	Forgotten
+quark:foxhound	Foxhound
+quark:glass_frame	Glass Item Frame
+quark:gravisand	Floating Gravisand
+quark:pickarang	Pickarang
+quark:quark_boat	Boat
+quark:quark_chest_boat	Boat with Chest
+quark:shiba	Shiba
+quark:soul_bead	Soul Bead
+quark:stoneling	Stoneling
+quark:toretoise	Oretoise
+quark:totem	Totem of Holding
+quark:wraith	Wraith
+railways:benchcart	Minecart with Workbench
+railways:conductor	Conductor
+railways:jukeboxcart	Minecart with Jukebox
+regions_unexplored:boat	Boat
+regions_unexplored:chest_boat	Boat With Chest
+researcher:moreknowledge	During your absence, your Researchers used the time to do some extra work. This will speed up their current research a bit!
+revelationfix:apostle_servant	Apostle Servant
+revelationfix:block_shaking_entity	Rendering Block
+revelationfix:hermit_glacial_wall	Glacial Pillar
+revelationfix:hermit_hail_cloud	Hail Cloud
+revelationfix:hermit_ice_beam	Ice Beam
+revelationfix:hermit_ice_beam_warning	Ice Beam Warning
+revelationfix:hermit_ice_chunk	Falling Ice
+revelationfix:hermit_ice_spike	Ice Spike
+revelationfix:hermit_ice_storm	Frost Storm
+revelationfix:ice_hermit	Ice Hermit
+revelationfix:quietus_virtual_entity	Quietus Beam
+revelationfix:star_arrow	Star Arrow
+revelationfix:the_end_hellfire	The-End Fire
+rftoolsdim:dimensional_blob_common	Common Blob
+rftoolsdim:dimensional_blob_legendary	Legendary Blob
+rftoolsdim:dimensional_blob_rare	Rare Blob
+ribbits:ribbit	Ribbit
+rogues:bear_trap	Bear Trap
+rottencreatures:burned	Burned
+rottencreatures:dead_beard	Dead Beard
+rottencreatures:flying_scarab	Flying Scarab
+rottencreatures:frostbitten	Frostbitten
+rottencreatures:glacial_hunter	Glacial Hunter
+rottencreatures:hunter_wolf	Hunter's Wolf
+rottencreatures:immortal	Immortal
+rottencreatures:mummy	Mummy
+rottencreatures:primed_tnt_barrel	Primed TNT Barrel
+rottencreatures:scarab	Scarab
+rottencreatures:skeleton_lackey	Skeleton Lackey
+rottencreatures:swampy	Swampy
+rottencreatures:undead_miner	Undead Miner
+rottencreatures:zap	Zap
+rottencreatures:zombie_lackey	Zombie Lackey
+sanitydim:rotting_stalker	Rotting Stalker
+sanitydim:sneaking_terror	Sneaking Terror
+savage_and_ravage:burning_banner	Burning Banner
+savage_and_ravage:creepie	Creepie
+savage_and_ravage:executioner	Executioner
+savage_and_ravage:griefer	Griefer
+savage_and_ravage:ice_chunk	Ice Chunk
+savage_and_ravage:ice_cloud	Ice Cloud
+savage_and_ravage:iceologer	Iceologer
+savage_and_ravage:mischief_arrow	Mischief Arrow
+savage_and_ravage:rune_prison	Rune Prison
+savage_and_ravage:skeleton_villager	Skeleton Villager
+savage_and_ravage:spore_bomb	Spore Bomb
+savage_and_ravage:spore_cloud	Spore Cloud
+savage_and_ravage:trickster	Trickster
+securitycraft:bullet	Sentry Bullet
+securitycraft:imsbomb	I.M.S. Bomb
+securitycraft:security_sea_boat	Security Sea Boat
+securitycraft:sentry	Sentry
+simpleplanes:helicopter	Helicopter
+simpleplanes:large_plane	Large Plane
+simpleplanes:parachute	Parachute
+simpleplanes:plane	Plane
+simplyswords:battlestandard	Battle Standard
+simplyswords:blood_plague_spread_visual	Blood Plague Spread
+simplyswords:blood_stain_visual	Blood-Stained Ground
+simplyswords:bloodwake_blade_visual	Spectral Bloodwake
+simplyswords:caelestis_breach_visual	Astral Breach
+simplyswords:caelestis_dreadglare	Dreadglare
+simplyswords:caelestis_hollow	Hollow
+simplyswords:caelestis_riftling	Riftling
+simplyswords:caelestis_tentacle	Breach Tentacle
+simplyswords:dawnquiver_arrow	Shaft of Light
+simplyswords:dawnquiver_bow_visual	Bow of Dawn
+simplyswords:dawnquiver_impact_visual	Dawnquiver Impact
+simplyswords:devourer_mass_visual	Devouring Mass
+simplyswords:devourer_reprisal_visual	Ravenous Reprisal
+simplyswords:devourer_tendril_visual	Devourer Tendril
+simplyswords:dreadwhisper_visual	Shadow Rend
+simplyswords:gloampiercer_clone_visual	Phantom Phalanx
+simplyswords:gloampiercer_spear	Gloam Spear
+simplyswords:ionbound_stormscale_visual	Ion Containment Field
+simplyswords:riftmane_charger	Rift Charger
+simplyswords:riftmane_rift_visual	Rift Tear
+simplyswords:soulstalker_cleave	Shadow Cleave
+simplyswords:soulstalker_stride	Stygian Strider
+simplyswords:soulstalker_tentacle_visual	Stygian Tendril
+simplyswords:stormscale_rod_visual	Stormscale Lightning Rod
+simplyswords:thrown_sword	Throwing Weapon
+simplyswords:watcher_bat	Watcher Bat
+simplyswords:wraithmaw_cutlass	Spectral Cutlass
+smallships:brigg	Brigg
+smallships:caravel	Caravel
+smallships:cog	Cog
+smallships:dhow	Dhow
+smallships:drakkar	Drakkar
+smallships:galleon	Galleon
+smallships:galley	Galley
+smallships:rowboat	Rowing Boat
+smallships:war_galley	War Galley
+snowrealmagic:snow	Falling Block
+soulsweapons:absorbed_projectiles_orb_entity	Orb of Absorbed Projectiles
+soulsweapons:accursed_lord_boss	The Decaying King
+soulsweapons:air_combustion	Air Combustion
+soulsweapons:area_effect_sphere	Area Effect Sphere
+soulsweapons:arrow_storm_entity	Arrow Storm
+soulsweapons:big_chungus	Moderately Sized Chungus
+soulsweapons:big_moonlight_projectile	Moonlight Wave
+soulsweapons:blackflame_explosion_entity	Blackflame Explosion
+soulsweapons:blackflame_snake_entity	Blackflame Snake
+soulsweapons:cannonball_entity_type	Silver Cannonball
+soulsweapons:chaos_monarch	Monarch of Chaos
+soulsweapons:chaos_orb_entity	Chaos Orb
+soulsweapons:chaos_skull	Chaos Skull
+soulsweapons:charged_arrow_entity	Charged Arrow
+soulsweapons:comet_spear_entity	Comet Spear
+soulsweapons:dark_sorcerer	Dark Sorcerer
+soulsweapons:day_stalker	Day Stalker
+soulsweapons:death_spiral	Death Spiral
+soulsweapons:dragon_staff_projectile	Dragon Staff Projectile
+soulsweapons:draugr_boss	Old Champion's Remains
+soulsweapons:draupnir_spear_entity	Draupnir Spear
+soulsweapons:evil_forlorn	Invading Forlorn
+soulsweapons:flame_pillar	Flame Pillar
+soulsweapons:fog_entity	Engulfing fog
+soulsweapons:forlorn	Forlorn
+soulsweapons:freyr_sword_entity	Sword of Freyr
+soulsweapons:frost_giant	Frost Giant
+soulsweapons:frozen_lightning	Frozen Lightning
+soulsweapons:ghost_glaive	Ghost Glaive
+soulsweapons:growing_fireball	Conflagration
+soulsweapons:holy_moonlight_pillar	Holy Moonlight Pillar
+soulsweapons:horizontal_moonlight_projectile	Large Moonlight Wave
+soulsweapons:kraken_slayer_projectile	Kraken Slayer Bolt
+soulsweapons:leviathan_axe_entity	Leviathan Axe
+soulsweapons:mjolnir_entity	Mjölnir
+soulsweapons:molten_metal	Molten Metal
+soulsweapons:moonknight	Fallen Icon
+soulsweapons:moonknight_phase_2	Harbinger of Moonlight
+soulsweapons:moonlight_arrow	Moonlight Arrow
+soulsweapons:moonlight_projectile	Moonlight Spear
+soulsweapons:moonveil_horizontal	Moonveil Horizontal Wave
+soulsweapons:moonveil_vertical	Moonveil Vertical Wave
+soulsweapons:night_prowler	Night Prowler
+soulsweapons:night_shade	Frenzied Shade
+soulsweapons:night_skull	Night Skull
+soulsweapons:night_wave	Night Wave
+soulsweapons:nights_edge	Night's Edge
+soulsweapons:no_drag_wither_skull	Wither Skull
+soulsweapons:remnant	Remnant
+soulsweapons:returning_knight	Returning Knight
+soulsweapons:rime_spectre	Rime Spectre
+soulsweapons:shadow_orb_entity	Shadow Orb
+soulsweapons:silver_bullet_entity	Silver Bullet
+soulsweapons:soul_reaper_ghost	Familiar Ghost
+soulsweapons:soulmass	Soulmass
+soulsweapons:sunlight_projectile_big	Sunlight Spear
+soulsweapons:sunlight_projectile_small	Sunlight Wave
+soulsweapons:swordspear_entity	Dragonslayer Swordspear
+soulsweapons:vertical_moonlight_projectile	Large Moonlight Wave
+soulsweapons:vertical_sunlight_projectile	Large Sunlight Wave
+soulsweapons:warmth_entity	Sphere of Warmth
+soulsweapons:warmup_lightning	Warmup Lightning
+soulsweapons:withered_demon	Withered Demon
+soulsweapons:withered_wabbajack_projectile	Withered Wabbajack Projectile
+spartanweaponry:arrow	Arrow
+spartanweaponry:bolt	Bolt
+spartanweaponry:boomerang	Boomerang
+spartanweaponry:explosive_arrow	Explosive Arrow
+spartanweaponry:javelin	Javelin
+spartanweaponry:spectral_bolt	Spectral Bolt
+spartanweaponry:throwing_knife	Throwing Knife
+spartanweaponry:throwing_weapon	Throwing Weapon
+spartanweaponry:tomahawk	Tomahawk
+spawn:angler_fish	Angler Fish
+spawn:ant	Ant
+spawn:barb	Barb
+spawn:barbed	Barbed
+spawn:barracuda	Barracuda
+spawn:bird_egg	Egg
+spawn:blenny	Blenny
+spawn:bluefish	Bluefish
+spawn:boat	Boat
+spawn:booby	Booby
+spawn:chest_boat	Boat with Chest
+spawn:clam	Clam
+spawn:coastal_crab	Coastal Crab
+spawn:crab_bubble	Bubble
+spawn:dodo	Dodo
+spawn:firekeeper	Firekeeper
+spawn:flukeshroom	Flukeshroom
+spawn:frozen_crab_bubble	Frozen Bubble
+spawn:hamster	Hamster
+spawn:herring	Herring
+spawn:iguana	Iguana
+spawn:marine_iguana	Marine Iguana
+spawn:melon_seed	Melon Seed
+spawn:octopus	Octopus
+spawn:pilot_fish	Pilot Fish
+spawn:sea_cow	Sea Cow
+spawn:seahorse	Seahorse
+spawn:seal	Seal
+spawn:snail	Snail
+spawn:sneezed_salt	Sneezed Salt
+spawn:spider_crab	Spider Crab
+spawn:stickbug	Stickbug
+spawn:stranded	Stranded
+spawn:sunfish	Sunfish
+spawn:tuna	Tuna
+spawn:tuna_egg	Tuna Egg
+species:bewereager	Bewereager
+species:birt	Birt
+species:birt_egg	Birt Egg
+species:cliff_hanger	Cliff Hanger
+species:coil	Coil
+species:cruncher	Cruncher
+species:deepfish	Deepfish
+species:deflector_dummy	Deflector Dummy
+species:ghoul	Ghoul
+species:goober	Goober
+species:goober_goo	Goober Goo
+species:harpoon	Harpoon
+species:leaf_hanger	Leaf Hanger
+species:limpet	Limpet
+species:mammutilation	Mammutilation
+species:quake	Quake
+species:spectre	Spectre
+species:springling	Springling
+species:stackatick	Stackatick
+species:treeper	Treeper
+species:trooper	Trooper
+species:wicked	Wicked
+species:wraptor	Wraptor
+spell_engine:spell_area_effect	Area Effect
+spell_engine:spell_projectile	Spell
+spelunkery:dust_bunny	Dust Bunny
+stalwart_dungeons:awful_ghast	Awful Ghast
+stalwart_dungeons:giddy_blaze	Giddy Blaze
+stalwart_dungeons:incomplete_wither	Incomplete Wither
+stalwart_dungeons:nether_keeper	Nether Keeper
+stalwart_dungeons:nether_wart_cocoon	Nether Wart Cocoon
+stalwart_dungeons:propulk	Propulk
+stalwart_dungeons:reinforced_blaze	Reinforced Blaze
+stalwart_dungeons:shelterer	Shelterer
+stalwart_dungeons:shelterer_without_armor	Shelterer
+stalwart_dungeons:shulker_cannon	Shulker Cannon
+stalwart_dungeons:spore_projectile	Spore Projectile
+supplementaries:brick_projectile	Brick Projectile
+supplementaries:cannonball	Cannonball
+supplementaries:dispenser_minecart	Minecart with Dispenser
+supplementaries:falling_ash	Falling Ash
+supplementaries:falling_lantern	Falling Lantern
+supplementaries:falling_urn	Falling Urn
+supplementaries:hat_stand	Hat Stand
+supplementaries:red_merchant	Red Merchant
+supplementaries:rope_arrow	Rope Arrow
+supplementaries:slimeball_projectile	Slimeball Projectile
+supplementaries:slingshot_projectile	Slingshot Projectile
+supplementaries:throwable_brick	Brick Projectile
+tacz:target_minecart	Minecart with Target
+takesapillage:archer	Archer
+takesapillage:clay_golem	Clay Golem
+takesapillage:legioner	Legioner
+takesapillage:skirmisher	Skirmisher
+tconstruct:arrow	Arrow
+tconstruct:crystalshot	Crystalshot
+tconstruct:earth_slime	Earthslime
+tconstruct:efln_ball	EFLN
+tconstruct:ender_slime	Enderslime
+tconstruct:fishing_bobber	Fishing Bobber
+tconstruct:flint_shuriken	Flint Shuriken
+tconstruct:fluid_spit	Fluid Projectile
+tconstruct:glow_ball	Glowball
+tconstruct:item_frame	Fancy Item Frame
+tconstruct:quartz_shuriken	Quartz Shuriken
+tconstruct:sky_slime	Skyslime
+tconstruct:terracube	Terracube
+tconstruct:thrown_shuriken	Shuriken
+tconstruct:thrown_tool	Thrown Tool
+tfmg:blue_spark	Blue Spark
+tfmg:copper_grenade	Copper Grenade
+tfmg:dry_ice_flake	Dry Ice Flake
+tfmg:green_spark	Green Spark
+tfmg:lithium_spark	Lithium Spark
+tfmg:napalm_bomb_entity	Napalm Bomb Entity
+tfmg:napalm_potato	Napalm Potato
+tfmg:pipe_bomb	Pipe Bomb
+tfmg:spark	Spark
+tfmg:thermite_grenade	Thermite Grenade
+tfmg:zinc_grenade	Zinc Grenade
+the_bumblezone:bee_queen	Bee Queen
+the_bumblezone:bee_stinger	Bee Stinger
+the_bumblezone:beehemoth	Beehemoth
+the_bumblezone:beehemoth_friendship_progress	Friendship: %s/1000
+the_bumblezone:beehemoth_queen	Queen Beehemoth
+the_bumblezone:cosmic_crystal_entity	Cosmic Crystal Entity
+the_bumblezone:dirt_pellet	Dirt Pellet
+the_bumblezone:electric_ring_entity	Electric Ring Entity
+the_bumblezone:honey_crystal_shard	Honey Crystal Shard
+the_bumblezone:honey_slime	Honey Slime
+the_bumblezone:pollen_puff	Pollen Puff
+the_bumblezone:purple_spike_entity	Purple Spike Entity
+the_bumblezone:rootmin	Rootmin
+the_bumblezone:sentry_watcher	Sentry Watcher
+the_bumblezone:thrown_stinger_spear	Stinger Spear
+the_bumblezone:variant_bee	Bee Variant
+thermal:rubberwood_boat	Boat
+thermal:rubberwood_chest_boat	Boat with Chest
+touhou_little_maid:box	Cake Box
+touhou_little_maid:broom	Marisa's Broom
+touhou_little_maid:chair	Chair
+touhou_little_maid:danmaku	Danmaku
+touhou_little_maid:extinguishing_agent	Extinguishing Agent
+touhou_little_maid:fairy	Maid Fairy
+touhou_little_maid:maid	Maid
+touhou_little_maid:power_point	Power Point
+touhou_little_maid:sit	Sit
+touhou_little_maid:throw_power_point	Power Point
+touhou_little_maid:tombstone	Tombstone
+twilightforest:adherent	Adherent
+twilightforest:alpha_yeti	Alpha Yeti
+twilightforest:armored_giant	Armored Giant
+twilightforest:bighorn_sheep	Bighorn Sheep
+twilightforest:blockchain_goblin	Block and Chain Goblin
+twilightforest:boar	Boar
+twilightforest:boat	Boat
+twilightforest:carminite_broodling	Carminite Broodling
+twilightforest:carminite_ghastguard	Carminite Ghastguard
+twilightforest:carminite_ghastling	Carminite Ghastling
+twilightforest:carminite_golem	Carminite Golem
+twilightforest:chain_block	Block and Chain
+twilightforest:charm_effect	Charm Effect
+twilightforest:chest_boat	Boat with Chest
+twilightforest:cube_of_annihilation	Cube of Annihilation
+twilightforest:death_tome	Death Tome
+twilightforest:deer	Deer
+twilightforest:dwarf_rabbit	Dwarf Rabbit
+twilightforest:falling_ice	Falling Ice
+twilightforest:fire_beetle	Fire Beetle
+twilightforest:giant_miner	Giant Miner
+twilightforest:harbinger_cube	Harbinger Cube
+twilightforest:hedge_spider	Hedge Spider
+twilightforest:helmet_crab	Helmet Crab
+twilightforest:hostile_wolf	Hostile Wolf
+twilightforest:hydra	Hydra
+twilightforest:hydra_mortar	Hydra Mortar
+twilightforest:ice_arrow	Ice Arrow
+twilightforest:ice_crystal	Ice Crystal
+twilightforest:ice_snowball	Ice Snowball
+twilightforest:king_spider	King Spider
+twilightforest:knight_phantom	Knight Phantom
+twilightforest:kobold	Kobold
+twilightforest:lich	Lich
+twilightforest:lich_bolt	Lich Bolt
+twilightforest:lich_bomb	Explosive Lich Bolt
+twilightforest:lich_minion	Lich Minion
+twilightforest:lower_goblin_knight	Lower Goblin Knight
+twilightforest:loyal_zombie	Loyal Zombie
+twilightforest:magic_painting	Magic Painting
+twilightforest:maze_slime	Maze Slime
+twilightforest:minoshroom	Minoshroom
+twilightforest:minotaur	Minotaur
+twilightforest:mist_wolf	Mist Wolf
+twilightforest:moonworm_shot	Moonworm
+twilightforest:mosquito_swarm	Mosquito Swarm
+twilightforest:naga	Naga
+twilightforest:nature_bolt	Nature Bolt
+twilightforest:penguin	Penguin
+twilightforest:pinch_beetle	Pinch Beetle
+twilightforest:protection_box	Progression Protection Box
+twilightforest:quest_ram	Quest Ram
+twilightforest:raven	Raven
+twilightforest:redcap	Redcap
+twilightforest:redcap_sapper	Redcap Sapper
+twilightforest:rising_zombie	Zombie
+twilightforest:roving_cube	Roving Cube
+twilightforest:seeker_arrow	Seeker Arrow
+twilightforest:skeleton_druid	Skeleton Druid
+twilightforest:slider	Moving Slide Trap
+twilightforest:slime_beetle	Slime Beetle
+twilightforest:slime_blob	Slime Blob
+twilightforest:snow_guardian	Snow Guardian
+twilightforest:snow_queen	Snow Queen
+twilightforest:squirrel	Squirrel
+twilightforest:stable_ice_core	Stable Ice Core
+twilightforest:swarm_spider	Swarm Spider
+twilightforest:thrown_block	Thrown Block
+twilightforest:thrown_ice	Ice Bomb
+twilightforest:thrown_wep	Thrown Weapon
+twilightforest:tiny_bird	Tiny Bird
+twilightforest:tome_bolt	Death Tome Bolt
+twilightforest:towerwood_borer	Towerwood Borer
+twilightforest:troll	Troll
+twilightforest:unstable_ice_core	Unstable Ice Core
+twilightforest:upper_goblin_knight	Upper Goblin Knight
+twilightforest:ur_ghast	Ur-Ghast
+twilightforest:wand_bolt	Twilight Scepter Bolt
+twilightforest:winter_wolf	Winter Wolf
+twilightforest:wraith	Wraith
+twilightforest:yeti	Yeti
+undergarden:blisterbomb	Blisterbomb
+undergarden:boat	Boat
+undergarden:boomgourd	Boomgourd
+undergarden:brute	Brute
+undergarden:chest_boat	Boat with Chest
+undergarden:depthrock_pebble	Depthrock Pebble
+undergarden:dweller	Dweller
+undergarden:forgotten	Forgotten
+undergarden:forgotten_guardian	Forgotten Guardian
+undergarden:gloomper	Gloomper
+undergarden:goo_ball	Goo Ball
+undergarden:gronglet	Gronglet
+undergarden:gwib	Gwib
+undergarden:gwibling	Gwibling
+undergarden:minion	Forgotten Minion
+undergarden:minion_projectile	Minion Projectile
+undergarden:mog	Mog
+undergarden:muncher	Muncher
+undergarden:nargoyle	Nargoyle
+undergarden:rotbeast	Rotbeast
+undergarden:rotling	Rotling
+undergarden:rotten_blisterberry	Rotten Blisterberry
+undergarden:rotwalker	Rotwalker
+undergarden:scintling	Scintling
+undergarden:smog_mog	S'Mog
+undergarden:sploogie	Sploogie
+undergarden:stoneborn	Stoneborn
+undergroundworlds:ashan	Ashan
+undergroundworlds:black_recluse	Black Recluse
+undergroundworlds:frozen_zombie	Frozen Zombie
+undergroundworlds:icy_creeper	Icy Creeper
+undergroundworlds:jungle_bee	Jungle Bee
+undergroundworlds:jungle_zombie	Jungle Zombie
+undergroundworlds:spider_hatchling	Spider Hatchling
+undergroundworlds:wrapped	Wrapped
+unusualend:block_updater	Structure Updater
+unusualend:bluk	Bluk
+unusualend:bolok	Bolok
+unusualend:dragling	Dragling
+unusualend:ender_blob	Enderblob
+unusualend:ender_firefly	Flampyr
+unusualend:enderblob_queen	EnderBlob Queen [In Dev]
+unusualend:enderbulb	Enderbulb
+unusualend:endstone_golem	Endstone Golem
+unusualend:endstone_trapper	Ender Trapper
+unusualend:glub	Glub
+unusualend:phantom_arrow_projectile	Phantom Arrow
+unusualend:projectile_phantom_arrow	Phantom Arrow
+unusualend:projectile_wandering_pearl	Wandering Pearl
+unusualend:shiny_grenade_projectile	
+unusualend:small_enderbulb	Small Enderbulb
+unusualend:spunkler	Spunkler
+unusualend:summoned_dragling	Tamed Dragling
+unusualend:undead_enderling	Undead Enderling
+unusualend:void_bomb	Void Explosive
+unusualend:void_crack	Void Crack
+unusualend:wandering_pearl_projectile	
+unusualend:warped_balloon	Warped Balloon
+upgrade_aquatic:box_jellyfish	Box Jellyfish
+upgrade_aquatic:cassiopea_jellyfish	Cassiopea Jellyfish
+upgrade_aquatic:flare	Flare
+upgrade_aquatic:goose	Goose
+upgrade_aquatic:great_thrasher	Great Thrasher
+upgrade_aquatic:immortal_jellyfish	Immortal Jellyfish
+upgrade_aquatic:lionfish	Lionfish
+upgrade_aquatic:nautilus	Nautilus
+upgrade_aquatic:perch	Perch
+upgrade_aquatic:pike	Pike
+upgrade_aquatic:sonar_wave	Sonar Wave
+upgrade_aquatic:thrasher	Thrasher
+vampirism:advanced_hunter	Advanced Hunter
+vampirism:advanced_hunter_imob	Advanced Hunter
+vampirism:advanced_vampire	Advanced Vampire
+vampirism:advanced_vampire_imob	Advanced Vampire
+vampirism:blinding_bat	Bat
+vampirism:converted_cow	Vampire Cow
+vampirism:converted_creature	Vampire Creature
+vampirism:converted_creature_imob	Vampire Creature
+vampirism:converted_donkey	Vampire Donkey
+vampirism:converted_horse	Vampire Horse
+vampirism:converted_mule	Vampire Mule
+vampirism:converted_sheep	Vampire Sheep
+vampirism:crossbow_arrow	Crossbow Arrow
+vampirism:dark_blood_projectile	Dark Blood Projectile
+vampirism:dead_mob	Dead mob
+vampirism:dracula	Dracula
+vampirism:dummy_creature	Dummy Creature
+vampirism:ghost	Ghost
+vampirism:hunter	Vampire Hunter
+vampirism:hunter_imob	Vampire Hunter
+vampirism:hunter_minion	Hunter Minion
+vampirism:hunter_trainer	Vampire Hunter Trainer
+vampirism:hunter_trainer_dummy	Undercover Hunter Trainer
+vampirism:portal_guard	Portal Guard
+vampirism:remains_defender	Ancient Cristal
+vampirism:task_master_hunter	Hunter Representative
+vampirism:task_master_vampire	Vampire Representative
+vampirism:vampire	Vampire
+vampirism:vampire_baron	Vampire Baron
+vampirism:vampire_hunter	Vampire Hunter
+vampirism:vampire_imob	Vampire
+vampirism:vampire_minion	Vampire Minion
+vampirism:villager_angry	Angry Villager
+vampirism:villager_converted	Vampire Villager
+vampirism:villager_hunter_faction	Hunter Expert
+vampirism:villager_vampire_faction	Vampire Expert
+vampirism:vulnerable_remains_dummy	Vulnerable Remains
+vinery:dark_cherry_boat	Dark Cherry Boat
+vinery:dark_cherry_chest_boat	Dark Cherry Boat
+vinery:mule	Mule
+vinery:wandering_winemaker	Wandering Winemaker
+waddles:adelie_penguin	Adélie Penguin
+weeping_angels:weeping_angel	Weeping Angel
+wildernature:bison	Bison
+wildernature:boar	Boar
+wildernature:cassowary	Cassowary
+wildernature:deer	Deer
+wildernature:dog	Dog
+wildernature:flamingo	Flamingo
+wildernature:hedgehog	Hedgehog
+wildernature:minisheep	Minisheep
+wildernature:owl	Owl
+wildernature:pelican	Pelican
+wildernature:penguin	Penguin
+wildernature:raccoon	Raccoon
+wildernature:red_wolf	Red Wolf
+wildernature:squirrel	Squirrel
+wildernature:turkey	Turkey
+wizards:arcane_emitter	Arcane Emitter
+wizards:fire_hydra	Fire Hydra
+wizards:frost_elemental	Frost Elemental
+worker:inventoryfullchestfull	Please make space in my chests/racks. I am not able to dump my inventory.
+yungscavebiomes:ice_cube	Ice Cube
+yungscavebiomes:icicle	Icicle
+yungscavebiomes:sand_snapper	Sand Snapper

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "aether:inebriation", "required": false},
+    {"id": "brewinandchewin:cardiac_arrest", "required": false},
+    {"id": "garnished:mulch_munching", "required": false},
+    {"id": "goety:rage", "required": false},
+    {"id": "vampirism:blood_loss", "required": false}
+  ]
+}

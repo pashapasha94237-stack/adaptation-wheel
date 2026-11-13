@@ -1,0 +1,42 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT (wheel); bundled Adapt Boost MIT with LGPL-3.0-or-later parts; bundled Distant Horizons LGPL-3.0, see META-INF/THIRD-PARTY.md"
+issueTrackerURL="https://github.com/pashapasha94237-stack/adaptation-wheel/issues"
+
+[[mods]]
+modId="adaptationwheel"
+version="${modVersion}"
+displayName="Adaptation Wheel"
+authors="Pasha"
+displayURL="https://github.com/pashapasha94237-stack/adaptation-wheel"
+description='''
+A wearable golden adaptation wheel with four resistance stages,
+repeat-hit acceleration, infinite darkness vision, a filtered registry catalogue,
+automatic modded damage/effect analysis and a boss existence stage.
+Includes the Sword of Extermination, positive energy and adapted melee/projectile parries.
+Includes runtime optimization unlocked by completing the fourth FPS adaptation stage.
+Install this single JAR; no separate optimization JAR is required.
+'''
+
+[[dependencies.adaptationwheel]]
+modId="pashaboost"
+mandatory=true
+versionRange="[1.7.0,1.8.0)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.adaptationwheel]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.adaptationwheel]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+

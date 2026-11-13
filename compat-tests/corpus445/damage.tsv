@@ -1,0 +1,570 @@
+ad_astra:acid_rain	acid_rain		%1$s was melted by acid rain	ad_astra-forge-1.20.1-1.15.21
+ad_astra:cryo_fuel	cryo_fuel		%1$s became an ice cube	ad_astra-forge-1.20.1-1.15.21
+ad_astra:oxygen	oxygen	minecraft:bypasses_armor,minecraft:no_impact	%1$s couldn't breathe anymore	ad_astra-forge-1.20.1-1.15.21
+ad_astra:ran_over	ran_over		%1$s was ran over	ad_astra-forge-1.20.1-1.15.21
+ad_astra:rocket_flames	rocket_flames		%1$s melted under an active rocket	ad_astra-forge-1.20.1-1.15.21
+ae2:matter_cannon	matter_cannon			appliedenergistics2-forge-15.4.11
+aether:armor_piercing_attack	mob	minecraft:bypasses_armor		aether-1.20.1-1.5.2-neoforge
+aether:cloud_crystal	aether.cloud_crystal	minecraft:is_projectile	%1$s was chilled by %2$s's Cloud Crystal	aether-1.20.1-1.5.2-neoforge
+aether:crush	aether.crush		%1$s was crushed by %2$s	aether-1.20.1-1.5.2-neoforge
+aether:fire_crystal	aether.fire_crystal	minecraft:is_projectile,aether_redux:fireball	%1$s was incinerated by %2$s's Fire Crystal	aether-1.20.1-1.5.2-neoforge
+aether:floating_block	aether.floating_block	minecraft:damages_helmet	%1$s was squashed by a floating block	aether-1.20.1-1.5.2-neoforge
+aether:ice_crystal	aether.ice_crystal	aether:is_cold,minecraft:is_projectile	%1$s was chilled by %2$s's Ice Crystal	aether-1.20.1-1.5.2-neoforge
+aether:incineration	aether.incineration	minecraft:is_fire	%1$s was incinerated by %2$s	aether-1.20.1-1.5.2-neoforge
+aether:inebriation	aether.inebriation	minecraft:bypasses_armor	%1$s was inebriated	aether-1.20.1-1.5.2-neoforge
+aether:thunder_crystal	aether.thunder_crystal	minecraft:is_projectile	%1$s was zapped by %2$s's Thunder Crystal	aether-1.20.1-1.5.2-neoforge
+aether_redux:blight	aether_redux.blight		%1$s was taken by the Blight	aether-redux-2.0.19-1.20.1-neoforge
+aether_redux:corrupted_vines	aether_redux.corrupted_vines		%1$s was poked to death by some Corrupted Vines	aether-redux-2.0.19-1.20.1-neoforge
+aether_redux:ember	aether_redux.ember		%1$s was sparked by a flying ember	aether-redux-2.0.19-1.20.1-neoforge
+aether_redux:spear	aether_redux.spear			aether-redux-2.0.19-1.20.1-neoforge
+aether_redux:swet_absorption	aether_redux.swet_absorption		%1$s was absorbed by %2$s	aether-redux-2.0.19-1.20.1-neoforge
+aether_redux:zanberry_bush	aether_redux.zanberry_bush		%1$s was poked to death by a zanberry bush, how sad ):	aether-redux-2.0.19-1.20.1-neoforge
+alexscaves:acid	acid			alexscaves-2.0.2
+alexscaves:dark_arrow	desolate_dagger	minecraft:bypasses_cooldown,minecraft:is_projectile,minecraft:no_impact		alexscaves-2.0.2
+alexscaves:desolate_dagger	desolate_dagger	minecraft:bypasses_cooldown		alexscaves-2.0.2
+alexscaves:forsaken_sonic_boom	forsaken_sonic_boom			alexscaves-2.0.2
+alexscaves:gumball	gumball			alexscaves-2.0.2
+alexscaves:intentional_game_design	intentional_game_design			alexscaves-2.0.2
+alexscaves:nuke	nuke	minecraft:bypasses_cooldown,minecraft:is_explosion,minecraft:is_fire		alexscaves-2.0.2
+alexscaves:radiation	radiation		Died of Radiation Poisoning	alexscaves-2.0.2
+alexscaves:raygun	raygun	minecraft:bypasses_cooldown,minecraft:is_explosion,minecraft:is_projectile		alexscaves-2.0.2
+alexscaves:spirit_dinosaur	spirit_dinosaur	minecraft:bypasses_cooldown,minecraft:is_fire		alexscaves-2.0.2
+alexscaves:tremorzilla_beam	tremorzilla_beam			alexscaves-2.0.2
+alexsmobs:farseer	farseer			alexsmobs-1.22.9
+alexsmobs:freddy	freddy		Was that the bite of '87?	alexsmobs-1.22.9
+amendments:boiling	boiling	minecraft:is_fire		amendments-1.20-2.2.6
+apotheosis:corrupted	apotheosis:corrupted	minecraft:bypasses_armor,minecraft:bypasses_effects	%s was drained by a corrupted enchantment.	Apotheosis-1.20.1-7.4.8
+apotheosis:execute	apotheosis:execute	minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments	%s was executed.	Apotheosis-1.20.1-7.4.8
+apotheosis:psychic	apotheosis:psychic	forge:is_magic,minecraft:bypasses_armor	%s was slain by a reflection.	Apotheosis-1.20.1-7.4.8
+aquamirae:crystallization	crystallization	minecraft:bypasses_armor	%1$s has been turned into a crystal	aquamirae-forge-1.20.1-6.4.0
+ars_elemental:hellfire	hellfire	ars_elemental:fire_damage		ars_elemental-1.20.1-0.6.8.0
+ars_elemental:poison	poison	ars_elemental:earth_damage	%2$s's poison spores blossomed inside %1$s	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:spark	spark	ars_elemental:air_damage	%1$s experienced a short circuit	ars_elemental-1.20.1-0.6.8.0
+ars_nouveau:crush	player	ars_elemental:earth_damage,forge:is_magic,minecraft:always_hurts_ender_dragons,minecraft:bypasses_armor		ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:flare	fire	ars_elemental:fire_damage,forge:is_magic,minecraft:always_hurts_ender_dragons,minecraft:is_fire		ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:frost	freeze	ars_elemental:water_damage,forge:is_magic,minecraft:always_hurts_ender_dragons,minecraft:is_freezing		ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:spell	player	forge:is_magic,minecraft:always_hurts_ender_dragons		ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:windshear	player	ars_elemental:air_damage,forge:is_magic,minecraft:always_hurts_ender_dragons,minecraft:bypasses_armor,minecraft:is_fall		ars_nouveau-1.20.1-4.12.7-all
+atmospheric:aloe_leaves	atmospheric.aloeLeaves		%1$s was pricked by aloe leaves	atmospheric-1.20.1-6.1.1
+atmospheric:barrel_cactus	atmospheric.barrelCactus		%1$s ran into a barrel cactus	atmospheric-1.20.1-6.1.1
+atmospheric:passion_fruit_seed	atmospheric.passionFruitSeed	minecraft:is_projectile	%1$s was barraged to death by %2$s's seeds	atmospheric-1.20.1-6.1.1
+atmospheric:yucca_branch	atmospheric.yuccaBranch		%1$s was sliced by a yucca branch	atmospheric-1.20.1-6.1.1
+atmospheric:yucca_flower	atmospheric.yuccaFlower		%1$s was sliced by a yucca flower	atmospheric-1.20.1-6.1.1
+atmospheric:yucca_leaves	atmospheric.yuccaLeaves		%1$s was sliced by yucca leaves	atmospheric-1.20.1-6.1.1
+atmospheric:yucca_sapling	atmospheric.yuccaSapling		%1$s was sliced by a yucca sapling	atmospheric-1.20.1-6.1.1
+attributeslib:bleeding	attributeslib:bleeding	minecraft:bypasses_armor	%1$s bled out	ApothicAttributes-1.20.1-1.3.7
+attributeslib:cold_damage	attributeslib:cold_damage	forge:is_magic,minecraft:bypasses_armor,dummmmmmy:is_cold	%1$s was frozen to death	ApothicAttributes-1.20.1-1.3.7
+attributeslib:current_hp_damage	attributeslib:current_hp_damage	forge:is_physical	%1$s was struck down	ApothicAttributes-1.20.1-1.3.7
+attributeslib:detonation	attributeslib:detonation	forge:is_magic,minecraft:bypasses_armor,dummmmmmy:is_explosion	%1$s was detonated by flame	ApothicAttributes-1.20.1-1.3.7
+attributeslib:fire_damage	attributeslib:fire_damage	forge:is_magic,minecraft:bypasses_armor,dummmmmmy:is_fire	%1$s was scorched to death	ApothicAttributes-1.20.1-1.3.7
+avaritia:infinity	infinity	minecraft:always_hurts_ender_dragons,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance,minecraft:bypasses_shield	%1$s was obliterated by %2$s	Re-Avaritia-forge-1.20.1-1.4.2-release
+biomancy:bleed	biomancy.bleed	minecraft:always_hurts_ender_dragons,minecraft:always_triggers_silverfish,minecraft:avoids_guardian_thorns,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance,minecraft:no_impact	%1$s perished from severe blood loss	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:chest_bite	biomancy.chest_bite	minecraft:bypasses_armor	%1$s tried opening a chest, but was eaten instead	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:corrosive_acid	biomancy.corrosive_acid	forge:is_acid,minecraft:always_hurts_ender_dragons,minecraft:always_triggers_silverfish,minecraft:avoids_guardian_thorns,minecraft:bypasses_cooldown,minecraft:no_impact	%1$s succumbed to severe acid burns	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:impaler_projectile	biomancy.impaler_projectile	minecraft:always_hurts_ender_dragons,minecraft:avoids_guardian_thorns,minecraft:bypasses_cooldown,minecraft:is_projectile	%1$s was obliterated with a Impaler	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:primordial_spikes	biomancy.primordial_spikes	minecraft:bypasses_armor	%1$s was impaled by primordial spikes	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:slash	biomancy.slash	minecraft:bypasses_cooldown,minecraft:no_impact	%1$s was shredded to ribbons	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:spike_fall_on	biomancy.spike_fall_on	minecraft:bypasses_armor,minecraft:is_fall	%1$s fell on a sharp spike	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:spike_impale	biomancy.spike_impale	minecraft:bypasses_armor	%1$s was impaled by a sharp spike	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:tooth_projectile	biomancy.tooth_projectile	minecraft:is_projectile		biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:toxin	biomancy.toxin	forge:is_poison,minecraft:always_triggers_silverfish,minecraft:avoids_guardian_thorns,minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s succumbed to a fatal toxin	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomesoplenty:bramble	bramble		%1$s was punctured to death	BiomesOPlenty-1.20.1-18.0.0.592
+biomesoplenty:fumarole	fumarole		%1$s was steamed alive	BiomesOPlenty-1.20.1-18.0.0.592
+biomeswevegone:cattail_explosion	biomeswevegone.cattailExplosion	minecraft:is_explosion	%s got too curious and put a cattail in a campfire	Oh-The-Biomes-Weve-Gone-Forge-1.8.2
+biomeswevegone:in_quicksand	biomeswevegone.inQuicksand	minecraft:bypasses_armor	%s tried to swim in the desert	Oh-The-Biomes-Weve-Gone-Forge-1.8.2
+bloodmagic:ritual	ritual	minecraft:bypasses_armor	%1$s died in a Well of Suffering	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:sacrifice	sacrifice	minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:no_impact	%1$s sacrificed a bit too much LP	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:spike	spike		%1$s was impaled on spikes	BloodMagic-1.18-1.20.1-3.3.8-50
+blue_skies:bite	blue_skies:bite		%1$s was chomped by %2$s	blue_skies-1.20.1-1.3.31
+blue_skies:ember	blue_skies:ember	minecraft:is_fire	%1$s couldn't handle %2$s's heat	blue_skies-1.20.1-1.3.31
+blue_skies:fluctuant_sphere	blue_skies:fluctuant_sphere	minecraft:bypasses_shield	%1$s was shocked by %2$s	blue_skies-1.20.1-1.3.31
+blue_skies:rock_stab	blue_skies:rock_stab	minecraft:bypasses_armor,minecraft:bypasses_shield,minecraft:damages_helmet,minecraft:is_projectile	%1$s was stabbed by a spike	blue_skies-1.20.1-1.3.31
+blue_skies:rock_stab.mob	blue_skies:rock_stab.mob	minecraft:bypasses_shield,minecraft:damages_helmet,minecraft:is_projectile	%1$s was stabbed with a spike by %2$s	blue_skies-1.20.1-1.3.31
+blue_skies:root	blue_skies:root	minecraft:bypasses_shield	%1$s was rooted into by %2$s	blue_skies-1.20.1-1.3.31
+blue_skies:slam	blue_skies:slam	minecraft:bypasses_armor,minecraft:bypasses_shield	%1$s was sent flying by %2$s	blue_skies-1.20.1-1.3.31
+blue_skies:summon	blue_skies:summon		%1$s was slain by %2$s's %3$s	blue_skies-1.20.1-1.3.31
+blue_skies:summoned_lightning	blue_skies:summoned_lightning	minecraft:bypasses_armor,minecraft:bypasses_shield,minecraft:is_lightning	%1$s was struck by %2$s	blue_skies-1.20.1-1.3.31
+blue_skies:venom_spit	blue_skies:venom_spit	minecraft:bypasses_armor,minecraft:bypasses_enchantments	%1$s was fatally poisoned	blue_skies-1.20.1-1.3.31
+blue_skies:venom_spit.mob	blue_skies:venom_spit.mob	minecraft:is_projectile	%1$s was fatally poisoned by %2$s	blue_skies-1.20.1-1.3.31
+bookshelf:fake_player	player			Bookshelf-Forge-1.20.1-20.2.15
+born_in_chaos_v1:piercing	piercing		%1$s died from life stealing	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:punishment	punishment		%1$s was punished for bad behavior	born_in_chaos_[Forge]1.20.1_1.7.5
+bosses_of_mass_destruction:shield_piercing	mob			BOMD-Forge-1.20.1-1.1.2
+botania:key_explosion	botania.key_explosion	minecraft:is_explosion	%2$s drowned %1$s in treasure	Botania-1.20.1-456-FORGE
+botania:player_attack_armor_piercing	player	minecraft:bypasses_armor		Botania-1.20.1-456-FORGE
+botania:relic_damage	botania.relic	minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance,minecraft:no_impact	%s was punished for using a relic that isn't theirs	Botania-1.20.1-456-FORGE
+brewinandchewin:cardiac_arrest	brewinandchewin.cardiacArrest	minecraft:bypasses_cooldown	%1$s remembered they got hurt	BrewinAndChewin-1.20.1-3.2.1
+car:hit_car	hit_car		%s was run over by a car	car-forge-1.20.1-1.0.45
+cataclysm:abyssal_burn	cataclysm.abyssal_burn	cataclysm:bypasses_hurt_time,minecraft:bypasses_armor	%s has left this dimension	L_Enders_Cataclysm-3.31
+cataclysm:deathlaser	cataclysm.deathlaser	minecraft:bypasses_armor	%s was exterminated by %s 's laser	L_Enders_Cataclysm-3.31
+cataclysm:emp	cataclysm.emp	minecraft:bypasses_armor	%s has become Electric Grilled Chicken	L_Enders_Cataclysm-3.31
+cataclysm:flame_strike	cataclysm.flame_strike	minecraft:bypasses_armor,minecraft:bypasses_enchantments,minecraft:bypasses_shield	%s was consumed by the flames	L_Enders_Cataclysm-3.31
+cataclysm:laser	cataclysm.laser	minecraft:is_projectile	%s was exterminated by %s 's laser	L_Enders_Cataclysm-3.31
+cataclysm:lightning	cataclysm.lightning	minecraft:bypasses_armor,minecraft:bypasses_shield,minecraft:is_lightning	%s was electrocuted by %s	L_Enders_Cataclysm-3.31
+cataclysm:maledictio	cataclysm.maledictio	minecraft:bypasses_shield	%s was cursed by %s	L_Enders_Cataclysm-3.31
+cataclysm:maledictio_anima	cataclysm.maledictio_anima	minecraft:bypasses_enchantments,minecraft:bypasses_shield	%s was cursed by %s	L_Enders_Cataclysm-3.31
+cataclysm:maledictio_magicae	cataclysm.maledictio_magicae	minecraft:bypasses_armor,minecraft:bypasses_shield	%s was cursed by %s 's Magic	L_Enders_Cataclysm-3.31
+cataclysm:maledictio_sagitta	cataclysm.maledictio_sagitta	cataclysm:bypasses_hurt_time,minecraft:always_hurts_ender_dragons,minecraft:bypasses_cooldown,minecraft:is_projectile	%s was cursed by %s 's Arrow	L_Enders_Cataclysm-3.31
+cataclysm:penetrate	cataclysm.penetrate	minecraft:bypasses_cooldown	%s was penetrated by %s	L_Enders_Cataclysm-3.31
+cataclysm:player_ceraunus	cataclysm.storm_bringer	minecraft:is_projectile	%s was hunted by %s	L_Enders_Cataclysm-3.31
+cataclysm:shredder	cataclysm.shredder	cataclysm:bypasses_hurt_time,minecraft:bypasses_cooldown,minecraft:is_explosion	%s was shattered by %s	L_Enders_Cataclysm-3.31
+cataclysm:storm_bringer	cataclysm.storm_bringer	minecraft:bypasses_shield,minecraft:is_projectile	%s was hunted by %s	L_Enders_Cataclysm-3.31
+cataclysm:sword_dance	cataclysm.sword_dance	minecraft:bypasses_cooldown	%s was cut by %s	L_Enders_Cataclysm-3.31
+caverns_and_chasms:draining	caverns_and_chasms.draining	caverns_and_chasms:drains_enemies,minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s's life was drained by %2$s	caverns_and_chasms-1.20.1-2.1.3
+caverns_and_chasms:grazer	caverns_and_chasms.grazer	minecraft:no_anger	%1$s was grazed by %2$s	caverns_and_chasms-1.20.1-2.1.3
+caverns_and_chasms:kunai	caverns_and_chasms.kunai	minecraft:bypasses_armor,minecraft:is_projectile,minecraft:witch_resistant_to	%1$s was stabbed by %2$s	caverns_and_chasms-1.20.1-2.1.3
+caverns_and_chasms:lava_lamp	caverns_and_chasms.lava_lamp	minecraft:is_fire	%1$s felt the heat	caverns_and_chasms-1.20.1-2.1.3
+caverns_and_chasms:riding_grazer	caverns_and_chasms.riding_grazer		%1$s was grazed by %2$s using %3$s	caverns_and_chasms-1.20.1-2.1.3
+caverns_and_chasms:spiked_rail	caverns_and_chasms.spiked_rail	minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s got railed	caverns_and_chasms-1.20.1-2.1.3
+cofh_core:knife	cofh.knife		%1$s got knifed by %2$s!	cofh_core-1.20.1-11.0.2.56
+create:crush	create.crush	minecraft:bypasses_armor	%1$s was processed by Crushing Wheels	create-1.20.1-6.0.8
+create:cuckoo_surprise	create.cuckoo_surprise	minecraft:is_explosion	%1$s was blown up by tampered cuckoo clock	create-1.20.1-6.0.8
+create:fan_fire	create.fan_fire	minecraft:bypasses_armor,minecraft:is_fire	%1$s got smoked by an Encased Fan	create-1.20.1-6.0.8
+create:fan_lava	create.fan_lava	minecraft:bypasses_armor,minecraft:is_fire	%1$s was incinerated by an Encased Fan	create-1.20.1-6.0.8
+create:mechanical_drill	create.mechanical_drill	minecraft:bypasses_armor	%1$s was impaled by a Mechanical Drill	create-1.20.1-6.0.8
+create:mechanical_roller	create.mechanical_roller		%1$s was flattened by a Mechanical Roller	create-1.20.1-6.0.8
+create:mechanical_saw	create.mechanical_saw	minecraft:bypasses_armor	%1$s got cut in half by a Mechanical Saw	create-1.20.1-6.0.8
+create:potato_cannon	create.potato_cannon		%1$s was shot by %2$s's Potato Cannon	create-1.20.1-6.0.8
+create:run_over	create.run_over		%1$s was run over by %2$s	create-1.20.1-6.0.8
+create_sa:grapplin_whisk_attack	grapplin_whisk_attack		%1$s got whisked away	create-stuff-additions1.20.1_v2.1.2
+createaddition:barbed_wire	createaddition.barbed_wire			createaddition-1.20.1-1.3.3
+createaddition:tesla_coil	createaddition.tesla_coil			createaddition-1.20.1-1.3.3
+createbigcannons:big_cannon_projectile	createbigcannons.cannon_projectile	minecraft:is_explosion	%s was hit with artillery fire	createbigcannons-5.11.4-mc.1.20.1-forge
+createbigcannons:cannon_projectile	createbigcannons.cannon_projectile	minecraft:is_explosion	%s was hit with artillery fire	createbigcannons-5.11.4-mc.1.20.1-forge
+createbigcannons:flak	createbigcannons.flak		%s was downed by flak	createbigcannons-5.11.4-mc.1.20.1-forge
+createbigcannons:grapeshot	createbigcannons.grapeshot		%s was blown out by grapeshot	createbigcannons-5.11.4-mc.1.20.1-forge
+createbigcannons:machine_gun_fire	createbigcannons.machine_gun_fire		%s was punctured by machine gun fire	createbigcannons-5.11.4-mc.1.20.1-forge
+createbigcannons:machine_gun_fire_in_water	createbigcannons.machine_gun_fire.in_water		%s was filled with holes by machine gun fire and the sea round them turned pink	createbigcannons-5.11.4-mc.1.20.1-forge
+createbigcannons:molten_metal	createbigcannons.molten_metal	minecraft:is_fire	%s burned in molten metal	createbigcannons-5.11.4-mc.1.20.1-forge
+createbigcannons:shrapnel	createbigcannons.shrapnel		%s was ripped up by shrapnel	createbigcannons-5.11.4-mc.1.20.1-forge
+createbigcannons:traffic_cone	createbigcannons.traffic_cone		%s was struck from heaven above	createbigcannons-5.11.4-mc.1.20.1-forge
+deeperdarker:bite	deeperdarker.bite		%s was devoured	deeperdarker-forge-1.20.1-1.3.3
+deeperdarker:ring	deeperdarker.ring		%s was given a deadly case of tinnitus by %s	deeperdarker-forge-1.20.1-1.3.3
+domesticationinnovation:siphon	siphon			domesticationinnovation-1.7.1-1.20.1
+draconicevolution:chaos_implosion	draconicevolution.chaos_implosion	draconicevolution:chaotic,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_resistance,minecraft:bypasses_shield,minecraft:is_explosion		Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:chaotic_arrow	draconicevolution.chaotic_arrow	draconicevolution:chaotic,minecraft:is_projectile	%1$s was shot by %2$s	Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:chaotic_arrow_spoof	draconicevolution.chaotic_arrow	draconicevolution:chaotic,draconicevolution:proj_anti_dodge	%1$s was shot by %2$s	Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:crystal_move	draconicevolution.crystal_move	minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance,minecraft:bypasses_shield		Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:draconic_arrow	draconicevolution.draconic_arrow	draconicevolution:draconic,minecraft:is_projectile		Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:draconic_arrow_spoof	draconicevolution.draconic_arrow	draconicevolution:draconic,draconicevolution:proj_anti_dodge		Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:draconium_arrow	draconicevolution.draconium_arrow	draconicevolution:draconium,minecraft:is_projectile		Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:draconium_arrow_spoof	draconicevolution.draconium_arrow	draconicevolution:draconium,draconicevolution:proj_anti_dodge		Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:fusion_explosion	draconicevolution.fusion_explosion	draconicevolution:chaotic,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_resistance,minecraft:bypasses_shield,minecraft:is_explosion		Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:guardian	draconicevolution.guardian	draconicevolution:chaotic,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_resistance,minecraft:bypasses_shield	%1$s was torn apart by %2$s	Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:guardian_laser	draconicevolution.guardian_laser	draconicevolution:chaotic,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_resistance,minecraft:bypasses_shield,minecraft:is_explosion	%1$s was vaporized by %2$s using a frickin laser beam	Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:guardian_projectile	draconicevolution.guardian_projectile	draconicevolution:chaotic,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_resistance,minecraft:bypasses_shield,minecraft:is_explosion,minecraft:is_projectile	%1$s was obliterated by %2$s	Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:wyvern_arrow	draconicevolution.wyvern_arrow	draconicevolution:wyvern,minecraft:is_projectile		Draconic-Evolution-1.20.1-3.1.2.621-universal
+draconicevolution:wyvern_arrow_spoof	draconicevolution.wyvern_arrow	draconicevolution:proj_anti_dodge,draconicevolution:wyvern		Draconic-Evolution-1.20.1-3.1.2.621-universal
+dragonsurvival:cave_dragon_breath	cave_dragon_breath	minecraft:is_fire		dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:cave_dragon_burn	dragonsurvival.cave_dragon_burn	dragonsurvival:dragon_breath,dragonsurvival:no_knockback,minecraft:bypasses_armor,minecraft:is_fire		dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:crushed	dragonsurvival.crushed			dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:dehydration	dragonsurvival.dehydration			dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:dragon_breath	dragonsurvival.dragon_breath			dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:forest_dragon_breath	forest_dragon_breath			dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:forest_dragon_drain	dragonsurvival.forest_dragon_drain	dragonsurvival:dragon_breath,dragonsurvival:no_knockback,minecraft:bypasses_armor		dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:rain_burn	dragonsurvival.rain_burn			dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:sea_dragon_breath	sea_dragon_breath	dragonsurvival:dragon_breath,minecraft:is_lightning		dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:spectral_impact	dragonsurvival.spectral_impact	minecraft:bypasses_armor		dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:water_burn	dragonsurvival.water_burn			dragonsurvival-1.20.1-23.07.2026-all
+dummmmmmy:critical	Critical Damage			dummmmmmy-1.20-2.0.12-forge
+dummmmmmy:true	True Damage			dummmmmmy-1.20-2.0.12-forge
+eeeabsmobs:bypass_armor	eeeabsmobs.bypass_armor	minecraft:bypasses_armor	%1$s died from a penetrating injury by %2$s	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:bypass_iframe	eeeabsmobs.bypass_iframe	minecraft:bypasses_cooldown	%1$s was rent asunder by %2$s	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:bypass_shield	eeeabsmobs.bypass_shield	minecraft:bypasses_shield	%1$s died from an unblockable strike by %2$s	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:guardian_robust_attack	eeeabsmobs.guardian_robust_attack		%1$s was smashed flat by %2$s	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:immortal_magic	eeeabsmobs.immortal_magic	minecraft:bypasses_cooldown,minecraft:bypasses_enchantments,minecraft:bypasses_resistance,minecraft:witch_resistant_to	%1$s was killed by %2$s using immortal magic	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:overload_explode	eeeabsmobs.overload_explode	eeeabsmobs:bypasses_hurt_reduction,minecraft:bypasses_cooldown,minecraft:is_explosion	%1$s blew up	eeeabsmobs-1.20.1-0.98.1
+eidolon:frost	eidolon.frost	forge:is_magic	%s froze over	eidolon_repraised-1.20.1-0.3.13
+eidolon:ritual	eidolon.ritual	minecraft:bypasses_armor,minecraft:bypasses_enchantments	%s got too involved in a ritual	eidolon_repraised-1.20.1-0.3.13
+eidolon:sap	eidolon.sap	forge:is_wither		eidolon_repraised-1.20.1-0.3.13
+embers:ember	ember	consecration:holy,minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s was incinerated	embersrekindled-1.20.1-1.4.7
+endergetic:munch	endergetic.munch		%1$s was munched to death by %2$s	endergetic-1.20.1-5.0.1
+endersdelight:was_watered	wasWatered			endersdelight-1.1.4
+ends_delight:enderman_gristle_teleport	ends_delight.enderman_gristle_teleport		%1$s hit the ground too hard	ends_delight-2.6.1+forge.1.20.1
+enigmaticlegacy:darkness	darkness	minecraft:bypasses_armor,minecraft:bypasses_enchantments,minecraft:bypasses_resistance,minecraft:wither_immune_to	%1$s was devoured by darkness	EnigmaticLegacy-2.30.1
+enigmaticlegacy:nemesis_curse	thorns	minecraft:bypasses_armor		EnigmaticLegacy-2.30.1
+environmental:riding_zebra	environmental.ridingZebra		%1$s was slain by %2$s using the hooves of %3$s	environmental-1.20.1-4.1.2
+evilcraft:broom	evilcraft.broom		%1$s was run over by a broom.	EvilCraft-1.20.1-1.3.4
+evilcraft:die_without_any_reason	evilcraft.die_without_any_reason		%1$s dies without any apparent reason!	EvilCraft-1.20.1-1.3.4
+evilcraft:distorted	evilcraft.distorted		%1$s couldn't handle the amount of distortion anymore.	EvilCraft-1.20.1-1.3.4
+evilcraft:paling	evilcraft.paling		%1$s faded away.	EvilCraft-1.20.1-1.3.4
+evilcraft:spiked	evilcraft.spiked		%1$s was killed by spikes.	EvilCraft-1.20.1-1.3.4
+evilcraft:vengeance_beam	evilcraft.vengeance_beam		%1$s was evaporated by a Vengeance Beam.	EvilCraft-1.20.1-1.3.4
+farmersdelight:stove_burn	farmersdelight.stove		%1$s was grilled to perfection	FarmersDelight-1.20.1-1.3.4
+farmersrespite:wither_root	farmersrespite.wither_root		%1$s wasn't careful while gardening	farmersrespite-1.20.1-2.1.2
+forbidden_arcanus:extract_soul	extract_soul	minecraft:bypasses_armor		forbidden_arcanus-1.20.1-2.2.6
+fossil:aquatic_suffocate	fossil.aquatic_suffocate		%1$s suffocated on land	fossil-forge-1.20.1-9.3.4.0
+garnished:fan_freezing	garnished.fan_freezing		%1$s was turned ice cold by an Encased Fan	garnished-2.1.7.c+1.20.1-neoforged
+garnished:leeching	garnished.leeching		%1$s couldn't deal with the consequences of their actions	garnished-2.1.7.c+1.20.1-neoforged
+garnished:mulch_munching	garnished.mulch_munching		%s munched on too much mulch	garnished-2.1.7.c+1.20.1-neoforged
+goety:acid	goety.acid	forge:is_magic,goety:no_knockback,minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s has been melted by %2$s	goety-2.5.59.2
+goety:boiling	goety.boiling	minecraft:is_fire	%1$s was made into stew	goety-2.5.59.2
+goety:bubble_stream	goety.bubbleStream	goety:water_attacks	%1$s has been bubbled by %2$s	goety-2.5.59.2
+goety:choke	goety.choke	goety:no_knockback,minecraft:bypasses_armor,minecraft:bypasses_shield	%1$s was choked by %2$s	goety-2.5.59.2
+goety:death	goety.death	goety:no_knockback,minecraft:bypasses_armor,minecraft:bypasses_shield	%1$s has been executed by %2$s	goety-2.5.59.2
+goety:direct_drench	goety.directDrench	goety:water_attacks	%1$s was drenched by %2$s	goety-2.5.59.2
+goety:direct_freeze	goety.directFreeze	goety:frost_attacks,minecraft:is_freezing	%1$s was frozen by %2$s	goety-2.5.59.2
+goety:direct_shock	goety.directShock	goety:shock_attacks	%1$s was electrocuted by %2$s	goety-2.5.59.2
+goety:dismissed	goety.dismissed	goety:no_knockback,minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance,minecraft:bypasses_shield	%1$s has been dismissed	goety-2.5.59.2
+goety:doom	goety.doom	dungeonnowloading:hollow_hurtable,minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance	%1$s met their doom	goety-2.5.59.2
+goety:drench	goety.drench	goety:water_attacks	%1$s was drenched	goety-2.5.59.2
+goety:fire_breath	goety.fireBreath	goety:fire_attacks,goety:no_knockback,minecraft:is_fire	%1$s has been burned by %2$s	goety-2.5.59.2
+goety:frost_breath	goety.frostBreath	goety:frost_attacks,goety:no_knockback,minecraft:is_freezing	%1$s has been chilled by %2$s	goety-2.5.59.2
+goety:hellfire	goety.hellfire	goety:no_knockback,minecraft:bypasses_armor,minecraft:bypasses_shield	%1$s was consumed by unholy flames	goety-2.5.59.2
+goety:ice_bouquet	goety.iceBouquet	forge:is_magic,goety:frost_attacks,goety:no_knockback,minecraft:bypasses_shield,minecraft:is_freezing,minecraft:witch_resistant_to	%1$s has been frozen by %2$s	goety-2.5.59.2
+goety:ice_spike	goety.indirectFreeze	goety:frost_attacks,minecraft:is_freezing,minecraft:is_projectile	%1$s has been frozen by %2$s	goety-2.5.59.2
+goety:indirect_drench	goety.indirectDrench	goety:water_attacks	%1$s has been drenched by %2$s	goety-2.5.59.2
+goety:indirect_freeze	goety.indirectFreeze	goety:frost_attacks,minecraft:is_freezing	%1$s has been frozen by %2$s	goety-2.5.59.2
+goety:indirect_hellfire	goety.indirectHellfire	goety:hellfire,goety:no_knockback,minecraft:bypasses_armor,minecraft:bypasses_shield	%1$s has been damned by %2$s	goety-2.5.59.2
+goety:indirect_shock	goety.indirectShock	goety:shock_attacks	%1$s was electrocuted by %2$s	goety-2.5.59.2
+goety:life_leech	goety.lifeLeech	forge:is_magic,goety:no_knockback,minecraft:bypasses_shield,minecraft:witch_resistant_to	%1$s have their life drained by %2$s	goety-2.5.59.2
+goety:lightning	goety.lightning	goety:shock_attacks	%1$s was struck by %2$s	goety-2.5.59.2
+goety:loot_explode	explosion	goety:wanting_damage,minecraft:is_explosion		goety-2.5.59.2
+goety:loot_explode_owned	explosion.player	goety:wanting_damage,minecraft:is_explosion		goety-2.5.59.2
+goety:magic_bolt	indirectMagic	dungeonnowloading:hollow_hurtable,forge:is_magic,goety:no_knockback,minecraft:bypasses_armor,minecraft:witch_resistant_to		goety-2.5.59.2
+goety:magic_fire	goety.fireBreath	goety:no_knockback	%1$s has been burned by %2$s	goety-2.5.59.2
+goety:magic_fireball	fireball	goety:magic_fire,minecraft:is_projectile		goety-2.5.59.2
+goety:no_owner_magic_fireball	onFire	goety:magic_fire,minecraft:is_projectile		goety-2.5.59.2
+goety:phobia	goety.phobia	dungeonnowloading:hollow_hurtable,forge:is_magic,minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s died of fear	goety-2.5.59.2
+goety:rage	goety.rage	minecraft:bypasses_armor	%1$s was consumed by rage	goety-2.5.59.2
+goety:rot	goety.rot	minecraft:bypasses_armor	%1$s rotted away	goety-2.5.59.2
+goety:shock	goety.shock	goety:shock_attacks	%1$s was electrocuted	goety-2.5.59.2
+goety:soul_burn	goety.soulBurn		%1$s's soul was incinerated	goety-2.5.59.2
+goety:soul_leech	goety.soulLeech	dungeonnowloading:hollow_hurtable,forge:is_magic,goety:no_knockback,minecraft:bypasses_shield,minecraft:witch_resistant_to	%1$s soul was sucked by %2$s	goety-2.5.59.2
+goety:spike	goety.spike	forge:is_magic,goety:no_knockback,minecraft:bypasses_armor,minecraft:bypasses_shield,minecraft:witch_resistant_to	%1$s has been spiked by %2$s	goety-2.5.59.2
+goety:summon	goety.summon	goety:physical	%1$s was slain by %2$s's %3$s	goety-2.5.59.2
+goety:swarm	goety.swarm	goety:no_knockback	%1$s has been infested by %2$s	goety-2.5.59.2
+goety:sword	goety.sword	netherexp:can_disrupt_underground_ecto_slabs	%1$s was sliced by %2$s	goety-2.5.59.2
+goety:venom	goety.venom	goety:no_knockback,minecraft:bypasses_armor	%1$s's organs has melted	goety-2.5.59.2
+goety:voided	goety.voided	goety:no_knockback,minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance,minecraft:bypasses_shield	%1$s was rendered null and void	goety-2.5.59.2
+goety:wind_blast	goety.windBlast	dungeonnowloading:hollow_hurtable,forge:is_magic,minecraft:witch_resistant_to	%1$s has been air-blasted by %2$s	goety-2.5.59.2
+hardcorerevival:not_rescued_in_time	not_rescued_in_time	minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance,minecraft:bypasses_shield	%1$s was not rescued in time	hardcorerevival-forge-1.20.1-20.1.19
+hexcasting:overcast	hexcasting.overcast	minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_shield	%s's mind was subsumed into energy	hexcasting-forge-1.20.1-0.11.4
+iceandfire:dragon_fire	dragon_fire			iceandfire-2.1.13-1.20.1-beta-5
+iceandfire:dragon_ice	dragon_ice			iceandfire-2.1.13-1.20.1-beta-5
+iceandfire:dragon_lightning	dragon_lightning			iceandfire-2.1.13-1.20.1-beta-5
+iceandfire:gorgon	gorgon			iceandfire-2.1.13-1.20.1-beta-5
+illageandspillage:mutation	mutation	minecraft:avoids_guardian_thorns,minecraft:bypasses_armor	%1$s was plagued with tumors by %2$s	illageandspillagerespillaged-1.2.8
+immersiveengineering:acid	ieAcid		%1$s was dissolved in acid	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:crushed	ieCrushed		%1$s was crushed	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:railgun	ieRailgun	minecraft:bypasses_armor	%1$s was pierced by %2$s's Railgun	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:railgun_turret	ieRailgun.turret			ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:razor_shock	ieRazorShock	minecraft:bypasses_armor	%1$s was electrocuted by razorwire	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:razor_wire	ieRazorWire		%1$s was diced by razorwire	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_armorpiercing	ieRevolver_armorPiercing	minecraft:bypasses_armor	%1$s was shot by %2$s	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_armorpiercing_turret	ieRevolver_armorPiercing.turret	minecraft:bypasses_armor	%1$s was shot by a turret	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_buckshot	ieRevolver_buckshot		%1$s was shotgunned by %2$s	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_buckshot_turret	ieRevolver_buckshot.turret		%1$s was shotgunned by a turret	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_casull	ieRevolver_casull		%1$s was shot by %2$s	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_casull_turret	ieRevolver_casull.turret		%1$s was shot by a turret	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_dragonsbreath	ieRevolver_dragonsbreath	minecraft:is_fire	%1$s was incinerated by %2$s	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_dragonsbreath_turret	ieRevolver_dragonsbreath.turret	minecraft:is_fire	%1$s was incinerated by a turret	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_homing	ieRevolver_homing		%1$s was shot by %2$s's homing bullet	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_homing_turret	ieRevolver_homing.turret		%1$s was shot by a turret's homing bullet	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_potion	ieRevolver_potion		%1$s was doused by %2$s's phial shot	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_potion_turret	ieRevolver_potion.turret		%1$s was doused by a turret's phial shot	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_silver	ieRevolver_silver		%1$s was purified by %2$s's silver bullet	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_silver_turret	ieRevolver_silver.turret		%1$s was purified by a turret's silver bullet	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_wolfpack	ieRevolver_wolfpack		%1$s was shredded by %2$s's Wolfpack Rounds	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:revolver_wolfpack_turret	ieRevolver_wolfpack.turret		%1$s was shredded by a turret's Wolfpack Rounds	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:sawblade	ieSawblade	minecraft:bypasses_armor		ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:sawblade_turret	ieSawblade.turret			ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:sawmill	ieSawmill		%1$s fell into the sawmill	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:tesla	ieTesla	minecraft:bypasses_armor	%1$s was fried by a Tesla Coil	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:tesla_primary	ieTeslaPrimary	minecraft:bypasses_armor	%1$s touched the primary circuit of a running Tesla coil	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:wire_shock	ieWireShock	minecraft:bypasses_armor	%1$s wasn't careful enough around live wiring	ImmersiveEngineering-1.20.1-10.2.0-183
+immersivepetroleum:flarestack	mob	immersivepetroleum:bypasses_armor,immersivepetroleum:is_fire		ImmersivePetroleum-1.20.1-4.3.1-36b
+incendium:sacrifice	thorns	minecraft:bypasses_armor		Incendium_1.20.x_v5.3.5
+industrialforegoing:mob_slaughter	mobSlaughter			industrial-foregoing-1.20.1-3.5.22
+irons_spellbooks:blood_cauldron	blood_cauldron	irons_spellbooks:bypass_evasion,minecraft:no_knockback	%1$s was cooked alive	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:blood_magic	blood_magic		%1$s was killed by %2$s's blood magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:dragon_breath_pool	dragon_breath_pool		%1$s stood in %2$s's dragon breath	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:eldritch_magic	eldritch_magic		%1$s was corrupted by %2$s's eldritch magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:ender_magic	ender_magic		%1$s was slain by %2$s's ender magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:evocation_magic	evocation_magic		%1$s was slain by %2$s's evocation magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:fire_field	fire_field		%1$s cooked in %2$s's fiery field	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:fire_magic	fire_magic		%1$s was burned by %2$s's fire magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:heartstop	heartstop	irons_spellbooks:bypass_evasion,irons_spellbooks:long_cast_ignore,minecraft:no_knockback	%1$s's heart ruptured	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:holy_magic	holy_magic		%1$s was smitten by %2$s's holy magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:ice_magic	ice_magic		%1$s was shattered by %2$s's ice magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:lightning_magic	lightning_magic		%1$s was shocked by %2$s's lightning magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:nature_magic	nature_magic		%1$s was slain by %2$s's eldritch magic	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:poison_cloud	poison_cloud		%1$s was suffocated by %2$s's poisonous cloud	irons_spellbooks-1.20.1-3.16.3
+l2complements:bleed	bleed	forge:ignore_scaling,minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance,minecraft:no_impact	%1$s bled out	l2complements-2.6.1
+l2complements:emerald	emerald	minecraft:avoids_guardian_thorns	%s was killed by emerald splash	l2complements-2.6.1
+l2complements:freeze	freeze	forge:is_magic,minecraft:bypasses_armor,minecraft:bypasses_cooldown		l2complements-2.6.1
+l2complements:life_sync	life_sync	forge:ignore_scaling,minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance,minecraft:no_impact	%s was drained	l2complements-2.6.1
+l2complements:soul_flame	soul_flame	forge:ignore_scaling,forge:is_magic,minecraft:avoids_guardian_thorns,minecraft:bypasses_armor,minecraft:no_impact	%s has its soul burnt out	l2complements-2.6.1
+l2complements:void_eye	void_eye	minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance,minecraft:no_impact	%s was cursed by void eye	l2complements-2.6.1
+legendary_monsters:clouds	legendary_monsters.clouds	minecraft:bypasses_armor	%s was Crushed to death by %s	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:cut	legendary_monsters.cut	minecraft:bypasses_armor	%s was cut in half	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:ghost	legendary_monsters.ghost	minecraft:bypasses_armor	%s has left the Reality	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:gravity	legendary_monsters.gravity	minecraft:bypasses_armor	%s has Levitated for too long	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:impale	legendary_monsters.impale	minecraft:bypasses_armor	%s was impaled	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:laser	legendary_monsters.laser	minecraft:bypasses_armor	%s was Exterminated by %s using pure Lightning Energy	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:void	legendary_monsters.void	minecraft:bypasses_armor	%s was annihilated by %s	legendarymonsters-2.2.4 MC 1.20.1
+magistuarmory:additional	additional		%1$s was slain	epic-knights-1.20.1-forge-10.15
+magistuarmory:armor_piercing	armorPiercing		%1$s was slain by %2$s	epic-knights-1.20.1-forge-10.15
+magistuarmory:entity_additional	entityAdditional		%1$s was slain by %2$s	epic-knights-1.20.1-forge-10.15
+magistuarmory:silver	silver		%1$swas burned with silver by %2$s	epic-knights-1.20.1-forge-10.15
+malum:hidden_blade_counter	hidden_blade_counter	malum:can_soul_shatter,malum:is_scythe	%1$s was sliced into innumerable pieces	malum-1.20.1-1.6.7
+malum:scythe_melee	scythe_melee	forge:can_trigger_magic_damage,malum:can_soul_shatter,malum:is_scythe,malum:is_scythe_melee	%1$s was sliced in half	malum-1.20.1-1.6.7
+malum:scythe_sweep	scythe_sweep	forge:can_trigger_magic_damage,malum:can_soul_shatter,malum:is_scythe,malum:is_scythe_melee	%1$s was sliced in half	malum-1.20.1-1.6.7
+malum:voodoo	voodoo	forge:is_magic,malum:can_soul_shatter,minecraft:bypasses_armor,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance	%1$s had their soul shattered	malum-1.20.1-1.6.7
+malum:voodoo_playerless	voodoo_playerless	forge:is_magic,malum:can_soul_shatter		malum-1.20.1-1.6.7
+mekanism:laser	mekanism.laser	minecraft:bypasses_cooldown	%1$s was incinerated.	Mekanism-1.20.1-10.4.16.80
+mekanism:radiation	mekanism.radiation	minecraft:bypasses_armor	%1$s was killed by radiation poisoning.	Mekanism-1.20.1-10.4.16.80
+minecolonies:amazon	entity.minecolonies.amazon		%s was pierced by an Amazon's arrow	minecolonies-1.20.1-1.1.1301
+minecolonies:amazonchief	entity.minecolonies.amazonchief		%s was expelled by the great Amazon Leader	minecolonies-1.20.1-1.1.1301
+minecolonies:amazonspearman	entity.minecolonies.amazonspearman		%s was pierced by an Amazon's spear	minecolonies-1.20.1-1.1.1301
+minecolonies:archerbarbarian	entity.minecolonies.archerbarbarian		%s was ravaged by an Archer Barbarian	minecolonies-1.20.1-1.1.1301
+minecolonies:archermummy	entity.minecolonies.archermummy		%s was pierced by a Mummy's deadly glare	minecolonies-1.20.1-1.1.1301
+minecolonies:archerpirate	entity.minecolonies.archerpirate		%s was ravaged by an Archer Pirate	minecolonies-1.20.1-1.1.1301
+minecolonies:barbarian	entity.minecolonies.barbarian		%s was sliced and diced by a Barbarian	minecolonies-1.20.1-1.1.1301
+minecolonies:campamazon	entity.minecolonies.campamazon		%s was pierced by an Amazon's arrow	minecolonies-1.20.1-1.1.1301
+minecolonies:campamazonchief	entity.minecolonies.campamazonchief		%s was expelled by the great Amazon Leader	minecolonies-1.20.1-1.1.1301
+minecolonies:campamazonspearman	entity.minecolonies.campamazonspearman		%s was pierced by an Amazon's spear	minecolonies-1.20.1-1.1.1301
+minecolonies:camparcherbarbarian	entity.minecolonies.camparcherbarbarian		%s was ravaged by an Archer Barbarian	minecolonies-1.20.1-1.1.1301
+minecolonies:camparchermummy	entity.minecolonies.camparchermummy		%s was pierced by a Mummy's deadly glare	minecolonies-1.20.1-1.1.1301
+minecolonies:camparcherpirate	entity.minecolonies.camparcherpirate		%s was ravaged by an Archer Pirate	minecolonies-1.20.1-1.1.1301
+minecolonies:campbarbarian	entity.minecolonies.campbarbarian		%s was sliced and diced by a Barbarian	minecolonies-1.20.1-1.1.1301
+minecolonies:campchiefbarbarian	entity.minecolonies.campchiefbarbarian		%s was macerated by a Great Chief	minecolonies-1.20.1-1.1.1301
+minecolonies:campchiefpirate	entity.minecolonies.campchiefpirate		%s was macerated by a Pirate Captain	minecolonies-1.20.1-1.1.1301
+minecolonies:campmummy	entity.minecolonies.campmummy		%s was scared to death by a Mummy	minecolonies-1.20.1-1.1.1301
+minecolonies:campnorsemenarcher	entity.minecolonies.campnorsemenarcher		%s was hit by an Archer Viking	minecolonies-1.20.1-1.1.1301
+minecolonies:campnorsemenchief	entity.minecolonies.campnorsemenchief		%s was grounded by the great Viking Chief	minecolonies-1.20.1-1.1.1301
+minecolonies:camppharao	entity.minecolonies.camppharao		%s was put to sleep by a Pharaoh	minecolonies-1.20.1-1.1.1301
+minecolonies:camppirate	entity.minecolonies.camppirate		%s was sliced and diced by a Pirate	minecolonies-1.20.1-1.1.1301
+minecolonies:campshieldmaiden	entity.minecolonies.campshieldmaiden		%s was crushed by a Shieldmaiden	minecolonies-1.20.1-1.1.1301
+minecolonies:chiefbarbarian	entity.minecolonies.chiefbarbarian		%s was macerated by a Great Chief	minecolonies-1.20.1-1.1.1301
+minecolonies:chiefpirate	entity.minecolonies.chiefpirate		%s was macerated by a Pirate Captain	minecolonies-1.20.1-1.1.1301
+minecolonies:console	console			minecolonies-1.20.1-1.1.1301
+minecolonies:default	default			minecolonies-1.20.1-1.1.1301
+minecolonies:despawn	despawn			minecolonies-1.20.1-1.1.1301
+minecolonies:drownedarcherpirate	entity.minecolonies.drownedarcherpirate		%s was pierced from the depths by a drowned Pirate Archer	minecolonies-1.20.1-1.1.1301
+minecolonies:drownedchiefpirate	entity.minecolonies.drownedchiefpirate		%s was put to a watery grave by a drowned Pirate Chief	minecolonies-1.20.1-1.1.1301
+minecolonies:drownedpirate	entity.minecolonies.drownedpirate		%s was taken to the depths by a drowned Pirate	minecolonies-1.20.1-1.1.1301
+minecolonies:guard	entity.minecolonies.guard		%s was defeated by a Guard	minecolonies-1.20.1-1.1.1301
+minecolonies:guardpvp	entity.minecolonies.guardpvp	minecraft:bypasses_armor	%s was skewered by a Guard	minecolonies-1.20.1-1.1.1301
+minecolonies:mercenary	entity.minecolonies.mercenary		%s was eaten alive by a Mercenary	minecolonies-1.20.1-1.1.1301
+minecolonies:mummy	entity.minecolonies.mummy		%s was scared to death by a Mummy	minecolonies-1.20.1-1.1.1301
+minecolonies:nether	nether		%s succumbed to the depths of the nether.	minecolonies-1.20.1-1.1.1301
+minecolonies:norsemenarcher	entity.minecolonies.norsemenarcher		%s was hit by an Archer Viking	minecolonies-1.20.1-1.1.1301
+minecolonies:norsemenchief	entity.minecolonies.norsemenchief		%s was grounded by the great Viking Chief	minecolonies-1.20.1-1.1.1301
+minecolonies:pharao	entity.minecolonies.pharao		%s was put to sleep by a Pharaoh	minecolonies-1.20.1-1.1.1301
+minecolonies:pierce	entity.minecolonies.pierce	minecraft:bypasses_armor,minecraft:bypasses_shield,minecraft:is_projectile	%s armor got pierced!	minecolonies-1.20.1-1.1.1301
+minecolonies:pirate	entity.minecolonies.pirate		%s was sliced and diced by a Pirate	minecolonies-1.20.1-1.1.1301
+minecolonies:shieldmaiden	entity.minecolonies.shieldmaiden		%s was crushed by a Shieldmaiden	minecolonies-1.20.1-1.1.1301
+minecolonies:slap	entity.minecolonies.slap		%s was slapped to death by a Mercenary	minecolonies-1.20.1-1.1.1301
+minecolonies:spear	entity.minecolonies.spear	minecraft:is_projectile	%s was perforated by a spear	minecolonies-1.20.1-1.1.1301
+minecolonies:stuckdamage	entity.minecolonies.stuckdamage			minecolonies-1.20.1-1.1.1301
+minecolonies:training	entity.minecolonies.training		%s got killed during training	minecolonies-1.20.1-1.1.1301
+minecolonies:visitor	entity.minecolonies.visitor		%s died after starting a brawl at the local tavern	minecolonies-1.20.1-1.1.1301
+minecolonies:wakeywakey	entity.minecolonies.wakeywakey	minecraft:bypasses_armor		minecolonies-1.20.1-1.1.1301
+mna:shuriken	shuriken		%s couldn't catch the shuriken	mna-forge-1.20.1-3.1.11-all
+mna:spell_briars	mna_briars	minecraft:bypasses_armor		mna-forge-1.20.1-3.1.11-all
+mna:spell_conflagrate	mna_conflagrate	minecraft:bypasses_armor,minecraft:bypasses_enchantments,minecraft:bypasses_invulnerability	%s was consumed by their own power	mna-forge-1.20.1-3.1.11-all
+mna:spell_disperse	mna_disperse	minecraft:bypasses_armor,minecraft:bypasses_enchantments	%s was dispersed	mna-forge-1.20.1-3.1.11-all
+mna:spell_frost	mna_frost	minecraft:bypasses_armor,minecraft:is_freezing	%s was frozen solid	mna-forge-1.20.1-3.1.11-all
+mna:spell_lightning	mna_lightning	minecraft:bypasses_armor,minecraft:is_lightning	%s was electrocuted	mna-forge-1.20.1-3.1.11-all
+mna:wtf_boom	mna_wtfboom	minecraft:bypasses_armor,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance	%s hit the cactus too hard, then drowned while trying to swim in lava	mna-forge-1.20.1-3.1.11-all
+mob_grinding_utils:spikes	spikes	minecraft:bypasses_armor	%1$s was impaled on spikes.	mob_grinding_utils-1.20.1-1.1.0
+modulargolems:bacon_attack	magic	forge:is_magic,minecraft:bypasses_armor,minecraft:bypasses_cooldown		modulargolems-2.7.5
+modulargolems:echo_attack	sonic_boom	forge:is_magic,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance		modulargolems-2.7.5
+mutantmonsters:armor_bypassing_mob_attack	mob	minecraft:bypasses_armor		MutantMonsters-v8.0.8-1.20.1-Forge
+mutantmonsters:armor_bypassing_thrown	thrown	minecraft:is_projectile		MutantMonsters-v8.0.8-1.20.1-Forge
+mutantmonsters:effects_bypassing_mob_attack	mob	minecraft:bypasses_effects		MutantMonsters-v8.0.8-1.20.1-Forge
+mutantmonsters:mutant_arrow	arrow	minecraft:always_hurts_ender_dragons,minecraft:is_projectile		MutantMonsters-v8.0.8-1.20.1-Forge
+mutantmonsters:piercing_mob_attack	mob	minecraft:bypasses_armor,minecraft:bypasses_effects		MutantMonsters-v8.0.8-1.20.1-Forge
+mutantmonsters:player_seismic_wave	player	minecraft:bypasses_effects		MutantMonsters-v8.0.8-1.20.1-Forge
+mythicupgrades:citrine_chain_damage_type	citrine_chain	minecraft:bypasses_armor,minecraft:bypasses_effects	%1$s was caught in the chain reaction	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:deflecting_damage_type	deflecting	minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects		mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:ice_bomb_burst_damage_type	ice_bomb_burst			mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:ice_shield_reflect_damage_type	ice_shield_reflect	minecraft:bypasses_armor,minecraft:bypasses_effects		mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:percentage_damage_type	percentage	minecraft:bypasses_armor,minecraft:bypasses_effects		mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:peridot_incubation_damage_type	peridot_incubation	minecraft:bypasses_armor,minecraft:bypasses_effects		mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:static_field_damage_type	static_field	minecraft:bypasses_effects	%1$s was electrocuted by a static field	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:topaz_shock_damage_type	topaz_shock	minecraft:bypasses_armor,minecraft:bypasses_effects	%1$s was struck by a gem of pure rage	mythicupgrades-forge-1.20.1-5.1.1
+neapolitan:beanstalk_thorns	neapolitan.beanstalkThorns		%1$s was poked to death by beanstalk thorns	neapolitan-1.20.1-5.1.0
+netherexp:grave_cloud_suffocation	graveMistSuffocation	minecraft:bypasses_armor,minecraft:bypasses_enchantments,minecraft:no_knockback,minecraft:no_knockback_shield,netherexp:is_suffocation	%1$s was shrouded and choked by souls	Jadens-Nether-Expansion-2.3.5
+netherexp:jackhammer	jackhammer	minecraft:bypasses_cooldown,minecraft:bypasses_enchantments	%1$s was hit with a lethal piston-arm	Jadens-Nether-Expansion-2.3.5
+netherexp:shotgun_explosion	shotgunExplosion	minecraft:bypasses_armor,minecraft:bypasses_enchantments,minecraft:bypasses_shield,minecraft:is_explosion,minecraft:no_knockback,minecraft:no_knockback_shield	%1$s was caught in a over-charged shotgun explosion	Jadens-Nether-Expansion-2.3.5
+netherexp:shotgun_pellet	soulBullet	elysium_api:cant_damage_armor,minecraft:bypasses_cooldown,minecraft:bypasses_enchantments,minecraft:is_projectile,minecraft:no_knockback,minecraft:no_knockback_shield	%1$s was shot with a lethal firearm	Jadens-Nether-Expansion-2.3.5
+netherexp:sorrowsquished	sorrowsquished		%1$s was sorrowsquished	Jadens-Nether-Expansion-2.3.5
+netherexp:stampede_crush	stampedeCrush		%1$s was crushed by %2$s	Jadens-Nether-Expansion-2.3.5
+netherexp:volatile_scoria_explosion	volatileScoriaExplosion	minecraft:is_explosion	%1$s was caught in a volatile redstone discharge	Jadens-Nether-Expansion-2.3.5
+netherexp:will_o_wisp	will_o_wisp	minecraft:is_projectile	%1$s was haunted by a will o' wisp	Jadens-Nether-Expansion-2.3.5
+nuclearcraft:radiation	radiation		Died of Radiation Poisoning	NuclearCraft-1.20.1-1.2.36
+nuclearcraft:turbine	turbine			NuclearCraft-1.20.1-1.2.36
+origins:hurt_by_water	hurt_by_water		%1$s took a bath for too long	origins-forge-1.20.1-1.10.0.9-all
+origins:no_water_for_gills	no_water_for_gills		%1$s didn't manage to keep wet	origins-forge-1.20.1-1.10.0.9-all
+parcool:parcool.friction	parcool.friction		%1$s couldn't bear the burns caused by the frictional heat	ParCool-1.20.1-4.0.1.5
+pneumaticcraft:etching_acid	pnc_acid		%1$s was etched to death!	pneumaticcraft-repressurized-6.0.23+mc1.20.1
+pneumaticcraft:minigun	pnc_minigun		%1$s was shredded by %2$s's Minigun!	pneumaticcraft-repressurized-6.0.23+mc1.20.1
+pneumaticcraft:minigun_ap	pnc_minigun	minecraft:bypasses_armor,pneumaticcraft:minigun	%1$s was shredded by %2$s's Minigun!	pneumaticcraft-repressurized-6.0.23+mc1.20.1
+pneumaticcraft:plastic_block	pnc_plastic_block	minecraft:bypasses_armor	%1$s stepped on something unreasonably painful!	pneumaticcraft-repressurized-6.0.23+mc1.20.1
+pneumaticcraft:pressure	pnc_pressure		%1$s was compressed to death!	pneumaticcraft-repressurized-6.0.23+mc1.20.1
+pneumaticcraft:security_station	pnc_security_station	minecraft:bypasses_armor	%1$s failed to hack a Security Station and suffered the consequences!	pneumaticcraft-repressurized-6.0.23+mc1.20.1
+projecte:player_attack	player	minecraft:bypasses_armor		ProjectE-1.20.1-PE1.0.1
+psi:psi_overload	psi_overload	minecraft:bypasses_armor,minecraft:bypasses_resistance,minecraft:bypasses_shield,minecraft:bypasses_effects,minecraft:bypasses_enchantments		Psi-1.20.1-102
+quark:pickarang	quark.pickarang		%1$s was surprised by %2$s's pickarang coming back around	Quark-4.0-462
+refurbished_furniture:ceiling_fan	refurbished_furniture.ceiling_fan		%1$s was sliced to death by a ceiling fan	refurbished_furniture-forge-1.20.1-1.0.20
+regions_unexplored:dorcel	dorcel		%s was dragged underground by Dorcel	RegionsUnexploredForge-0.5.6+1.20.1
+regions_unexplored:dusk_trap	dusk_trap		%s was eaten by a Dusktrap	RegionsUnexploredForge-0.5.6+1.20.1
+reliquary:bullet	reliquary.bullet		%1$s was shot by %2$s	reliquary-1.20.1-2.0.66.1577
+securitycraft:electricity	securitycraft.electricity	minecraft:bypasses_armor	%s was electrocuted	[1.20.1] SecurityCraft v1.10.2.1
+securitycraft:fake_water	securitycraft.fakeWater	minecraft:bypasses_armor	%s fell into poisonous water...?	[1.20.1] SecurityCraft v1.10.2.1
+securitycraft:in_reinforced_wall	securitycraft.inReinforcedWall	minecraft:bypasses_armor,minecraft:bypasses_effects	%s suffocated in a reinforced wall	[1.20.1] SecurityCraft v1.10.2.1
+securitycraft:incorrect_passcode	securitycraft.incorrectPasscode		%s entered an incorrect code	[1.20.1] SecurityCraft v1.10.2.1
+securitycraft:laser	securitycraft.laser		%s was sliced to death by a laser	[1.20.1] SecurityCraft v1.10.2.1
+securitycraft:taser	securitycraft.taser		%1$s was tasered to death by %2$s	[1.20.1] SecurityCraft v1.10.2.1
+soulsweapons:beam	beam		%1$s was annihilated by %2$s's Core Beam	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:bleed	bleed	minecraft:bypasses_armor	%1$s bled out	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:dragon_mist	dragon_mist	minecraft:bypasses_armor	%1$s couldn't breathe in the concentrated Dragon Mist	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:freyr_sword	freyr_sword		%1$s was sliced away by %2$s's Sword of Freyr	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:magic_damage_bypass_cooldown	magic_damage_bypass_cooldown	minecraft:avoids_guardian_thorns,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:no_impact,minecraft:witch_resistant_to		soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:obliterated	obliterated		%1$s was obliterated by %2$s	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:oblivion	oblivion		%1$s was sent to oblivion	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:player_fire	player_fire	minecraft:is_fire	%1$s was burnt to a crisp	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:player_lightning	player_lightning	minecraft:is_lightning	%1$s was struck by lightning	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:shadow_orb	shadow_orb		%1$s perished after being barraged by %2$s's Shadow Orbs	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:silver_bullet_bypass_cooldown	silver_bullet_bypass_cooldown	minecraft:bypasses_cooldown,minecraft:is_projectile		soulslike-weaponry-1.4.10-1.20.1-forge
+spartanweaponry:armor_piercing_bolt	arrow	minecraft:is_projectile,spartanweaponry:is_armor_piercing		SpartanWeaponry-1.20.1-forge-3.2.1-all
+spartanweaponry:armor_piercing_melee	player	spartanweaponry:is_armor_piercing		SpartanWeaponry-1.20.1-forge-3.2.1-all
+spartanweaponry:thrown_weapon_mob	mob	minecraft:is_projectile		SpartanWeaponry-1.20.1-forge-3.2.1-all
+spartanweaponry:thrown_weapon_player	player	minecraft:is_projectile		SpartanWeaponry-1.20.1-forge-3.2.1-all
+spawn:dry_up	dry_up		%1$s couldn't withstand the heat	spawn-4.0.8-1.20.1
+spawn:sea_urchin	sea_urchin		%1$s was poked to death by a sea urchin	spawn-4.0.8-1.20.1
+spawn:volcano_impact	volcano_impact		%1$s died on impact	spawn-4.0.8-1.20.1
+species:cranktrap	cranktrap		%1$s fell into a Cranktrap	species-3.5
+species:crunch	crunch		%1$s was crunched	species-3.5
+species:kinetic	kinetic		%2$s made %1$s experience the Richter scale	species-3.5
+species:torn	torn		%1$s was torn to shreds	species-3.5
+spell_power:arcane	player	spell_power:all		spell_power-forge-1.6.1+1.20.1
+spell_power:fire	player	spell_power:all		spell_power-forge-1.6.1+1.20.1
+spell_power:frost	player	spell_power:all		spell_power-forge-1.6.1+1.20.1
+spell_power:generic	player	spell_power:all		spell_power-forge-1.6.1+1.20.1
+spell_power:healing	player	spell_power:all		spell_power-forge-1.6.1+1.20.1
+spell_power:lightning	player	spell_power:all		spell_power-forge-1.6.1+1.20.1
+spell_power:soul	player	spell_power:all		spell_power-forge-1.6.1+1.20.1
+supplementaries:bamboo_spikes	supplementaries.bamboo_spikes	minecraft:bypasses_shield	%1$s was impaled on a spike	supplementaries-1.20-3.1.44-forge
+supplementaries:bomb_explosion	explosion	minecraft:is_explosion		supplementaries-1.20-3.1.44-forge
+supplementaries:cannonball	supplementaries.cannonball		%1$s was blasted to bits	supplementaries-1.20-3.1.44-forge
+supplementaries:player_bomb_explosion	explosion.player	minecraft:is_explosion		supplementaries-1.20-3.1.44-forge
+supplementaries:player_cannonball	supplementaries.cannonball.player		%1$s was blasted to bits by %2$s	supplementaries-1.20-3.1.44-forge
+supplementaries:slingshot	supplementaries.slingshot		%1$s was stoned to death by %2$s	supplementaries-1.20-3.1.44-forge
+supplementaries:xp_extracting	supplementaries.xp_extracting	minecraft:bypasses_armor,minecraft:bypasses_effects	%1$s wasn't so experienced after all	supplementaries-1.20-3.1.44-forge
+tacz:bullet	tacz.bullet	tacz:bullets,minecraft:always_hurts_ender_dragons	%1$s was shot by %2$s	tacz-1.20.1-1.1.8-hotfix2
+tacz:bullet_ignore_armor	tacz.bullet	minecraft:bypasses_armor,tacz:bullets	%1$s was shot by %2$s	tacz-1.20.1-1.1.8-hotfix2
+tacz:bullet_void	tacz.bullet	minecraft:bypasses_invulnerability,tacz:bullets	%1$s was shot by %2$s	tacz-1.20.1-1.1.8-hotfix2
+tacz:bullet_void_ignore_armor	tacz.bullet	minecraft:bypasses_armor,minecraft:bypasses_invulnerability,tacz:bullets	%1$s was shot by %2$s	tacz-1.20.1-1.1.8-hotfix2
+takesapillage:archer_snipe	archer		%1$s was sniped by %2$s	takesapillage-1.0.3-1.20.1
+takesapillage:legioner_slay	legioner		%1$s was struck down by %2$s	takesapillage-1.0.3-1.20.1
+takesapillage:skirmisher_hack	skirmisher		%1$s was chopped to bits by %2$s	takesapillage-1.0.3-1.20.1
+tconstruct:bleeding	tconstruct.bleed	minecraft:avoids_guardian_thorns,minecraft:bypasses_armor,minecraft:bypasses_enchantments	%1$s bled to death	TConstruct-1.20.1-3.11.2.166
+tconstruct:entangled	tconstruct.entangled	minecraft:bypasses_armor,minecraft:bypasses_effects	%1$s could not let go of their tool	TConstruct-1.20.1-3.11.2.166
+tconstruct:explosion_melee	explosion	minecraft:is_explosion		TConstruct-1.20.1-3.11.2.166
+tconstruct:explosion_ranged	explosion	minecraft:is_explosion,minecraft:is_projectile		TConstruct-1.20.1-3.11.2.166
+tconstruct:fishing_hook	tconstruct.fishing_hook	minecraft:is_projectile	%1$s was impaled by %2$s's fish hook	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_cold_melee	tconstruct.fluid.cold	minecraft:is_freezing	%1$s was frozen by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_cold_ranged	tconstruct.fluid.cold	minecraft:is_freezing,minecraft:is_projectile	%1$s was frozen by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_fire_melee	tconstruct.fluid.fire	minecraft:is_fire	%1$s was burned by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_fire_ranged	tconstruct.fluid.fire	minecraft:is_fire,minecraft:is_projectile	%1$s was burned by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_impact_melee	tconstruct.fluid.impact		%1$s was pummeled by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_impact_ranged	tconstruct.fluid.impact	minecraft:is_projectile	%1$s was pummeled by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_magic_melee	tconstruct.fluid.magic	minecraft:witch_resistant_to,twilightforest:breaks_lich_shields	%1$s was smite by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_magic_ranged	tconstruct.fluid.magic	minecraft:is_projectile,minecraft:witch_resistant_to,twilightforest:breaks_lich_shields	%1$s was smite by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_spike_melee	tconstruct.fluid.spike	minecraft:bypasses_armor	%1$s was speared by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:fluid_spike_ranged	tconstruct.fluid.spike	minecraft:bypasses_armor,minecraft:is_projectile	%1$s was speared by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:knightmetal	tconstruct.knightmetal		%1$s was skewered by Knightmetal	TConstruct-1.20.1-3.11.2.166
+tconstruct:melee_arrow	arrow			TConstruct-1.20.1-3.11.2.166
+tconstruct:mob_explosion_melee	explosion.player	minecraft:is_explosion		TConstruct-1.20.1-3.11.2.166
+tconstruct:mob_explosion_ranged	explosion.player	minecraft:is_explosion,minecraft:is_projectile		TConstruct-1.20.1-3.11.2.166
+tconstruct:piercing	tconstruct.piercing	minecraft:bypasses_armor	%1$s was pierced by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:self_destruct	tconstruct.self_destruct	minecraft:bypasses_armor,minecraft:is_explosion	%1$s self destructed	TConstruct-1.20.1-3.11.2.166
+tconstruct:shock	tconstruct.shock	minecraft:avoids_guardian_thorns,tconstruct:protection/fire	%1$s was shocked trying to hurt %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:smeltery_heat	tconstruct.smeltery_heat	minecraft:is_fire	%1$s tried to make molten player	TConstruct-1.20.1-3.11.2.166
+tconstruct:smeltery_magic	tconstruct.smeltery_magic	minecraft:witch_resistant_to	%1$s has become one with the smeltery	TConstruct-1.20.1-3.11.2.166
+tconstruct:spiny	tconstruct.spiny	minecraft:bypasses_armor,minecraft:bypasses_effects	%1$s was killed by a splinter	TConstruct-1.20.1-3.11.2.166
+tconstruct:thrown_tool	tconstruct.thrown_tool	minecraft:is_projectile	%1$s was impaled by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:water_melee	tconstruct.fluid.water	minecraft:bypasses_armor	%1$s was drowned by %2$s	TConstruct-1.20.1-3.11.2.166
+tconstruct:water_ranged	tconstruct.fluid.water	minecraft:bypasses_armor,minecraft:is_projectile	%1$s was drowned by %2$s	TConstruct-1.20.1-3.11.2.166
+tetra:bleeding	bleeding	minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:no_impact		tetra-1.20.1-6.17.0
+tfmg:acid	tfmg.acid		%1$s took an acid bath	tfmg-1.0.2f
+tfmg:blast_furnace	tfmg.blast_furnace		%1$s was turned in carbon steel	tfmg-1.0.2f
+tfmg:concrete	tfmg.concrete		%1$s tried to eat Concrete	tfmg-1.0.2f
+the_bumblezone:architects	the_bumblezone.architects	minecraft:always_hurts_ender_dragons,minecraft:always_most_significant_fall,minecraft:bypasses_armor,minecraft:bypasses_cooldown,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance	%1$s was killed for trying to escape an Essence Event	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:cosmic_crystal	the_bumblezone.cosmic_crystal	minecraft:always_hurts_ender_dragons,minecraft:always_triggers_silverfish,minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance,minecraft:bypasses_shield,the_bumblezone:event_damage	%1$s was obliterated by the Cosmic Crystal's power	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:crystalline_flower	the_bumblezone.crystalline_flower	minecraft:avoids_guardian_thorns	%1$s was poked to death by a crystalline flower	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:dirt_pellet	the_bumblezone.dirt_pellet	minecraft:is_projectile,minecraft:panic_causes	%1$s was pummeled by %2$s	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:event_dirt_pellet	the_bumblezone.dirt_pellet	minecraft:is_projectile,minecraft:panic_causes,the_bumblezone:event_damage	%1$s was pummeled by %2$s	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:sentry_watcher_crushing	the_bumblezone.sentry_watcher_crushing	minecraft:always_hurts_ender_dragons,minecraft:always_triggers_silverfish,minecraft:bypasses_shield	%1$s was crushed to death by a Sentry Watcher	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:spikes	the_bumblezone.spikes	minecraft:always_hurts_ender_dragons,minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance,the_bumblezone:event_damage	%1$s was impaled during a Knowing Essence Event	the_bumblezone-7.15.1+1.20.1-forge
+thermal:sadiroot	thermal.sadiroot			thermal_cultivation-1.20.1-11.0.1.24
+toughasnails:hyperthermia	toughasnails.hyperthermia	minecraft:bypasses_armor	%1$s overheated to death	ToughAsNails-forge-1.20.1-9.2.0.171
+toughasnails:thirst	toughasnails.thirst	minecraft:bypasses_armor,minecraft:bypasses_effects	%1$s died of thirst	ToughAsNails-forge-1.20.1-9.2.0.171
+touhou_little_maid:danmaku	touhou_little_maid.danmaku	minecraft:is_projectile,twilightforest:breaks_lich_shields	%1$s was pummeled by %2$s using danmaku	touhoulittlemaid-1.5.3-forge+mc1.20.1
+touhou_little_maid:danmaku_ender_killer	touhou_little_maid.danmaku	minecraft:always_hurts_ender_dragons,twilightforest:breaks_lich_shields	%1$s was pummeled by %2$s using danmaku	touhoulittlemaid-1.5.3-forge+mc1.20.1
+true_ending:mob_attack	mob			tru.e-ending-v1.1.0c
+true_ending:mob_attack_pierce_shield	mob	minecraft:bypasses_shield		tru.e-ending-v1.1.0c
+true_ending:mob_attack_pierce_shield_cooldown	mob	minecraft:bypasses_cooldown		tru.e-ending-v1.1.0c
+twilightdelight:thorn_rose_tea	twilightdelight.thorn_rose_tea	minecraft:bypasses_armor,minecraft:bypasses_effects,minecraft:bypasses_enchantments,minecraft:bypasses_resistance	%1$s acknowledged that every rose has its thorn	twilightdelight-2.2.7
+twilightforest:acid_rain	twilightforest.acid_rain	minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s went dancing in the acid rain	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:ant	twilightforest.ant	tconstruct:modifier_whitelist,tconstruct:protection/melee	%1$s was squashed like an ant by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:axing	twilightforest.axing	tconstruct:modifier_whitelist,tconstruct:protection/melee	%1$s was chopped up by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:chilling_breath	twilightforest.chillingBreath		%1$s was frozen to death by the Snow Queen	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:clamped	twilightforest.clamped	tconstruct:protection/melee	%1$s was squeezed to death by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:expired	twilightforest.expired	minecraft:always_most_significant_fall,minecraft:bypasses_armor,minecraft:bypasses_invulnerability,minecraft:bypasses_resistance	%1$s's life expired	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:falling_ice	fallingBlock	tconstruct:protection/projectile,minecraft:bypasses_enchantments		twilightforest-1.20.1-4.3.2508-universal
+twilightforest:fiery	twilightforest.fiery		%1$s walked onto a Fiery block	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:fire_jet	twilightforest.fireJet		%1$s accidentally walked into a Fire Jet	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:frozen	twilightforest.frozen		%1$s was frozen by %2$s using an Ice Bomb	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:ghast_tear	twilightforest.ghastTear	tconstruct:protection/melee,minecraft:bypasses_armor,minecraft:damages_helmet	%1$s was scalded by fiery tears	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:haunt	twilightforest.haunt	tconstruct:protection/magic	%1$s joined the %2$s's haunt	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:hydra_bite	twilightforest.hydraBite	tconstruct:protection/melee	%1$s's skin was ripped off by the Hydra	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:hydra_fire	twilightforest.hydraFire	minecraft:is_fire	%1$s was roasted alive by the Hydra	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:hydra_mortar	onFire	minecraft:is_fire		twilightforest-1.20.1-4.3.2508-universal
+twilightforest:knightmetal	twilightforest.knightmetal		%1$s was skewered by a Knightmetal block	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:leaf_brain	twilightforest.leafBrain	minecraft:bypasses_armor,minecraft:is_projectile,minecraft:witch_resistant_to	%1$s's brain was turned into leaves by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:lich_bolt	twilightforest.lichBolt	minecraft:bypasses_armor,minecraft:is_projectile,minecraft:witch_resistant_to,twilightforest:breaks_lich_shields	The Lich's aim was better than %1$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:lich_bomb	twilightforest.lichBomb	minecraft:bypasses_armor,minecraft:is_projectile,minecraft:witch_resistant_to	%1$s succumbed to the Lich's explosive magic	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:lifedrain	twilightforest.lifedrain	minecraft:bypasses_armor,minecraft:is_projectile	%1$s's life was drained by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:lost_words	twilightforest.lostWords	minecraft:bypasses_armor,minecraft:is_projectile,minecraft:witch_resistant_to	%1$s was at a loss for words after being killed by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:moonworm	twilightforest.moonworm		%1$s was shot by Moonworm	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:reactor	twilightforest.reactor		%1$s stood too close to a Carminite Reactor	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:schooled	twilightforest.schooled	minecraft:bypasses_armor,minecraft:is_projectile,minecraft:witch_resistant_to	%1$s was schooled by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:scorched	twilightforest.scorched		%1$s was scorched by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:slam	twilightforest.axing	tconstruct:modifier_whitelist,tconstruct:protection/melee,minecraft:bypasses_armor,minecraft:no_anger	%1$s was chopped up by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:slider	twilightforest.slider		%1$s was sliced up by a Sliding Trap	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:snowball_fight	twilightforest.snowballFight	minecraft:is_projectile	%1$s lost a snowball fight to %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:spiked	twilightforest.spiked	tconstruct:protection/melee	%1$s was skewered by %2$s	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:squish	twilightforest.squish	tconstruct:protection/melee	%1$s was squashed by the Snow Queen	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:thorns	twilightforest.thorns		%1$s walked into some thorns	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:thrown_axe	twilightforest.thrownAxe	minecraft:is_projectile	%1$s was decapitated by a thrown axe	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:thrown_block	twilightforest.thrownBlock	minecraft:damages_helmet,minecraft:is_projectile	%1$s was squashed by a thrown block	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:thrown_pickaxe	twilightforest.thrownPickaxe	minecraft:is_projectile	%1$s was decapitated by a thrown pickaxe	twilightforest-1.20.1-4.3.2508-universal
+twilightforest:twilight_scepter	indirectMagic	tconstruct:protection/magic,minecraft:is_projectile,twilightforest:breaks_lich_shields		twilightforest-1.20.1-4.3.2508-universal
+twilightforest:yeeted	twilightforest.yeeted	tconstruct:protection/melee,minecraft:bypasses_armor,minecraft:is_fall	%1$s was yeeted for the last time	twilightforest-1.20.1-4.3.2508-universal
+undergarden:blisterberry_bush	blisterberry_bush		%1$s was poked by a Blisterberry Bush	The_Undergarden-1.20.1-0.8.14
+undergarden:depthrock_pebble	arrow			The_Undergarden-1.20.1-0.8.14
+undergarden:goo_ball	arrow			The_Undergarden-1.20.1-0.8.14
+undergarden:shard_torch	shard_torch	minecraft:bypasses_armor,minecraft:bypasses_enchantments,minecraft:witch_resistant_to	%1$s was killed by a Shard Torch's magic	The_Undergarden-1.20.1-0.8.14
+unusualend:infection_damages	infection_damages	minecraft:bypasses_armor,minecraft:bypasses_shield	%1$s died from infection	unusualend-2.3.1.2
+unusualend:joust	joust		%1$s was impaled	unusualend-2.3.1.2
+unusualend:spunkler_damages	spunkler_damages		%1$s was stung to death	unusualend-2.3.1.2
+unusualend:trapper_damages	trapper_damages	minecraft:bypasses_armor,minecraft:bypasses_enchantments,minecraft:bypasses_shield	%1$s was devoured by an Endstone Trapper	unusualend-2.3.1.2
+upgrade_aquatic:jellyfish_sting	upgrade_aquatic.jellyfishSting		%1$s was stung to death by %2$s	upgrade_aquatic-1.20.1-6.0.3
+vampirism:blood_loss	blood_loss	minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s was sucked dry	Vampirism-1.20.1-1.10.17
+vampirism:dbno	vampirism.dbno	minecraft:bypasses_armor,minecraft:bypasses_effects		Vampirism-1.20.1-1.10.17
+vampirism:holy_water	holy_water	minecraft:witch_resistant_to,vampirism:mother_resistant_to	%1$s was burned with holy water	Vampirism-1.20.1-1.10.17
+vampirism:minion	minion			Vampirism-1.20.1-1.10.17
+vampirism:mother	vampirism.mother	minecraft:bypasses_armor	%1$s died because they were too close to the Ancient Remains	Vampirism-1.20.1-1.10.17
+vampirism:stake	vampirism.stake	minecraft:bypasses_armor,minecraft:bypasses_effects	%1$s was pierced through the heart by %2$s	Vampirism-1.20.1-1.10.17
+vampirism:sun_damage	sun	minecraft:bypasses_armor,minecraft:witch_resistant_to	%1$s did not like the sun	Vampirism-1.20.1-1.10.17
+vampirism:vampire_in_fire	vampire_in_fire	minecraft:is_fire,minecraft:witch_resistant_to	%1$s burned to ashes	Vampirism-1.20.1-1.10.17
+vampirism:vampire_on_fire	vampire_on_fire	minecraft:bypasses_armor,minecraft:is_fire,minecraft:witch_resistant_to	%1$s burned to ashes	Vampirism-1.20.1-1.10.17
+weeping_angels:generator	generator		%s was sucked into the vortex...	weeping_angels-46.1.6-forge
+weeping_angels:punch_stone	punch_stone		%s punched stone too hard...	weeping_angels-46.1.6-forge
+weeping_angels:snapped_neck	snapped_neck		%s had their neck snapped by a Weeping Angel	weeping_angels-46.1.6-forge
+yungscavebiomes:falling_icicle	falling_icicle	minecraft:bypasses_shield,minecraft:damages_helmet	%1$s was skewered by a falling icicle	YungsCaveBiomes-1.20.1-Forge-2.0.5
+yungscavebiomes:prickly_vines	prickly_vines		%1$s was poked to death by prickly vines	YungsCaveBiomes-1.20.1-Forge-2.0.5

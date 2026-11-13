@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="adaptationwheel"
+version="4.0.0"
+displayName="Adaptation Wheel"
+authors="Pasha"
+description='''
+A wearable golden adaptation wheel with four resistance stages,
+repeat-hit acceleration, infinite darkness vision, a filtered registry catalogue,
+automatic modded damage/effect analysis and a boss existence stage.
+'''
+
+[[dependencies.adaptationwheel]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.39,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.adaptationwheel]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"

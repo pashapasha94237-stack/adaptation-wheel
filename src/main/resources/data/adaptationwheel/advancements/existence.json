@@ -1,0 +1,16 @@
+{
+  "parent": "adaptationwheel:stage_four",
+  "display": {
+    "icon": {"item": "minecraft:nether_star"},
+    "title": {"translate": "advancements.adaptationwheel.existence.title"},
+    "description": {"translate": "advancements.adaptationwheel.existence.description"},
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {"trigger": "minecraft:impossible"}
+  },
+  "requirements": [["code"]]
+}

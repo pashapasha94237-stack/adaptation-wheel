@@ -1,0 +1,67 @@
+{
+  "id": "m13",
+  "nameRu": "Уроборос",
+  "taglineRu": "Змей держит свой хвост — круг без конца.",
+  "descriptionRu": "Изумрудный змей свернулся в кольцо и держит свой хвост в пасти. Чешуя идёт полосами тёмного и светлого изумруда, по спине тянутся золотые ромбы и костяные шипы. На голове золотой гребень, светятся жёлтые глаза и загибаются назад рога. Внутри кольца плывут золотые чешуйки, а в центре парит светящийся изумруд.",
+  "role": "proposal",
+  "designId": "wheel-models-2026-10-29",
+  "mount": { "pitchDeg": 0, "x": 0, "y": -14.5, "z": 0 },
+  "materials": [
+    { "key": "scale", "base": "#1F7A4A", "light": "#40C078", "dark": "#0E4428", "emissive": false, "pattern": "plate" },
+    { "key": "scaleLight", "base": "#2E9A5E", "light": "#5ED090", "dark": "#145A34", "emissive": false, "pattern": "plate" },
+    { "key": "goldBand", "base": "#D8A838", "light": "#F6D47A", "dark": "#8C6418", "emissive": false, "pattern": "plate" },
+    { "key": "belly", "base": "#E2D08C", "light": "#F7EBB9", "dark": "#A8945A", "emissive": false, "pattern": "bone" },
+    { "key": "bone", "base": "#EEE5D0", "light": "#FFFFFF", "dark": "#B0A488", "emissive": false, "pattern": "bone" },
+    { "key": "eye", "base": "#FFD23A", "light": "#FFF6B8", "dark": "#D88A00", "emissive": true, "pattern": "glow" },
+    { "key": "gem", "base": "#4CFFA2", "light": "#D2FFE7", "dark": "#12B866", "emissive": true, "pattern": "glow" }
+  ],
+  "groups": [
+    { "name": "bodyA", "count": 8, "phaseDeg": 0, "radius": 10, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [
+        { "x": -1.55, "y": -1.2, "z": -1.3, "w": 3.1, "h": 2.4, "d": 2.6, "mat": "scale" },
+        { "x": -1.4, "y": 1.0, "z": -0.9, "w": 2.8, "h": 0.5, "d": 1.8, "mat": "belly" } ] },
+    { "name": "bodyB", "count": 8, "phaseDeg": 15, "radius": 10, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [
+        { "x": -1.55, "y": -1.25, "z": -1.3, "w": 3.1, "h": 2.5, "d": 2.6, "mat": "scaleLight" },
+        { "x": -1.4, "y": 1.05, "z": -0.9, "w": 2.8, "h": 0.5, "d": 1.8, "mat": "belly" } ] },
+    { "name": "bodyC", "count": 8, "phaseDeg": 30, "radius": 10, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [
+        { "x": -1.55, "y": -1.3, "z": -1.35, "w": 3.1, "h": 2.6, "d": 2.7, "mat": "scale" },
+        { "x": -1.4, "y": 1.1, "z": -0.9, "w": 2.8, "h": 0.5, "d": 1.8, "mat": "belly" } ] },
+    { "name": "diamonds", "count": 8, "phaseDeg": 30, "radius": 10, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 45, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [ { "x": -0.75, "y": -1.5, "z": -0.75, "w": 1.5, "h": 0.25, "d": 1.5, "mat": "goldBand" } ] },
+    { "name": "spines", "count": 8, "phaseDeg": 0, "radius": 10, "y": -1.2, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": -25,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [ { "x": -0.4, "y": -1.4, "z": -0.3, "w": 0.8, "h": 1.6, "d": 0.6, "mat": "bone" } ] },
+    { "name": "head", "count": 1, "phaseDeg": 180, "radius": 10, "y": 0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 1, "idleDegPerSec": 0, "bobAmp": 0, "bobPeriodSec": 0,
+      "boxes": [
+        { "x": -2.0, "y": -2.6, "z": -2.6, "w": 5.6, "h": 3.8, "d": 5.2, "mat": "scale" },
+        { "x": 3.4, "y": -2.0, "z": -1.9, "w": 3.0, "h": 2.2, "d": 3.8, "mat": "scale" },
+        { "x": -1.6, "y": -2.85, "z": -1.8, "w": 5.0, "h": 0.35, "d": 3.6, "mat": "goldBand" },
+        { "x": 3.4, "y": -2.25, "z": -1.3, "w": 2.8, "h": 0.35, "d": 2.6, "mat": "goldBand" },
+        { "x": 0.6, "y": 1.0, "z": -1.8, "w": 5.4, "h": 1.2, "d": 3.6, "mat": "belly" },
+        { "x": 2.2, "y": -2.2, "z": -2.75, "w": 1.2, "h": 1.0, "d": 0.4, "mat": "eye" },
+        { "x": 2.2, "y": -2.2, "z": 2.35, "w": 1.2, "h": 1.0, "d": 0.4, "mat": "eye" },
+        { "x": -2.6, "y": -3.3, "z": -2.2, "w": 2.0, "h": 0.9, "d": 0.9, "mat": "bone" },
+        { "x": -4.4, "y": -4.0, "z": -2.0, "w": 2.0, "h": 0.8, "d": 0.6, "mat": "bone" },
+        { "x": -2.6, "y": -3.3, "z": 1.3, "w": 2.0, "h": 0.9, "d": 0.9, "mat": "bone" },
+        { "x": -4.4, "y": -4.0, "z": 1.4, "w": 2.0, "h": 0.8, "d": 0.6, "mat": "bone" },
+        { "x": 5.2, "y": 0.1, "z": -1.3, "w": 0.6, "h": 1.1, "d": 0.5, "mat": "bone" },
+        { "x": 5.2, "y": 0.1, "z": 0.8, "w": 0.6, "h": 1.1, "d": 0.5, "mat": "bone" } ] },
+    { "name": "flakes", "count": 8, "phaseDeg": 22.5, "radius": 5.4, "y": -1.2, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 45, "rotZDeg": 0,
+      "spin": -1, "idleDegPerSec": 0, "bobAmp": 0.3, "bobPeriodSec": 2.4,
+      "boxes": [ { "x": -0.7, "y": -0.15, "z": -0.7, "w": 1.4, "h": 0.3, "d": 1.4, "mat": "goldBand" } ] },
+    { "name": "emerald", "count": 1, "phaseDeg": 0, "radius": 0, "y": -3.0, "tiltXDeg": 0, "tiltZDeg": 0, "rotXDeg": 0, "rotYDeg": 0, "rotZDeg": 0,
+      "spin": 0, "idleDegPerSec": 20, "bobAmp": 0.5, "bobPeriodSec": 3.0,
+      "boxes": [
+        { "x": -0.9, "y": -0.9, "z": -0.9, "w": 1.8, "h": 1.8, "d": 1.8, "mat": "gem" },
+        { "x": -0.5, "y": -1.6, "z": -0.5, "w": 1.0, "h": 3.2, "d": 1.0, "mat": "gem" } ] }
+  ],
+  "javaNotes": "Root as today but y -14.5 (0.22 unit higher), turn and pulse on the PoseStack. Per frame group.yRot = (spin-1)*turn + idle: body, diamonds, spines, head 0; flakes (spin -1) -2*turn and y = -1.2 + 0.3*sin(2*pi*t/2.4); emerald -turn + radians((20*t) % 360), y = -3 + 0.5*sin(2*pi*t/3). Body is a 24-gon from three count-8 groups at 0/15/30 deg (w 3.1 >= 2*11.3*tan(7.5) = 2.98); heights 2.4/2.5/2.6 and bellies 1.5/1.55/1.6, so overlaps never share a plane; bands read dark - light - dark, with a gold diamond (yRot 45) sunk 0.05 into every third segment's back. The head is one part at phase 180 (in front of the face at rest) facing local +x, the direction the click moves it, so the snake crawls head first; 13 cubes: skull 5.6x3.8x5.2 (twice the body's width, so the head reads from every side), snout, gold crest plates on skull and snout, belly-coloured lower jaw, two glowing eyes on the sides, two stepped horns sweeping back and up, two fangs. The uniform body passes through the head and fills the open mouth (snout bottom 0.2, jaw top 1.0), which reads as the tail held in the jaws. Spines lean back (zRot -25); the one at 180 deg ends inside the crest plate. The head breaks the 8-fold symmetry on purpose: after every stage it sits 45 degrees further, like a clock hand. Glow pass: 2 eyes and the emerald (4 of 87 boxes). Reach 13.7, lowest point +2.2 (jaw), top 0.69 block above the head.",
+  "animationNotesRu": "С каждым этапом змей проползает на 45 градусов головой вперёд, и голова, как стрелка, переходит на новое место. Золотые чешуйки внутри сдвигаются на 45 градусов навстречу и мягко покачиваются, изумруд в центре стоит на месте и медленно кружится. При адаптации к боссу змей ползёт по кругу без остановки."
+}

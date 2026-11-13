@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [" Q ", "SQS", "ENE"],
+  "key": {
+    "Q": {"item": "minecraft:quartz_block"},
+    "S": {"item": "minecraft:string"},
+    "E": {"item": "minecraft:end_rod"},
+    "N": {"item": "minecraft:netherite_ingot"}
+  },
+  "result": {"item": "adaptationwheel:extermination_sword"}
+}

@@ -1,0 +1,977 @@
+aether:inebriation	Inebriation	aether-1.20.1-1.5.2-neoforge
+aether:remedy	Remedy	aether-1.20.1-1.5.2-neoforge
+aether_redux:adrenal_fatigue	Adrenal Fatigue	aether-redux-2.0.19-1.20.1-neoforge
+aether_redux:adrenaline_rush	Adrenaline Rush	aether-redux-2.0.19-1.20.1-neoforge
+aether_redux:blightward	Blightward	aether-redux-2.0.19-1.20.1-neoforge
+alexscaves:magnetizing	Magnetizing	alexscaves-2.0.2
+alexscaves:stunned	Stunned	alexscaves-2.0.2
+alexscaves:rage	Rage	alexscaves-2.0.2
+alexscaves:irradiated	Irradiated	alexscaves-2.0.2
+alexscaves:bubbled	Bubbled	alexscaves-2.0.2
+alexscaves:deepsight	Deepsight	alexscaves-2.0.2
+alexscaves:darkness_incarnate	Darkness Incarnate	alexscaves-2.0.2
+alexscaves:sugar_rush	Sugar Rush	alexscaves-2.0.2
+attributeslib:knowledge	Ancient Knowledge	ApothicAttributes-1.20.1-1.3.7
+attributeslib:sundering	Sundering	ApothicAttributes-1.20.1-1.3.7
+attributeslib:vitality	Bursting Vitality	ApothicAttributes-1.20.1-1.3.7
+attributeslib:grievous	Grievous Wounds	ApothicAttributes-1.20.1-1.3.7
+attributeslib:bleeding	Bleeding	ApothicAttributes-1.20.1-1.3.7
+attributeslib:detonation	Flaming Detonation	ApothicAttributes-1.20.1-1.3.7
+attributeslib:flying	Flying	ApothicAttributes-1.20.1-1.3.7
+aquamirae:abyss_blindness	Blindness	aquamirae-forge-1.20.1-6.4.0
+aquamirae:armor_decrease	§cPerforation	aquamirae-forge-1.20.1-6.4.0
+aquamirae:crystallization	§cCrystallization	aquamirae-forge-1.20.1-6.4.0
+aquamirae:poison_immunity	Poison Immunity	aquamirae-forge-1.20.1-6.4.0
+aquamirae:health_decrease	§cDivide	aquamirae-forge-1.20.1-6.4.0
+aquamirae:strong_armor	Strong Armor	aquamirae-forge-1.20.1-6.4.0
+aquamirae:swim_speed	Speed	aquamirae-forge-1.20.1-6.4.0
+archers:entangling_roots	Entangling Roots	archers-forge-3.1.4+1.20.1
+archers:hunters_mark	Marked	archers-forge-3.1.4+1.20.1
+archers:hunters_mark_stash	Power Shot	archers-forge-3.1.4+1.20.1
+arsdelight:blast_resistance	Blast Resistance	arsdelight-1.2.2
+arsdelight:flourishing	Flourishing	arsdelight-1.2.2
+arsdelight:freezing_spell	Freezing Spell	arsdelight-1.2.2
+arsdelight:lightning_curse	Lightning Curse	arsdelight-1.2.2
+arsdelight:synchronized_shield	Synchronized Shield	arsdelight-1.2.2
+arsdelight:wilden	Wilden	arsdelight-1.2.2
+ars_additions:marked	Marked	ars_additions-1.20.1-1.6.7
+ars_elemental:enderference	Enderference	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:watery_grave	Watery Grave	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:mana_shield	Mana Shield	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:static_charged	Static Charged	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:hellfire	Magic Burn	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:life_link	Life Linked	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:enthralled	Enthralled	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:hymn_of_order	Hymn of Order	ars_elemental-1.20.1-0.6.8.0
+ars_elemental:venom	Envenomed	ars_elemental-1.20.1-0.6.8.0
+ars_nouveau:blasting	Blasting	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:bounce	Bounce	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:familiar_sickness	Familiar Sickness	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:flight	Flight	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:freezing	Freezing	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:glide	Glide	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:gravity	Gravity	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:hex	Hex	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:immolate	Immolate	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:magic_find	Magic Find	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:mana_regen	Mana Regeneration	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:recovery	Recovery	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:scrying	Scrying	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:shield	Magic Shield	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:shielding	Shielding	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:shocked	Shocked	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:snared	Snared	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:spell_damage	Spell Damage	ars_nouveau-1.20.1-4.12.7-all
+ars_nouveau:summoning_sickness	Summoning Sickness	ars_nouveau-1.20.1-4.12.7-all
+atmospheric:persistence	Persistence	atmospheric-1.20.1-6.1.1
+atmospheric:relief	Relief	atmospheric-1.20.1-6.1.1
+atmospheric:spitting	Spitting	atmospheric-1.20.1-6.1.1
+atmospheric:worsening	Worsening	atmospheric-1.20.1-6.1.1
+autumnity:extension	Extension	autumnity-1.20.1-5.0.2
+autumnity:foul_taste	Foul Taste	autumnity-1.20.1-5.0.2
+biomancy:corrosive	Corrosive Acid	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:armor_shred	Armor Shred	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:libido	Fertility	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:bleed	Bleed	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:toxin	Fatal Toxin	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:essence_anemia	Essence Anemia	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:drowsy	Drowsy	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:despoil	Despoil	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:frenzy	Frenzy	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:withdrawal	Withdrawal	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+biomancy:primordial_infestation	Primordial Infestation	biomancy-forge-1.20.1-2.9.0.1-alpha.0
+bloodmagic:bounce	Bounce	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:flight	Flight	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:gravity	Gravity	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:grounded	Grounded	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:hard_cloak	Hard Cloak	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:heavy_heart	Heavy Heart	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:obsidian_cloak	Obsidian Cloak	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:passivity	Passive	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:soft_fall	Soft Fall	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:spectral_sight	Spectral Sight	BloodMagic-1.18-1.20.1-3.3.8-50
+bloodmagic:suspended	Suspended	BloodMagic-1.18-1.20.1-3.3.8-50
+blue_skies:deadly_venom	Deadly Venom	blue_skies-1.20.1-1.3.31
+born_in_chaos_v1:bad_feeling	Bad Feeling	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:insect_protection	Insect Protection	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:barbedattack	Barbed attack	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:detonation	Detonation	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:light_rampage	Rampage	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:stimulation	Stimulation	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:stone_persistence	Stone Persistence	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:infernal_flame	§aInfernal Flame	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:snow_storm	Snow Storm	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:undead_summonun	Undead Summonundead	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:curseofthe_boat	Curse of the Boat	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:dark_splash	Dark Splash	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:block_break	Block Break	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:lifesteal	§cLifesteal	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:overly_heavy_weapon	Overly Heavy Weapon	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:fish_breath	Fish Breath	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:living_cocoon_player_side	Living Cocoon	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:vampiric_touch	§cVampiric Touch	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:rampant_rampage	Rampage	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:lost_items	Lost Items	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:bone_fracture	Bone Fracture	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:furious_rampage	Rampage	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:stranglehold	§cStranglehold	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:dogtruce	Dog Truce	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:predators_desire	Predator\u0027s Desire	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:strong_rampage	Rampage	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:stimulatingsurge	Stimulating Surge	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:dark_ward	Dark Ward	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:myiasis	Myiasis	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:stunning_strike	Stunning Strike	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:wither_resistance	Wither Resistance	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:stun	Stun	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:rotten_smell	Rotten Stink	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:bone_chilling	Bone Chilling	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:soul_stratification	Soul Stratification	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:bone_barrier	Bone Barrier	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:living_cocoon	Living Cocoon	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:unity_with_darkness	Unity With Darkness	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:minion_summon	Minion Summon	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:cursed_mark	Cursed Mark	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:infestationof_flies	Infestation of Flies	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:experience_container	Experience Container	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:sweet_madness	Sweet Madness	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:terrifying_presence	Terrifying Presence	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:magic_depletion	Magic Depletion	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:ice_barrier	Ice Barrier	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:obsession	Obsession	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:gaze_of_terror	Gaze of Terror	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:sacrifice	Sacrifice	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:jawattack	jaw attack	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:rabbit_agility	Rabbit Agility	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:living_bomb	§aLiving Bomb	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:medium_rampage	Rampage	born_in_chaos_[Forge]1.20.1_1.7.5
+born_in_chaos_v1:intoxication	Intoxication	born_in_chaos_[Forge]1.20.1_1.7.5
+botania:soul_cross	Soul Cross	Botania-1.20.1-456-FORGE
+botania:feather_feet	Feather Feet	Botania-1.20.1-456-FORGE
+botania:emptiness	Emptiness	Botania-1.20.1-456-FORGE
+botania:bloodthirst	Bloodthirst	Botania-1.20.1-456-FORGE
+botania:allure	Allure	Botania-1.20.1-456-FORGE
+botania:clear	Absolution	Botania-1.20.1-456-FORGE
+brewinandchewin:tipsy	Tipsy	BrewinAndChewin-1.20.1-3.2.1
+brewinandchewin:intoxication	Intoxication	BrewinAndChewin-1.20.1-3.2.1
+brewinandchewin:raging	Raging	BrewinAndChewin-1.20.1-3.2.1
+brewinandchewin:sweet_heart	Sweet Heart	BrewinAndChewin-1.20.1-3.2.1
+buzzier_bees:sunny	Sunny	buzzier_bees-1.20.1-6.0.1
+caverns_and_chasms:rewind	Rewind	caverns_and_chasms-1.20.1-2.1.3
+caverns_and_chasms:vampirism	Vampirism	caverns_and_chasms-1.20.1-2.1.3
+cofh_core:amplification	Amplification	cofh_core-1.20.1-11.0.2.56
+cofh_core:chilled	Chilled	cofh_core-1.20.1-11.0.2.56
+cofh_core:clarity	Clarity	cofh_core-1.20.1-11.0.2.56
+cofh_core:cold_resistance	Frost Resistance	cofh_core-1.20.1-11.0.2.56
+cofh_core:eagle_eye	Eagle Eye	cofh_core-1.20.1-11.0.2.56
+cofh_core:enderference	Enderference	cofh_core-1.20.1-11.0.2.56
+cofh_core:explosion_resistance	Blast Resistance	cofh_core-1.20.1-11.0.2.56
+cofh_core:lightning_resistance	Shock Resistance	cofh_core-1.20.1-11.0.2.56
+cofh_core:love	Love	cofh_core-1.20.1-11.0.2.56
+cofh_core:magic_resistance	Magic Resistance	cofh_core-1.20.1-11.0.2.56
+cofh_core:panacea	Panacea	cofh_core-1.20.1-11.0.2.56
+cofh_core:redergized	Redergized	cofh_core-1.20.1-11.0.2.56
+cofh_core:shocked	Shocked	cofh_core-1.20.1-11.0.2.56
+cofh_core:slimed	Slimed	cofh_core-1.20.1-11.0.2.56
+cofh_core:sundered	Sundered	cofh_core-1.20.1-11.0.2.56
+cofh_core:supercharge	Supercharging	cofh_core-1.20.1-11.0.2.56
+cofh_core:true_invisibility	True Invisibility	cofh_core-1.20.1-11.0.2.56
+cofh_core:wrenched	Wrenched!	cofh_core-1.20.1-11.0.2.56
+create_confectionery:stimulation	Stimulation	create-confectionery1.20.1_v1.1.3
+create_confectionery:rest	Rest	create-confectionery1.20.1_v1.1.3
+create_new_age:radiation_poisoning	Radiation Poisoning	create-new-age-1.2.0+forge-mc1.20.1
+createaddition:shocking	Shocked	createaddition-1.20.1-1.3.3
+cyclic:flight	Flight	Cyclic-1.20.1-1.13.7
+cyclic:butter	Butterfingers	Cyclic-1.20.1-1.13.7
+cyclic:waterwalk	Waterwalking	Cyclic-1.20.1-1.13.7
+cyclic:magnetic	Magnetism	Cyclic-1.20.1-1.13.7
+cyclic:snowwalk	Snow-walker	Cyclic-1.20.1-1.13.7
+cyclic:frost_walker	Frost Walker	Cyclic-1.20.1-1.13.7
+cyclic:swimspeed	Swim Speed	Cyclic-1.20.1-1.13.7
+cyclic:bounce	Bouncing	Cyclic-1.20.1-1.13.7
+cyclic:ender	Ender Aura	Cyclic-1.20.1-1.13.7
+cyclic:slowfall	Slowfall	Cyclic-1.20.1-1.13.7
+cyclic:antigravity	Anti-gravity	Cyclic-1.20.1-1.13.7
+cyclic:gravity	Gravity	Cyclic-1.20.1-1.13.7
+cyclic:attack_range	Attack Range	Cyclic-1.20.1-1.13.7
+cyclic:reach_distance	Reach Distance	Cyclic-1.20.1-1.13.7
+cyclic:haste	Haste	Cyclic-1.20.1-1.13.7
+cyclic:strong_haste	Haste II	Cyclic-1.20.1-1.13.7
+cyclic:stun	Paralyze	Cyclic-1.20.1-1.13.7
+cyclic:blind	Blindness	Cyclic-1.20.1-1.13.7
+cyclic:hunger	Hunger	Cyclic-1.20.1-1.13.7
+cyclic:resistance	Resistance	Cyclic-1.20.1-1.13.7
+cyclic:wither	Wither	Cyclic-1.20.1-1.13.7
+cyclic:levitation	Levitation	Cyclic-1.20.1-1.13.7
+deeperdarker:sculk_affinity	Sculk Affinity	deeperdarker-forge-1.20.1-1.3.3
+deep_aether:valkyrie_valor	Valkyries' Grace	deep_aether-1.20.1-1.1.7
+deep_aether:moa_bonus_jumps	Moa Bonus Jumps	deep_aether-1.20.1-1.1.7
+dragonsurvival:stress	Stress	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:trapped	Trapped	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:peace	Sea Peace	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:magic	Forest Magic	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:fire	Cave Fire	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:animal_peace	Animal Calm	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:water_vision	Sea Eyes	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:lava_vision	Lava Eyes	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:hunter	Hunter	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:revealing_the_soul	Revealing The Soul	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:burn	Burned	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:charged	Charged	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:drain	Forest Gas	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:strong_leather	Sturdy Skin	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:wings_cave	Cave Wings	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:wings_forest	Forest Wings	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:wings_sea	Sea Wings	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:source_of_magic	Infinite Magic	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:royal_chase	Royal Chase	dragonsurvival-1.20.1-23.07.2026-all
+dragonsurvival:royal_departure	Royal Departure	dragonsurvival-1.20.1-23.07.2026-all
+ecologics:slippery	Slippery	ecologics-forge-1.20.1-2.2.7
+eeeabsmobs:erode_effect	Erode	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:armor_lower_effect	Armor Reduction	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:stun_effect	Stun	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:frenzy_effect	Frenzy	eeeabsmobs-1.20.1-0.98.1
+eeeabsmobs:electrified_effect	Electromagnetic Overload	eeeabsmobs-1.20.1-0.98.1
+eidolon:chilled	Chilled	eidolon_repraised-1.20.1-0.3.13
+eidolon:anchored	Anchored	eidolon_repraised-1.20.1-0.3.13
+eidolon:reinforced	Reinforced	eidolon_repraised-1.20.1-0.3.13
+eidolon:vulnerable	Vulnerable	eidolon_repraised-1.20.1-0.3.13
+eidolon:undeath	Undeath	eidolon_repraised-1.20.1-0.3.13
+eidolon:light_blessing	Turn Undead	eidolon_repraised-1.20.1-0.3.13
+endersdelight:phasing	Ender Phasing	endersdelight-1.1.4
+enigmaticlegacy:blazing_strength	Blazing Might	EnigmaticLegacy-2.30.1
+enigmaticlegacy:molten_heart	Molten Heart	EnigmaticLegacy-2.30.1
+enigmaticlegacy:growing_hunger	Growing Hunger	EnigmaticLegacy-2.30.1
+enigmaticlegacy:growing_bloodlust	Growing Bloodlust	EnigmaticLegacy-2.30.1
+environmental:serenity	Serenity	environmental-1.20.1-4.1.2
+evilcraft:paling	Paling	EvilCraft-1.20.1-1.3.4
+farmersdelight:nourishment	Nourishment	FarmersDelight-1.20.1-1.3.4
+farmersdelight:comfort	Comfort	FarmersDelight-1.20.1-1.3.4
+farmersrespite:caffeinated	Caffeinated	farmersrespite-1.20.1-2.1.2
+forbidden_arcanus:spectral_vision	Spectral Vision	forbidden_arcanus-1.20.1-2.2.6
+forbidden_arcanus:darkened	Darkened	forbidden_arcanus-1.20.1-2.2.6
+fossil:comfy_bed	Scent Of The Wild	fossil-forge-1.20.1-9.3.4.0
+friendsandfoes:reach	Reach	friendsandfoes-forge-5.0.3+mc1.20.1
+friendsandfoes:glide	Glide	friendsandfoes-forge-5.0.3+mc1.20.1
+friendsandfoes:penguins_glide	Penguin's Glide	friendsandfoes-forge-5.0.3+mc1.20.1
+galosphere:astral	Astral	Galosphere-1.20.1-1.5.2-Forge
+galosphere:halite_curse	Halite Curse	Galosphere-1.20.1-1.5.2-Forge
+garnished:spirited_resistance	Spirited Resistance	garnished-2.1.7.c+1.20.1-neoforged
+garnished:aversion	Aversion	garnished-2.1.7.c+1.20.1-neoforged
+garnished:cognate	Cognate	garnished-2.1.7.c+1.20.1-neoforged
+garnished:flagrant	Flagrant	garnished-2.1.7.c+1.20.1-neoforged
+garnished:sugar_high	Sugar High	garnished-2.1.7.c+1.20.1-neoforged
+garnished:sanctity	Sanctity	garnished-2.1.7.c+1.20.1-neoforged
+garnished:thorns	Prickly	garnished-2.1.7.c+1.20.1-neoforged
+garnished:mummification	Mummification	garnished-2.1.7.c+1.20.1-neoforged
+garnished:freezing	Freezing	garnished-2.1.7.c+1.20.1-neoforged
+garnished:truth_seeker	Truth Seeker	garnished-2.1.7.c+1.20.1-neoforged
+garnished:augmented	Augmented	garnished-2.1.7.c+1.20.1-neoforged
+goety:summon_down	Summon Down	goety-2.5.59.2
+goety:sapped	Sapped	goety-2.5.59.2
+goety:gold_touched	Gold Touched	goety-2.5.59.2
+goety:illague	Illague	goety-2.5.59.2
+goety:burn_hex	Burn Hex	goety-2.5.59.2
+goety:soul_hunger	Soul Hunger	goety-2.5.59.2
+goety:buff	Buff	goety-2.5.59.2
+goety:rampage	Rampage	goety-2.5.59.2
+goety:climbing	Climbing	goety-2.5.59.2
+goety:wane	Wane	goety-2.5.59.2
+goety:busted	Busted	goety-2.5.59.2
+goety:cursed	Cursed	goety-2.5.59.2
+goety:soul_armor	Soul Armor	goety-2.5.59.2
+goety:iron_hide	Iron Hide	goety-2.5.59.2
+goety:chill_hide	Chill Hide	goety-2.5.59.2
+goety:pressure	Pressure	goety-2.5.59.2
+goety:charged	Charged	goety-2.5.59.2
+goety:ender_ground	Ender Ground	goety-2.5.59.2
+goety:ender_flux	Ender Flux	goety-2.5.59.2
+goety:freezing	Freezing	goety-2.5.59.2
+goety:nyctophobia	Nyctophobia	goety-2.5.59.2
+goety:sun_allergy	Sun Allergy	goety-2.5.59.2
+goety:snow_skin	Snow Skin	goety-2.5.59.2
+goety:evil_eye	Evil Eye	goety-2.5.59.2
+goety:tripping	Tripping	goety-2.5.59.2
+goety:arrowmantic	Arrowmantic	goety-2.5.59.2
+goety:sense_loss	Sense Loss	goety-2.5.59.2
+goety:flame_hands	Flame Hands	goety-2.5.59.2
+goety:venomous_hands	Venomous Hands	goety-2.5.59.2
+goety:repulsive	Repulsive	goety-2.5.59.2
+goety:explosive	Explosive	goety-2.5.59.2
+goety:swift_swim	Swift Swim	goety-2.5.59.2
+goety:frog_leg	Frog Legs	goety-2.5.59.2
+goety:insight	Insight	goety-2.5.59.2
+goety:bottling	Bottling	goety-2.5.59.2
+goety:fire_trail	Fire Trail	goety-2.5.59.2
+goety:fiery_aura	Fiery Aura	goety-2.5.59.2
+goety:frosty_aura	Frosty Aura	goety-2.5.59.2
+goety:plunge	Plunge	goety-2.5.59.2
+goety:flimsy	Flimsy	goety-2.5.59.2
+goety:photosynthesis	Photosynthesis	goety-2.5.59.2
+goety:flammable	Flammable	goety-2.5.59.2
+goety:storms_wrath	Storm's Wrath	goety-2.5.59.2
+goety:save_effects	Save Effects	goety-2.5.59.2
+goety:wild_rage	Wild Rage	goety-2.5.59.2
+goety:stunned	Stunned	goety-2.5.59.2
+goety:tangled	Tangled	goety-2.5.59.2
+goety:shadow_walk	Shadow Walk	goety-2.5.59.2
+goety:doom	Doom	goety-2.5.59.2
+goety:fortunate	Fortunate	goety-2.5.59.2
+goety:corpse_eater	Corpse Eater	goety-2.5.59.2
+goety:smiting	Smiting	goety-2.5.59.2
+goety:insect_bane	Insect Bane	goety-2.5.59.2
+goety:acid_venom	Acid Venom	goety-2.5.59.2
+goety:necrosis	Necrosis	goety-2.5.59.2
+goety:hysteria	Hysteria	goety-2.5.59.2
+goety:spasms	Spasms	goety-2.5.59.2
+goety:electrified	Electrified	goety-2.5.59.2
+goety:altruistic	Altruistic	goety-2.5.59.2
+goety:radiance	Radiance	goety-2.5.59.2
+goety:deflective	Deflective	goety-2.5.59.2
+goety:leeching	Leeching	goety-2.5.59.2
+goety:mandate	Mandate	goety-2.5.59.2
+goety:swirling	Swirling	goety-2.5.59.2
+goety:shielding	Shielding	goety-2.5.59.2
+goety:shielded	Shielded	goety-2.5.59.2
+goety:rallying	Rallying	goety-2.5.59.2
+goety:rallied	Rallied	goety-2.5.59.2
+goety:gravity_pulse	Gravity Pulse	goety-2.5.59.2
+goety:tremor_sense	Tremor Sense	goety-2.5.59.2
+goety:impaired	Impaired	goety-2.5.59.2
+goety:wounded	Wounded	goety-2.5.59.2
+goety:crippled	Crippled	goety-2.5.59.2
+goety:soul_burn	Soul Burn	goety-2.5.59.2
+goety:enchanted	Enchanted	goety-2.5.59.2
+goety:void_touched	Void Touched	goety-2.5.59.2
+goety:love	Love	goety-2.5.59.2
+goety:fertility	Fertility	goety-2.5.59.2
+goety:growth	Growth	goety-2.5.59.2
+goety:harvest	Harvest	goety-2.5.59.2
+goety:mossify	Mossify	goety-2.5.59.2
+goety:grow_cactus	Grow Cactus	goety-2.5.59.2
+goety:grow_cave_vines	Grow Cave Vines	goety-2.5.59.2
+goety:grow_tree	Grow Tree	goety-2.5.59.2
+goety:pulverize	Pulverize	goety-2.5.59.2
+goety:corrosion	Corrosion	goety-2.5.59.2
+goety:exchange	Exchange	goety-2.5.59.2
+goety:shear	Shear	goety-2.5.59.2
+goety:flaying	Flaying	goety-2.5.59.2
+goety:pruning	Pruning	goety-2.5.59.2
+goety:chop_tree	Chop Tree	goety-2.5.59.2
+goety:blind_jump	Blind Jump	goety-2.5.59.2
+goety:bats	Bat Burst	goety-2.5.59.2
+goety:bees	BEEEEES	goety-2.5.59.2
+goety:combust	Combust	goety-2.5.59.2
+goety:extinguish	Extinguish	goety-2.5.59.2
+goety:sweet_thorns	Sweet Thorns	goety-2.5.59.2
+goety:snow	Snowy	goety-2.5.59.2
+goety:freeze	Freeze Water	goety-2.5.59.2
+goety:drought	Drought	goety-2.5.59.2
+goety:flood	Flood	goety-2.5.59.2
+goety:strip	Strip Armor	goety-2.5.59.2
+goety:explode	Explode	goety-2.5.59.2
+goety:infest	Infest	goety-2.5.59.2
+goety:webbed	Webbed	goety-2.5.59.2
+goety:transpose	Transpose	goety-2.5.59.2
+goety:launch	Launch	goety-2.5.59.2
+goety:thorn_trap	Thorn Trap	goety-2.5.59.2
+goety:leaf_shell	Leaf Shell	goety-2.5.59.2
+goety:saturation	Saturation	goety-2.5.59.2
+goety:brew_dye	Brew Dye	goety-2.5.59.2
+goety:part_water	Part Water	goety-2.5.59.2
+goety:part_lava	Part Lava	goety-2.5.59.2
+goety:raise_dead	Raise Dead	goety-2.5.59.2
+goety:slimy	Slimy	goety-2.5.59.2
+goety:aging	Aging	goety-2.5.59.2
+goety:purify_debuff	Purify Debuffs	goety-2.5.59.2
+goety:purify_buff	Purify Buffs	goety-2.5.59.2
+revelationfix:counterspell	Counterspell	GoetyRevelation-2.3.5
+revelationfix:quietus	Quietus	GoetyRevelation-2.3.5
+hexcasting:enlarge_grid	Clarity	hexcasting-forge-1.20.1-0.11.4
+hexcasting:shrink_grid	Clouding	hexcasting-forge-1.20.1-0.11.4
+hexerei:sunshine_effect	Rain rain go away	hexerei-0.4.2.3
+hexerei:growth_effect	Growth	hexerei-0.4.2.3
+hybrid_aquatic:bleeding	Bleeding	hybrid_aquatic-forge-1.20.1-1.7.4
+hybrid_aquatic:buoyancy	Buoyancy	hybrid_aquatic-forge-1.20.1-1.7.4
+hybrid_aquatic:clarity	Clarity	hybrid_aquatic-forge-1.20.1-1.7.4
+hybrid_aquatic:corrosion	Corrosion	hybrid_aquatic-forge-1.20.1-1.7.4
+hybrid_aquatic:thalassophobia	Thalassophobia	hybrid_aquatic-forge-1.20.1-1.7.4
+hybrid_aquatic:thorns	Thorns	hybrid_aquatic-forge-1.20.1-1.7.4
+icarus:flightless	Flightless	Icarus-Forge-2.14.1
+illageandspillage:misconduction	Misconduction	illageandspillagerespillaged-1.2.8
+illageandspillage:mutation	Mutation	illageandspillagerespillaged-1.2.8
+illageandspillage:webbed	Webbed	illageandspillagerespillaged-1.2.8
+immersiveengineering:flammable	Flammable	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:slippery	Slippery	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:conductive	Conductive	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:sticky	Sticky	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:stunned	Stunned	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:concrete_feet	Concrete Feet	ImmersiveEngineering-1.20.1-10.2.0-183
+immersiveengineering:flashed	Flashed	ImmersiveEngineering-1.20.1-10.2.0-183
+immersivepetroleum:anti_fire		ImmersivePetroleum-1.20.1-4.3.1-36b
+irons_spellbooks:blood_slashed	Blood Slashed	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:angel_wings	Angel Wings	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:heartstop	Heartstop	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:abyssal_shroud	Abyssal Shroud	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:true_invisibility	True Invisibility	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:ascension	Ascension	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:fortify	Fortified	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:enchanted_ward	Enchanted Ward	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:evasion	Evasion	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:charged	Charged	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:rend	Rend	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:spider_aspect	Aspect of the Spider	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:blight	Blighted	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:guided	Guided	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:airborne	Airborne	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:vigor	Vigor	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:instant_mana	Instant Mana	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:oakskin	Oakskin	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:planar_sight	Planar Sight	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:antigravity	Anti-Gravity	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:chilled	Chilled	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:slowed	Slowed	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:hastened	Hastened	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:burning_dash	Burning Dash	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:gluttony	Gluttony	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:echoing_strikes	Echoing Strikes	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:thunderstorm	Thunderstorm	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:frostbite	Frostbite	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:immolate	Immolation	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:fall_damage_immunity	Fall Damage Immunity	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:ice_spider_lure	Ice Spider Lure	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:soul_burn	Soul Burn	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:sacrificial_mark	Sacrificial Mark	irons_spellbooks-1.20.1-3.16.3
+irons_spellbooks:trial_omen	Trial Omen	irons_spellbooks-1.20.1-3.16.3
+netherexp:fogsight	Fogsight	Jadens-Nether-Expansion-2.3.5
+netherexp:unbounded_speed	Unbounded Speed	Jadens-Nether-Expansion-2.3.5
+netherexp:betrayed	Betrayed	Jadens-Nether-Expansion-2.3.5
+netherexp:speed_immunity	Speed Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:slowness_immunity	Slowness Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:strength_immunity	Strength Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:jump_boost_immunity	Jump Boost Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:regeneration_immunity	Regeneration Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:fire_resistance_immunity	Fire Resistance Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:water_breathing_immunity	Water Breathing Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:invisibility_immunity	Invisibility Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:weakness_immunity	Weakness Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:poison_immunity	Poison Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:resistance_immunity	Resistance Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:absorption_immunity	Absorption Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:haste_immunity	Haste Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:mining_fatigue_immunity	Mining Fatigue Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:darkness_immunity	Darkness Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:levitation_immunity	Levitation Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:hunger_immunity	Hunger Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:wither_immunity	Wither Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:luck_immunity	Luck Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:unluck_immunity	Unluck Immunity	Jadens-Nether-Expansion-2.3.5
+netherexp:brain_damage_immunity	Brain Damage Immunity	Jadens-Nether-Expansion-2.3.5
+kaleidoscope_cookery:flatulence	Flatulence	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:tundra_strider	Tundra Strider	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:warmth	Warmth	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:satiated_shield	Satiation Shield	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:vigor	Vigor	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:sulfur	Sulfur	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:mustard	Mustard	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:preservation	Preservation	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:hinder	Hinder	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:projectile_dodge	Projectile Dodge	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:instant_smelting	Instant Smelting	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kaleidoscope_cookery:vitality	Vitality	kaleidoscopecookery-1.6.0-forge+mc1.20.1
+kiwi:first_effect	First Effect	Kiwi-1.20.1-Forge-11.10.3
+l2complements:armor_reduce	Armor Corrosion	l2complements-2.6.1
+l2complements:bleed	Bleed	l2complements-2.6.1
+l2complements:cleanse	Cleansed	l2complements-2.6.1
+l2complements:curse	Cursed	l2complements-2.6.1
+l2complements:emerald_splash	Emerald Splash	l2complements-2.6.1
+l2complements:flame	Soul Burning	l2complements-2.6.1
+l2complements:frozen	Frost	l2complements-2.6.1
+l2complements:stone_cage	Incarceration	l2complements-2.6.1
+legendary_monsters:chorus_infection	Chorus Infection	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:freeze	Freeze	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:soul_fracture	Soul Fracture	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:bleeding	Bleeding	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:soul_rage	Soul Rage	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:stun	Stun	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:fear	Fear	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:broken_armor	Broken Armor	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:gravity_pull	Gravity Pull	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:curse_of_desert	Curse Of Desert	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:unbreakable	Unbreakable	legendarymonsters-2.2.4 MC 1.20.1
+legendary_monsters:annihilation	Annihilation	legendarymonsters-2.2.4 MC 1.20.1
+beachparty:ocean_walk	Ocean Walk	letsdo-beachparty-forge-2.0.3
+farm_and_charm:cluck	Cluck	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:farmers_blessing	Farmers Blessing	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:feast	Feast	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:grandmas_blessing	Grandma's Blessing	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:horse_fodder	Horse Fodder	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:rested	Rested	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:satiation	Satiation	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:dog_food	Dog Food	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:sustenance	Sustenance	letsdo-farm_and_charm-forge-1.0.14
+farm_and_charm:sweets	Sweets	letsdo-farm_and_charm-forge-1.0.14
+herbalbrews:balanced	Balanced	letsdo-herbalbrews-forge-1.0.12
+herbalbrews:bonding	Bonding	letsdo-herbalbrews-forge-1.0.12
+herbalbrews:deeprush	Deeprush	letsdo-herbalbrews-forge-1.0.12
+herbalbrews:feral	Feral	letsdo-herbalbrews-forge-1.0.12
+herbalbrews:fortune	Fortune	letsdo-herbalbrews-forge-1.0.12
+herbalbrews:lifeleech	Lifeleech	letsdo-herbalbrews-forge-1.0.12
+herbalbrews:tough	Tough	letsdo-herbalbrews-forge-1.0.12
+nethervinery:netherite	Netherite Resilience	letsdo-nethervinery-forge-1.2.19
+nethervinery:gravedigger	Gravedigger	letsdo-nethervinery-forge-1.2.19
+nethervinery:improved_gravedigger	Improved Gravedigger	letsdo-nethervinery-forge-1.2.19
+nethervinery:hearthstone	Hearthstone	letsdo-nethervinery-forge-1.2.19
+nethervinery:improved_hearthstone	Improved Hearthstone	letsdo-nethervinery-forge-1.2.19
+vinery:armor_effect	Armor	letsdo-vinery-forge-1.4.41
+vinery:climbing_effect	Climbing	letsdo-vinery-forge-1.4.41
+vinery:creeper_effect	Explosion	letsdo-vinery-forge-1.4.41
+vinery:double_jump	Double Jump	letsdo-vinery-forge-1.4.41
+vinery:experience_effect	Experience	letsdo-vinery-forge-1.4.41
+vinery:frosty_armor	Frosty Armor	letsdo-vinery-forge-1.4.41
+vinery:jellie	Better than Golden Apples!	letsdo-vinery-forge-1.4.41
+vinery:lava_walker	Lava Walker	letsdo-vinery-forge-1.4.41
+vinery:luck_effect	Luck	letsdo-vinery-forge-1.4.41
+vinery:magnet	Magnet	letsdo-vinery-forge-1.4.41
+vinery:party_effect	Partystarter	letsdo-vinery-forge-1.4.41
+vinery:resistance_effect	Resistance	letsdo-vinery-forge-1.4.41
+vinery:teleport	Teleport	letsdo-vinery-forge-1.4.41
+vinery:water_walker	Water Walker	letsdo-vinery-forge-1.4.41
+vinery:health_effect	Health Effect	letsdo-vinery-forge-1.4.41
+libraryferret:unbreakable_curse	A5R1 Curse	libraryferret-forge-1.20.1-4.0.0
+cataclysm:monstrous	Monstrous	L_Enders_Cataclysm-3.31
+cataclysm:blazing_brand	Blazing Brand	L_Enders_Cataclysm-3.31
+cataclysm:stun	Stun	L_Enders_Cataclysm-3.31
+cataclysm:abyssal_burn	Abyssal Burn	L_Enders_Cataclysm-3.31
+cataclysm:bone_fracture	Bone Fracture	L_Enders_Cataclysm-3.31
+cataclysm:abyssal_fear	Abyssal Fear	L_Enders_Cataclysm-3.31
+cataclysm:abyssal_curse	Abyssal Curse	L_Enders_Cataclysm-3.31
+cataclysm:blessing_of_amethyst	Blessing of Amethyst	L_Enders_Cataclysm-3.31
+cataclysm:curse_of_desert	Curse of Desert	L_Enders_Cataclysm-3.31
+cataclysm:ghost_form	Ghost Form	L_Enders_Cataclysm-3.31
+cataclysm:ghost_sickness	Ghost Sickness	L_Enders_Cataclysm-3.31
+cataclysm:wetness	Wetness	L_Enders_Cataclysm-3.31
+cataclysm:lightning_hex	Lightning Hex	L_Enders_Cataclysm-3.31
+cataclysm:over_gravity	Over Gravity	L_Enders_Cataclysm-3.31
+cataclysm:dragon_wound	Dragon Wound	L_Enders_Cataclysm-3.31
+mahoutsukai:authority_jump	Borrowed Authority Jump	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:ba_cooldown	Borrowed Authority Hit Cooldown	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:binding_eyes	Binding Eyes	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:black_burning	Burning	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:black_flame_eyes	Black Flame Eyes	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:bleeding	Bleeding	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:borrowed_authority	Borrowed Authority	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:bound	Bound	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:clairvoyance_eyes	Minor Clairvoyance	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:cm_cooldown	Ability Cooldown	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:confusion	Confusion	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:death_collection_eyes	Death Collection Eyes	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:fay_sight_eyes	Fay Sight	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:fear	Fear	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:foresight	Foresight	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:immunity_exchange	Immunity Exchange	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:insight_eyes	Insight	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:interesting_block	Interesting Block Report	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:misfortune	Misfortune	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:peaceful_garden	Peaceful Garden	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:probability_alter	Probability Alter	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:rage	Rage	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:reversion_eyes	Reversion Eyes	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:reverted	Reverted	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:ripper_cooldown	Ripper Fog Cooldown	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:ripper_invis	Ripper Invisibility	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:ripper_invis_cooldown	Ripper Invis Cooldown	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:selective_displacement	Swap	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:selective_displacement_cooldown	Swap Cooldown	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:wall_stick	Wall Stick	mahoutsukai-1.20.1-v1.34.81
+mahoutsukai:wounded	Wounded	mahoutsukai-1.20.1-v1.34.81
+malum:aethers_charm	Aether's Charm	malum-1.20.1-1.6.7
+malum:anglers_lure	Angler's Lure	malum-1.20.1-1.6.7
+malum:ascension	Ascension	malum-1.20.1-1.6.7
+malum:cancerous_growth	Cancerous Growth	malum-1.20.1-1.6.7
+malum:earthen_might	Earthen Might	malum-1.20.1-1.6.7
+malum:echoing_arcana	Echoing Arcana	malum-1.20.1-1.6.7
+malum:gaias_bulwark	Gaias Bulwark	malum-1.20.1-1.6.7
+malum:gluttony	Gluttony	malum-1.20.1-1.6.7
+malum:grim_certainty	Grim Certainty	malum-1.20.1-1.6.7
+malum:ifrits_embrace	Ifrit's Embrace	malum-1.20.1-1.6.7
+malum:imminent_deliverance	Imminent Deliverance	malum-1.20.1-1.6.7
+malum:miners_rage	Miner's Rage	malum-1.20.1-1.6.7
+malum:poseidons_grasp	Poseidon's Grasp	malum-1.20.1-1.6.7
+malum:reactive_shielding	Reactive Shielding	malum-1.20.1-1.6.7
+malum:rejected	Rejected	malum-1.20.1-1.6.7
+malum:sacrificial_empowerment	Sacrificial Empowerment	malum-1.20.1-1.6.7
+malum:silenced	Silenced	malum-1.20.1-1.6.7
+malum:wicked_intent	Wicked Intent	malum-1.20.1-1.6.7
+malum:zephyrs_courage	Zephyr's Courage	malum-1.20.1-1.6.7
+mischief_illagers:flashbanged	Flashbanged	mischief_illagers-1.2-forge-1.20.1
+mischief_illagers:shock	Shock	mischief_illagers-1.2-forge-1.20.1
+mna:aura_of_frost	Aura of Frost	mna-forge-1.20.1-3.1.11-all
+mna:camouflage	Camouflage	mna-forge-1.20.1-3.1.11-all
+mna:bulwark	Bulwark	mna-forge-1.20.1-3.1.11-all
+mna:icarian_flight	Icarian Flight	mna-forge-1.20.1-3.1.11-all
+mna:repair	Repair	mna-forge-1.20.1-3.1.11-all
+mna:eldrin_sight	Eldrin Sight	mna-forge-1.20.1-3.1.11-all
+mna:wellspring_sight	Wellspring Sight	mna-forge-1.20.1-3.1.11-all
+mna:entangle	Entangled	mna-forge-1.20.1-3.1.11-all
+mna:gravity_well	Gravity Well	mna-forge-1.20.1-3.1.11-all
+mna:chrono_anchor	Chrono Anchor	mna-forge-1.20.1-3.1.11-all
+mna:chrono_exhaustion	Chrono Exhaustion	mna-forge-1.20.1-3.1.11-all
+mna:watery_grave	Watery Grave	mna-forge-1.20.1-3.1.11-all
+mna:silence	Silence	mna-forge-1.20.1-3.1.11-all
+mna:mana_boost	Mana Boost	mna-forge-1.20.1-3.1.11-all
+mna:mana_regen	Mana Regen	mna-forge-1.20.1-3.1.11-all
+mna:dispel_exhaustion	Dispel Exhaustion	mna-forge-1.20.1-3.1.11-all
+mna:instant_mana	Mana Restoration	mna-forge-1.20.1-3.1.11-all
+mna:asphyxiate	Asphyxiate	mna-forge-1.20.1-3.1.11-all
+mna:mana_stunt	Stunted Mana	mna-forge-1.20.1-3.1.11-all
+mna:mana_shield	Mana Shield	mna-forge-1.20.1-3.1.11-all
+mna:flame_cloak	Flame Cloak	mna-forge-1.20.1-3.1.11-all
+mna:wind_wall	Wind Wall	mna-forge-1.20.1-3.1.11-all
+mna:levitation	Levitation	mna-forge-1.20.1-3.1.11-all
+mna:briarthorn_barrier	Briarthorn Barrier	mna-forge-1.20.1-3.1.11-all
+mna:life_tap	Life Tap	mna-forge-1.20.1-3.1.11-all
+mna:lift	Lift	mna-forge-1.20.1-3.1.11-all
+mna:living_bomb	Living Bomb	mna-forge-1.20.1-3.1.11-all
+mna:mana_burn	Mana Burn	mna-forge-1.20.1-3.1.11-all
+mna:greater_invisibility	Greater Invisibility	mna-forge-1.20.1-3.1.11-all
+mna:pilgrim	Wanderlust	mna-forge-1.20.1-3.1.11-all
+mna:confusion	Confusion	mna-forge-1.20.1-3.1.11-all
+mna:mind_control	Mind Control	mna-forge-1.20.1-3.1.11-all
+mna:divination	Divination	mna-forge-1.20.1-3.1.11-all
+mna:mist_form	Mist Form	mna-forge-1.20.1-3.1.11-all
+mna:enlarged	Enlarged	mna-forge-1.20.1-3.1.11-all
+mna:reduced	Reduced	mna-forge-1.20.1-3.1.11-all
+mna:mind_vision	Mind Vision	mna-forge-1.20.1-3.1.11-all
+mna:possession	Possession	mna-forge-1.20.1-3.1.11-all
+mna:death	Reaper's Gaze	mna-forge-1.20.1-3.1.11-all
+mna:choosing_wellspring	Choosing Wellspring	mna-forge-1.20.1-3.1.11-all
+mna:eldrin_flight	Eldrin Flight	mna-forge-1.20.1-3.1.11-all
+mna:circle_of_power	Allied Sanctum	mna-forge-1.20.1-3.1.11-all
+mna:cold_dark	Death's Embrace	mna-forge-1.20.1-3.1.11-all
+mna:soul_vulnerability	Vulnerable Soul	mna-forge-1.20.1-3.1.11-all
+mna:fossilize	Fossilize	mna-forge-1.20.1-3.1.11-all
+mna:snowblind	Snowblind	mna-forge-1.20.1-3.1.11-all
+mna:bind_wounds	Bind Wounds	mna-forge-1.20.1-3.1.11-all
+mna:insight	Insight	mna-forge-1.20.1-3.1.11-all
+mna:earthquake	Earthquake	mna-forge-1.20.1-3.1.11-all
+mna:amplify_magic	Amplify Magic	mna-forge-1.20.1-3.1.11-all
+mna:dampen_magic	Dampen Magic	mna-forge-1.20.1-3.1.11-all
+mna:soaked	Soaked	mna-forge-1.20.1-3.1.11-all
+mna:sunder	Sunder	mna-forge-1.20.1-3.1.11-all
+mna:frailty	Frailty	mna-forge-1.20.1-3.1.11-all
+mna:disjunction	Disjunction	mna-forge-1.20.1-3.1.11-all
+mna:telekinesis	Telekinesis	mna-forge-1.20.1-3.1.11-all
+mna:water_walking	Water Walking	mna-forge-1.20.1-3.1.11-all
+mna:spider_climbing	Spider Climbing	mna-forge-1.20.1-3.1.11-all
+mna:soar	Soaring	mna-forge-1.20.1-3.1.11-all
+mna:lacerate	Lacerate	mna-forge-1.20.1-3.1.11-all
+mna:writhing_brambles	Writhing Brambles	mna-forge-1.20.1-3.1.11-all
+mna:burning_rage	Burning Rage	mna-forge-1.20.1-3.1.11-all
+mna:chill	Chill	mna-forge-1.20.1-3.1.11-all
+mna:heatwave	Heatwave	mna-forge-1.20.1-3.1.11-all
+mna:sense_life	Sense Life	mna-forge-1.20.1-3.1.11-all
+mna:shackles_of_pain	Shackles of Pain	mna-forge-1.20.1-3.1.11-all
+mna:curse_of_agony	Curse of Agony	mna-forge-1.20.1-3.1.11-all
+mna:soul_trap	Soul Trap	mna-forge-1.20.1-3.1.11-all
+modulargolems:atomic_boost	Atomic Boost	modulargolems-2.7.5
+modulargolems:hepatizon_effect	Hepatizon Effect	modulargolems-2.7.5
+modulargolems:maledictus_rage	Maledictus Rage	modulargolems-2.7.5
+modulargolems:manyullyn_effect	Manyullyn Effect	modulargolems-2.7.5
+modulargolems:mechanical_force	Mechanical Force	modulargolems-2.7.5
+modulargolems:mechanical_mobility	Mechanical Mobility	modulargolems-2.7.5
+mowziesmobs:suns_blessing	Sun's Blessing	mowziesmobs-1.8.2
+mowziesmobs:geomancy	Geomancy	mowziesmobs-1.8.2
+mowziesmobs:frozen	Frozen	mowziesmobs-1.8.2
+mowziesmobs:sunblock	Sunblock	mowziesmobs-1.8.2
+mowziesmobs:poison_resist	Poison Resistance	mowziesmobs-1.8.2
+mowziesmobs:eclipsed	Eclipse	mowziesmobs-1.8.2
+mowziesmobs:fragility	Fragility	mowziesmobs-1.8.2
+mutantmonsters:chemical_x	Chemical X	MutantMonsters-v8.0.8-1.20.1-Forge
+mythicupgrades:damage_deflection	Damage Deflection	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:arcane_aura	Arcane Aura	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:topaz_reaction	Topaz Reaction	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:blood_thirst	Blood Thirst	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:lethal_incubation	Lethal Incubation	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:miasma	Miasma	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:freeze	Freeze	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:ice_shield_mark	Ice Shield	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:ice_shield	Ice Shield	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:topaz_shock	Topaz Shock	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:charged	Charged	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:static_field	Static Field	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:jade_aura	Jade Aura	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:necoium_share	Necoium Share	mythicupgrades-forge-1.20.1-5.1.1
+mythicupgrades:ice_bomb	Ice Bomb	mythicupgrades-forge-1.20.1-5.1.1
+naturesaura:breathless	Breathless	NaturesAura-39.4
+neapolitan:agility	Agility	neapolitan-1.20.1-5.1.0
+neapolitan:berserking	Berserking	neapolitan-1.20.1-5.1.0
+neapolitan:harmony	Harmony	neapolitan-1.20.1-5.1.0
+neapolitan:slipping	Slipping	neapolitan-1.20.1-5.1.0
+neapolitan:sugar_rush	Sugar Rush	neapolitan-1.20.1-5.1.0
+neapolitan:vanilla_scent	Vanilla Scent	neapolitan-1.20.1-5.1.0
+netherdepthsupgrade:lava_vision	Lava Vision	netherdepthsupgrade-3.1.5-1.20
+nuclearcraft:max_health_boost	Vitality	NuclearCraft-1.20.1-1.2.36
+nuclearcraft:quickdraw_boost	Quickdraw	NuclearCraft-1.20.1-1.2.36
+nuclearcraft:radiation_decay	Radiation Decay	NuclearCraft-1.20.1-1.2.36
+nuclearcraft:radiation_resistance	Radiation Resistance	NuclearCraft-1.20.1-1.2.36
+obscure_api:fury	Fury	obscure_api-18
+obscure_api:knowledge	Knowledge	obscure_api-18
+obscure_api:rush	Rush	obscure_api-18
+occultism:bat_lifesteal	Lifesteal	occultism-1.20.1-1.158.0
+occultism:beaver_harvest	Beaver Harvest	occultism-1.20.1-1.158.0
+occultism:double_jump	Multi Jump	occultism-1.20.1-1.158.0
+occultism:dragon_greed	Dragon's Greed	occultism-1.20.1-1.158.0
+occultism:mummy_dodge	Dodge	occultism-1.20.1-1.158.0
+occultism:step_height	Step Height	occultism-1.20.1-1.158.0
+occultism:third_eye	Third Eye	occultism-1.20.1-1.158.0
+paladins:battle_banner	Battle Banner	paladins-forge-3.1.3+1.20.1
+paladins:blessed_strikes	Blessed Strikes	paladins-forge-3.1.3+1.20.1
+paladins:divine_protection	Divine Protection	paladins-forge-3.1.3+1.20.1
+paladins:judgement	Stunned	paladins-forge-3.1.3+1.20.1
+paladins:levitate	Levitate	paladins-forge-3.1.3+1.20.1
+paladins:priest_absorption	Absorption	paladins-forge-3.1.3+1.20.1
+parcool:inexhaustible	Inexhaustible	ParCool-1.20.1-4.0.1.5
+quark:resilience	Resilience	Quark-4.0-462
+ranged_weapon:damage	Impact	ranged_weapon_api-forge-2.3.4+1.20.1
+ranged_weapon:haste	Rapid Fire	ranged_weapon_api-forge-2.3.4+1.20.1
+avaritia:burning	Burning	Re-Avaritia-forge-1.20.1-1.4.2-release
+relics:stun	Stun	relics-1.20.1-0.8.0.13
+relics:paralysis	Paralysis	relics-1.20.1-0.8.0.13
+relics:confusion	Confusion	relics-1.20.1-0.8.0.13
+relics:vanishing	Vanishing	relics-1.20.1-0.8.0.13
+relics:anti_heal	Anti-Heal	relics-1.20.1-0.8.0.13
+relics:bleeding	Bleeding	relics-1.20.1-0.8.0.13
+reliquary:cure	Cure	reliquary-1.20.1-2.0.66.1577
+reliquary:flight	Flight	reliquary-1.20.1-2.0.66.1577
+rogues:bear_trap	Trapped	rogues-forge-3.1.3+1.20.1
+rogues:charge	Charge	rogues-forge-3.1.3+1.20.1
+rogues:demoralize	Demoralized	rogues-forge-3.1.3+1.20.1
+rogues:last_stand	Last Stand	rogues-forge-3.1.3+1.20.1
+rogues:net_trap	Netted	rogues-forge-3.1.3+1.20.1
+rogues:shadow_step	Shadowstep	rogues-forge-3.1.3+1.20.1
+rogues:shatter	Shattered Armor	rogues-forge-3.1.3+1.20.1
+rogues:shock	Stunned	rogues-forge-3.1.3+1.20.1
+rogues:slice_and_dice	Slice & Dice	rogues-forge-3.1.3+1.20.1
+rogues:stealth	Stealth	rogues-forge-3.1.3+1.20.1
+rogues:stealth_speed	Stealth Speed	rogues-forge-3.1.3+1.20.1
+rottencreatures:channeled	Channelled	rottencreatures-forge-1.20.1-1.1.0
+rottencreatures:freeze	Freeze	rottencreatures-forge-1.20.1-1.1.0
+savage_and_ravage:weight	Weight	savage_and_ravage-1.20.1-6.0.1
+simplyswords:freeze	Freeze	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:wax_encased	Wax Encased	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:omen	Omen	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:watcher	Watcher	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:storm	Conductive	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:ion_paralysis	Paralysis	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:wildfire	Wildfire	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:echo	Echo	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:ward	Ward	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:immolation	Immolation	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:onslaught	Onslaught	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:smouldering	Smouldering	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:frenzy	Frenzy	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:ferocity	Ferocity	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:voidcloak	Voidcloak	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:void_assault	Void Assault	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:voidhunger	Voidhunger	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:fire_vortex	Fire Vortex	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:frost_vortex	Frost Vortex	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:elemental_vortex	Elemental Vortex	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:flameseed	Flameseed	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:ribbonwrath	Ribbonwrath	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:ribboncleave	Ribboncleave	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:resilience	Resilience	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:battle_fatigue	Battle Fatigue	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:pain	Pain	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:spore_swarm	Spore Swarm	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:magistorm	Magistorm	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:magislam	Magislam	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:astral_shift	Astral Shift (Legacy)	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:fatal_flicker	Fatal Flicker	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:corrupted_wound	Corrupted Wound	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:gloam_exposure	Gloam Exposure	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:gloam_grasp	Gloam Grasp	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:shadow_dance	Shadow Dance	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:bleed	Bleed	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:blood_plague	Blood Plague	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:bloodwake_frenzy	Blood-Curdling Frenzy	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:sundered_armor	Sundered Armor	simplyswords-forge-neoforge-1.70.2-1.20.1
+simplyswords:implicit_haste	Implicit Haste	simplyswords-forge-neoforge-1.70.2-1.20.1
+soulsweapons:hallowed_dragon_mist	Purified Mist	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:bloodthirsty	Bloodthirsty	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:posture_break	Posture Break	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:life_leach	Life Leach	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:retribution	Retribution	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:fear	Undead Fear	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:magic_resistance	Magic Resistance	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:decay	Decay	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:moon_herald	Lunar Herald	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:freezing	Permafrost	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:disable_heal	Cursed Wounds	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:bleed	Bleed	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:calculated_fall	Calculated Fall	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:veil_of_fire	Veil of Fire	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:blight	Blight	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:shadow_step	Shadow Step	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:cooldown	Cooldown	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:ghostly	Ghostly	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:chungus_tonic_effect	Chungus Tonic	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:frost_moon	Frost Moon	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:blade_dance	Blade Dance	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:stormveil	Stormveil	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:potency	Potency	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:soul_of_cinder	Soul of Cinder	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:exalted	Exalted	soulslike-weaponry-1.4.10-1.20.1-forge
+soulsweapons:echo	Echo	soulslike-weaponry-1.4.10-1.20.1-forge
+spartanweaponry:ender_disruption	Ender Disruption	SpartanWeaponry-1.20.1-forge-3.2.1-all
+species:wither_resistance	Wither Resistance	species-3.5
+species:birtd	Birt'd	species-3.5
+species:gut_feeling	Gut Feeling	species-3.5
+species:bloodlust	Bloodlust	species-3.5
+species:tanked	Tanked	species-3.5
+species:snatched	Snatched	species-3.5
+species:combustion	Combustion	species-3.5
+species:iron_will	Iron Will	species-3.5
+species:stuck	Stuck	species-3.5
+spell_engine:stun	Stunned	spell_engine-forge-1.10.10+1.20.1
+spell_engine:immobilize	Immobilized	spell_engine-forge-1.10.10+1.20.1
+spell_engine:bleed	Bleed	spell_engine-forge-1.10.10+1.20.1
+spell_engine:energy	Energy	spell_engine-forge-1.10.10+1.20.1
+spell_power:generic	Spell Power	spell_power-forge-1.6.1+1.20.1
+spell_power:arcane	Arcane Power	spell_power-forge-1.6.1+1.20.1
+spell_power:fire	Fire Power	spell_power-forge-1.6.1+1.20.1
+spell_power:frost	Frost Power	spell_power-forge-1.6.1+1.20.1
+spell_power:healing	Healing Power	spell_power-forge-1.6.1+1.20.1
+spell_power:lightning	Lightning Power	spell_power-forge-1.6.1+1.20.1
+spell_power:soul	Soul Power	spell_power-forge-1.6.1+1.20.1
+spell_power:air	Air Power	spell_power-forge-1.6.1+1.20.1
+spell_power:water	Water Power	spell_power-forge-1.6.1+1.20.1
+spell_power:earth	Earth Power	spell_power-forge-1.6.1+1.20.1
+spell_power:blood	Blood Power	spell_power-forge-1.6.1+1.20.1
+spell_power:nature	Nature Power	spell_power-forge-1.6.1+1.20.1
+spell_power:shadow	Shadow Power	spell_power-forge-1.6.1+1.20.1
+spell_power:holy	Holy Power	spell_power-forge-1.6.1+1.20.1
+spell_power:unholy	Unholy Power	spell_power-forge-1.6.1+1.20.1
+spell_power:critical_chance	Spell Volatility	spell_power-forge-1.6.1+1.20.1
+spell_power:critical_damage	Amplify Spell	spell_power-forge-1.6.1+1.20.1
+spell_power:haste	Spell Haste	spell_power-forge-1.6.1+1.20.1
+stalwart_dungeons:burning	Burning	stalwart-dungeons-1.20.1-1.2.8
+stalwart_dungeons:spore	Spore	stalwart-dungeons-1.20.1-1.2.8
+supplementaries:overencumbered	Overencumbered	supplementaries-1.20-3.1.44-forge
+supplementaries:flammable	Flammable	supplementaries-1.20-3.1.44-forge
+tconstruct:carry	Carrying	TConstruct-1.20.1-3.11.2.166
+tconstruct:experienced	Experienced	TConstruct-1.20.1-3.11.2.166
+tconstruct:ricochet	Ricochet	TConstruct-1.20.1-3.11.2.166
+tconstruct:enderference	Enderference	TConstruct-1.20.1-3.11.2.166
+tconstruct:bouncy	Bouncy	TConstruct-1.20.1-3.11.2.166
+tconstruct:double_jump	Double Jump	TConstruct-1.20.1-3.11.2.166
+tconstruct:antigravity	Antigravity	TConstruct-1.20.1-3.11.2.166
+tconstruct:returning	Returning	TConstruct-1.20.1-3.11.2.166
+tconstruct:bleeding	Bleeding	TConstruct-1.20.1-3.11.2.166
+tconstruct:magnetic	Magnetic	TConstruct-1.20.1-3.11.2.166
+tconstruct:repulsive	Repulsive	TConstruct-1.20.1-3.11.2.166
+tconstruct:pierce	Pierced	TConstruct-1.20.1-3.11.2.166
+tconstruct:calcified	Calcified	TConstruct-1.20.1-3.11.2.166
+tconstruct:self_destructing	Self Destructing	TConstruct-1.20.1-3.11.2.166
+tconstruct:venom	Venom	TConstruct-1.20.1-3.11.2.166
+tconstruct:conductive	Conductive	TConstruct-1.20.1-3.11.2.166
+tconstruct:momentum_harvest	Momentum	TConstruct-1.20.1-3.11.2.166
+tconstruct:momentum_ranged	Momentum	TConstruct-1.20.1-3.11.2.166
+tconstruct:momentum_armor	Recurrent	TConstruct-1.20.1-3.11.2.166
+tconstruct:insatiable_melee	Insatiable	TConstruct-1.20.1-3.11.2.166
+tconstruct:insatiable_ranged	Insatiable	TConstruct-1.20.1-3.11.2.166
+tconstruct:insatiable_armor	Kinetic	TConstruct-1.20.1-3.11.2.166
+tconstruct:teleport_cooldown	Teleport Cooldown	TConstruct-1.20.1-3.11.2.166
+tconstruct:fireball_cooldown	Fireball Cooldown	TConstruct-1.20.1-3.11.2.166
+tetra:earthbound	Earthbound	tetra-1.20.1-6.17.0
+tetra:howling	Howling	tetra-1.20.1-6.17.0
+tetra:severed	Severed	tetra-1.20.1-6.17.0
+tetra:punctured	Punctured	tetra-1.20.1-6.17.0
+tetra:pried	Pried	tetra-1.20.1-6.17.0
+tetra:exhausted	Exhausted	tetra-1.20.1-6.17.0
+tetra:steeled	Steeled	tetra-1.20.1-6.17.0
+tetra:small_strength	Determined	tetra-1.20.1-6.17.0
+tetra:small_health	Bolstered	tetra-1.20.1-6.17.0
+tetra:small_absorb	Exhilarated	tetra-1.20.1-6.17.0
+tetra:unwavering	Unwavering	tetra-1.20.1-6.17.0
+tetra:unstable_power	Unstable power	tetra-1.20.1-6.17.0
+tetra:satiated	Satiated	tetra-1.20.1-6.17.0
+tfmg:hellfire	Hellfire	tfmg-1.0.2f
+the_bumblezone:wrath_of_the_hive	Wrath of the Hive	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:protection_of_the_hive	Protection of the Hive	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:beenergized	Beenergized	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:hidden	Hidden	the_bumblezone-7.15.1+1.20.1-forge
+the_bumblezone:paralyzed	Paralyzed	the_bumblezone-7.15.1+1.20.1-forge
+undergarden:brittleness	Brittleness	The_Undergarden-1.20.1-0.8.14
+undergarden:chilly	Chilly	The_Undergarden-1.20.1-0.8.14
+undergarden:featherweight	Featherweight	The_Undergarden-1.20.1-0.8.14
+undergarden:gooey	Gooey	The_Undergarden-1.20.1-0.8.14
+undergarden:virulence	Virulence	The_Undergarden-1.20.1-0.8.14
+undergarden:virulent_resistance	Virulent Resistance	The_Undergarden-1.20.1-0.8.14
+toughasnails:climate_clemency	Climate Clemency	ToughAsNails-forge-1.20.1-9.2.0.171
+toughasnails:ice_resistance	Ice Resistance	ToughAsNails-forge-1.20.1-9.2.0.171
+toughasnails:thirst	Thirst	ToughAsNails-forge-1.20.1-9.2.0.171
+toughasnails:internal_warmth	Internal Warmth	ToughAsNails-forge-1.20.1-9.2.0.171
+toughasnails:internal_chill	Internal Chill	ToughAsNails-forge-1.20.1-9.2.0.171
+twilightdelight:aurora_glowing	Aurora Glowing	twilightdelight-2.2.7
+twilightdelight:fire_range	Fire Range	twilightdelight-2.2.7
+twilightdelight:frozen_range	Frozen Range	twilightdelight-2.2.7
+twilightdelight:lich_charge	Lich Charge	twilightdelight-2.2.7
+twilightdelight:phantom_blessing	Phantom Blessing	twilightdelight-2.2.7
+twilightdelight:poison_range	Poison Range	twilightdelight-2.2.7
+twilightdelight:temporal_sadness	Temporal Sadness	twilightdelight-2.2.7
+twilightdelight:twilight_aura	Twilight Aura	twilightdelight-2.2.7
+twilightforest:frosted	Frosted	twilightforest-1.20.1-4.3.2508-universal
+unusualend:breach_linked	Breach Linked	unusualend-2.3.1.2
+unusualend:crystallization	Crystallization 	unusualend-2.3.1.2
+unusualend:disruption	Disruption	unusualend-2.3.1.2
+unusualend:ender_infection	Ender Infection	unusualend-2.3.1.2
+unusualend:heaviness	Heaviness	unusualend-2.3.1.2
+unusualend:serenity	Serenity	unusualend-2.3.1.2
+unusualend:spectral_stride	Spectral Stride	unusualend-2.3.1.2
+unusualend:swift_strikes	Swift Strikes	unusualend-2.3.1.2
+unusualend:warped_tenacity	Warped Tenacity	unusualend-2.3.1.2
+upgrade_aquatic:insomnia	Insomnia	upgrade_aquatic-1.20.1-6.0.3
+upgrade_aquatic:repellence	Repellence	upgrade_aquatic-1.20.1-6.0.3
+upgrade_aquatic:restfulness	Restfulness	upgrade_aquatic-1.20.1-6.0.3
+upgrade_aquatic:vibing	Vibing	upgrade_aquatic-1.20.1-6.0.3
+vampirism:sunscreen	Sunscreen	Vampirism-1.20.1-1.10.17
+vampirism:thirst	Thirst	Vampirism-1.20.1-1.10.17
+vampirism:poison	Toxicant	Vampirism-1.20.1-1.10.17
+vampirism:saturation	Saturation	Vampirism-1.20.1-1.10.17
+vampirism:sanguinare	Sanguinare Vampiris	Vampirism-1.20.1-1.10.17
+vampirism:fire_protection	Fire Protection	Vampirism-1.20.1-1.10.17
+vampirism:garlic	Garlic	Vampirism-1.20.1-1.10.17
+vampirism:oblivion	Oblivion	Vampirism-1.20.1-1.10.17
+vampirism:neonatal	Neonatal	Vampirism-1.20.1-1.10.17
+vampirism:armor_regeneration	Armor Recovery	Vampirism-1.20.1-1.10.17
+vampirism:bad_omen_hunter	Bad Omen	Vampirism-1.20.1-1.10.17
+vampirism:bad_omen_vampire	Bad Omen	Vampirism-1.20.1-1.10.17
+vampirism:lord_speed	Speed	Vampirism-1.20.1-1.10.17
+vampirism:lord_attack_speed	Attack Speed	Vampirism-1.20.1-1.10.17
+vampirism:no_blood	No Blood	Vampirism-1.20.1-1.10.17
+wizards:arcane_charge	Arcane Charge	wizards-forge-3.1.3+1.20.1
+wizards:arcane_evocation	Evocation	wizards-forge-3.1.3+1.20.1
+wizards:frost_shield	Frost Shield	wizards-forge-3.1.3+1.20.1
+wizards:frost_slowness	Slowness	wizards-forge-3.1.3+1.20.1
+wizards:frozen	Frozen	wizards-forge-3.1.3+1.20.1
+xaerominimap:no_minimap	No Minimap	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_entity_radar	No Entity Radar	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_waypoints	No Waypoints	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_cave_maps	No Cave Maps	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_minimap_harmful	No Minimap	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_entity_radar_harmful	No Entity Radar	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_waypoints_harmful	No Waypoints	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_cave_maps_harmful	No Cave Maps	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_minimap_beneficial	No Minimap	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_entity_radar_beneficial	No Entity Radar	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_waypoints_beneficial	No Waypoints	xaerominimap-forge-1.20.1-26.6.0
+xaerominimap:no_cave_maps_beneficial	No Cave Maps	xaerominimap-forge-1.20.1-26.6.0
+xaeroworldmap:no_world_map	No World Map	xaeroworldmap-forge-1.20.1-1.47.0
+xaeroworldmap:no_world_map_harmful	No World Map	xaeroworldmap-forge-1.20.1-1.47.0
+xaeroworldmap:no_world_map_beneficial	No World Map	xaeroworldmap-forge-1.20.1-1.47.0
+xaeroworldmap:no_cave_maps	No WM Cave Maps	xaeroworldmap-forge-1.20.1-1.47.0
+xaeroworldmap:no_cave_maps_harmful	No WM Cave Maps	xaeroworldmap-forge-1.20.1-1.47.0
+yungscavebiomes:frost	Frost	YungsCaveBiomes-1.20.1-Forge-2.0.5
+yungscavebiomes:buffeted	Buffeted	YungsCaveBiomes-1.20.1-Forge-2.0.5

@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+group = 'ru.pasha.t2sqa'
+version = '1.0.0'
+base.archivesName = 't2s-russian-qa'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft { mappings channel: 'official', version: '1.20.1' }
+repositories { mavenCentral() }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.0' }
+sourceSets {
+    localizer {
+        java.srcDirs = ['localizer-src']
+        compileClasspath += sourceSets.main.compileClasspath
+        runtimeClasspath += compileClasspath
+    }
+}
+tasks.register('localizerJar', Jar) {
+    dependsOn localizerClasses
+    archiveClassifier = 'localizer'
+    from sourceSets.localizer.output
+}
+reobf { localizerJar {} }
+tasks.named('localizerJar') { finalizedBy 'reobfLocalizerJar' }
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-proc:none']
+}
+jar { finalizedBy 'reobfJar' }

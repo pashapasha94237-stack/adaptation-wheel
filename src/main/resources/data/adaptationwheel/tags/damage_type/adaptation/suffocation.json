@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "ad_astra:oxygen", "required": false},
+    {"id": "aether_redux:swet_absorption", "required": false},
+    {"id": "biomeswevegone:in_quicksand", "required": false},
+    {"id": "fossil:aquatic_suffocate", "required": false},
+    {"id": "goety:bubble_stream", "required": false},
+    {"id": "goety:choke", "required": false},
+    {"id": "goety:direct_drench", "required": false},
+    {"id": "goety:drench", "required": false},
+    {"id": "goety:indirect_drench", "required": false},
+    {"id": "minecolonies:stuckdamage", "required": false},
+    {"id": "origins:no_water_for_gills", "required": false},
+    {"id": "securitycraft:in_reinforced_wall", "required": false},
+    {"id": "soulsweapons:dragon_mist", "required": false},
+    {"id": "tconstruct:water_melee", "required": false}
+  ]
+}

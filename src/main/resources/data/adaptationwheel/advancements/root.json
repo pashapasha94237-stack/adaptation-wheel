@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {"item": "adaptationwheel:wheel"},
+    "title": {"translate": "advancements.adaptationwheel.root.title"},
+    "description": {"translate": "advancements.adaptationwheel.root.description"},
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_wheel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["adaptationwheel:wheel"]}]}
+    }
+  },
+  "requirements": [["has_wheel"]]
+}

@@ -1,0 +1,13 @@
+# Binary files: never diff or normalise line endings
+*.jar binary
+*.zip binary
+*.png binary
+*.jpg binary
+*.ogg binary
+*.npz binary
+*.3mf binary
+*.stl binary
+
+# Scripts that must keep their line endings
+gradlew text eol=lf
+*.sh text eol=lf

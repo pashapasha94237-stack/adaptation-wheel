@@ -1,0 +1,16 @@
+{
+  "parent": "adaptationwheel:existence",
+  "display": {
+    "icon": {"item": "minecraft:end_rod"},
+    "title": {"translate": "advancements.adaptationwheel.world_slash.title"},
+    "description": {"translate": "advancements.adaptationwheel.world_slash.description"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {"trigger": "minecraft:impossible"}
+  },
+  "requirements": [["code"]]
+}

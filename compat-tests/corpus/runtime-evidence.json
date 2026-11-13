@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "records": [
+    {"release": "4.26.0", "run": "run-final426-tan-20261026-091050", "requiredMarkers": ["MULTIMOD_QA NATIVE_TAN PASS"], "cases": [{"mod": "toughasnails", "case": "native thirst/hydration, partial/full, starvation HP, recovery, disable/unequip"}]},
+    {"release": "4.26.0", "run": "run-final426-sanity-20261026-091200", "requiredMarkers": ["MULTIMOD_QA NATIVE_SANITY PASS"], "cases": [{"mod": "sanitydim", "case": "native active/passive insanity, upper clamp, partial/full, recovery, disable/unequip"}]},
+    {"release": "4.26.0", "run": "run-release426-mekanism-20261026-091546", "requiredMarkers": ["MULTIMOD_QA NATIVE_MEKANISM PASS"], "cases": [{"mod": "mekanism", "case": "native radiation HP/exhaustion, saved dose/decay, partial/full including 2e12, disable/unequip"}]},
+    {"release": "4.26.0", "run": "run-release426-firstaid-optifine-20261026-091133", "requiredMarkers": ["MULTIMOD_QA AUTONOMOUS_HEALTH PASS"], "cases": [{"mod": "firstaid", "case": "native body HP against unknown health setters, negative callbacks and instant potion; Configured, disable/unequip"}]},
+    {"release": "4.26.0", "run": "run-release426-biomancy-20261026-091057", "requiredMarkers": ["MULTIMOD_QA AUTONOMOUS_HEALTH PASS"], "cases": []},
+    {"release": "4.26.0", "run": "run-release426-all24-20261026-091203", "requiredMarkers": ["MULTIMOD_QA PASS: combined-24-mods-cached"], "cases": []},
+    {"release": "4.26.0", "run": "run-release426-guns-optifine-20261026-091501", "requiredMarkers": [], "cases": [{"mod": "cgm", "case": "actual close misses, bullet guidance, native collision HP"}, {"mod": "scguns", "case": "actual close misses, bullet guidance, native collision HP"}]}
+  ]
+}

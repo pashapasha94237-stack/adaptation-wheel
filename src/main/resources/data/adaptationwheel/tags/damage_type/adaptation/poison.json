@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "ad_astra:acid_rain", "required": false},
+    {"id": "aether_redux:blight", "required": false},
+    {"id": "alexscaves:acid", "required": false},
+    {"id": "alexscaves:radiation", "required": false},
+    {"id": "alexscaves:tremorzilla_beam", "required": false},
+    {"id": "ars_elemental:poison", "required": false},
+    {"id": "blue_skies:venom_spit", "required": false},
+    {"id": "blue_skies:venom_spit.mob", "required": false},
+    {"id": "goety:rot", "required": false},
+    {"id": "goety:venom", "required": false},
+    {"id": "illageandspillage:mutation", "required": false},
+    {"id": "immersiveengineering:acid", "required": false},
+    {"id": "irons_spellbooks:nature_magic", "required": false},
+    {"id": "irons_spellbooks:poison_cloud", "required": false},
+    {"id": "mekanism:radiation", "required": false},
+    {"id": "mythicupgrades:peridot_incubation_damage_type", "required": false},
+    {"id": "nuclearcraft:radiation", "required": false},
+    {"id": "pneumaticcraft:etching_acid", "required": false},
+    {"id": "securitycraft:fake_water", "required": false},
+    {"id": "tfmg:acid", "required": false},
+    {"id": "twilightforest:acid_rain", "required": false},
+    {"id": "unusualend:infection_damages", "required": false}
+  ]
+}

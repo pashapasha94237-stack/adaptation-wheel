@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "ad_astra:cryo_fuel", "required": false},
+    {"id": "aether:cloud_crystal", "required": false},
+    {"id": "garnished:fan_freezing", "required": false},
+    {"id": "iceandfire:dragon_ice", "required": false},
+    {"id": "irons_spellbooks:ice_magic", "required": false},
+    {"id": "mythicupgrades:ice_shield_reflect_damage_type", "required": false},
+    {"id": "spell_power:frost", "required": false},
+    {"id": "twilightforest:chilling_breath", "required": false},
+    {"id": "twilightforest:falling_ice", "required": false},
+    {"id": "twilightforest:frozen", "required": false},
+    {"id": "twilightforest:snowball_fight", "required": false},
+    {"id": "yungscavebiomes:falling_icicle", "required": false}
+  ]
+}

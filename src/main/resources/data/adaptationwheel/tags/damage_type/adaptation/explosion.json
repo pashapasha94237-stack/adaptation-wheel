@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "createbigcannons:flak", "required": false},
+    {"id": "mna:wtf_boom", "required": false},
+    {"id": "mythicupgrades:ice_bomb_burst_damage_type", "required": false},
+    {"id": "twilightforest:lich_bomb", "required": false}
+  ]
+}

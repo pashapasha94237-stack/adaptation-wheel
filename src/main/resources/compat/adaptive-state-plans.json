@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "policy": "Exact source-scoped native custom-state adapters; no arbitrary capability reset",
+  "plans": [
+    {"mod": "toughasnails", "auditedVersion": "9.2.0.171", "source": "toughasnails.thirst.ThirstHandler.onPlayerTick(Player)", "condition": "condition:toughasnails:thirst", "mutations": ["IThirst.setThirst(I)V", "IThirst.setHydration(F)V"], "evidence": "Zero thirst reaches native TANDamageTypes.THIRST damage; positive recovery remains native"},
+    {"mod": "sanitydim", "auditedVersion": "1.1.0", "source": "croissantnova.sanitydim.SanityProcessor.addSanity and lambda$tickPlayer$3", "condition": "condition:sanitydim:insanity", "mutations": ["ISanity.setSanity(F)V"], "evidence": "getMostInsanePlayer maximizes getSanity; positive delta uses getNegMul; native clamp range 0..1; healthy value is zero"},
+    {"mod": "mekanism", "auditedVersion": "10.4.16.80", "source": "mekanism.common.lib.radiation.capability.DefaultRadiationEntity.update(LivingEntity)", "condition": "condition:mekanism:radiation", "mutations": ["two effective symptom dose reads scale partially; DefaultRadiationEntity.set(D)V only at full adaptation before update"], "evidence": "Dose severity above native configured harm threshold reaches actual radiation damage and food exhaustion; baseline 1e-7; saved dose decay and ambient map untouched before full adaptation"}
+  ]
+}

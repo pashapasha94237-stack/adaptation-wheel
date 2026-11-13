@@ -1,0 +1,16 @@
+{
+  "parent": "adaptationwheel:first_adaptation",
+  "display": {
+    "icon": {"item": "minecraft:totem_of_undying"},
+    "title": {"translate": "advancements.adaptationwheel.stage_four.title"},
+    "description": {"translate": "advancements.adaptationwheel.stage_four.description"},
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "code": {"trigger": "minecraft:impossible"}
+  },
+  "requirements": [["code"]]
+}

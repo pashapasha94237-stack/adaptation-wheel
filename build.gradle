@@ -1,0 +1,121 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'ru.pasha.adaptationwheel'
+def onlineAnalysis = providers.gradleProperty('neuralOnline').map { it.toBoolean() }.getOrElse(false)
+def pretrainedKnowledge = providers.gradleProperty('pretrainedKnowledge').map { it.toBoolean() }.getOrElse(true)
+version = '4.48.1-' + (pretrainedKnowledge ? 'trained' : 'untrained') + (onlineAnalysis ? '-online' : '')
+base.archivesName = 'adaptation-wheel-1.20.1'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+sourceSets {
+    gametest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+    }
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'info'
+            mods { adaptationwheel { source sourceSets.main } }
+        }
+        client {}
+        server { args '--nogui' }
+        gameTestServer {
+            property 'forge.enabledGameTestNamespaces', 'adaptationwheel'
+            workingDirectory project.file('run/gametest')
+            mods { adaptationwheel { source sourceSets.gametest } }
+        }
+    }
+}
+
+repositories { mavenCentral() }
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+    if (file('.tools/configured-2.2.3-dev.jar').exists()) {
+        gametestRuntimeOnly files('.tools/configured-2.2.3-dev.jar')
+    }
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+
+// GameTest runs get the main resources without the embedded jars: Distant Horizons casts every
+// starting server to DedicatedServer (crashes GameTestServer), and the reobfuscated Pasha Boost
+// calls SRG names that do not exist in the official-mapped dev runtime (light engine dies on save).
+def gameTestRun = gradle.startParameter.taskNames.any { it.endsWith('runGameTestServer') }
+
+tasks.register('generateAnalysisVariant') {
+    inputs.property 'onlineAnalysis', onlineAnalysis
+    inputs.property 'pretrainedKnowledge', pretrainedKnowledge
+    outputs.dir layout.buildDirectory.dir('generated/analysisVariant')
+    doLast {
+        def marker = layout.buildDirectory.file('generated/analysisVariant/META-INF/adaptation-analysis.properties').get().asFile
+        marker.parentFile.mkdirs(); marker.text = "online=${onlineAnalysis}\n"
+        def knowledgeMarker = layout.buildDirectory.file('generated/analysisVariant/META-INF/adaptation-learning.properties').get().asFile
+        knowledgeMarker.text = "pretrained=${pretrainedKnowledge}\nschema=1\n"
+    }
+}
+processResources {
+    dependsOn 'generateAnalysisVariant'
+    from(layout.buildDirectory.dir('generated/analysisVariant'))
+    inputs.property 'modVersion', project.version
+    inputs.property 'gameTestRun', gameTestRun
+    inputs.property 'pretrainedKnowledge', pretrainedKnowledge
+    if (!pretrainedKnowledge) { exclude 'knowledge/pretrained-v1.json' }
+    filesMatching('META-INF/mods.toml') { expand modVersion: project.version }
+    if (gameTestRun) {
+        // Each jar entry of metadata.json is one line, so dropping those lines keeps valid JSON.
+        filesMatching('META-INF/jarjar/metadata.json') { filter { line -> line.contains('"path"') ? null : line } }
+    } else {
+        from('embedded') { include 'adapt-boost-1.20.1-forge-1.7.0.jar'; into 'META-INF/jarjar' }
+        from('embedded') { include 'distant-horizons-3.3.3-1.20.1.jar'; into 'META-INF/jarjar' }
+    }
+    from('THIRD-PARTY.md') { into 'META-INF' }
+    from('LICENSE') { into 'META-INF' }
+}
+
+jar {
+    exclude { entry -> entry.path.startsWith('META-INF/jarjar/') && entry.name.endsWith('.jar')
+            && entry.name != 'adapt-boost-1.20.1-forge-1.7.0.jar' && entry.name != 'distant-horizons-3.3.3-1.20.1.jar' }
+    manifest.attributes('Implementation-Title': 'Adaptation Wheel', 'Implementation-Version': project.version)
+    finalizedBy 'reobfJar'
+}
+
+tasks.named('jar') {
+    doFirst {
+        if (!file('embedded/adapt-boost-1.20.1-forge-1.7.0.jar').isFile()) {
+            throw new GradleException('The integrated optimization component is missing from embedded/.')
+        }
+    }
+}
+
+tasks.register('coreTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'ru.pasha.adaptationwheel.core.AdaptationStateTest'
+    enableAssertions = true
+}
+check.dependsOn coreTest
+tasks.register('neuralTransportTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'ru.pasha.adaptationwheel.core.NeuralTransportTest'
+    jvmArgs '--add-modules', 'jdk.httpserver'
+    enableAssertions = true
+}
+
+tasks.matching { it.name == 'runGameTestServer' }.configureEach {
+    doLast {
+        def log=file('run/gametest/logs/latest.log').text
+        if (!(log =~ /All \d+ required tests passed/).find()) {
+            throw new GradleException('GameTest server did not complete successfully. Read run/gametest/logs/latest.log.')
+        }
+    }
+}
+
+

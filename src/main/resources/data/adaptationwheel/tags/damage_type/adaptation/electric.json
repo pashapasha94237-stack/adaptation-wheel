@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    {"id": "aether:thunder_crystal", "required": false},
+    {"id": "ars_elemental:spark", "required": false},
+    {"id": "blue_skies:fluctuant_sphere", "required": false},
+    {"id": "cataclysm:emp", "required": false},
+    {"id": "createaddition:tesla_coil", "required": false},
+    {"id": "iceandfire:dragon_lightning", "required": false},
+    {"id": "immersiveengineering:razor_shock", "required": false},
+    {"id": "immersiveengineering:tesla", "required": false},
+    {"id": "immersiveengineering:tesla_primary", "required": false},
+    {"id": "immersiveengineering:wire_shock", "required": false},
+    {"id": "irons_spellbooks:lightning_magic", "required": false},
+    {"id": "mythicupgrades:static_field_damage_type", "required": false},
+    {"id": "mythicupgrades:topaz_shock_damage_type", "required": false},
+    {"id": "securitycraft:electricity", "required": false},
+    {"id": "securitycraft:incorrect_passcode", "required": false},
+    {"id": "securitycraft:taser", "required": false},
+    {"id": "spell_power:lightning", "required": false},
+    {"id": "tconstruct:shock", "required": false}
+  ]
+}

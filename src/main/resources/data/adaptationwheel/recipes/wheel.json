@@ -1,0 +1,7 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "category":"equipment",
+  "pattern":["GGG","GEG","GGG"],
+  "key":{"G":{"item":"minecraft:gold_ingot"},"E":{"item":"minecraft:ender_pearl"}},
+  "result":{"item":"adaptationwheel:wheel"}
+}

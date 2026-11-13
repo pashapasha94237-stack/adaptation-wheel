@@ -1,0 +1,47 @@
+buildscript {
+ repositories { maven { url = 'https://maven.minecraftforge.net' }; mavenCentral() }
+ dependencies { classpath 'net.minecraftforge.gradle:ForgeGradle:5.1.77' }
+}
+apply plugin: 'net.minecraftforge.gradle'
+version = '4.0.0'
+group = 'ru.pasha.adaptationwheel'
+archivesBaseName = 'adaptation-wheel-1.16.5'
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+sourceSets {
+ integration {
+  compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+  runtimeClasspath += sourceSets.main.output + sourceSets.main.runtimeClasspath
+ }
+}
+minecraft {
+ mappings channel: 'official', version: '1.16.5'
+ runs {
+  client { workingDirectory project.file('run'); property 'forge.logging.console.level','info'; mods { adaptationwheel { source sourceSets.main } } }
+  server { workingDirectory project.file('run/server'); args '--nogui'; property 'forge.logging.console.level','info'; mods { adaptationwheel { source sourceSets.main } } }
+  integrationServer {
+   parent runs.server
+   main 'net.minecraftforge.userdev.LaunchTesting'
+   workingDirectory project.file('run/integration')
+   forceExit true
+   environment 'MOD_CLASSES','{source_roots}'
+   environment 'MCP_MAPPINGS','{mcp_mappings}'
+   environment 'MCP_VERSION','20210115.111550'
+   environment 'FORGE_VERSION','36.2.39'
+   environment 'FORGE_GROUP','net.minecraftforge'
+   environment 'target','fmluserdevserver'
+   environment 'MC_VERSION','1.16.5'
+   mods { adaptationwheel { source sourceSets.main; source sourceSets.integration } }
+  }
+ }
+}
+dependencies { minecraft 'net.minecraftforge:forge:1.16.5-36.2.39' }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+jar { manifest.attributes('Implementation-Version': project.version); finalizedBy 'reobfJar' }
+tasks.register('coreTest', JavaExec) { dependsOn testClasses; classpath = sourceSets.test.runtimeClasspath; mainClass = 'ru.pasha.adaptationwheel.core.AdaptationStateTest' }
+check.dependsOn coreTest
+tasks.matching { it.name == 'runIntegrationServer' }.configureEach {
+ doLast {
+  def log = file('run/integration/logs/latest.log').text
+  if (!log.contains('PORT_INTEGRATION:PASS') || log.contains('PORT_INTEGRATION:FAIL')) throw new GradleException('Forge integration checks failed. Read run/integration/logs/latest.log.')
+ }
+}

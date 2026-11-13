@@ -1,0 +1,570 @@
+ad_astra:acid_rain	POISON	name	[]	%1$s was melted by acid rain
+ad_astra:cryo_fuel	COLD	name	[]	%1$s became an ice cube
+ad_astra:oxygen	SUFFOCATION	name	[minecraft:bypasses_armor, minecraft:no_impact]	%1$s couldn't breathe anymore
+ad_astra:ran_over	PHYSICAL	name	[]	%1$s was ran over
+ad_astra:rocket_flames	FIRE	name	[]	%1$s melted under an active rocket
+ae2:matter_cannon	PROJECTILE	name	[]	
+aether:armor_piercing_attack	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	
+aether:cloud_crystal	COLD	death-text	[minecraft:is_projectile]	%1$s was chilled by %2$s's Cloud Crystal
+aether:crush	PHYSICAL	name	[]	%1$s was crushed by %2$s
+aether:fire_crystal	FIRE	mod-tag	[minecraft:is_projectile, aether_redux:fireball]	%1$s was incinerated by %2$s's Fire Crystal
+aether:floating_block	PHYSICAL	death-text	[minecraft:damages_helmet]	%1$s was squashed by a floating block
+aether:ice_crystal	COLD	mod-tag	[aether:is_cold, minecraft:is_projectile]	%1$s was chilled by %2$s's Ice Crystal
+aether:incineration	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s was incinerated by %2$s
+aether:inebriation	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s was inebriated
+aether:thunder_crystal	ELECTRIC	name	[minecraft:is_projectile]	%1$s was zapped by %2$s's Thunder Crystal
+aether_redux:blight	POISON	name	[]	%1$s was taken by the Blight
+aether_redux:corrupted_vines	ENVIRONMENT	fallback	[]	%1$s was poked to death by some Corrupted Vines
+aether_redux:ember	FIRE	name	[]	%1$s was sparked by a flying ember
+aether_redux:spear	PROJECTILE	name	[]	
+aether_redux:swet_absorption	ENVIRONMENT	fallback	[]	%1$s was absorbed by %2$s
+aether_redux:zanberry_bush	ENVIRONMENT	fallback	[]	%1$s was poked to death by a zanberry bush, how sad ):
+alexscaves:acid	POISON	name	[]	
+alexscaves:dark_arrow	DARKNESS	name	[minecraft:bypasses_cooldown, minecraft:is_projectile, minecraft:no_impact]	
+alexscaves:desolate_dagger	PHYSICAL	name	[minecraft:bypasses_cooldown]	
+alexscaves:forsaken_sonic_boom	MAGIC	name	[]	
+alexscaves:gumball	ENVIRONMENT	fallback	[]	
+alexscaves:intentional_game_design	ENVIRONMENT	fallback	[]	
+alexscaves:nuke	EXPLOSION	vanilla-tag	[minecraft:bypasses_cooldown, minecraft:is_explosion, minecraft:is_fire]	
+alexscaves:radiation	POISON	name	[]	Died of Radiation Poisoning
+alexscaves:raygun	EXPLOSION	vanilla-tag	[minecraft:bypasses_cooldown, minecraft:is_explosion, minecraft:is_projectile]	
+alexscaves:spirit_dinosaur	FIRE	vanilla-tag	[minecraft:bypasses_cooldown, minecraft:is_fire]	
+alexscaves:tremorzilla_beam	ENVIRONMENT	fallback	[]	
+alexsmobs:farseer	ENVIRONMENT	seed+fallback	[]	
+alexsmobs:freddy	PHYSICAL	seed+death-text	[]	Was that the bite of '87?
+amendments:boiling	FIRE	vanilla-tag	[minecraft:is_fire]	
+apotheosis:corrupted	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%s was drained by a corrupted enchantment.
+apotheosis:execute	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments]	%s was executed.
+apotheosis:psychic	MAGIC	mod-tag	[forge:is_magic, minecraft:bypasses_armor]	%s was slain by a reflection.
+aquamirae:crystallization	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s has been turned into a crystal
+ars_elemental:hellfire	FIRE	mod-tag	[ars_elemental:fire_damage]	
+ars_elemental:poison	POISON	name	[ars_elemental:earth_damage]	%2$s's poison spores blossomed inside %1$s
+ars_elemental:spark	ELECTRIC	name	[ars_elemental:air_damage]	%1$s experienced a short circuit
+ars_nouveau:crush	MAGIC	mod-tag	[ars_elemental:earth_damage, forge:is_magic, minecraft:always_hurts_ender_dragons, minecraft:bypasses_armor]	
+ars_nouveau:flare	FIRE	vanilla-tag	[ars_elemental:fire_damage, forge:is_magic, minecraft:always_hurts_ender_dragons, minecraft:is_fire]	
+ars_nouveau:frost	COLD	vanilla-tag	[ars_elemental:water_damage, forge:is_magic, minecraft:always_hurts_ender_dragons, minecraft:is_freezing]	
+ars_nouveau:spell	MAGIC	mod-tag	[forge:is_magic, minecraft:always_hurts_ender_dragons]	
+ars_nouveau:windshear	PHYSICAL	vanilla-tag	[ars_elemental:air_damage, forge:is_magic, minecraft:always_hurts_ender_dragons, minecraft:bypasses_armor, minecraft:is_fall]	
+atmospheric:aloe_leaves	ENVIRONMENT	fallback	[]	%1$s was pricked by aloe leaves
+atmospheric:barrel_cactus	PHYSICAL	name	[]	%1$s ran into a barrel cactus
+atmospheric:passion_fruit_seed	PROJECTILE	projectile-tag	[minecraft:is_projectile]	%1$s was barraged to death by %2$s's seeds
+atmospheric:yucca_branch	PHYSICAL	death-text	[]	%1$s was sliced by a yucca branch
+atmospheric:yucca_flower	PHYSICAL	death-text	[]	%1$s was sliced by a yucca flower
+atmospheric:yucca_leaves	PHYSICAL	death-text	[]	%1$s was sliced by yucca leaves
+atmospheric:yucca_sapling	PHYSICAL	death-text	[]	%1$s was sliced by a yucca sapling
+attributeslib:bleeding	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s bled out
+attributeslib:cold_damage	MAGIC	mod-tag	[forge:is_magic, minecraft:bypasses_armor, dummmmmmy:is_cold]	%1$s was frozen to death
+attributeslib:current_hp_damage	PHYSICAL	mod-tag	[forge:is_physical]	%1$s was struck down
+attributeslib:detonation	MAGIC	mod-tag	[forge:is_magic, minecraft:bypasses_armor, dummmmmmy:is_explosion]	%1$s was detonated by flame
+attributeslib:fire_damage	MAGIC	mod-tag	[forge:is_magic, minecraft:bypasses_armor, dummmmmmy:is_fire]	%1$s was scorched to death
+avaritia:infinity	ENVIRONMENT	fallback	[minecraft:always_hurts_ender_dragons, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance, minecraft:bypasses_shield]	%1$s was obliterated by %2$s
+biomancy:bleed	PHYSICAL	name	[minecraft:always_hurts_ender_dragons, minecraft:always_triggers_silverfish, minecraft:avoids_guardian_thorns, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance, minecraft:no_impact]	%1$s perished from severe blood loss
+biomancy:chest_bite	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s tried opening a chest, but was eaten instead
+biomancy:corrosive_acid	POISON	mod-tag	[forge:is_acid, minecraft:always_hurts_ender_dragons, minecraft:always_triggers_silverfish, minecraft:avoids_guardian_thorns, minecraft:bypasses_cooldown, minecraft:no_impact]	%1$s succumbed to severe acid burns
+biomancy:impaler_projectile	PROJECTILE	name	[minecraft:always_hurts_ender_dragons, minecraft:avoids_guardian_thorns, minecraft:bypasses_cooldown, minecraft:is_projectile]	%1$s was obliterated with a Impaler
+biomancy:primordial_spikes	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s was impaled by primordial spikes
+biomancy:slash	PHYSICAL	name	[minecraft:bypasses_cooldown, minecraft:no_impact]	%1$s was shredded to ribbons
+biomancy:spike_fall_on	PHYSICAL	vanilla-tag	[minecraft:bypasses_armor, minecraft:is_fall]	%1$s fell on a sharp spike
+biomancy:spike_impale	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s was impaled by a sharp spike
+biomancy:tooth_projectile	PROJECTILE	name	[minecraft:is_projectile]	
+biomancy:toxin	POISON	mod-tag	[forge:is_poison, minecraft:always_triggers_silverfish, minecraft:avoids_guardian_thorns, minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s succumbed to a fatal toxin
+biomesoplenty:bramble	ENVIRONMENT	fallback	[]	%1$s was punctured to death
+biomesoplenty:fumarole	ENVIRONMENT	fallback	[]	%1$s was steamed alive
+biomeswevegone:cattail_explosion	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	%s got too curious and put a cattail in a campfire
+biomeswevegone:in_quicksand	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%s tried to swim in the desert
+bloodmagic:ritual	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s died in a Well of Suffering
+bloodmagic:sacrifice	PHYSICAL	death-text	[minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:no_impact]	%1$s sacrificed a bit too much LP
+bloodmagic:spike	PHYSICAL	name	[]	%1$s was impaled on spikes
+blue_skies:bite	PHYSICAL	name	[]	%1$s was chomped by %2$s
+blue_skies:ember	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s couldn't handle %2$s's heat
+blue_skies:fluctuant_sphere	ELECTRIC	death-text	[minecraft:bypasses_shield]	%1$s was shocked by %2$s
+blue_skies:rock_stab	PHYSICAL	name	[minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:damages_helmet, minecraft:is_projectile]	%1$s was stabbed by a spike
+blue_skies:rock_stab.mob	PHYSICAL	name	[minecraft:bypasses_shield, minecraft:damages_helmet, minecraft:is_projectile]	%1$s was stabbed with a spike by %2$s
+blue_skies:root	ENVIRONMENT	fallback	[minecraft:bypasses_shield]	%1$s was rooted into by %2$s
+blue_skies:slam	PHYSICAL	name	[minecraft:bypasses_armor, minecraft:bypasses_shield]	%1$s was sent flying by %2$s
+blue_skies:summon	PHYSICAL	death-text	[]	%1$s was slain by %2$s's %3$s
+blue_skies:summoned_lightning	ELECTRIC	vanilla-tag	[minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:is_lightning]	%1$s was struck by %2$s
+blue_skies:venom_spit	POISON	name	[minecraft:bypasses_armor, minecraft:bypasses_enchantments]	%1$s was fatally poisoned
+blue_skies:venom_spit.mob	POISON	name	[minecraft:is_projectile]	%1$s was fatally poisoned by %2$s
+bookshelf:fake_player	ENVIRONMENT	fallback	[]	
+born_in_chaos_v1:piercing	ENVIRONMENT	fallback	[]	%1$s died from life stealing
+born_in_chaos_v1:punishment	ENVIRONMENT	fallback	[]	%1$s was punished for bad behavior
+bosses_of_mass_destruction:shield_piercing	ENVIRONMENT	fallback	[]	
+botania:key_explosion	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	%2$s drowned %1$s in treasure
+botania:player_attack_armor_piercing	PHYSICAL	name	[minecraft:bypasses_armor]	
+botania:relic_damage	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance, minecraft:no_impact]	%s was punished for using a relic that isn't theirs
+brewinandchewin:cardiac_arrest	ENVIRONMENT	fallback	[minecraft:bypasses_cooldown]	%1$s remembered they got hurt
+car:hit_car	PHYSICAL	death-text	[]	%s was run over by a car
+cataclysm:abyssal_burn	FIRE	name	[cataclysm:bypasses_hurt_time, minecraft:bypasses_armor]	%s has left this dimension
+cataclysm:deathlaser	LIGHT	death-text	[minecraft:bypasses_armor]	%s was exterminated by %s 's laser
+cataclysm:emp	ELECTRIC	death-text	[minecraft:bypasses_armor]	%s has become Electric Grilled Chicken
+cataclysm:flame_strike	FIRE	name	[minecraft:bypasses_armor, minecraft:bypasses_enchantments, minecraft:bypasses_shield]	%s was consumed by the flames
+cataclysm:laser	LIGHT	name	[minecraft:is_projectile]	%s was exterminated by %s 's laser
+cataclysm:lightning	ELECTRIC	vanilla-tag	[minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:is_lightning]	%s was electrocuted by %s
+cataclysm:maledictio	MAGIC	death-text	[minecraft:bypasses_shield]	%s was cursed by %s
+cataclysm:maledictio_anima	MAGIC	death-text	[minecraft:bypasses_enchantments, minecraft:bypasses_shield]	%s was cursed by %s
+cataclysm:maledictio_magicae	MAGIC	death-text	[minecraft:bypasses_armor, minecraft:bypasses_shield]	%s was cursed by %s 's Magic
+cataclysm:maledictio_sagitta	MAGIC	death-text	[cataclysm:bypasses_hurt_time, minecraft:always_hurts_ender_dragons, minecraft:bypasses_cooldown, minecraft:is_projectile]	%s was cursed by %s 's Arrow
+cataclysm:penetrate	ENVIRONMENT	fallback	[minecraft:bypasses_cooldown]	%s was penetrated by %s
+cataclysm:player_ceraunus	PROJECTILE	projectile-tag	[minecraft:is_projectile]	%s was hunted by %s
+cataclysm:shredder	EXPLOSION	vanilla-tag	[cataclysm:bypasses_hurt_time, minecraft:bypasses_cooldown, minecraft:is_explosion]	%s was shattered by %s
+cataclysm:storm_bringer	PROJECTILE	projectile-tag	[minecraft:bypasses_shield, minecraft:is_projectile]	%s was hunted by %s
+cataclysm:sword_dance	PHYSICAL	name	[minecraft:bypasses_cooldown]	%s was cut by %s
+caverns_and_chasms:draining	ENVIRONMENT	fallback	[caverns_and_chasms:drains_enemies, minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s's life was drained by %2$s
+caverns_and_chasms:grazer	ENVIRONMENT	fallback	[minecraft:no_anger]	%1$s was grazed by %2$s
+caverns_and_chasms:kunai	PROJECTILE	projectile-tag	[minecraft:bypasses_armor, minecraft:is_projectile, minecraft:witch_resistant_to]	%1$s was stabbed by %2$s
+caverns_and_chasms:lava_lamp	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s felt the heat
+caverns_and_chasms:riding_grazer	ENVIRONMENT	fallback	[]	%1$s was grazed by %2$s using %3$s
+caverns_and_chasms:spiked_rail	PHYSICAL	name	[minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s got railed
+cofh_core:knife	ENVIRONMENT	fallback	[]	%1$s got knifed by %2$s!
+create:crush	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s was processed by Crushing Wheels
+create:cuckoo_surprise	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	%1$s was blown up by tampered cuckoo clock
+create:fan_fire	FIRE	vanilla-tag	[minecraft:bypasses_armor, minecraft:is_fire]	%1$s got smoked by an Encased Fan
+create:fan_lava	FIRE	vanilla-tag	[minecraft:bypasses_armor, minecraft:is_fire]	%1$s was incinerated by an Encased Fan
+create:mechanical_drill	PHYSICAL	seed+name	[minecraft:bypasses_armor]	%1$s was impaled by a Mechanical Drill
+create:mechanical_roller	PHYSICAL	seed+name	[]	%1$s was flattened by a Mechanical Roller
+create:mechanical_saw	PHYSICAL	seed+name	[minecraft:bypasses_armor]	%1$s got cut in half by a Mechanical Saw
+create:potato_cannon	PROJECTILE	name	[]	%1$s was shot by %2$s's Potato Cannon
+create:run_over	PHYSICAL	seed+name	[]	%1$s was run over by %2$s
+create_sa:grapplin_whisk_attack	ENVIRONMENT	fallback	[]	%1$s got whisked away
+createaddition:barbed_wire	ENVIRONMENT	fallback	[]	
+createaddition:tesla_coil	ELECTRIC	name	[]	
+createbigcannons:big_cannon_projectile	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	%s was hit with artillery fire
+createbigcannons:cannon_projectile	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	%s was hit with artillery fire
+createbigcannons:flak	ENVIRONMENT	fallback	[]	%s was downed by flak
+createbigcannons:grapeshot	ENVIRONMENT	fallback	[]	%s was blown out by grapeshot
+createbigcannons:machine_gun_fire	FIRE	name	[]	%s was punctured by machine gun fire
+createbigcannons:machine_gun_fire_in_water	FIRE	name	[]	%s was filled with holes by machine gun fire and the sea round them turned pink
+createbigcannons:molten_metal	FIRE	vanilla-tag	[minecraft:is_fire]	%s burned in molten metal
+createbigcannons:shrapnel	PROJECTILE	name	[]	%s was ripped up by shrapnel
+createbigcannons:traffic_cone	PHYSICAL	death-text	[]	%s was struck from heaven above
+deeperdarker:bite	PHYSICAL	name	[]	%s was devoured
+deeperdarker:ring	ENVIRONMENT	fallback	[]	%s was given a deadly case of tinnitus by %s
+domesticationinnovation:siphon	ENVIRONMENT	fallback	[]	
+draconicevolution:chaos_implosion	EXPLOSION	vanilla-tag	[draconicevolution:chaotic, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_resistance, minecraft:bypasses_shield, minecraft:is_explosion]	
+draconicevolution:chaotic_arrow	MAGIC	mod-tag	[draconicevolution:chaotic, minecraft:is_projectile]	%1$s was shot by %2$s
+draconicevolution:chaotic_arrow_spoof	MAGIC	mod-tag	[draconicevolution:chaotic, draconicevolution:proj_anti_dodge]	%1$s was shot by %2$s
+draconicevolution:crystal_move	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance, minecraft:bypasses_shield]	
+draconicevolution:draconic_arrow	PROJECTILE	name	[draconicevolution:draconic, minecraft:is_projectile]	
+draconicevolution:draconic_arrow_spoof	PROJECTILE	name	[draconicevolution:draconic, draconicevolution:proj_anti_dodge]	
+draconicevolution:draconium_arrow	PROJECTILE	name	[draconicevolution:draconium, minecraft:is_projectile]	
+draconicevolution:draconium_arrow_spoof	PROJECTILE	name	[draconicevolution:draconium, draconicevolution:proj_anti_dodge]	
+draconicevolution:fusion_explosion	EXPLOSION	vanilla-tag	[draconicevolution:chaotic, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_resistance, minecraft:bypasses_shield, minecraft:is_explosion]	
+draconicevolution:guardian	MAGIC	mod-tag	[draconicevolution:chaotic, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_resistance, minecraft:bypasses_shield]	%1$s was torn apart by %2$s
+draconicevolution:guardian_laser	EXPLOSION	vanilla-tag	[draconicevolution:chaotic, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_resistance, minecraft:bypasses_shield, minecraft:is_explosion]	%1$s was vaporized by %2$s using a frickin laser beam
+draconicevolution:guardian_projectile	EXPLOSION	vanilla-tag	[draconicevolution:chaotic, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_resistance, minecraft:bypasses_shield, minecraft:is_explosion, minecraft:is_projectile]	%1$s was obliterated by %2$s
+draconicevolution:wyvern_arrow	PROJECTILE	name	[draconicevolution:wyvern, minecraft:is_projectile]	
+draconicevolution:wyvern_arrow_spoof	PROJECTILE	name	[draconicevolution:proj_anti_dodge, draconicevolution:wyvern]	
+dragonsurvival:cave_dragon_breath	FIRE	vanilla-tag	[minecraft:is_fire]	
+dragonsurvival:cave_dragon_burn	FIRE	vanilla-tag	[dragonsurvival:dragon_breath, dragonsurvival:no_knockback, minecraft:bypasses_armor, minecraft:is_fire]	
+dragonsurvival:crushed	PHYSICAL	name	[]	
+dragonsurvival:dehydration	HUNGER	name	[]	
+dragonsurvival:dragon_breath	MAGIC	name	[]	
+dragonsurvival:forest_dragon_breath	MAGIC	name	[]	
+dragonsurvival:forest_dragon_drain	MAGIC	mod-tag	[dragonsurvival:dragon_breath, dragonsurvival:no_knockback, minecraft:bypasses_armor]	
+dragonsurvival:rain_burn	FIRE	name	[]	
+dragonsurvival:sea_dragon_breath	ELECTRIC	vanilla-tag	[dragonsurvival:dragon_breath, minecraft:is_lightning]	
+dragonsurvival:spectral_impact	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	
+dragonsurvival:water_burn	FIRE	name	[]	
+dummmmmmy:critical	ENVIRONMENT	fallback	[]	
+dummmmmmy:true	ENVIRONMENT	fallback	[]	
+eeeabsmobs:bypass_armor	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s died from a penetrating injury by %2$s
+eeeabsmobs:bypass_iframe	ENVIRONMENT	fallback	[minecraft:bypasses_cooldown]	%1$s was rent asunder by %2$s
+eeeabsmobs:bypass_shield	ENVIRONMENT	fallback	[minecraft:bypasses_shield]	%1$s died from an unblockable strike by %2$s
+eeeabsmobs:guardian_robust_attack	ENVIRONMENT	fallback	[]	%1$s was smashed flat by %2$s
+eeeabsmobs:immortal_magic	MAGIC	name	[minecraft:bypasses_cooldown, minecraft:bypasses_enchantments, minecraft:bypasses_resistance, minecraft:witch_resistant_to]	%1$s was killed by %2$s using immortal magic
+eeeabsmobs:overload_explode	EXPLOSION	vanilla-tag	[eeeabsmobs:bypasses_hurt_reduction, minecraft:bypasses_cooldown, minecraft:is_explosion]	%1$s blew up
+eidolon:frost	MAGIC	mod-tag	[forge:is_magic]	%s froze over
+eidolon:ritual	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_enchantments]	%s got too involved in a ritual
+eidolon:sap	MAGIC	mod-tag	[forge:is_wither]	
+embers:ember	LIGHT	mod-tag	[consecration:holy, minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s was incinerated
+endergetic:munch	ENVIRONMENT	fallback	[]	%1$s was munched to death by %2$s
+endersdelight:was_watered	ENVIRONMENT	fallback	[]	
+ends_delight:enderman_gristle_teleport	ENVIRONMENT	fallback	[]	%1$s hit the ground too hard
+enigmaticlegacy:darkness	DARKNESS	name	[minecraft:bypasses_armor, minecraft:bypasses_enchantments, minecraft:bypasses_resistance, minecraft:wither_immune_to]	%1$s was devoured by darkness
+enigmaticlegacy:nemesis_curse	MAGIC	name	[minecraft:bypasses_armor]	
+environmental:riding_zebra	PHYSICAL	death-text	[]	%1$s was slain by %2$s using the hooves of %3$s
+evilcraft:broom	PHYSICAL	death-text	[]	%1$s was run over by a broom.
+evilcraft:die_without_any_reason	ENVIRONMENT	fallback	[]	%1$s dies without any apparent reason!
+evilcraft:distorted	ENVIRONMENT	fallback	[]	%1$s couldn't handle the amount of distortion anymore.
+evilcraft:paling	ENVIRONMENT	fallback	[]	%1$s faded away.
+evilcraft:spiked	PHYSICAL	name	[]	%1$s was killed by spikes.
+evilcraft:vengeance_beam	ENVIRONMENT	fallback	[]	%1$s was evaporated by a Vengeance Beam.
+farmersdelight:stove_burn	FIRE	name	[]	%1$s was grilled to perfection
+farmersrespite:wither_root	MAGIC	name	[]	%1$s wasn't careful while gardening
+forbidden_arcanus:extract_soul	MAGIC	name	[minecraft:bypasses_armor]	
+fossil:aquatic_suffocate	SUFFOCATION	name	[]	%1$s suffocated on land
+garnished:fan_freezing	COLD	name	[]	%1$s was turned ice cold by an Encased Fan
+garnished:leeching	ENVIRONMENT	fallback	[]	%1$s couldn't deal with the consequences of their actions
+garnished:mulch_munching	ENVIRONMENT	fallback	[]	%s munched on too much mulch
+goety:acid	MAGIC	mod-tag	[forge:is_magic, goety:no_knockback, minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s has been melted by %2$s
+goety:boiling	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s was made into stew
+goety:bubble_stream	ENVIRONMENT	fallback	[goety:water_attacks]	%1$s has been bubbled by %2$s
+goety:choke	SUFFOCATION	name	[goety:no_knockback, minecraft:bypasses_armor, minecraft:bypasses_shield]	%1$s was choked by %2$s
+goety:death	ENVIRONMENT	fallback	[goety:no_knockback, minecraft:bypasses_armor, minecraft:bypasses_shield]	%1$s has been executed by %2$s
+goety:direct_drench	ENVIRONMENT	fallback	[goety:water_attacks]	%1$s was drenched by %2$s
+goety:direct_freeze	COLD	vanilla-tag	[goety:frost_attacks, minecraft:is_freezing]	%1$s was frozen by %2$s
+goety:direct_shock	ELECTRIC	mod-tag	[goety:shock_attacks]	%1$s was electrocuted by %2$s
+goety:dismissed	ENVIRONMENT	fallback	[goety:no_knockback, minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance, minecraft:bypasses_shield]	%1$s has been dismissed
+goety:doom	ENVIRONMENT	fallback	[dungeonnowloading:hollow_hurtable, minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance]	%1$s met their doom
+goety:drench	ENVIRONMENT	fallback	[goety:water_attacks]	%1$s was drenched
+goety:fire_breath	FIRE	vanilla-tag	[goety:fire_attacks, goety:no_knockback, minecraft:is_fire]	%1$s has been burned by %2$s
+goety:frost_breath	COLD	vanilla-tag	[goety:frost_attacks, goety:no_knockback, minecraft:is_freezing]	%1$s has been chilled by %2$s
+goety:hellfire	FIRE	name	[goety:no_knockback, minecraft:bypasses_armor, minecraft:bypasses_shield]	%1$s was consumed by unholy flames
+goety:ice_bouquet	COLD	vanilla-tag	[forge:is_magic, goety:frost_attacks, goety:no_knockback, minecraft:bypasses_shield, minecraft:is_freezing, minecraft:witch_resistant_to]	%1$s has been frozen by %2$s
+goety:ice_spike	COLD	vanilla-tag	[goety:frost_attacks, minecraft:is_freezing, minecraft:is_projectile]	%1$s has been frozen by %2$s
+goety:indirect_drench	ENVIRONMENT	fallback	[goety:water_attacks]	%1$s has been drenched by %2$s
+goety:indirect_freeze	COLD	vanilla-tag	[goety:frost_attacks, minecraft:is_freezing]	%1$s has been frozen by %2$s
+goety:indirect_hellfire	FIRE	mod-tag	[goety:hellfire, goety:no_knockback, minecraft:bypasses_armor, minecraft:bypasses_shield]	%1$s has been damned by %2$s
+goety:indirect_shock	ELECTRIC	mod-tag	[goety:shock_attacks]	%1$s was electrocuted by %2$s
+goety:life_leech	MAGIC	mod-tag	[forge:is_magic, goety:no_knockback, minecraft:bypasses_shield, minecraft:witch_resistant_to]	%1$s have their life drained by %2$s
+goety:lightning	ELECTRIC	mod-tag	[goety:shock_attacks]	%1$s was struck by %2$s
+goety:loot_explode	EXPLOSION	vanilla-tag	[goety:wanting_damage, minecraft:is_explosion]	
+goety:loot_explode_owned	EXPLOSION	vanilla-tag	[goety:wanting_damage, minecraft:is_explosion]	
+goety:magic_bolt	MAGIC	mod-tag	[dungeonnowloading:hollow_hurtable, forge:is_magic, goety:no_knockback, minecraft:bypasses_armor, minecraft:witch_resistant_to]	
+goety:magic_fire	FIRE	name	[goety:no_knockback]	%1$s has been burned by %2$s
+goety:magic_fireball	FIRE	mod-tag	[goety:magic_fire, minecraft:is_projectile]	
+goety:no_owner_magic_fireball	FIRE	mod-tag	[goety:magic_fire, minecraft:is_projectile]	
+goety:phobia	MAGIC	mod-tag	[dungeonnowloading:hollow_hurtable, forge:is_magic, minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s died of fear
+goety:rage	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s was consumed by rage
+goety:rot	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s rotted away
+goety:shock	ELECTRIC	mod-tag	[goety:shock_attacks]	%1$s was electrocuted
+goety:soul_burn	FIRE	name	[]	%1$s's soul was incinerated
+goety:soul_leech	MAGIC	mod-tag	[dungeonnowloading:hollow_hurtable, forge:is_magic, goety:no_knockback, minecraft:bypasses_shield, minecraft:witch_resistant_to]	%1$s soul was sucked by %2$s
+goety:spike	MAGIC	mod-tag	[forge:is_magic, goety:no_knockback, minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:witch_resistant_to]	%1$s has been spiked by %2$s
+goety:summon	PHYSICAL	mod-tag	[goety:physical]	%1$s was slain by %2$s's %3$s
+goety:swarm	ENVIRONMENT	fallback	[goety:no_knockback]	%1$s has been infested by %2$s
+goety:sword	PHYSICAL	name	[netherexp:can_disrupt_underground_ecto_slabs]	%1$s was sliced by %2$s
+goety:venom	POISON	name	[goety:no_knockback, minecraft:bypasses_armor]	%1$s's organs has melted
+goety:voided	ENVIRONMENT	fallback	[goety:no_knockback, minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance, minecraft:bypasses_shield]	%1$s was rendered null and void
+goety:wind_blast	MAGIC	mod-tag	[dungeonnowloading:hollow_hurtable, forge:is_magic, minecraft:witch_resistant_to]	%1$s has been air-blasted by %2$s
+hardcorerevival:not_rescued_in_time	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance, minecraft:bypasses_shield]	%1$s was not rescued in time
+hexcasting:overcast	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_shield]	%s's mind was subsumed into energy
+iceandfire:dragon_fire	FIRE	name	[]	
+iceandfire:dragon_ice	COLD	name	[]	
+iceandfire:dragon_lightning	ELECTRIC	name	[]	
+iceandfire:gorgon	MAGIC	name	[]	
+illageandspillage:mutation	ENVIRONMENT	fallback	[minecraft:avoids_guardian_thorns, minecraft:bypasses_armor]	%1$s was plagued with tumors by %2$s
+immersiveengineering:acid	POISON	name	[]	%1$s was dissolved in acid
+immersiveengineering:crushed	PHYSICAL	name	[]	%1$s was crushed
+immersiveengineering:railgun	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s was pierced by %2$s's Railgun
+immersiveengineering:railgun_turret	ENVIRONMENT	fallback	[]	
+immersiveengineering:razor_shock	ELECTRIC	name	[minecraft:bypasses_armor]	%1$s was electrocuted by razorwire
+immersiveengineering:razor_wire	ENVIRONMENT	fallback	[]	%1$s was diced by razorwire
+immersiveengineering:revolver_armorpiercing	PROJECTILE	death-text	[minecraft:bypasses_armor]	%1$s was shot by %2$s
+immersiveengineering:revolver_armorpiercing_turret	PROJECTILE	death-text	[minecraft:bypasses_armor]	%1$s was shot by a turret
+immersiveengineering:revolver_buckshot	ENVIRONMENT	fallback	[]	%1$s was shotgunned by %2$s
+immersiveengineering:revolver_buckshot_turret	ENVIRONMENT	fallback	[]	%1$s was shotgunned by a turret
+immersiveengineering:revolver_casull	PROJECTILE	death-text	[]	%1$s was shot by %2$s
+immersiveengineering:revolver_casull_turret	PROJECTILE	death-text	[]	%1$s was shot by a turret
+immersiveengineering:revolver_dragonsbreath	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s was incinerated by %2$s
+immersiveengineering:revolver_dragonsbreath_turret	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s was incinerated by a turret
+immersiveengineering:revolver_homing	PROJECTILE	death-text	[]	%1$s was shot by %2$s's homing bullet
+immersiveengineering:revolver_homing_turret	PROJECTILE	death-text	[]	%1$s was shot by a turret's homing bullet
+immersiveengineering:revolver_potion	PROJECTILE	death-text	[]	%1$s was doused by %2$s's phial shot
+immersiveengineering:revolver_potion_turret	PROJECTILE	death-text	[]	%1$s was doused by a turret's phial shot
+immersiveengineering:revolver_silver	PROJECTILE	death-text	[]	%1$s was purified by %2$s's silver bullet
+immersiveengineering:revolver_silver_turret	PROJECTILE	death-text	[]	%1$s was purified by a turret's silver bullet
+immersiveengineering:revolver_wolfpack	ENVIRONMENT	fallback	[]	%1$s was shredded by %2$s's Wolfpack Rounds
+immersiveengineering:revolver_wolfpack_turret	ENVIRONMENT	fallback	[]	%1$s was shredded by a turret's Wolfpack Rounds
+immersiveengineering:sawblade	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	
+immersiveengineering:sawblade_turret	ENVIRONMENT	fallback	[]	
+immersiveengineering:sawmill	ENVIRONMENT	fallback	[]	%1$s fell into the sawmill
+immersiveengineering:tesla	ELECTRIC	name	[minecraft:bypasses_armor]	%1$s was fried by a Tesla Coil
+immersiveengineering:tesla_primary	ELECTRIC	name	[minecraft:bypasses_armor]	%1$s touched the primary circuit of a running Tesla coil
+immersiveengineering:wire_shock	ELECTRIC	name	[minecraft:bypasses_armor]	%1$s wasn't careful enough around live wiring
+immersivepetroleum:flarestack	FIRE	mod-tag	[immersivepetroleum:bypasses_armor, immersivepetroleum:is_fire]	
+incendium:sacrifice	PHYSICAL	msg-id	[minecraft:bypasses_armor]	
+industrialforegoing:mob_slaughter	ENVIRONMENT	fallback	[]	
+irons_spellbooks:blood_cauldron	ENVIRONMENT	fallback	[irons_spellbooks:bypass_evasion, minecraft:no_knockback]	%1$s was cooked alive
+irons_spellbooks:blood_magic	MAGIC	name	[]	%1$s was killed by %2$s's blood magic
+irons_spellbooks:dragon_breath_pool	MAGIC	name	[]	%1$s stood in %2$s's dragon breath
+irons_spellbooks:eldritch_magic	MAGIC	name	[]	%1$s was corrupted by %2$s's eldritch magic
+irons_spellbooks:ender_magic	MAGIC	name	[]	%1$s was slain by %2$s's ender magic
+irons_spellbooks:evocation_magic	MAGIC	name	[]	%1$s was slain by %2$s's evocation magic
+irons_spellbooks:fire_field	FIRE	name	[]	%1$s cooked in %2$s's fiery field
+irons_spellbooks:fire_magic	FIRE	name	[]	%1$s was burned by %2$s's fire magic
+irons_spellbooks:heartstop	ENVIRONMENT	fallback	[irons_spellbooks:bypass_evasion, irons_spellbooks:long_cast_ignore, minecraft:no_knockback]	%1$s's heart ruptured
+irons_spellbooks:holy_magic	LIGHT	name	[]	%1$s was smitten by %2$s's holy magic
+irons_spellbooks:ice_magic	COLD	name	[]	%1$s was shattered by %2$s's ice magic
+irons_spellbooks:lightning_magic	ELECTRIC	name	[]	%1$s was shocked by %2$s's lightning magic
+irons_spellbooks:nature_magic	MAGIC	name	[]	%1$s was slain by %2$s's eldritch magic
+irons_spellbooks:poison_cloud	POISON	name	[]	%1$s was suffocated by %2$s's poisonous cloud
+l2complements:bleed	PHYSICAL	name	[forge:ignore_scaling, minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance, minecraft:no_impact]	%1$s bled out
+l2complements:emerald	ENVIRONMENT	fallback	[minecraft:avoids_guardian_thorns]	%s was killed by emerald splash
+l2complements:freeze	MAGIC	mod-tag	[forge:is_magic, minecraft:bypasses_armor, minecraft:bypasses_cooldown]	
+l2complements:life_sync	ENVIRONMENT	fallback	[forge:ignore_scaling, minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance, minecraft:no_impact]	%s was drained
+l2complements:soul_flame	MAGIC	mod-tag	[forge:ignore_scaling, forge:is_magic, minecraft:avoids_guardian_thorns, minecraft:bypasses_armor, minecraft:no_impact]	%s has its soul burnt out
+l2complements:void_eye	MAGIC	death-text	[minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance, minecraft:no_impact]	%s was cursed by void eye
+legendary_monsters:clouds	PHYSICAL	death-text	[minecraft:bypasses_armor]	%s was Crushed to death by %s
+legendary_monsters:cut	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%s was cut in half
+legendary_monsters:ghost	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%s has left the Reality
+legendary_monsters:gravity	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%s has Levitated for too long
+legendary_monsters:impale	PHYSICAL	name	[minecraft:bypasses_armor]	%s was impaled
+legendary_monsters:laser	LIGHT	name	[minecraft:bypasses_armor]	%s was Exterminated by %s using pure Lightning Energy
+legendary_monsters:void	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%s was annihilated by %s
+magistuarmory:additional	PHYSICAL	death-text	[]	%1$s was slain
+magistuarmory:armor_piercing	PHYSICAL	death-text	[]	%1$s was slain by %2$s
+magistuarmory:entity_additional	PHYSICAL	death-text	[]	%1$s was slain by %2$s
+magistuarmory:silver	FIRE	death-text	[]	%1$swas burned with silver by %2$s
+malum:hidden_blade_counter	MAGIC	mod-tag	[malum:can_soul_shatter, malum:is_scythe]	%1$s was sliced into innumerable pieces
+malum:scythe_melee	MAGIC	mod-tag	[forge:can_trigger_magic_damage, malum:can_soul_shatter, malum:is_scythe, malum:is_scythe_melee]	%1$s was sliced in half
+malum:scythe_sweep	MAGIC	mod-tag	[forge:can_trigger_magic_damage, malum:can_soul_shatter, malum:is_scythe, malum:is_scythe_melee]	%1$s was sliced in half
+malum:voodoo	MAGIC	mod-tag	[forge:is_magic, malum:can_soul_shatter, minecraft:bypasses_armor, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance]	%1$s had their soul shattered
+malum:voodoo_playerless	MAGIC	mod-tag	[forge:is_magic, malum:can_soul_shatter]	
+mekanism:laser	LIGHT	name	[minecraft:bypasses_cooldown]	%1$s was incinerated.
+mekanism:radiation	POISON	name	[minecraft:bypasses_armor]	%1$s was killed by radiation poisoning.
+minecolonies:amazon	PROJECTILE	death-text	[]	%s was pierced by an Amazon's arrow
+minecolonies:amazonchief	ENVIRONMENT	fallback	[]	%s was expelled by the great Amazon Leader
+minecolonies:amazonspearman	PROJECTILE	death-text	[]	%s was pierced by an Amazon's spear
+minecolonies:archerbarbarian	ENVIRONMENT	fallback	[]	%s was ravaged by an Archer Barbarian
+minecolonies:archermummy	ENVIRONMENT	fallback	[]	%s was pierced by a Mummy's deadly glare
+minecolonies:archerpirate	ENVIRONMENT	fallback	[]	%s was ravaged by an Archer Pirate
+minecolonies:barbarian	PHYSICAL	death-text	[]	%s was sliced and diced by a Barbarian
+minecolonies:campamazon	PROJECTILE	death-text	[]	%s was pierced by an Amazon's arrow
+minecolonies:campamazonchief	ENVIRONMENT	fallback	[]	%s was expelled by the great Amazon Leader
+minecolonies:campamazonspearman	PROJECTILE	death-text	[]	%s was pierced by an Amazon's spear
+minecolonies:camparcherbarbarian	ENVIRONMENT	fallback	[]	%s was ravaged by an Archer Barbarian
+minecolonies:camparchermummy	ENVIRONMENT	fallback	[]	%s was pierced by a Mummy's deadly glare
+minecolonies:camparcherpirate	ENVIRONMENT	fallback	[]	%s was ravaged by an Archer Pirate
+minecolonies:campbarbarian	PHYSICAL	death-text	[]	%s was sliced and diced by a Barbarian
+minecolonies:campchiefbarbarian	ENVIRONMENT	fallback	[]	%s was macerated by a Great Chief
+minecolonies:campchiefpirate	ENVIRONMENT	fallback	[]	%s was macerated by a Pirate Captain
+minecolonies:campmummy	ENVIRONMENT	fallback	[]	%s was scared to death by a Mummy
+minecolonies:campnorsemenarcher	ENVIRONMENT	fallback	[]	%s was hit by an Archer Viking
+minecolonies:campnorsemenchief	ENVIRONMENT	fallback	[]	%s was grounded by the great Viking Chief
+minecolonies:camppharao	ENVIRONMENT	fallback	[]	%s was put to sleep by a Pharaoh
+minecolonies:camppirate	PHYSICAL	death-text	[]	%s was sliced and diced by a Pirate
+minecolonies:campshieldmaiden	PHYSICAL	death-text	[]	%s was crushed by a Shieldmaiden
+minecolonies:chiefbarbarian	ENVIRONMENT	fallback	[]	%s was macerated by a Great Chief
+minecolonies:chiefpirate	ENVIRONMENT	fallback	[]	%s was macerated by a Pirate Captain
+minecolonies:console	ENVIRONMENT	fallback	[]	
+minecolonies:default	ENVIRONMENT	fallback	[]	
+minecolonies:despawn	ENVIRONMENT	fallback	[]	
+minecolonies:drownedarcherpirate	ENVIRONMENT	fallback	[]	%s was pierced from the depths by a drowned Pirate Archer
+minecolonies:drownedchiefpirate	ENVIRONMENT	fallback	[]	%s was put to a watery grave by a drowned Pirate Chief
+minecolonies:drownedpirate	ENVIRONMENT	fallback	[]	%s was taken to the depths by a drowned Pirate
+minecolonies:guard	ENVIRONMENT	fallback	[]	%s was defeated by a Guard
+minecolonies:guardpvp	PHYSICAL	death-text	[minecraft:bypasses_armor]	%s was skewered by a Guard
+minecolonies:mercenary	ENVIRONMENT	fallback	[]	%s was eaten alive by a Mercenary
+minecolonies:mummy	ENVIRONMENT	fallback	[]	%s was scared to death by a Mummy
+minecolonies:nether	ENVIRONMENT	fallback	[]	%s succumbed to the depths of the nether.
+minecolonies:norsemenarcher	ENVIRONMENT	fallback	[]	%s was hit by an Archer Viking
+minecolonies:norsemenchief	ENVIRONMENT	fallback	[]	%s was grounded by the great Viking Chief
+minecolonies:pharao	ENVIRONMENT	fallback	[]	%s was put to sleep by a Pharaoh
+minecolonies:pierce	PROJECTILE	projectile-tag	[minecraft:bypasses_armor, minecraft:bypasses_shield, minecraft:is_projectile]	%s armor got pierced!
+minecolonies:pirate	PHYSICAL	death-text	[]	%s was sliced and diced by a Pirate
+minecolonies:shieldmaiden	PHYSICAL	death-text	[]	%s was crushed by a Shieldmaiden
+minecolonies:slap	ENVIRONMENT	fallback	[]	%s was slapped to death by a Mercenary
+minecolonies:spear	PROJECTILE	name	[minecraft:is_projectile]	%s was perforated by a spear
+minecolonies:stuckdamage	ENVIRONMENT	fallback	[]	
+minecolonies:training	ENVIRONMENT	fallback	[]	%s got killed during training
+minecolonies:visitor	ENVIRONMENT	fallback	[]	%s died after starting a brawl at the local tavern
+minecolonies:wakeywakey	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	
+mna:shuriken	ENVIRONMENT	fallback	[]	%s couldn't catch the shuriken
+mna:spell_briars	MAGIC	name	[minecraft:bypasses_armor]	
+mna:spell_conflagrate	MAGIC	name	[minecraft:bypasses_armor, minecraft:bypasses_enchantments, minecraft:bypasses_invulnerability]	%s was consumed by their own power
+mna:spell_disperse	MAGIC	name	[minecraft:bypasses_armor, minecraft:bypasses_enchantments]	%s was dispersed
+mna:spell_frost	COLD	vanilla-tag	[minecraft:bypasses_armor, minecraft:is_freezing]	%s was frozen solid
+mna:spell_lightning	ELECTRIC	vanilla-tag	[minecraft:bypasses_armor, minecraft:is_lightning]	%s was electrocuted
+mna:wtf_boom	FIRE	death-text	[minecraft:bypasses_armor, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance]	%s hit the cactus too hard, then drowned while trying to swim in lava
+mob_grinding_utils:spikes	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s was impaled on spikes.
+modulargolems:bacon_attack	MAGIC	mod-tag	[forge:is_magic, minecraft:bypasses_armor, minecraft:bypasses_cooldown]	
+modulargolems:echo_attack	MAGIC	mod-tag	[forge:is_magic, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance]	
+mutantmonsters:armor_bypassing_mob_attack	PHYSICAL	name	[minecraft:bypasses_armor]	
+mutantmonsters:armor_bypassing_thrown	PROJECTILE	name	[minecraft:is_projectile]	
+mutantmonsters:effects_bypassing_mob_attack	PHYSICAL	name	[minecraft:bypasses_effects]	
+mutantmonsters:mutant_arrow	PROJECTILE	name	[minecraft:always_hurts_ender_dragons, minecraft:is_projectile]	
+mutantmonsters:piercing_mob_attack	PHYSICAL	name	[minecraft:bypasses_armor, minecraft:bypasses_effects]	
+mutantmonsters:player_seismic_wave	ENVIRONMENT	fallback	[minecraft:bypasses_effects]	
+mythicupgrades:citrine_chain_damage_type	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%1$s was caught in the chain reaction
+mythicupgrades:deflecting_damage_type	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects]	
+mythicupgrades:ice_bomb_burst_damage_type	EXPLOSION	name	[]	
+mythicupgrades:ice_shield_reflect_damage_type	COLD	name	[minecraft:bypasses_armor, minecraft:bypasses_effects]	
+mythicupgrades:percentage_damage_type	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	
+mythicupgrades:peridot_incubation_damage_type	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	
+mythicupgrades:static_field_damage_type	ELECTRIC	death-text	[minecraft:bypasses_effects]	%1$s was electrocuted by a static field
+mythicupgrades:topaz_shock_damage_type	ELECTRIC	name	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%1$s was struck by a gem of pure rage
+neapolitan:beanstalk_thorns	PHYSICAL	name	[]	%1$s was poked to death by beanstalk thorns
+netherexp:grave_cloud_suffocation	SUFFOCATION	mod-tag	[minecraft:bypasses_armor, minecraft:bypasses_enchantments, minecraft:no_knockback, minecraft:no_knockback_shield, netherexp:is_suffocation]	%1$s was shrouded and choked by souls
+netherexp:jackhammer	ENVIRONMENT	fallback	[minecraft:bypasses_cooldown, minecraft:bypasses_enchantments]	%1$s was hit with a lethal piston-arm
+netherexp:shotgun_explosion	EXPLOSION	vanilla-tag	[minecraft:bypasses_armor, minecraft:bypasses_enchantments, minecraft:bypasses_shield, minecraft:is_explosion, minecraft:no_knockback, minecraft:no_knockback_shield]	%1$s was caught in a over-charged shotgun explosion
+netherexp:shotgun_pellet	PROJECTILE	name	[elysium_api:cant_damage_armor, minecraft:bypasses_cooldown, minecraft:bypasses_enchantments, minecraft:is_projectile, minecraft:no_knockback, minecraft:no_knockback_shield]	%1$s was shot with a lethal firearm
+netherexp:sorrowsquished	ENVIRONMENT	fallback	[]	%1$s was sorrowsquished
+netherexp:stampede_crush	PHYSICAL	name	[]	%1$s was crushed by %2$s
+netherexp:volatile_scoria_explosion	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	%1$s was caught in a volatile redstone discharge
+netherexp:will_o_wisp	MAGIC	death-text	[minecraft:is_projectile]	%1$s was haunted by a will o' wisp
+nuclearcraft:radiation	POISON	name	[]	Died of Radiation Poisoning
+nuclearcraft:turbine	ENVIRONMENT	fallback	[]	
+origins:hurt_by_water	ENVIRONMENT	fallback	[]	%1$s took a bath for too long
+origins:no_water_for_gills	ENVIRONMENT	fallback	[]	%1$s didn't manage to keep wet
+parcool:parcool.friction	FIRE	death-text	[]	%1$s couldn't bear the burns caused by the frictional heat
+pneumaticcraft:etching_acid	POISON	name	[]	%1$s was etched to death!
+pneumaticcraft:minigun	ENVIRONMENT	fallback	[]	%1$s was shredded by %2$s's Minigun!
+pneumaticcraft:minigun_ap	ENVIRONMENT	fallback	[minecraft:bypasses_armor, pneumaticcraft:minigun]	%1$s was shredded by %2$s's Minigun!
+pneumaticcraft:plastic_block	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s stepped on something unreasonably painful!
+pneumaticcraft:pressure	ENVIRONMENT	fallback	[]	%1$s was compressed to death!
+pneumaticcraft:security_station	PHYSICAL	death-text	[minecraft:bypasses_armor]	%1$s failed to hack a Security Station and suffered the consequences!
+projecte:player_attack	PHYSICAL	name	[minecraft:bypasses_armor]	
+psi:psi_overload	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_resistance, minecraft:bypasses_shield, minecraft:bypasses_effects, minecraft:bypasses_enchantments]	
+quark:pickarang	PROJECTILE	name	[]	%1$s was surprised by %2$s's pickarang coming back around
+refurbished_furniture:ceiling_fan	PHYSICAL	death-text	[]	%1$s was sliced to death by a ceiling fan
+regions_unexplored:dorcel	ENVIRONMENT	fallback	[]	%s was dragged underground by Dorcel
+regions_unexplored:dusk_trap	PHYSICAL	name	[]	%s was eaten by a Dusktrap
+reliquary:bullet	PROJECTILE	name	[]	%1$s was shot by %2$s
+securitycraft:electricity	ELECTRIC	name	[minecraft:bypasses_armor]	%s was electrocuted
+securitycraft:fake_water	POISON	death-text	[minecraft:bypasses_armor]	%s fell into poisonous water...?
+securitycraft:in_reinforced_wall	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%s suffocated in a reinforced wall
+securitycraft:incorrect_passcode	ENVIRONMENT	fallback	[]	%s entered an incorrect code
+securitycraft:laser	LIGHT	name	[]	%s was sliced to death by a laser
+securitycraft:taser	ENVIRONMENT	fallback	[]	%1$s was tasered to death by %2$s
+soulsweapons:beam	ENVIRONMENT	fallback	[]	%1$s was annihilated by %2$s's Core Beam
+soulsweapons:bleed	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s bled out
+soulsweapons:dragon_mist	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s couldn't breathe in the concentrated Dragon Mist
+soulsweapons:freyr_sword	PHYSICAL	name	[]	%1$s was sliced away by %2$s's Sword of Freyr
+soulsweapons:magic_damage_bypass_cooldown	MAGIC	name	[minecraft:avoids_guardian_thorns, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:no_impact, minecraft:witch_resistant_to]	
+soulsweapons:obliterated	ENVIRONMENT	fallback	[]	%1$s was obliterated by %2$s
+soulsweapons:oblivion	ENVIRONMENT	fallback	[]	%1$s was sent to oblivion
+soulsweapons:player_fire	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s was burnt to a crisp
+soulsweapons:player_lightning	ELECTRIC	vanilla-tag	[minecraft:is_lightning]	%1$s was struck by lightning
+soulsweapons:shadow_orb	DARKNESS	name	[]	%1$s perished after being barraged by %2$s's Shadow Orbs
+soulsweapons:silver_bullet_bypass_cooldown	PROJECTILE	name	[minecraft:bypasses_cooldown, minecraft:is_projectile]	
+spartanweaponry:armor_piercing_bolt	PROJECTILE	name	[minecraft:is_projectile, spartanweaponry:is_armor_piercing]	
+spartanweaponry:armor_piercing_melee	PHYSICAL	name	[spartanweaponry:is_armor_piercing]	
+spartanweaponry:thrown_weapon_mob	PROJECTILE	name	[minecraft:is_projectile]	
+spartanweaponry:thrown_weapon_player	PROJECTILE	name	[minecraft:is_projectile]	
+spawn:dry_up	FIRE	death-text	[]	%1$s couldn't withstand the heat
+spawn:sea_urchin	ENVIRONMENT	fallback	[]	%1$s was poked to death by a sea urchin
+spawn:volcano_impact	ENVIRONMENT	fallback	[]	%1$s died on impact
+species:cranktrap	ENVIRONMENT	fallback	[]	%1$s fell into a Cranktrap
+species:crunch	ENVIRONMENT	fallback	[]	%1$s was crunched
+species:kinetic	ENVIRONMENT	fallback	[]	%2$s made %1$s experience the Richter scale
+species:torn	ENVIRONMENT	fallback	[]	%1$s was torn to shreds
+spell_power:arcane	MAGIC	name	[spell_power:all]	
+spell_power:fire	FIRE	name	[spell_power:all]	
+spell_power:frost	COLD	name	[spell_power:all]	
+spell_power:generic	ENVIRONMENT	fallback	[spell_power:all]	
+spell_power:healing	ENVIRONMENT	fallback	[spell_power:all]	
+spell_power:lightning	ELECTRIC	name	[spell_power:all]	
+spell_power:soul	MAGIC	name	[spell_power:all]	
+supplementaries:bamboo_spikes	PHYSICAL	name	[minecraft:bypasses_shield]	%1$s was impaled on a spike
+supplementaries:bomb_explosion	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	
+supplementaries:cannonball	PROJECTILE	name	[]	%1$s was blasted to bits
+supplementaries:player_bomb_explosion	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	
+supplementaries:player_cannonball	PROJECTILE	name	[]	%1$s was blasted to bits by %2$s
+supplementaries:slingshot	ENVIRONMENT	fallback	[]	%1$s was stoned to death by %2$s
+supplementaries:xp_extracting	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%1$s wasn't so experienced after all
+tacz:bullet	PROJECTILE	mod-tag	[tacz:bullets, minecraft:always_hurts_ender_dragons]	%1$s was shot by %2$s
+tacz:bullet_ignore_armor	PROJECTILE	mod-tag	[minecraft:bypasses_armor, tacz:bullets]	%1$s was shot by %2$s
+tacz:bullet_void	PROJECTILE	mod-tag	[minecraft:bypasses_invulnerability, tacz:bullets]	%1$s was shot by %2$s
+tacz:bullet_void_ignore_armor	PROJECTILE	mod-tag	[minecraft:bypasses_armor, minecraft:bypasses_invulnerability, tacz:bullets]	%1$s was shot by %2$s
+takesapillage:archer_snipe	PROJECTILE	seed+name	[]	%1$s was sniped by %2$s
+takesapillage:legioner_slay	PHYSICAL	seed+name	[]	%1$s was struck down by %2$s
+takesapillage:skirmisher_hack	PHYSICAL	seed+name	[]	%1$s was chopped to bits by %2$s
+tconstruct:bleeding	PHYSICAL	name	[minecraft:avoids_guardian_thorns, minecraft:bypasses_armor, minecraft:bypasses_enchantments]	%1$s bled to death
+tconstruct:entangled	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%1$s could not let go of their tool
+tconstruct:explosion_melee	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	
+tconstruct:explosion_ranged	EXPLOSION	vanilla-tag	[minecraft:is_explosion, minecraft:is_projectile]	
+tconstruct:fishing_hook	PHYSICAL	death-text	[minecraft:is_projectile]	%1$s was impaled by %2$s's fish hook
+tconstruct:fluid_cold_melee	COLD	vanilla-tag	[minecraft:is_freezing]	%1$s was frozen by %2$s
+tconstruct:fluid_cold_ranged	COLD	vanilla-tag	[minecraft:is_freezing, minecraft:is_projectile]	%1$s was frozen by %2$s
+tconstruct:fluid_fire_melee	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s was burned by %2$s
+tconstruct:fluid_fire_ranged	FIRE	vanilla-tag	[minecraft:is_fire, minecraft:is_projectile]	%1$s was burned by %2$s
+tconstruct:fluid_impact_melee	PHYSICAL	name	[]	%1$s was pummeled by %2$s
+tconstruct:fluid_impact_ranged	PROJECTILE	projectile-tag	[minecraft:is_projectile]	%1$s was pummeled by %2$s
+tconstruct:fluid_magic_melee	MAGIC	name	[minecraft:witch_resistant_to, twilightforest:breaks_lich_shields]	%1$s was smite by %2$s
+tconstruct:fluid_magic_ranged	MAGIC	name	[minecraft:is_projectile, minecraft:witch_resistant_to, twilightforest:breaks_lich_shields]	%1$s was smite by %2$s
+tconstruct:fluid_spike_melee	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s was speared by %2$s
+tconstruct:fluid_spike_ranged	PHYSICAL	name	[minecraft:bypasses_armor, minecraft:is_projectile]	%1$s was speared by %2$s
+tconstruct:knightmetal	PHYSICAL	death-text	[]	%1$s was skewered by Knightmetal
+tconstruct:melee_arrow	PROJECTILE	name	[]	
+tconstruct:mob_explosion_melee	EXPLOSION	vanilla-tag	[minecraft:is_explosion]	
+tconstruct:mob_explosion_ranged	EXPLOSION	vanilla-tag	[minecraft:is_explosion, minecraft:is_projectile]	
+tconstruct:piercing	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s was pierced by %2$s
+tconstruct:self_destruct	EXPLOSION	vanilla-tag	[minecraft:bypasses_armor, minecraft:is_explosion]	%1$s self destructed
+tconstruct:shock	ELECTRIC	name	[minecraft:avoids_guardian_thorns, tconstruct:protection/fire]	%1$s was shocked trying to hurt %2$s
+tconstruct:smeltery_heat	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s tried to make molten player
+tconstruct:smeltery_magic	MAGIC	name	[minecraft:witch_resistant_to]	%1$s has become one with the smeltery
+tconstruct:spiny	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%1$s was killed by a splinter
+tconstruct:thrown_tool	PROJECTILE	name	[minecraft:is_projectile]	%1$s was impaled by %2$s
+tconstruct:water_melee	PHYSICAL	name	[minecraft:bypasses_armor]	%1$s was drowned by %2$s
+tconstruct:water_ranged	PROJECTILE	projectile-tag	[minecraft:bypasses_armor, minecraft:is_projectile]	%1$s was drowned by %2$s
+tetra:bleeding	PHYSICAL	name	[minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:no_impact]	
+tfmg:acid	POISON	name	[]	%1$s took an acid bath
+tfmg:blast_furnace	EXPLOSION	name	[]	%1$s was turned in carbon steel
+tfmg:concrete	ENVIRONMENT	fallback	[]	%1$s tried to eat Concrete
+the_bumblezone:architects	ENVIRONMENT	fallback	[minecraft:always_hurts_ender_dragons, minecraft:always_most_significant_fall, minecraft:bypasses_armor, minecraft:bypasses_cooldown, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance]	%1$s was killed for trying to escape an Essence Event
+the_bumblezone:cosmic_crystal	ENVIRONMENT	fallback	[minecraft:always_hurts_ender_dragons, minecraft:always_triggers_silverfish, minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance, minecraft:bypasses_shield, the_bumblezone:event_damage]	%1$s was obliterated by the Cosmic Crystal's power
+the_bumblezone:crystalline_flower	ENVIRONMENT	fallback	[minecraft:avoids_guardian_thorns]	%1$s was poked to death by a crystalline flower
+the_bumblezone:dirt_pellet	PROJECTILE	name	[minecraft:is_projectile, minecraft:panic_causes]	%1$s was pummeled by %2$s
+the_bumblezone:event_dirt_pellet	PROJECTILE	name	[minecraft:is_projectile, minecraft:panic_causes, the_bumblezone:event_damage]	%1$s was pummeled by %2$s
+the_bumblezone:sentry_watcher_crushing	PHYSICAL	name	[minecraft:always_hurts_ender_dragons, minecraft:always_triggers_silverfish, minecraft:bypasses_shield]	%1$s was crushed to death by a Sentry Watcher
+the_bumblezone:spikes	PHYSICAL	name	[minecraft:always_hurts_ender_dragons, minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance, the_bumblezone:event_damage]	%1$s was impaled during a Knowing Essence Event
+thermal:sadiroot	ENVIRONMENT	fallback	[]	
+toughasnails:hyperthermia	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s overheated to death
+toughasnails:thirst	HUNGER	name	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%1$s died of thirst
+touhou_little_maid:danmaku	PROJECTILE	projectile-tag	[minecraft:is_projectile, twilightforest:breaks_lich_shields]	%1$s was pummeled by %2$s using danmaku
+touhou_little_maid:danmaku_ender_killer	ENVIRONMENT	fallback	[minecraft:always_hurts_ender_dragons, twilightforest:breaks_lich_shields]	%1$s was pummeled by %2$s using danmaku
+true_ending:mob_attack	PHYSICAL	name	[]	
+true_ending:mob_attack_pierce_shield	PHYSICAL	name	[minecraft:bypasses_shield]	
+true_ending:mob_attack_pierce_shield_cooldown	PHYSICAL	name	[minecraft:bypasses_cooldown]	
+twilightdelight:thorn_rose_tea	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects, minecraft:bypasses_enchantments, minecraft:bypasses_resistance]	%1$s acknowledged that every rose has its thorn
+twilightforest:acid_rain	POISON	name	[minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s went dancing in the acid rain
+twilightforest:ant	PHYSICAL	seed+death-text	[tconstruct:modifier_whitelist, tconstruct:protection/melee]	%1$s was squashed like an ant by %2$s
+twilightforest:axing	PHYSICAL	name	[tconstruct:modifier_whitelist, tconstruct:protection/melee]	%1$s was chopped up by %2$s
+twilightforest:chilling_breath	COLD	name	[]	%1$s was frozen to death by the Snow Queen
+twilightforest:clamped	PHYSICAL	name	[tconstruct:protection/melee]	%1$s was squeezed to death by %2$s
+twilightforest:expired	ENVIRONMENT	fallback	[minecraft:always_most_significant_fall, minecraft:bypasses_armor, minecraft:bypasses_invulnerability, minecraft:bypasses_resistance]	%1$s's life expired
+twilightforest:falling_ice	COLD	name	[tconstruct:protection/projectile, minecraft:bypasses_enchantments]	
+twilightforest:fiery	FIRE	name	[]	%1$s walked onto a Fiery block
+twilightforest:fire_jet	FIRE	name	[]	%1$s accidentally walked into a Fire Jet
+twilightforest:frozen	COLD	name	[]	%1$s was frozen by %2$s using an Ice Bomb
+twilightforest:ghast_tear	FIRE	seed+death-text	[tconstruct:protection/melee, minecraft:bypasses_armor, minecraft:damages_helmet]	%1$s was scalded by fiery tears
+twilightforest:haunt	MAGIC	name	[tconstruct:protection/magic]	%1$s joined the %2$s's haunt
+twilightforest:hydra_bite	PHYSICAL	name	[tconstruct:protection/melee]	%1$s's skin was ripped off by the Hydra
+twilightforest:hydra_fire	FIRE	vanilla-tag	[minecraft:is_fire]	%1$s was roasted alive by the Hydra
+twilightforest:hydra_mortar	FIRE	vanilla-tag	[minecraft:is_fire]	
+twilightforest:knightmetal	PHYSICAL	seed+death-text	[]	%1$s was skewered by a Knightmetal block
+twilightforest:leaf_brain	PROJECTILE	projectile-tag	[minecraft:bypasses_armor, minecraft:is_projectile, minecraft:witch_resistant_to]	%1$s's brain was turned into leaves by %2$s
+twilightforest:lich_bolt	MAGIC	name	[minecraft:bypasses_armor, minecraft:is_projectile, minecraft:witch_resistant_to, twilightforest:breaks_lich_shields]	The Lich's aim was better than %1$s
+twilightforest:lich_bomb	EXPLOSION	name	[minecraft:bypasses_armor, minecraft:is_projectile, minecraft:witch_resistant_to]	%1$s succumbed to the Lich's explosive magic
+twilightforest:lifedrain	MAGIC	name	[minecraft:bypasses_armor, minecraft:is_projectile]	%1$s's life was drained by %2$s
+twilightforest:lost_words	PROJECTILE	projectile-tag	[minecraft:bypasses_armor, minecraft:is_projectile, minecraft:witch_resistant_to]	%1$s was at a loss for words after being killed by %2$s
+twilightforest:moonworm	PROJECTILE	seed+death-text	[]	%1$s was shot by Moonworm
+twilightforest:reactor	ENVIRONMENT	fallback	[]	%1$s stood too close to a Carminite Reactor
+twilightforest:schooled	PROJECTILE	projectile-tag	[minecraft:bypasses_armor, minecraft:is_projectile, minecraft:witch_resistant_to]	%1$s was schooled by %2$s
+twilightforest:scorched	FIRE	name	[]	%1$s was scorched by %2$s
+twilightforest:slam	PHYSICAL	name	[tconstruct:modifier_whitelist, tconstruct:protection/melee, minecraft:bypasses_armor, minecraft:no_anger]	%1$s was chopped up by %2$s
+twilightforest:slider	PHYSICAL	seed+death-text	[]	%1$s was sliced up by a Sliding Trap
+twilightforest:snowball_fight	COLD	name	[minecraft:is_projectile]	%1$s lost a snowball fight to %2$s
+twilightforest:spiked	PHYSICAL	name	[tconstruct:protection/melee]	%1$s was skewered by %2$s
+twilightforest:squish	PHYSICAL	name	[tconstruct:protection/melee]	%1$s was squashed by the Snow Queen
+twilightforest:thorns	PHYSICAL	name	[]	%1$s walked into some thorns
+twilightforest:thrown_axe	PROJECTILE	name	[minecraft:is_projectile]	%1$s was decapitated by a thrown axe
+twilightforest:thrown_block	PROJECTILE	name	[minecraft:damages_helmet, minecraft:is_projectile]	%1$s was squashed by a thrown block
+twilightforest:thrown_pickaxe	PROJECTILE	name	[minecraft:is_projectile]	%1$s was decapitated by a thrown pickaxe
+twilightforest:twilight_scepter	MAGIC	msg-id	[tconstruct:protection/magic, minecraft:is_projectile, twilightforest:breaks_lich_shields]	
+twilightforest:yeeted	PHYSICAL	vanilla-tag	[tconstruct:protection/melee, minecraft:bypasses_armor, minecraft:is_fall]	%1$s was yeeted for the last time
+undergarden:blisterberry_bush	ENVIRONMENT	fallback	[]	%1$s was poked by a Blisterberry Bush
+undergarden:depthrock_pebble	PROJECTILE	name	[]	
+undergarden:goo_ball	PROJECTILE	msg-id	[]	
+undergarden:shard_torch	MAGIC	death-text	[minecraft:bypasses_armor, minecraft:bypasses_enchantments, minecraft:witch_resistant_to]	%1$s was killed by a Shard Torch's magic
+unusualend:infection_damages	POISON	name	[minecraft:bypasses_armor, minecraft:bypasses_shield]	%1$s died from infection
+unusualend:joust	PHYSICAL	death-text	[]	%1$s was impaled
+unusualend:spunkler_damages	ENVIRONMENT	fallback	[]	%1$s was stung to death
+unusualend:trapper_damages	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_enchantments, minecraft:bypasses_shield]	%1$s was devoured by an Endstone Trapper
+upgrade_aquatic:jellyfish_sting	PHYSICAL	name	[]	%1$s was stung to death by %2$s
+vampirism:blood_loss	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s was sucked dry
+vampirism:dbno	ENVIRONMENT	fallback	[minecraft:bypasses_armor, minecraft:bypasses_effects]	
+vampirism:holy_water	LIGHT	name	[minecraft:witch_resistant_to, vampirism:mother_resistant_to]	%1$s was burned with holy water
+vampirism:minion	ENVIRONMENT	fallback	[]	
+vampirism:mother	ENVIRONMENT	fallback	[minecraft:bypasses_armor]	%1$s died because they were too close to the Ancient Remains
+vampirism:stake	PHYSICAL	name	[minecraft:bypasses_armor, minecraft:bypasses_effects]	%1$s was pierced through the heart by %2$s
+vampirism:sun_damage	LIGHT	name	[minecraft:bypasses_armor, minecraft:witch_resistant_to]	%1$s did not like the sun
+vampirism:vampire_in_fire	FIRE	vanilla-tag	[minecraft:is_fire, minecraft:witch_resistant_to]	%1$s burned to ashes
+vampirism:vampire_on_fire	FIRE	vanilla-tag	[minecraft:bypasses_armor, minecraft:is_fire, minecraft:witch_resistant_to]	%1$s burned to ashes
+weeping_angels:generator	ENVIRONMENT	fallback	[]	%s was sucked into the vortex...
+weeping_angels:punch_stone	PHYSICAL	name	[]	%s punched stone too hard...
+weeping_angels:snapped_neck	ENVIRONMENT	fallback	[]	%s had their neck snapped by a Weeping Angel
+yungscavebiomes:falling_icicle	COLD	name	[minecraft:bypasses_shield, minecraft:damages_helmet]	%1$s was skewered by a falling icicle
+yungscavebiomes:prickly_vines	ENVIRONMENT	fallback	[]	%1$s was poked to death by prickly vines

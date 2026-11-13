@@ -1,0 +1,22 @@
+{
+  "adaptationwheel_meta_ui": "coremods/meta_client_ui.js",
+  "adaptationwheel_t2s": "coremods/t2s_diseases.js",
+  "adaptationwheel_jujutsu": "coremods/jujutsu_techniques.js",
+  "adaptationwheel_mod_attacks": "coremods/mod_attacks.js",
+  "adaptationwheel_mod_hazards": "coremods/mod_hazards.js",
+  "adaptationwheel_mod_effects": "coremods/mod_effects.js",
+  "adaptationwheel_damage_scopes": "coremods/damage_scopes.js",
+  "adaptationwheel_mod_controls": "coremods/mod_controls.js",
+  "adaptationwheel_projectile_scopes": "coremods/projectile_scopes.js",
+  "adaptationwheel_stack_limits": "coremods/stack_limits.js",
+  "adaptationwheel_autonomous_health": "coremods/autonomous_health.js",
+  "adaptationwheel_adaptive_states": "coremods/adaptive_states.js",
+  "adaptationwheel_effect_dispatch": "coremods/effect_dispatch.js",
+  "adaptationwheel_extra_effects": "coremods/extra_effects.js",
+  "adaptationwheel_corpus_states": "coremods/corpus_states.js",
+  "adaptationwheel_rest_adaptations": "coremods/rest_adaptations.js",
+  "adaptationwheel_movement_adaptations": "coremods/movement_adaptations.js",
+  "adaptationwheel_item_adaptations": "coremods/item_adaptations.js",
+  "adaptationwheel_view_adaptations": "coremods/view_adaptations.js",
+  "adaptationwheel_travel_adaptations": "coremods/travel_adaptations.js"
+}

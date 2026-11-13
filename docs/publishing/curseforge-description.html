@@ -1,0 +1,60 @@
+<p><strong>Wear the wheel. Get hurt. Never be hurt the same way again.</strong></p>
+
+<p>The Adaptation Wheel is a golden ring worn in the helmet slot. Everything that damages you starts its own adaptation: a zombie's bite, a blaze's fireball, a boss ability from any mod, poison, hunger, freezing, cave darkness. Each adaptation runs through four stages, <strong>20 % &rarr; 40 % &rarr; 70 % &rarr; 100 % protection</strong>, and every repeat hit of the same source makes the current stage tick faster (+30 % speed per hit). When a stage ends, the wheel clicks one turn, plays a sound and heals you to full.</p>
+
+<p>Against bosses (100 HP or more) there is a fifth stage, <strong>Adaptation to Existence</strong>: the wheel spins without stopping for 200 seconds, and then you are immune to that boss and kill it in one hit, even with a bare fist.</p>
+
+<h2>Highlights</h2>
+<ul>
+<li><strong>Adapts to anything.</strong> Every mob species, damage type, harmful effect and condition, vanilla or modded, gets its own adaptation with its own timer. The catalogue lists 192 entries in a plain game and over 1,100 with a large modpack.</li>
+<li><strong>Local analyzer, no internet.</strong> Registries, damage-type tags, names, observed hits and a table of 428 damage types from 616 mods tell the wheel whether an attack is fire, magic, a projectile, poison, light, electricity and so on: 14 categories, each with its own stage times. If the analyzer is unsure, press <strong>K</strong> in the menu and correct the category yourself. <code>/adaptation why</code> explains every decision.</li>
+<li><strong>Three learning modes.</strong> <em>Base only</em>, <em>Learns in combat</em> (remembers real hits and how protection worked) and <em>Combat + world study</em> (reads the damage types and effects of installed mods ahead of time). The <code>trained</code> build ships 506 reviewed hints for modded mobs and attacks.</li>
+<li><strong>45 non-combat adaptations.</strong> The wheel also learns the small annoyances: sleeping by day, phantoms, &laquo;Too expensive!&raquo; anvils, broken tools (fully restored at stage IV), an empty quiver, waiting at the furnace or in a Nether portal, water in the Nether, enderman gaze, piglins, villager prices, creeper-wrecked buildings, murky water, sight through lava, a laptop on battery, the world border, an overfull inventory (unlimited stacks at stage IV), crashes, network loss, AFK and more. Every one has its own switch.</li>
+<li><strong>Low FPS adaptation.</strong> When your FPS stays under 60 the wheel learns that too. Stage IV unlocks the embedded <strong>Adapt Boost</strong> optimizer (F8): glyph, particle, entity, memory and render-path optimisations for Forge, tested with and without OptiFine.</li>
+<li><strong>Landscape memory.</strong> Visited terrain is archived by the embedded <strong>Distant Horizons 3.3.3</strong>; after stage IV the places you have been to are drawn far beyond render distance.</li>
+<li><strong>Sword of Extermination.</strong> 10 damage, &times;2 to undead, &times;4 to mobs you pick (each with its own multiplier), parry and projectile deflection against attackers you have adapted to, and <strong>World Slash</strong>: after adapting to the existence of any boss, a 64-block cut through walls that deals 300 HP (150 hearts) through armor and cuts blocks (45 s cooldown).</li>
+<li><strong>Nine looks.</strong> Golden Wheel, Clockwork Gear, Ice Crown, Armillary Sphere, Event Horizon, Ouroboros, Storm Ring, Malevolent Shrine (blades flash around you and cut the scenery, purely visual) and Infinite Void (an information stream over nearby mobs, star dust and rings). Other players with the mod see your look.</li>
+<li><strong>A proper menu.</strong> <strong>J</strong> opens the Wheel Summary: what finishes next, protection per category, weak spots and a session journal; a catalogue with search and filters; details with analysis, history and a settings fold; a HUD with the running adaptations; 8 advancements; <code>/adaptation</code> commands; full Configured support. Keyboard friendly, scales from a small window to ultrawide.</li>
+</ul>
+
+<h2>Installation</h2>
+<ol>
+<li>Minecraft Java <strong>1.20.1</strong>, <strong>Forge 47.4.0 or newer</strong>, <strong>Java 17</strong>.</li>
+<li>Download <strong>one</strong> jar and put it into <code>mods</code>:
+<ul>
+<li><code>adaptation-wheel-1.20.1-4.48.1-trained.jar</code> &mdash; recommended; includes the prepared knowledge base for modded mobs and attacks.</li>
+<li><code>adaptation-wheel-1.20.1-4.48.1-untrained.jar</code> &mdash; the same mod without the starting base; the analyzer relies on game data and your own fights.</li>
+</ul></li>
+<li>Remove any older wheel jar: all variants share one mod ID.</li>
+<li>Craft the wheel from 8 gold ingots around an ender pearl (<code>/give @s adaptationwheel:wheel</code>), right-click to wear it, press <strong>J</strong> for the menu.</li>
+</ol>
+
+<p>Adapt Boost and Distant Horizons are already inside the jar. <strong>Do not install a second copy of Distant Horizons.</strong> No other mod is required; <strong>Configured</strong> (2.2.3 tested) gives a graphical settings screen for everything.</p>
+
+<p><strong>Servers:</strong> install the same jar on the server and on every client; versions must match. The optimizer is client-side and does nothing on a dedicated server.</p>
+
+<p><strong>OptiFine:</strong> works with OptiFine 1.20.1 HD U I6_pre6 (the author's own setup). Under OptiFine the landscape archive is still recorded, but Distant Horizons' far terrain is not drawn. Looks and world effects were checked with 17 shader packs.</p>
+
+<p>The <code>-online</code> variants add an experimental advisor that can call an external OpenAI-compatible API if you configure an endpoint and provide a key in an environment variable; by default they make no requests and behave exactly like the offline variants.</p>
+
+<h2>Compatibility</h2>
+<p>Any mod's damage types, mobs and effects are picked up automatically through Forge events and registries. Extra handling exists for Jujutsu Craft v51 (techniques, Infinity), Try 2 Survive, Ice and Fire, Advent of Ascension 3, Twilight Forest, First Aid, Alex's Caves, Tough As Nails, SanityDim, Mekanism, NuclearCraft, Dragon Survival, Mana and Artifice, Blood Magic, Simply Swords, Supplementaries, Curios, Sophisticated Backpacks, MrCrayfish's Guns and Scorched Guns, and mods that write health directly instead of dealing damage. Every release is run in a real client with a 24-mod test pack and with the author's 87-mod pack.</p>
+
+<p>Mod and datapack authors can set an exact category for an opaque damage type with a tag: <code>data/adaptationwheel/tags/damage_type/adaptation/&lt;category&gt;.json</code>, where the category is one of fire, physical, magic, effect, hunger, cold, darkness, environment, projectile, explosion, light, electric, poison, suffocation.</p>
+
+<p>Languages: English and Russian.</p>
+
+<h2>What's bundled (licences)</h2>
+<ul>
+<li>The wheel itself: <strong>MIT</strong>.</li>
+<li><strong>Adapt Boost 1.7.0</strong> (mod ID <code>pashaboost</code>): MIT, with two ModernFix-derived classes under LGPL-3.0-or-later and FerriteCore-derived memory code under MIT. Its sources are in the repository.</li>
+<li><strong>Distant Horizons 3.3.3</strong> by James Seibel and contributors: LGPL-3.0, included unchanged, with its licences and sources.</li>
+</ul>
+<p>Full details, hashes and the source archives: <code>THIRD-PARTY.md</code> in the repository.</p>
+
+<h2>Source and issues</h2>
+<ul>
+<li>Source code and documentation: <a href="https://github.com/pashapasha94237-stack/adaptation-wheel">github.com/pashapasha94237-stack/adaptation-wheel</a></li>
+<li>Bug reports and requests: <a href="https://github.com/pashapasha94237-stack/adaptation-wheel/issues">GitHub issues</a></li>
+<li>Author: Pasha. Every release is checked with unit tests, 191 Forge GameTests and scripted real-client runs; the records are the <code>VALIDATION-*.md</code> files in the repository.</li>
+</ul>

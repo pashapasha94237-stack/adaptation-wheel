@@ -1,0 +1,19 @@
+{
+  "parent": "adaptationwheel:root",
+  "display": {
+    "icon": {"item": "adaptationwheel:extermination_sword"},
+    "title": {"translate": "advancements.adaptationwheel.sword.title"},
+    "description": {"translate": "advancements.adaptationwheel.sword.description"},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {"items": [{"items": ["adaptationwheel:extermination_sword"]}]}
+    }
+  },
+  "requirements": [["has_sword"]]
+}
