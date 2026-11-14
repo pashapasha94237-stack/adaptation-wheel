@@ -2395,5 +2395,6 @@
   "item.adaptationwheel.extermination_sword.unlock1": "Unlocked by stage 5 of any boss with 100+ HP,",
   "item.adaptationwheel.extermination_sword.unlock2": "pierces Infinity.",
   "gui.adaptationwheel.benefit.inactive_unequipped": "While the wheel is not worn, the protection does not work.",
-  "gui.adaptationwheel.benefit.inactive_off": "While the wheel is switched off, the protection does not work."
+  "gui.adaptationwheel.benefit.inactive_off": "While the wheel is switched off, the protection does not work.",
+  "meta.adaptationwheel.changelog.4.49.1": "World Slash travels horizontally at eye height, even when looking up or down."
 }

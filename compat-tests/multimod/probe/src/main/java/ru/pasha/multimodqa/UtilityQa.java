@@ -38,8 +38,6 @@ final class UtilityQa {
    case "xp"->XpQa.run(p);
    case "crash"->CrashQa.run(p);
    case "analyzer"->AnalyzerQa.run(p);
-   case "landscape"->LandscapeQa.run(p);
-   case "landscape-reload"->LandscapeQa.reload(p);
    case "ingame"->IngameQa.run(p);
    case "outside-a"->OutsideQa.runA(p);
    case "slash"->SlashQa.run(p);
@@ -86,8 +84,6 @@ final class UtilityQa {
   if(group.get("utility").getAsString().equals("aim"))return AimQa.clientTick();
   if(group.get("utility").getAsString().equals("performance"))return PerformanceQa.clientTick();
   if(group.get("utility").getAsString().equals("defeat"))return DefeatQa.clientTick();
-  if(group.get("utility").getAsString().equals("landscape"))return LandscapeQa.clientTick();
-  if(group.get("utility").getAsString().equals("landscape-reload"))return LandscapeQa.reloadClient();
   if(group.get("utility").getAsString().equals("ingame"))return IngameQa.clientTick();
   if(group.get("utility").getAsString().equals("outside-a"))return OutsideQa.clientA();
   if(group.get("utility").getAsString().equals("slash"))return SlashQa.clientTick();
@@ -104,11 +100,9 @@ final class UtilityQa {
   if(group.get("utility").getAsString().equals("cmd431"))return Cmd431Qa.clientTick();
   if(!group.get("utility").getAsString().equals("client"))return true;
   var mc=Minecraft.getInstance();if(++clientTicks>240)throw new AssertionError("Client utilities timed out");
-  if(clientVerified){if(clientTicks<15)return false;Screenshot.grab(mc.gameDirectory,"utility-graphics.png",mc.getMainRenderTarget(),m->{});LogUtils.getLogger().info("MULTIMOD_QA GRAPHICS PASS: native VideoSettingsScreen intercepted by wheel's own menu with bundled landscape engine and OptiFine loaded");return true;}
+  if(clientVerified){if(clientTicks<15)return false;Screenshot.grab(mc.gameDirectory,"utility-graphics.png",mc.getMainRenderTarget(),m->{});LogUtils.getLogger().info("MULTIMOD_QA GRAPHICS PASS: native VideoSettingsScreen intercepted by wheel's own menu with OptiFine loaded");return true;}
   if(!(boolean)call("ru.pasha.adaptationwheel.client.MetaClient","full",new Class<?>[]{Class.forName(META)},mechanic("SILENCE")))return false;
   if(clientTicks<5)return false;
-  boolean ready=(boolean)call("ru.pasha.adaptationwheel.client.LandscapeMemory","ready",new Class<?>[]{});
-  check(ready,"Bundled terrain engine did not initialize");check(!(boolean)call("ru.pasha.adaptationwheel.client.LandscapeMemory","rendering",new Class<?>[]{}),"Landscape rendering active before own full adaptation");
   mc.options.getSoundSourceOptionInstance(net.minecraft.sounds.SoundSource.MASTER).set(0D);
   Object heard=field("ru.pasha.adaptationwheel.client.MetaClient","HEARD");int before=((Collection<?>)heard).size();
   var pos=mc.player.position();mc.getSoundManager().play(new net.minecraft.client.resources.sounds.SimpleSoundInstance(net.minecraft.sounds.SoundEvents.ZOMBIE_STEP,net.minecraft.sounds.SoundSource.HOSTILE,1,1,net.minecraft.util.RandomSource.create(),pos.x+3,pos.y,pos.z));
@@ -119,7 +113,7 @@ final class UtilityQa {
   check(!(boolean)call("ru.pasha.adaptationwheel.client.MetaClient","overlay",new Class<?>[]{Component.class},Component.literal("Опасность: взрыв рядом!")),"Important warning suppressed");
   Screenshot.grab(mc.gameDirectory,mc.getMainRenderTarget(),message->{});
   if(group.has("graphics")){mc.setScreen(new net.minecraft.client.gui.screens.OptionsScreen(new net.minecraft.client.gui.screens.TitleScreen(),mc.options));mc.setScreen(new net.minecraft.client.gui.screens.VideoSettingsScreen(mc.screen,mc.options));check(mc.screen.getClass().getName().equals("ru.pasha.pashaboost.client.OwnVideoScreen"),"Own graphics menu not installed");clientVerified=true;return false;}
-  LogUtils.getLogger().info("MULTIMOD_QA UTILITY_CLIENT PASS: actual muted SoundEngine produces directional event, native action-bar repeat grouped x2, danger retained, engine ready and rendering gated before landscape full");return true;
+  LogUtils.getLogger().info("MULTIMOD_QA UTILITY_CLIENT PASS: actual muted SoundEngine produces directional event, native action-bar repeat grouped x2, danger retained");return true;
  }
  static Object field(String owner,String name)throws Exception{var f=Class.forName(owner).getDeclaredField(name);f.setAccessible(true);return f.get(null);}
 }

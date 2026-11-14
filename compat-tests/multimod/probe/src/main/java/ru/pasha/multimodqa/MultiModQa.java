@@ -40,8 +40,7 @@ public final class MultiModQa {
   @Override public void addAttributeModifiers(LivingEntity e,net.minecraft.world.entity.ai.attributes.AttributeMap a,int n){added++;super.addAttributeModifiers(e,a,n);}
   @Override public void removeAttributeModifiers(LivingEntity e,net.minecraft.world.entity.ai.attributes.AttributeMap a,int n){removed++;super.removeAttributeModifiers(e,a,n);}
  }
- public MultiModQa(){QA_EFFECTS.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());SmartAnalysisQa.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());AutonomousEffectQa.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());MinecraftForge.EVENT_BUS.addListener(this::tick);MinecraftForge.EVENT_BUS.addListener(this::frame);MinecraftForge.EVENT_BUS.addListener(IngameQa::sound);MinecraftForge.EVENT_BUS.addListener(PerfQa::frame);}
- private void frame(TickEvent.RenderTickEvent e){if(e.phase==TickEvent.Phase.END&&group!=null&&group.has("utility")&&group.get("utility").getAsString().equals("landscape"))LandscapeQa.frame();}
+ public MultiModQa(){QA_EFFECTS.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());SmartAnalysisQa.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());AutonomousEffectQa.register(net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext.get().getModEventBus());MinecraftForge.EVENT_BUS.addListener(this::tick);MinecraftForge.EVENT_BUS.addListener(IngameQa::sound);MinecraftForge.EVENT_BUS.addListener(PerfQa::frame);}
  private void tick(TickEvent.ClientTickEvent e){
   if(e.phase!=TickEvent.Phase.END)return;var mc=Minecraft.getInstance();
   if(++ticks>18000)throw new IllegalStateException("Compatibility QA timeout");

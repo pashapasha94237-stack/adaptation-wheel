@@ -40,7 +40,7 @@ import ru.pasha.adaptationwheel.item.ExterminationSwordItem;
  */
 public final class WorldSlash {
     public static final String MODE="AdaptationWorldSlash";
-    public static final double LENGTH=64,SPAN=10,THICKNESS=3,TILT=35;
+    public static final double LENGTH=64,SPAN=10,THICKNESS=3;
     public static final int COOLDOWN=45*20;
     /** 150 hearts. */
     public static final float DAMAGE=300;
@@ -81,8 +81,9 @@ public final class WorldSlash {
         if(!event.getEntity().level().isClientSide&&isAttack(event.getSource()))event.setAmount(DAMAGE);
     }
     public static SlashPlane plane(ServerPlayer player){
-        var eye=player.getEyePosition();var look=player.getLookAngle();
-        return SlashPlane.of(eye.x,eye.y,eye.z,look.x,look.y,look.z,TILT,LENGTH,SPAN,THICKNESS);
+        var eye=player.getEyePosition();
+        double yaw=Math.toRadians(player.getYRot());
+        return SlashPlane.of(eye.x,eye.y,eye.z,-Math.sin(yaw),0,Math.cos(yaw),0,LENGTH,SPAN,THICKNESS);
     }
     public static void cast(ServerPlayer player,ItemStack stack,InteractionHand hand) {
         if(hand!=InteractionHand.MAIN_HAND||!player.getMainHandItem().equals(stack)

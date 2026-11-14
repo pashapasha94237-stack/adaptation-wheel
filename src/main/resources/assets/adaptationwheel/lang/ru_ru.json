@@ -2395,5 +2395,6 @@
   "item.adaptationwheel.extermination_sword.unlock1": "Открывается этапом 5 любого босса от 100 HP,",
   "item.adaptationwheel.extermination_sword.unlock2": "пробивает Бесконечность.",
   "gui.adaptationwheel.benefit.inactive_unequipped": "Пока колесо не надето, защита не действует.",
-  "gui.adaptationwheel.benefit.inactive_off": "Пока колесо выключено, защита не действует."
+  "gui.adaptationwheel.benefit.inactive_off": "Пока колесо выключено, защита не действует.",
+  "meta.adaptationwheel.changelog.4.49.1": "Мировой разрез проходит горизонтально на высоте взгляда, даже если смотреть вверх или вниз."
 }
