@@ -56,8 +56,8 @@ public final class AdaptationConfig {
             .translation("config.adaptationwheel.sword_mob_multipliers")
             .defineListAllowEmpty(List.of("mobMultipliers"),List::of,SwordSettings::validMultiplierRule);
         WORLD_SLASH_CUTS_BLOCKS=b.comment("World Slash also cuts the blocks along its plane (no drops). Unbreakable blocks, containers, fluids and protected areas are skipped.",
-                "Renamed from worldSlashCutsBlocks in 4.17.2 so the new default (on) applies to worlds opened with 4.17.1.")
-            .translation("config.adaptationwheel.world_slash_cuts_blocks").define("worldSlashBreaksBlocks",true);
+                "Enable this setting to allow block destruction in this world.")
+            .translation("config.adaptationwheel.world_slash_cuts_blocks").define("worldSlashBreaksBlocksOptIn",false);
         b.pop();
         b.translation("config.adaptationwheel.bosses").push("bosses");
         EXISTENCE_ENABLED=b.comment("Enable the fifth existence adaptation stage for bosses.",
