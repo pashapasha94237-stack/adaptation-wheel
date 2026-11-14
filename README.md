@@ -86,7 +86,7 @@ The mod ships as **one jar**: the wheel, the sword, and **Adapt Boost 1.7.0** (o
 
 - Craft: quartz block, string, end rod, netherite ingot (pattern ` Q ` / `SQS` / `ENE`). 10 damage, **×2 to undead, ×4 to mobs you choose** (each can have its own multiplier in Configured). Worn on the forearm in first person.
 - **Parry:** hold right-click to deflect melee strikes and projectiles of an attacker you have adapted to from stage I (the wheel must be worn).
-- **World Slash** (Shift + right-click switches the mode): unlocked by stage V of any boss. A 64-block-long, 20-block-wide horizontal plane at eye height through walls deals exactly **300 HP (150 hearts)** to every target through armour, resistance and absorption, cuts blocks (configurable), costs 3 durability, 45 s cooldown. It pierces Jujutsu Craft's Infinity.
+- **World Slash** (Shift + right-click switches the mode): unlocked by stage V of any boss. A 64-block-long, 20-block-wide horizontal plane at eye height through walls deals exactly **300 HP (150 hearts)** to every target through armour, resistance and absorption, leaves blocks intact by default (enable worldSlashBreaksBlocksOptIn to cut blocks), costs 3 durability, 45 s cooldown. It pierces Jujutsu Craft's Infinity.
 
 ### Low FPS → Adapt Boost
 
