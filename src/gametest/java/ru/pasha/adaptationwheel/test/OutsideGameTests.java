@@ -136,7 +136,10 @@ public final class OutsideGameTests {
         var p=player(h);p.setPos(base.getX()+.5,base.getY(),base.getZ()+.5);p.setYRot(0);p.setXRot(0);p.yHeadRot=0;
         var stone=net.minecraft.world.level.block.Blocks.STONE.defaultBlockState();
         for(int x=-5;x<=5;x++)for(int y=-3;y<=7;y++)level.setBlockAndUpdate(base.offset(x,y,7),stone);
+        p.setXRot(-45);
         var plane=WorldSlash.plane(p);
+        check(h,plane.point(64,10)[1]==plane.oy&&plane.point(64,-10)[1]==plane.oy,
+                "World Slash must stay horizontal when the caster looks up");
         double[] c=plane.point(7.5,0),edge=plane.point(7.5,3.5);
         var chestPos=net.minecraft.core.BlockPos.containing(c[0],c[1],c[2]);var bedrockPos=net.minecraft.core.BlockPos.containing(edge[0],edge[1],edge[2]);
         level.setBlockAndUpdate(chestPos,net.minecraft.world.level.block.Blocks.CHEST.defaultBlockState());
