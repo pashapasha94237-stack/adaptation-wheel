@@ -68,7 +68,6 @@ public final class AdaptationWheel {
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.VoidTextAdaptation.class);
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.OutsideServer.class);
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.DefeatMemory.class);
-        MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.LandscapeServerPolicy.class);
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.CombatObserver.class);
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.GuidedShots.class);
         ru.pasha.adaptationwheel.server.GuidedShots.registerGunEvents();

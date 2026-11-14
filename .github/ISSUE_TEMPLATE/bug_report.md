@@ -9,7 +9,7 @@ assignees: ""
 <!-- English or Russian is fine. / Можно писать по-русски. -->
 
 **Wheel version and file**
-e.g. 4.48.1, `adaptation-wheel-1.20.1-4.48.1-trained.jar`
+e.g. 4.49.0, `adaptation-wheel-1.20.1-4.49.0-trained.jar`
 
 **Minecraft / Forge / Java**
 e.g. 1.20.1 / 47.4.0 / Java 17.0.x

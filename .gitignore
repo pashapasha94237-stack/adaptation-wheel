@@ -29,6 +29,9 @@ embedded/pasha-boost-*.jar
 embedded/adapt-boost-1.20.1-forge-1.6.*.jar
 embedded-src/pasha-boost-*.zip
 embedded-src/adapt-boost-1.20.1-forge-1.6.*.zip
+# Distant Horizons was bundled until 4.48.1 (the public 4.48.1 commit still has it)
+embedded/distant-horizons-*.jar
+embedded-src/distant-horizons-*.zip
 
 # Third-party mod jars, extracted classes and QA run folders must never be committed
 compat-tests/**/*.jar

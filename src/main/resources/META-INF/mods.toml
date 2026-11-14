@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="MIT (wheel); bundled Adapt Boost MIT with LGPL-3.0-or-later parts; bundled Distant Horizons LGPL-3.0, see META-INF/THIRD-PARTY.md"
+license="MIT (wheel); bundled Adapt Boost MIT with LGPL-3.0-or-later parts, see META-INF/THIRD-PARTY.md"
 issueTrackerURL="https://github.com/pashapasha94237-stack/adaptation-wheel/issues"
 
 [[mods]]

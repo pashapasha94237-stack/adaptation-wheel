@@ -45,6 +45,7 @@ public final class AdaptationEvents {
             for (int i=0;i<list.size();i++) {
                 CompoundTag entry = list.getCompound(i);
                 String key=migrateKey(entry.getString("Key"));
+                if(RETIRED.contains(key))continue;
                 AdaptationProfile profile=AdaptationProfile.forKey(key,entry.getBoolean("Boss"));
                 if(entry.contains("Profile")) try { profile=AdaptationProfile.valueOf(entry.getString("Profile")); }
                     catch(IllegalArgumentException ignored) { }
@@ -61,12 +62,13 @@ public final class AdaptationEvents {
         }
         Set<String> complete = new LinkedHashSet<>();
         ListTag completed = tag.getList("Completed",Tag.TAG_STRING);
-        for (int i=0;i<completed.size();i++) complete.add(migrateKey(completed.getString(i)));
+        for (int i=0;i<completed.size();i++) { String key=migrateKey(completed.getString(i)); if(!RETIRED.contains(key))complete.add(key); }
         Map<String,Integer> pending = new LinkedHashMap<>();
         ListTag list = tag.getList("Pending",Tag.TAG_COMPOUND);
         for (int i=0;i<list.size();i++) {
             CompoundTag e = list.getCompound(i);
-            pending.put(migrateKey(e.getString("Category")),e.getInt("Elapsed"));
+            String key=migrateKey(e.getString("Category"));
+            if(!RETIRED.contains(key))pending.put(key,e.getInt("Elapsed"));
         }
         return AdaptationState.restore(enabled,complete,pending,tag.getLong("Revision"));
     }
@@ -98,6 +100,8 @@ public final class AdaptationEvents {
         int[] t=entry.getIntArray("AnalysisTimings");if(t.length!=5)return null;
         try{return new ru.pasha.adaptationwheel.core.StageDurations(t[0],t[1],t[2],t[3],t[4]);}catch(IllegalArgumentException invalid){return null;}
     }
+    /** Adaptations that no longer exist; their saved rows are dropped on load (landscape memory left with Distant Horizons in 4.49.0). */
+    static final Set<String> RETIRED=Set.of("environment:landscape_memory");
     static String migrateKey(String key) {
         return switch(key) {
             case "damage:minecraft:starve" -> AdaptationProfile.HUNGER_KEY;

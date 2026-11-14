@@ -2,9 +2,9 @@ package ru.pasha.adaptationwheel.core;
 
 /**
  * The Infinite Void's effects around a player wearing it (design infinite-void-world-2026-11-10 rev 2): a stream of
- * flickering noise over every mob near the wheel, star dust drawn into its black core, and a blue ring closing in on the
- * feet while a red one spreads out of them. Pure arithmetic, the mock-up's numbers and dice (FNV-1a and its LCG, so a
- * seed gives the same glyph, star and offset as there); the client draws it.
+ * flickering noise over every mob near the wheel and star dust drawn into its black core (the design's blue and red
+ * rings round the feet were removed in 4.49.0). Pure arithmetic, the mock-up's numbers and dice (FNV-1a and its LCG, so
+ * a seed gives the same glyph, star and offset as there); the client draws it.
  */
 public final class VoidWorldPlan {
     /** A mob this close to the wheel (blocks) gets the stream. */
@@ -22,12 +22,6 @@ public final class VoidWorldPlan {
     public static final int WHITE = 0xFFFFFF, CYAN = 0x9FE8FF, VIOLET = 0xB79BFF, RED = 0xFF6B78;
     public static final int STARS = 24;
     public static final double STAR_LIFE = 3.4;
-    /** Rings: out to this many blocks, every {@link #RING_PERIOD} s, running for {@link #RING_RUN} s. */
-    public static final double RING_MAX = 6, RING_PERIOD = 4, RING_RUN = 2;
-    /** The two faint trails behind each ring, seconds back. */
-    public static final double[] TRAILS = {0.16, 0.08};
-    /** The rings show violet while they are closer than this to each other (blocks). */
-    public static final double MEET_GAP = 1.2;
 
     private VoidWorldPlan() {
     }
@@ -165,52 +159,5 @@ public final class VoidWorldPlan {
     /** The cyan flash in the core as a spark dies, 0..1 (0 = none), from the last 7 % of its life. */
     public static double starFlash(double u) {
         return u > 0.93 ? Math.max(0, 1 - (u - 0.93) / 0.07) : 0;
-    }
-
-    // ------------------------------------------------------------------ rings
-
-    public static double smooth(double u) {
-        return u * u * (3 - 2 * u);
-    }
-
-    /** The rings' progress 0..1 in this period, or -1 in the pause. */
-    public static double ringU(double t) {
-        double local = ((t % RING_PERIOD) + RING_PERIOD) % RING_PERIOD;
-        return local < RING_RUN ? local / RING_RUN : -1;
-    }
-
-    /** The blue ring closes in: 6 blocks → the feet. */
-    public static double blueRadius(double u) {
-        return RING_MAX * (1 - smooth(u));
-    }
-
-    /** The red ring spreads out: the feet → 6 blocks. */
-    public static double redRadius(double u) {
-        return RING_MAX * smooth(u);
-    }
-
-    public static double blueAlpha(double u) {
-        return Math.min(1, u / 0.08);
-    }
-
-    /** Red fades out at the edge over the last 30 %. */
-    public static double redAlpha(double u) {
-        return Math.min(1, u / 0.08) * Math.max(0, Math.min(1, (1 - u) / 0.3));
-    }
-
-    /** How violet the meeting is, 0..1: the closer the rings, the more. */
-    public static double meeting(double u) {
-        double gap = Math.abs(blueRadius(u) - redRadius(u));
-        return gap < MEET_GAP ? (1 - gap / MEET_GAP) * Math.min(blueAlpha(u), redAlpha(u)) : 0;
-    }
-
-    /** The blue flash at the feet once the blue ring arrives, 0..1 of its growth (−1 = none). */
-    public static double landing(double u) {
-        return u > 0.85 ? (u - 0.85) / 0.15 : -1;
-    }
-
-    /** Segments around a ring of this radius: finer for a bigger one. */
-    public static int segments(double radius) {
-        return Math.max(24, (int) Math.round(radius * 14));
     }
 }

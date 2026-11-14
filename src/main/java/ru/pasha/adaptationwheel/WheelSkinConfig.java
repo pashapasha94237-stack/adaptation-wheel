@@ -7,7 +7,7 @@ import ru.pasha.adaptationwheel.core.WheelSkin;
 public final class WheelSkinConfig {
     public static final ForgeConfigSpec SPEC;
     public static final ForgeConfigSpec.EnumValue<WheelSkin> SKIN;
-    public static final ForgeConfigSpec.BooleanValue SHRINE_CUTS, VOID_STREAM, VOID_STARS, VOID_RINGS;
+    public static final ForgeConfigSpec.BooleanValue SHRINE_CUTS, VOID_STREAM, VOID_STARS;
     static {
         var b = new ForgeConfigSpec.Builder();
         SKIN = b.comment("How the worn wheel looks (picture only: stages, protection and sounds stay the same). "
@@ -26,10 +26,6 @@ public final class WheelSkinConfig {
         VOID_STARS = b.comment("Infinite Void look: about 24 sparks circle the wheel and are drawn into its black core.")
                 .translation("config.adaptationwheel.void_stars")
                 .define("voidStars", true);
-        VOID_RINGS = b.comment("Infinite Void look: a blue ring closes in on the feet while a red one spreads out, every 4 s "
-                        + "(picture only: nothing is pulled or pushed).")
-                .translation("config.adaptationwheel.void_rings")
-                .define("voidRings", true);
         SPEC = b.build();
     }
     private WheelSkinConfig() {}

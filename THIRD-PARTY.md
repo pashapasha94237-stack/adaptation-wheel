@@ -1,15 +1,19 @@
-# Licences and integrated components — Adaptation Wheel 4.48.1
+# Licences and integrated components — Adaptation Wheel 4.49.0
 
 The Adaptation Wheel's own code, data, models, textures, sounds and texts are
 released under the **MIT License** (see `LICENSE` in the repository root).
 This file lists everything in the installable JAR that is *not* the wheel's own
 work, with its licence, origin and the exact source that corresponds to it.
 
-The release is one installable JAR. Forge loads two further mods from inside it
-(Jar-in-Jar, `META-INF/jarjar/metadata.json`): the **Adapt Boost** optimizer and
-the **Distant Horizons** level-of-detail engine. Both keep their own mod IDs,
-licences, notices and configuration files. No notice or author attribution has
-been removed from either.
+The release is one installable JAR. Forge loads one further mod from inside it
+(Jar-in-Jar, `META-INF/jarjar/metadata.json`): the **Adapt Boost** optimizer. It
+keeps its own mod ID, licences, notices and configuration files. No notice or
+author attribution has been removed from it.
+
+Since 4.49.0 the wheel no longer bundles or uses Distant Horizons. Terrain data it
+recorded earlier (`DistantHorizons.sqlite` files) stays on disk and can be
+deleted by hand; Distant Horizons can still be installed as a separate mod.
+Adapt Boost's optional Distant Horizons lightmap optimisation only applies then.
 
 ## Adapt Boost 1.7.0 (mod ID `pashaboost`, formerly Pasha Boost)
 
@@ -32,30 +36,6 @@ been removed from either.
   further embedded engines. Replace the JAR in `embedded/` and rebuild the wheel to
   use a modified build; keep its version consistent with
   `src/main/resources/META-INF/jarjar/metadata.json` and `mods.toml`.
-
-## Distant Horizons 3.3.3 (mod ID `distanthorizons`)
-
-- By James Seibel and contributors, included **unchanged** as
-  `META-INF/jarjar/distant-horizons-3.3.3-1.20.1.jar`.
-- SHA-256: `a537a71171d935540b56b7598d0de2c106f6f5026336c713d89a1d9ea0ea14e3`.
-- Licence: **LGPL-3.0**. Its original metadata, author names, `LICENSE.txt`,
-  `LICENSE.LESSER.txt`, logo licence and nested dependency notices (for example
-  sqlite-jdbc) are retained inside that JAR.
-- Upstream: https://gitlab.com/distant-horizons-team/distant-horizons and
-  https://gitlab.com/distant-horizons-team/distant-horizons-core
-- Corresponding exact source, provided in the source distribution:
-  `embedded-src/distant-horizons-3.3.3-source.zip` (root commit
-  `575517f261dfd04e302a37719f1459e9b5633d9f`) and
-  `embedded-src/distant-horizons-core-3.3.3-source.zip` (coreSubProjects commit
-  `6c1be680011194b2cf04ef842ace40c50683b09c`). Extract both and put the core tree
-  into the root's `coreSubProjects` folder to inspect or rebuild it.
-- The wheel talks to Distant Horizons only through its public API from a separate
-  bridge (`landscape memory` adaptation): terrain of visited chunks is recorded
-  from the start, distant rendering is enabled only after that adaptation's
-  fourth stage. This is our integration policy, not a modification of Distant
-  Horizons. You may replace the engine JAR in `embedded/` with another build and
-  rebuild the wheel; no signing or installation check prevents replacement.
-  Do not install a second copy of Distant Horizons next to the wheel.
 
 ## Knowledge about other mods
 
@@ -82,7 +62,7 @@ been removed from either.
 
 ## Verifying the bundled components
 
-`package-release.ps1` refuses to package a release if the bundled Adapt Boost or
-Distant Horizons JAR differs from the hashes above, or if any of their licence
-files is missing. The hashes of the released wheel JARs themselves are listed in
+`package-release.ps1` refuses to package a release if the bundled Adapt Boost
+JAR differs from the hash above, or if any of its licence files is missing. The
+hashes of the released wheel JARs themselves are listed in
 `VALIDATION-<version>.md` and in `dist/adaptation-wheel-1.20.1-<version>-SHA256SUMS.txt`.

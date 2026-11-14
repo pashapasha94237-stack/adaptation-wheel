@@ -4,13 +4,13 @@
 
 [Русская версия](README.ru.md) · [Changelog (RU)](CHANGELOG.md) · [Releases](https://github.com/pashapasha94237-stack/adaptation-wheel/releases) · [Report a bug](https://github.com/pashapasha94237-stack/adaptation-wheel/issues)
 
-![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-5b8c3a) ![Forge 47.4+](https://img.shields.io/badge/Forge-47.4.0%2B-1f6feb) ![Java 17](https://img.shields.io/badge/Java-17-b07219) ![Version 4.48.1](https://img.shields.io/badge/version-4.48.1-d4a017) ![License MIT](https://img.shields.io/badge/license-MIT-green)
+![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-5b8c3a) ![Forge 47.4+](https://img.shields.io/badge/Forge-47.4.0%2B-1f6feb) ![Java 17](https://img.shields.io/badge/Java-17-b07219) ![Version 4.49.0](https://img.shields.io/badge/version-4.49.0-d4a017) ![License MIT](https://img.shields.io/badge/license-MIT-green)
 
 ![The adaptation menu (J): wheel summary, running adaptations, protection by category](docs/screenshots/menu-summary.jpg)
 
-Every damage source, mob species, harmful effect and condition, from vanilla or from any mod, gets its own adaptation. Four stages take it from **20 % to 100 % protection**; every repeat hit speeds the current stage up; bosses get a fifth stage that ends in immunity and a one-hit kill. A local analyzer (no internet, no language model) classifies attacks from any mod. The wheel also learns 45 non-combat annoyances, unlocks an embedded FPS optimizer, archives the landscape you have visited, and comes with the Sword of Extermination and nine looks.
+Every damage source, mob species, harmful effect and condition, from vanilla or from any mod, gets its own adaptation. Four stages take it from **20 % to 100 % protection**; every repeat hit speeds the current stage up; bosses get a fifth stage that ends in immunity and a one-hit kill. A local analyzer (no internet, no language model) classifies attacks from any mod. The wheel also learns 44 non-combat annoyances, unlocks an embedded FPS optimizer and comes with the Sword of Extermination and nine looks.
 
-The mod ships as **one jar**: the wheel, the sword, **Adapt Boost 1.7.0** (optimizer) and **Distant Horizons 3.3.3** (level-of-detail engine) are all inside.
+The mod ships as **one jar**: the wheel, the sword, and **Adapt Boost 1.7.0** (optimizer) are all inside. Distant Horizons is no longer bundled (since 4.49.0); you can still install it as a separate mod, but the wheel does not use it.
 
 ## Contents
 
@@ -92,20 +92,19 @@ The mod ships as **one jar**: the wheel, the sword, **Adapt Boost 1.7.0** (optim
 
 When your FPS stays between 1 and 59, the «Low FPS» adaptation runs. Stage IV unlocks the embedded **Adapt Boost 1.7.0** optimizer (mod ID `pashaboost`): **F8** opens its screen, **F9** runs an A/B measurement, **F10** toggles it. It contains, among other things: a FerriteCore-based memory port, direct glyph lookup, sign text culling, sampler-name and vertex-element caches, entity data lock elision, particle light sharing, primitive-array quad sorting, same-value XP orb merging, a frame cap while the window is unfocused, distant-mob culling and version-gated fixes for hotspots in Alex's Mobs, Twilight Forest, BrandonsCore and Mahou Tsukai. Every feature has a JVM opt-out (`-Dpashaboost.disable*`) and the mixin plugin stands down next to mods that replace the same thing (Embeddium, Sodium-based mods, ModernFix, Clumps, FerriteCore, Lithium, Oculus…). Tested with and without OptiFine; on a dedicated server it does nothing.
 
-### 45 non-combat adaptations
+### 44 non-combat adaptations
 
 All in the «Environment» category, each with its own switch in the menu and in Configured; a refusal by the game (a bed, an anvil, a bow without arrows…) starts or speeds up the stage.
 
-**Eight world mechanics**
+**Seven world mechanics**
 
 | Adaptation | Starts when | Stage IV |
 | --- | --- | --- |
 | World border | you reach the border | walk up to 64 blocks past it (personal) |
 | Notification noise | repeated safe notifications | exact repeats are grouped |
 | Inventory pressure | 33 of 36 slots full | **unlimited stacks** in your own inventory (up to 1 000 000 000 per slot) |
-| Landscape memory | chunks arrive | visited terrain is drawn far beyond render distance (embedded Distant Horizons; archived from stage I) |
 | Silent world | volume at 0 while a sound happens nearby | direction, caption, height of the source |
-| Memory pressure | 10 s of high heap load | LOD detail and background load are lowered |
+| Memory pressure | 10 s of high heap load | render distance drops by 2 chunks at a time (not below 6) while memory is short and returns after 30 calm seconds; garbage collection is never forced |
 | Low server TPS | 10 s of slow ticks | the wheel's own saves and packets are batched |
 | Memory of defeat | death after a fight | ghost trail of the last defeats and a warning at a familiar combo |
 
@@ -119,7 +118,7 @@ Details of every one: [UTILITY-MECHANICS.md](UTILITY-MECHANICS.md) (RU).
 
 ### Wheel looks
 
-Ctrl+K or the «Look» button: **Golden Wheel** (default), **Clockwork Gear**, **Ice Crown**, **Armillary Sphere** (every ring turns), **Event Horizon**, **Ouroboros**, **Storm Ring**, **Malevolent Shrine** (blades flash around you in waves and cut the scenery and nearby mobs; purely visual, can be switched off) and **Infinite Void** (its name and description are unreadable noise until a 20 s «adapt to the text» stage; an information stream rises over mobs within 10 blocks, star dust falls into the core, blue and red rings pulse on the ground). The screen shows a live preview on your own character. A look is purely visual, stored in the client config, and other players with the mod see it. Looks are box models in `src/main/resources/wheel_skins/*.json`, drawn through one rig; checked with 17 shader packs.
+Ctrl+K or the «Look» button: **Golden Wheel** (default), **Clockwork Gear**, **Ice Crown**, **Armillary Sphere** (every ring turns), **Event Horizon**, **Ouroboros**, **Storm Ring**, **Malevolent Shrine** (blades flash around you in waves and cut the scenery and nearby mobs; purely visual, can be switched off) and **Infinite Void** (its name and description are unreadable noise until a 20 s «adapt to the text» stage; an information stream rises over mobs within 10 blocks, star dust falls into the core). The screen shows a live preview on your own character. A look is purely visual, stored in the client config, and other players with the mod see it. Looks are box models in `src/main/resources/wheel_skins/*.json`, drawn through one rig; checked with 17 shader packs.
 
 ### Advancements, commands, integration
 
@@ -130,7 +129,7 @@ Ctrl+K or the «Look» button: **Golden Wheel** (default), **Clockwork Gear**, *
 
 ### Mod compatibility
 
-Any mod's damage types, mobs and effects are picked up through Forge events and registries. On top of that: Jujutsu Craft v51 (techniques, Infinity), Try 2 Survive (diseases), Ice and Fire, Advent of Ascension 3, Twilight Forest, First Aid (body-model health), Alex's Caves, Tough As Nails (thirst), SanityDim, Mekanism (radiation), NuclearCraft, Dragon Survival, Mana and Artifice, Blood Magic and Simply Swords (voluntary HP costs stay native), Supplementaries and Curios (quivers), Sophisticated Backpacks (anvil tab), MrCrayfish's Guns and Scorched Guns (guided bullets). An `AutonomousHealthGuard` covers mods that write health directly instead of dealing damage. Every release is run in a real client with a 24-mod test pack and with the author's 87-mod pack (with OptiFine HD U I6_pre6).
+Any mod's damage types, mobs and effects are picked up through Forge events and registries. On top of that: Jujutsu Craft v51 (techniques, Infinity), Try 2 Survive (diseases), Ice and Fire, Advent of Ascension 3, Twilight Forest, First Aid (body-model health), Alex's Caves, Tough As Nails (thirst), SanityDim, Mekanism (radiation), NuclearCraft, Dragon Survival, Mana and Artifice, Blood Magic and Simply Swords (voluntary HP costs stay native), Supplementaries and Curios (quivers), Sophisticated Backpacks (anvil tab), MrCrayfish's Guns and Scorched Guns (guided bullets). An `AutonomousHealthGuard` covers mods that write health directly instead of dealing damage. Releases are checked in a real client with a 24-mod test pack and with the author's 87-mod pack (with OptiFine HD U I6_pre6); each `VALIDATION-<version>.md` says what was run for that version.
 
 Datapack and mod authors can set an exact category for an opaque damage type without Java:
 
@@ -149,16 +148,17 @@ Tag names: `fire`, `physical`, `magic`, `effect`, `hunger`, `cold`, `darkness`, 
 
    | File | What it is |
    | --- | --- |
-   | `adaptation-wheel-1.20.1-4.48.1-trained.jar` | **Recommended.** Prepared knowledge base (506 hints) for modded mobs and attacks. |
-   | `adaptation-wheel-1.20.1-4.48.1-untrained.jar` | The same mod without the starting base. |
+   | `adaptation-wheel-1.20.1-4.49.0-trained.jar` | **Recommended.** Prepared knowledge base (506 hints) for modded mobs and attacks. |
+   | `adaptation-wheel-1.20.1-4.49.0-untrained.jar` | The same mod without the starting base. |
    | `…-trained-online.jar`, `…-untrained-online.jar` | Plus an experimental advisor that can call an external OpenAI-compatible API (off until you configure an endpoint and an API key in an environment variable; falls back to the local analyzer on any error). |
 
 2. Put it into `mods`. Remove any older wheel jar: every variant shares the mod ID `adaptationwheel`.
-3. Do **not** install a second copy of Distant Horizons or Adapt Boost; both are inside. Configured is optional.
-4. **Servers:** the same jar on the server and on every client; versions must match (network protocol 22 in 4.48.1).
-5. **OptiFine:** works with 1.20.1 HD U I6_pre6. The landscape archive is still recorded under OptiFine, but Distant Horizons' far terrain is not drawn.
+3. Do **not** install a second copy of Adapt Boost; it is inside. Configured is optional. Distant Horizons is not needed; it can be installed separately and runs on its own (once Adapt Boost is active, its optional lightmap optimisation for Distant Horizons applies too).
+4. **Servers:** the same jar on the server and on every client; versions must match (network protocol 23 in 4.49.0, so 4.48.x and 4.49.0 do not connect to each other).
+5. **OptiFine:** works with 1.20.1 HD U I6_pre6.
+6. **Updating from 4.48.x:** saved «Landscape memory» progress is dropped when you join a world. Terrain that Distant Horizons already recorded (`DistantHorizons.sqlite` files) stays on disk; delete it by hand if you do not need it.
 
-Checksums of every file are in `VALIDATION-4.48.1.md` and next to the release assets.
+Checksums of every file are in `VALIDATION-4.49.0.md` and next to the release assets.
 
 ## Configuration
 
@@ -168,7 +168,7 @@ Checksums of every file are in `VALIDATION-4.48.1.md` and next to the release as
 | `…/adaptationwheel-utility-server.toml` | switches and numbers of the non-combat adaptations, aim settings |
 | `…/adaptationwheel-learning-server.toml` | learning mode, definitions per second |
 | `config/adaptationwheel-fps-client.toml` | «Low FPS» progress |
-| `config/adaptationwheel-utility-client.toml` | landscape archive directory, memory threshold, defeat trail |
+| `config/adaptationwheel-utility-client.toml` | memory threshold, defeat trail |
 | `config/adaptationwheel-appearance-client.toml` | wheel look, Shrine cuts, Void effects |
 | `config/pashaboost-client.toml`, `config/pashaboost-common.toml` | Adapt Boost (also the F8 screen) |
 | `config/adaptationwheel-neural-common.toml` | `-online` variants only: endpoint, model, name of the key environment variable |
@@ -185,7 +185,7 @@ Requires JDK 17; the Gradle wrapper is included (ForgeGradle 6, Forge 1.20.1-47.
 .\gradlew.bat build -PneuralOnline=true            # online variant
 ```
 
-The embedded `embedded/adapt-boost-1.20.1-forge-1.7.0.jar` and `embedded/distant-horizons-3.3.3-1.20.1.jar` are copied into the jar as is (their sources are in `embedded-src/`). `release-4.48.1.ps1` builds all four variants with clean builds, checks that the embedded jars stayed byte-identical and writes jars, a sources zip and `SHA256SUMS` into `dist/`.
+The embedded `embedded/adapt-boost-1.20.1-forge-1.7.0.jar` is copied into the jar as is (its sources are in `embedded-src/`). `release-4.49.0.ps1` builds all four variants with clean builds, checks that the embedded jar stayed byte-identical and writes jars, a sources zip and `SHA256SUMS` into `dist/`.
 
 GameTests run separately and without the embedded jars:
 
@@ -200,7 +200,7 @@ The author builds offline with a local JDK in `.tools/` and a Gradle cache in `.
 ## Tests and QA
 
 - **Unit tests** of the pure core (`src/test`, task `coreTest`, part of `check`): state machine, analyzer rules, layouts over every GUI size, skin rig, summary raster, void text and more.
-- **191 Forge GameTests** (`src/gametest`): real server players, hits, effects, commands, advancements, utility adaptations, World Slash damage, network packets.
+- **192 Forge GameTests** (`src/gametest`): real server players, hits, effects, commands, advancements, utility adaptations, World Slash damage, network packets.
 - **Real-client probe runs** (`compat-tests/`, a Forge test mod that scripts the client, takes screenshots and checks the synced state) with and without OptiFine and in multi-mod packs. The other mods' jars are local inputs and are not part of the repository.
 - Every release has a `VALIDATION-<version>.md` with what was run and what was not.
 
@@ -220,7 +220,7 @@ src/main/resources/
   knowledge/  prepared knowledge base (trained build)
   data/, assets/  tags, advancements, recipes, textures, sounds, lang
 src/test, src/gametest   unit tests and GameTests
-embedded/, embedded-src/ bundled Adapt Boost and Distant Horizons with their sources
+embedded/, embedded-src/ bundled Adapt Boost with its sources
 compat-tests/            real-client QA harness and audits
 forge-1.16.5/            the old 4.0.0 port for Minecraft 1.16.5 (basic wheel only)
 docs/                    screenshots and publishing texts
@@ -231,7 +231,6 @@ CHANGELOG.md, VALIDATION-*.md, *-ANALYZER.md, UTILITY-MECHANICS.md   history and
 
 - Forge 1.20.1 only; no Fabric or NeoForge build. The 1.16.5 folder is an old minimal port.
 - The analyzer is a rule system with heuristics: a mod that bypasses Forge damage and effect events and writes its own private state may need a dedicated bridge. Positive effects declared HARMFUL by their author are treated as harmful.
-- Distant Horizons' far terrain is not drawn under OptiFine; shaders together with Distant Horizons are untested.
 - Adapt Boost is client-side; measured gains depend on the scene and the pack.
 - The online advisor is experimental and off by default.
 - Documentation beyond this README is in Russian.
@@ -240,7 +239,6 @@ CHANGELOG.md, VALIDATION-*.md, *-ANALYZER.md, UTILITY-MECHANICS.md   history and
 
 - The wheel's own code, data, models and texts: **MIT** ([LICENSE](LICENSE)).
 - **Adapt Boost 1.7.0:** MIT, with two ModernFix-derived classes under LGPL-3.0-or-later and FerriteCore-derived code under MIT; ideas credited to particle_core, Clumps, Dynamic FPS, ImmediatelyFast, Embeddium, Sodium, Lithium and MoreCulling.
-- **Distant Horizons 3.3.3** by James Seibel and contributors: LGPL-3.0, included unchanged with its licences; sources in `embedded-src/`.
 - Full notices, hashes and source pins: [THIRD-PARTY.md](THIRD-PARTY.md).
 - The looks «Malevolent Shrine» and «Infinite Void» are original models whose names reference *Jujutsu Kaisen*; no third-party assets are included. Minecraft is a trademark of Mojang/Microsoft; this is an unofficial mod.
 

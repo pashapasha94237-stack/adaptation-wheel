@@ -29,7 +29,7 @@ public final class MetaNetwork {
                 switch(action){case "compact"->InventoryPressure.compact(p);case "border"->MetaServer.cross(p);
                     case "inventory_open"->OutsideServer.inventory(p,true);case "inventory_close"->OutsideServer.inventory(p,false);default->{
                     MetaMechanic m=MetaMechanic.fromKey(action);
-                    if(m==MetaMechanic.NOISE||m==MetaMechanic.SILENCE||m==MetaMechanic.MEMORY||m==MetaMechanic.LANDSCAPE||m==MetaMechanic.LOGS||m==MetaMechanic.CONFIG||m==MetaMechanic.BATTERY)MetaServer.expose(p,m);
+                    if(m==MetaMechanic.NOISE||m==MetaMechanic.SILENCE||m==MetaMechanic.MEMORY||m==MetaMechanic.LOGS||m==MetaMechanic.CONFIG||m==MetaMechanic.BATTERY)MetaServer.expose(p,m);
                     // Vanilla blocks using an item on cooldown on the client; the server checks the claim itself.
                     if(m==MetaMechanic.COOLDOWN)ItemAdaptations.reportedCooldown(p);
                 }}

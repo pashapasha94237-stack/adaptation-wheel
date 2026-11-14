@@ -9,7 +9,6 @@ public final class VoidWorldPlanTest {
         dice();
         stream();
         stars();
-        rings();
         System.out.println("VoidWorldPlanTest passed");
     }
 
@@ -79,21 +78,6 @@ public final class VoidWorldPlanTest {
         }
         check(VoidWorldPlan.starAlpha(0) == 0 && VoidWorldPlan.starAlpha(0.5) == 1 && VoidWorldPlan.starAlpha(1) == 0, "a spark fades in and out");
         check(VoidWorldPlan.starFlash(0.9) == 0 && VoidWorldPlan.starFlash(0.94) > 0, "the core flashes as a spark dies");
-    }
-
-    private static void rings() {
-        check(VoidWorldPlan.ringU(0) == 0 && VoidWorldPlan.ringU(1) == 0.5 && VoidWorldPlan.ringU(2.5) == -1 && VoidWorldPlan.ringU(4.5) == 0.25,
-                "rings run 2 s, pause 2 s, every 4 s");
-        check(VoidWorldPlan.blueRadius(0) == 6 && VoidWorldPlan.blueRadius(1) == 0, "blue closes in from 6 blocks to the feet");
-        check(VoidWorldPlan.redRadius(0) == 0 && VoidWorldPlan.redRadius(1) == 6, "red spreads from the feet to 6 blocks");
-        check(VoidWorldPlan.blueRadius(0.5) == 3 && VoidWorldPlan.redRadius(0.5) == 3, "they meet 3 blocks out after 1 s");
-        check(VoidWorldPlan.meeting(0.5) > 0.9 && VoidWorldPlan.meeting(0.1) == 0 && VoidWorldPlan.meeting(0.9) == 0, "violet only at the meeting");
-        double violet = 0;
-        for (double t = 0; t < 2; t += 0.001) if (VoidWorldPlan.meeting(VoidWorldPlan.ringU(t)) > 0) violet += 0.001;
-        check(violet > 0.2 && violet < 0.4, "violet for about 0.3 s: " + violet);
-        check(VoidWorldPlan.redAlpha(1) == 0 && VoidWorldPlan.blueAlpha(1) == 1, "red fades at the edge");
-        check(VoidWorldPlan.landing(0.8) < 0 && Math.abs(VoidWorldPlan.landing(1) - 1) < 1e-9, "the blue flash at the feet");
-        check(VoidWorldPlan.segments(0.5) == 24 && VoidWorldPlan.segments(6) == 84, "ring segments");
     }
 
     private static void check(boolean condition, String message) {

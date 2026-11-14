@@ -28,7 +28,7 @@ public final class MetaClient {
     private static final Set<MetaMechanic> ENABLED=EnumSet.noneOf(MetaMechanic.class);
     private static final EnumMap<MetaMechanic,Long> SENT=new EnumMap<>(MetaMechanic.class);
     private static boolean equipped;
-    private static int ticks,seenChunks;
+    private static int ticks;
     private static final SustainedPressure HEAP_WINDOW=new SustainedPressure();
     private static double heapRatio;
     private static String noise="",warning="",trailDimension="";
@@ -50,12 +50,11 @@ public final class MetaClient {
         equipped=mc.player!=null&&mc.player.isAlive()&&state!=null&&state.enabled()&&state.equipped();ENABLED.clear();STAGES.clear();
         if(state!=null)for(var e:state.entries()){var m=MetaMechanic.fromKey(e.key());if(m!=null){STAGES.put(m,e.stage());if(e.enabled())ENABLED.add(m);}}
         for(var m:MetaMechanic.ALL)if(!STAGES.containsKey(m))ENABLED.add(m);
-        LandscapeMemory.tick();if(mc.level==null||mc.player==null||mc.isPaused()){HEAP_WINDOW.clear();return;}
+        if(mc.level==null||mc.player==null||mc.isPaused()){HEAP_WINDOW.clear();return;}
         if(ticks%20==0){var usage=ManagementFactory.getMemoryMXBean().getHeapMemoryUsage();long max=usage.getMax()>0?usage.getMax():Runtime.getRuntime().maxMemory();heapRatio=max>0?(double)usage.getUsed()/max:0;
             double threshold=MetaConfig.CLIENT.isLoaded()?MetaConfig.HEAP_PRESSURE.get():.85;
             if(HEAP_WINDOW.sample(System.nanoTime(),equipped&&heapRatio>=threshold,10_000_000_000L,3_000_000_000L))expose(MetaMechanic.MEMORY);
             OutsideClient.second(heapRatio,threshold);
-            if(equipped&&seenChunks>=4)expose(MetaMechanic.LANDSCAPE);
             if(full(MetaMechanic.BORDER)&&mc.screen==null&&mc.player.input.forwardImpulse>0&&Math.abs(mc.level.getWorldBorder().getDistanceToBorder(mc.player))<2){
                 var dir=mc.player.getLookAngle();var b=mc.level.getWorldBorder();double x=mc.player.getX(),z=mc.player.getZ();
                 boolean out=x<b.getMinX()||x>b.getMaxX()||z<b.getMinZ()||z>b.getMaxZ();
@@ -63,7 +62,6 @@ public final class MetaClient {
             }
         }
     }
-    @SubscribeEvent public static void chunk(net.minecraftforge.event.level.ChunkEvent.Load e){if(e.getLevel().isClientSide())seenChunks=Math.min(100,seenChunks+1);}
     public static boolean overlay(Component component){if(component==forwardedOverlay){forwardedOverlay=null;return false;}return message(component,false);}
     private static boolean message(Component component,boolean playerChat){
         if(!equipped||!active(MetaMechanic.NOISE)||playerChat)return false;
@@ -133,7 +131,7 @@ public final class MetaClient {
         for(int i=0;i<trail.size();i+=3){Vec3 p=trail.get(i);if(p.distanceToSqr(camera)>128*128)continue;net.minecraft.client.renderer.LevelRenderer.renderLineBox(pose,lines,p.x-.3,p.y,p.z-.3,p.x+.3,p.y+1.8,p.z+.3,.55F,.75F,1F,.24F);}
         pose.popPose();out.endBatch(net.minecraft.client.renderer.RenderType.lines());
     }
-    public static void logout(){equipped=false;ticks=seenChunks=0;HEAP_WINDOW.clear();heapRatio=0;STAGES.clear();ENABLED.clear();SENT.clear();HEARD.clear();NOTIFICATIONS.clear();forwardedOverlay=null;noise=warning="";trail=List.of();LandscapeMemory.logout();OutsideClient.logout();}
+    public static void logout(){equipped=false;ticks=0;HEAP_WINDOW.clear();heapRatio=0;STAGES.clear();ENABLED.clear();SENT.clear();HEARD.clear();NOTIFICATIONS.clear();forwardedOverlay=null;noise=warning="";trail=List.of();OutsideClient.logout();}
 
     @SubscribeEvent public static void inventory(net.minecraftforge.client.event.ScreenEvent.Render.Post e){
         if(!active(MetaMechanic.POCKET)||stage(MetaMechanic.POCKET)<1||!(e.getScreen() instanceof net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<?> screen))return;

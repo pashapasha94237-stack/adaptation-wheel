@@ -7,15 +7,11 @@ import net.minecraft.client.gui.Font;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.renderer.LightTexture;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.decoration.ArmorStand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.phys.shapes.Shapes;
-import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RenderLevelStageEvent;
 import net.minecraftforge.client.event.RenderLivingEvent;
@@ -42,10 +38,9 @@ import java.util.Set;
  * The Infinite Void's effects around every player this client sees wearing it (design infinite-void-world-2026-11-10
  * rev 2): lines of flickering noise rise over every mob within 10 blocks of the wheel, more of them the longer it stays,
  * and after 8 s the mob trembles and glyphs run down it; about 24 sparks circle the wheel and fall into its black core
- * with a cyan flash; every 4 s a blue ring closes in on the wearer's feet from 6 blocks while a red one spreads out of
- * them, violet where they meet. Picture only, on this client only: the tremble moves the drawn model, never the mob, and
- * nothing touches blocks, entities, the server or the network. Client config {@code voidStream}, {@code voidStars} and
- * {@code voidRings} turn each part off.
+ * with a cyan flash. Picture only, on this client only: the tremble moves the drawn model, never the mob, and nothing
+ * touches blocks, entities, the server or the network. Client config {@code voidStream} and {@code voidStars} turn each
+ * part off. The design's blue and red rings round the feet were removed in 4.49.0.
  */
 @Mod.EventBusSubscriber(modid = AdaptationWheel.MOD_ID, value = Dist.CLIENT)
 public final class VoidWorld {
@@ -54,16 +49,12 @@ public final class VoidWorld {
     /** Corners of a soft spot. */
     private static final int SPOT_SIDES = 10;
     private static final double[] SPOT_COS = new double[SPOT_SIDES + 1], SPOT_SIN = new double[SPOT_SIDES + 1];
-    /** How many blocks down the rings look for the ground under the feet. */
-    private static final int GROUND_DROP = 3;
     private static final String[] GLYPH_TEXT = new String[VoidWorldPlan.GLYPHS.length()];
     private static final Map<Integer, Stream> STREAMS = new HashMap<>();
     /** The tremble given to a model this frame, taken back after it is drawn. */
     private static final Map<Integer, double[]> SHAKEN = new HashMap<>();
     private static final long ORIGIN = System.nanoTime();
-    private static final BlockPos.MutableBlockPos PROBE = new BlockPos.MutableBlockPos();
     private static final Matrix4f GLYPH = new Matrix4f();
-    private static final boolean[] SKIP = new boolean[256];
     private static ClientLevel level;
 
     static {
@@ -120,10 +111,6 @@ public final class VoidWorld {
 
     static boolean starsOn() {
         return on(WheelSkinConfig.VOID_STARS);
-    }
-
-    static boolean ringsOn() {
-        return on(WheelSkinConfig.VOID_RINGS);
     }
 
     /** A player whose void this client draws: worn, the Infinite Void look, visible. */
@@ -213,8 +200,8 @@ public final class VoidWorld {
         if (event.getStage() != RenderLevelStageEvent.Stage.AFTER_PARTICLES || CutRibbon.shadowPass()) return;
         Minecraft mc = Minecraft.getInstance();
         if (mc.level == null || mc.level != level) return;
-        boolean stars = starsOn(), rings = ringsOn(), stream = streamOn() && !STREAMS.isEmpty();
-        if (!stars && !rings && !stream) return;
+        boolean stars = starsOn(), stream = streamOn() && !STREAMS.isEmpty();
+        if (!stars && !stream) return;
         Vec3 eye = event.getCamera().getPosition();
         Vector3f left = event.getCamera().getLeftVector(), up = event.getCamera().getUpVector();
         float partial = event.getPartialTick();
@@ -222,15 +209,12 @@ public final class VoidWorld {
         PoseStack pose = event.getPoseStack();
         Matrix4f m = pose.last().pose();
         MultiBufferSource.BufferSource buffers = mc.renderBuffers().bufferSource();
-        List<Player> wearers = stars || rings ? wearers(eye) : List.of();
+        List<Player> wearers = stars ? wearers(eye) : List.of();
         if (!wearers.isEmpty()) {
             VertexConsumer out = buffers.getBuffer(CutRibbon.type());
             // everything is relative to the eye: floats far from the world's origin would shake
-            for (Player player : wearers) {
-                Vec3 feet = player.getPosition(partial);
-                if (rings) rings(out, m, player, feet.subtract(eye), now);
-                if (stars) stars(out, m, left, up, player, centre(feet, player).subtract(eye), now);
-            }
+            for (Player player : wearers)
+                stars(out, m, left, up, player, centre(player.getPosition(partial), player).subtract(eye), now);
             buffers.endBatch(CutRibbon.type());
         }
         if (stream) {
@@ -358,90 +342,4 @@ public final class VoidWorld {
         }
     }
 
-    /** The blue ring closing in and the red one spreading out on the ground round the feet, violet where they meet. */
-    private static void rings(VertexConsumer out, Matrix4f m, Player player, Vec3 feet, double now) {
-        double u = VoidWorldPlan.ringU(now + player.getId() * 0.37);
-        if (u < 0) return;
-        Vec3 world = feet.add(Minecraft.getInstance().gameRenderer.getMainCamera().getPosition());
-        double ground = ground(world), gy = ground - world.y + feet.y + 0.015;
-        double blueR = VoidWorldPlan.blueRadius(u), redR = VoidWorldPlan.redRadius(u);
-        double aB = VoidWorldPlan.blueAlpha(u), aR = VoidWorldPlan.redAlpha(u);
-        for (int j = 0; j < VoidWorldPlan.TRAILS.length; j++) {
-            double back = u - VoidWorldPlan.TRAILS[j] / VoidWorldPlan.RING_RUN;
-            if (back < 0) continue;
-            ring(out, m, world, feet.x, gy, feet.z, VoidWorldPlan.blueRadius(back), 0.06, 0x2F6BFF, aB * (0.2 + 0.18 * j), ground);
-            ring(out, m, world, feet.x, gy, feet.z, VoidWorldPlan.redRadius(back), 0.06, 0xFF3B4A, aR * (0.2 + 0.18 * j), ground);
-        }
-        one(out, m, world, feet.x, gy, feet.z, blueR, aB, 0x8FB0FF, 0x2F6BFF, ground);
-        one(out, m, world, feet.x, gy, feet.z, redR, aR, 0xFF8C95, 0xFF2A3C, ground);
-        double f = VoidWorldPlan.meeting(u);
-        if (f > 0) {
-            double mid = (blueR + redR) / 2;
-            ring(out, m, world, feet.x, gy, feet.z, mid, 0.26, 0x05040C, f * 0.3, ground);
-            ring(out, m, world, feet.x, gy, feet.z, mid, 0.18, 0x9A5CFF, f * 0.8, ground);
-            ring(out, m, world, feet.x, gy, feet.z, mid, 0.05, 0xE0CCFF, f * 0.85, ground);
-        }
-        double land = VoidWorldPlan.landing(u);
-        if (land >= 0) flat(out, m, feet.x, feet.y + 0.12, feet.z, 0.3 + 0.5 * land, 0x5E8BFF, 0.6 * (1 - land));
-    }
-
-    /** One ring: a dark shadow under a soft glow, a bright line and a light core. */
-    private static void one(VertexConsumer out, Matrix4f m, Vec3 world, double x, double y, double z, double radius, double a, int core, int glow, double ground) {
-        ring(out, m, world, x, y, z, radius, 0.38, 0x05040C, a * 0.45, ground);
-        ring(out, m, world, x, y, z, radius, 0.3, glow, a * 0.24, ground);
-        ring(out, m, world, x, y, z, radius, 0.11, glow, a * 0.85, ground);
-        ring(out, m, world, x, y, z, radius, 0.04, core, a * 0.9, ground);
-    }
-
-    /** A flat band from radius−w to radius+w round (x, y, z), leaving out its pieces that would lie inside a block. */
-    private static void ring(VertexConsumer out, Matrix4f m, Vec3 world, double x, double y, double z, double radius, double w, int rgb, double alpha, double ground) {
-        if (alpha < 0.005 || radius < 0.02) return;
-        int n = Math.min(SKIP.length, VoidWorldPlan.segments(radius));
-        double inner = Math.max(0, radius - w), outer = radius + w;
-        float r = (rgb >> 16 & 255) / 255F, g = (rgb >> 8 & 255) / 255F, b = (rgb & 255) / 255F, a = (float) Math.min(1, alpha);
-        for (int i = 0; i < n; i++) {
-            double a0 = 2 * Math.PI * i / n, a1 = 2 * Math.PI * (i + 1) / n, am = (a0 + a1) / 2;
-            if (solid(world.x + Math.cos(am) * radius, ground + 0.5, world.z + Math.sin(am) * radius)) continue;
-            double c0 = Math.cos(a0), s0 = Math.sin(a0), c1 = Math.cos(a1), s1 = Math.sin(a1);
-            CutRibbon.vertex(out, m, x + c0 * inner, y, z + s0 * inner, r, g, b, a);
-            CutRibbon.vertex(out, m, x + c0 * outer, y, z + s0 * outer, r, g, b, a);
-            CutRibbon.vertex(out, m, x + c1 * outer, y, z + s1 * outer, r, g, b, a);
-            CutRibbon.vertex(out, m, x + c1 * inner, y, z + s1 * inner, r, g, b, a);
-        }
-    }
-
-    /** A soft flat spot on the ground. */
-    private static void flat(VertexConsumer out, Matrix4f m, double x, double y, double z, double radius, int rgb, double alpha) {
-        if (alpha < 0.005) return;
-        float r = (rgb >> 16 & 255) / 255F, g = (rgb >> 8 & 255) / 255F, b = (rgb & 255) / 255F, a = (float) Math.min(1, alpha);
-        for (int i = 0; i < SPOT_SIDES; i++) {
-            CutRibbon.vertex(out, m, x, y, z, r, g, b, a);
-            CutRibbon.vertex(out, m, x, y, z, r, g, b, a);
-            CutRibbon.vertex(out, m, x + SPOT_COS[i] * radius, y, z + SPOT_SIN[i] * radius, r, g, b, 0);
-            CutRibbon.vertex(out, m, x + SPOT_COS[i + 1] * radius, y, z + SPOT_SIN[i + 1] * radius, r, g, b, 0);
-        }
-    }
-
-    /** The top of the first solid block under the feet within a few blocks, or the feet themselves. */
-    private static double ground(Vec3 feet) {
-        for (int down = 0; down <= GROUND_DROP; down++) {
-            PROBE.set(Math.floor(feet.x), Math.floor(feet.y - 0.01) - down, Math.floor(feet.z));
-            VoxelShape shape = level.getBlockState(PROBE).getCollisionShape(level, PROBE);
-            if (shape.isEmpty()) continue;
-            double top = PROBE.getY() + shape.max(Direction.Axis.Y);
-            if (top <= feet.y + 0.01) return top;
-        }
-        return feet.y;
-    }
-
-    /** Whether a point is inside a block's collision shape. */
-    private static boolean solid(double x, double y, double z) {
-        PROBE.set(Math.floor(x), Math.floor(y), Math.floor(z));
-        VoxelShape shape = level.getBlockState(PROBE).getCollisionShape(level, PROBE);
-        if (shape.isEmpty()) return false;
-        if (shape == Shapes.block()) return true;
-        double lx = x - PROBE.getX(), ly = y - PROBE.getY(), lz = z - PROBE.getZ();
-        for (AABB box : shape.toAabbs()) if (box.contains(lx, ly, lz)) return true;
-        return false;
-    }
 }

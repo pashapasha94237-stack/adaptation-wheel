@@ -1,6 +1,5 @@
 {
   "jars": [
-    {"identifier": {"group": "com.seibel", "artifact": "distant-horizons"}, "version": {"range": "[3.3.3,3.4.0)", "artifactVersion": "3.3.3"}, "path": "META-INF/jarjar/distant-horizons-3.3.3-1.20.1.jar", "isObfuscated": true},
     {"identifier": {"group": "ru.pasha", "artifact": "pashaboost-1.20.1"}, "version": {"range": "[1.7.0,1.8.0)", "artifactVersion": "1.7.0"}, "path": "META-INF/jarjar/adapt-boost-1.20.1-forge-1.7.0.jar", "isObfuscated": true}
   ]
 }

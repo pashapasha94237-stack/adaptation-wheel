@@ -6,7 +6,7 @@ plugins {
 group = 'ru.pasha.adaptationwheel'
 def onlineAnalysis = providers.gradleProperty('neuralOnline').map { it.toBoolean() }.getOrElse(false)
 def pretrainedKnowledge = providers.gradleProperty('pretrainedKnowledge').map { it.toBoolean() }.getOrElse(true)
-version = '4.48.1-' + (pretrainedKnowledge ? 'trained' : 'untrained') + (onlineAnalysis ? '-online' : '')
+version = '4.49.0-' + (pretrainedKnowledge ? 'trained' : 'untrained') + (onlineAnalysis ? '-online' : '')
 base.archivesName = 'adaptation-wheel-1.20.1'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -44,9 +44,9 @@ dependencies {
 }
 tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
 
-// GameTest runs get the main resources without the embedded jars: Distant Horizons casts every
-// starting server to DedicatedServer (crashes GameTestServer), and the reobfuscated Pasha Boost
+// GameTest runs get the main resources without the embedded jar: the reobfuscated Pasha Boost
 // calls SRG names that do not exist in the official-mapped dev runtime (light engine dies on save).
+// Distant Horizons is no longer bundled since 4.49.0.
 def gameTestRun = gradle.startParameter.taskNames.any { it.endsWith('runGameTestServer') }
 
 tasks.register('generateAnalysisVariant') {
@@ -73,7 +73,6 @@ processResources {
         filesMatching('META-INF/jarjar/metadata.json') { filter { line -> line.contains('"path"') ? null : line } }
     } else {
         from('embedded') { include 'adapt-boost-1.20.1-forge-1.7.0.jar'; into 'META-INF/jarjar' }
-        from('embedded') { include 'distant-horizons-3.3.3-1.20.1.jar'; into 'META-INF/jarjar' }
     }
     from('THIRD-PARTY.md') { into 'META-INF' }
     from('LICENSE') { into 'META-INF' }
@@ -81,7 +80,7 @@ processResources {
 
 jar {
     exclude { entry -> entry.path.startsWith('META-INF/jarjar/') && entry.name.endsWith('.jar')
-            && entry.name != 'adapt-boost-1.20.1-forge-1.7.0.jar' && entry.name != 'distant-horizons-3.3.3-1.20.1.jar' }
+            && entry.name != 'adapt-boost-1.20.1-forge-1.7.0.jar' }
     manifest.attributes('Implementation-Title': 'Adaptation Wheel', 'Implementation-Version': project.version)
     finalizedBy 'reobfJar'
 }

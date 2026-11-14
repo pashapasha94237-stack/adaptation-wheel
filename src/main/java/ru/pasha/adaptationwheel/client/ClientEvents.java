@@ -25,7 +25,6 @@ public final class ClientEvents {
     }
     @SubscribeEvent(priority=net.minecraftforge.eventbus.api.EventPriority.HIGHEST)
     public static void clientSetup(net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent e){
-        e.enqueueWork(LandscapeMemory::setup);
         ru.pasha.adaptationwheel.StackLimits.client=player->player==Minecraft.getInstance().player&&MetaClient.full(ru.pasha.adaptationwheel.core.MetaMechanic.POCKET);
         ru.pasha.adaptationwheel.MetaHooks.client=(player,m)->player==Minecraft.getInstance().player&&MetaClient.active(m)?MetaClient.stage(m):0;
     }
@@ -108,7 +107,7 @@ public final class ClientEvents {
 
         @SubscribeEvent
         public static void frame(TickEvent.RenderTickEvent event) {
-            if(event.phase==TickEvent.Phase.END && Minecraft.getInstance().level!=null) {FpsAdaptation.frame();LandscapeMemory.frame();}
+            if(event.phase==TickEvent.Phase.END && Minecraft.getInstance().level!=null) {FpsAdaptation.frame();}
         }
 
         @SubscribeEvent

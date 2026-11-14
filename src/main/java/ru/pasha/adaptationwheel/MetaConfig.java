@@ -8,10 +8,9 @@ import ru.pasha.adaptationwheel.core.MetaMechanic;
 public final class MetaConfig {
     public static final ForgeConfigSpec SERVER,CLIENT;
     public static final Map<MetaMechanic,ForgeConfigSpec.BooleanValue> ENABLED=new EnumMap<>(MetaMechanic.class);
-    public static final ForgeConfigSpec.IntValue BORDER_REACH,LANDSCAPE_DISTANCE,RIPTIDE_DRY_POWER;
+    public static final ForgeConfigSpec.IntValue BORDER_REACH,RIPTIDE_DRY_POWER;
     public static final ForgeConfigSpec.DoubleValue LOW_TPS,HEAP_PRESSURE;
     public static final ForgeConfigSpec.DoubleValue NEAR_MISS_RADIUS,HOMING_RANGE;
-    public static final ForgeConfigSpec.ConfigValue<String> ARCHIVE_DIRECTORY;
     public static final ForgeConfigSpec.BooleanValue GHOSTS;
     static{
         var b=new ForgeConfigSpec.Builder();
@@ -25,8 +24,6 @@ public final class MetaConfig {
         b.pop();
         SERVER=b.build();
         b=new ForgeConfigSpec.Builder();
-        LANDSCAPE_DISTANCE=b.translation("meta.adaptationwheel.config.landscape_distance").comment("LOD view radius in chunks; this does not limit the area stored on disk. Archive files are never removed to enforce an area quota.").defineInRange("landscapeViewChunks",128,32,1024);
-        ARCHIVE_DIRECTORY=b.translation("meta.adaptationwheel.config.archive_directory").comment("Optional absolute directory on your SSD. Empty keeps the engine's per-world/per-server SQLite storage. Do not change while a world is open.").define("landscapeArchiveDirectory","");
         HEAP_PRESSURE=b.translation("meta.adaptationwheel.config.heap_pressure").comment("Java heap utilization starting memory adaptation after ten sustained seconds. Does not call System.gc or erase third-party caches.").defineInRange("heapPressureThreshold",0.85,0.5,0.98);
         GHOSTS=b.translation("meta.adaptationwheel.defeat_ghosts").define("showDefeatTrail",true);
         CLIENT=b.build();

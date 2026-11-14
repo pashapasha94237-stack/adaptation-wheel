@@ -1,7 +1,7 @@
 $ErrorActionPreference='Stop'
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 $releaseRoot=$PSScriptRoot
-$releaseName='adaptation-wheel-1.20.1-4.48.1'
+$releaseName='adaptation-wheel-1.20.1-4.49.0'
 $releaseDirectory=Join-Path $releaseRoot 'dist'
 New-Item -ItemType Directory -Force -Path $releaseDirectory | Out-Null
 function Read-Entry($archive,[string]$name){
@@ -31,10 +31,12 @@ foreach($variant in @('trained','untrained','trained-online','untrained-online')
             if($knowledge.schema -ne 1 -or $knowledge.facts.Count -ne 506){throw 'Incorrect prepared knowledge dataset'}
             if(@($knowledge.facts|Where-Object{$_.confidence -gt 80 -or !$_.source.StartsWith('seed:')}).Count){throw 'Prepared knowledge contains unreviewed high-confidence facts'}
         }elseif($seedEntry){throw 'Untrained JAR contains prepared knowledge'}
-        if(!(Read-Entry $archive 'META-INF/mods.toml').Contains('version="4.48.1-'+$variant+'"')){throw 'Incorrect mod version'}
-        Read-Entry $archive 'META-INF/jarjar/metadata.json' | Out-Null
+        if(!(Read-Entry $archive 'META-INF/mods.toml').Contains('version="4.49.0-'+$variant+'"')){throw 'Incorrect mod version'}
+        if((Read-Entry $archive 'META-INF/jarjar/metadata.json') -match 'distant'){throw 'Distant Horizons is still listed in jar-in-jar metadata'}
+        foreach($entry in $archive.Entries){if($entry.FullName -match '(?i)distant-horizons|distanthorizons|LandscapeMemory|LandscapeServerPolicy'){throw "Removed landscape component still in the jar: $($entry.FullName)"}}
+        foreach($lang in @('ru_ru','en_us')){if((Read-Entry $archive ('assets/adaptationwheel/lang/'+$lang+'.json')) -match '"meta.adaptationwheel.(landscape|config.landscape|config.archive)'){throw "Landscape memory texts still in $lang"}}
         if(!(Read-Entry $archive 'META-INF/LICENSE').StartsWith('MIT License')){throw 'Missing MIT licence'}
-        if(!(Read-Entry $archive 'META-INF/THIRD-PARTY.md').Contains('Adaptation Wheel 4.48.1')){throw 'Outdated third-party notice'}
+        if(!(Read-Entry $archive 'META-INF/THIRD-PARTY.md').Contains('Adaptation Wheel 4.49.0')){throw 'Outdated third-party notice'}
         if(!(Read-Entry $archive 'META-INF/mods.toml').Contains('MIT')){throw 'mods.toml licence is not MIT'}
         foreach($look in @('clockwork','ice_crown','armillary','event_horizon','ouroboros','storm_ring','malevolent_shrine','infinite_void')){Read-Entry $archive ('wheel_skins/'+$look+'.json') | Out-Null}
         if((Read-Entry $archive 'wheel_skins/event_horizon.json') -notmatch '"id": "m10-r2"'){throw 'Event Horizon is not the approved m10-r2 model'}
@@ -51,17 +53,16 @@ foreach($variant in @('trained','untrained','trained-online','untrained-online')
         foreach($lang in @('ru_ru','en_us')){if((Read-Entry $archive ('assets/adaptationwheel/lang/'+$lang+'.json')) -notmatch '"gui.adaptationwheel.hud.title"'){throw "Interface texts missing: $lang"}}
         # 4.36 learning screen (variant C): the tile layout and its texts (tiles, study panel, number tiles) in both languages.
         if(!$archive.GetEntry('ru/pasha/adaptationwheel/client/LearningLayout.class')){throw 'Learning layout missing'}
-        foreach($lang in @('ru_ru','en_us')){$text=Read-Entry $archive ('assets/adaptationwheel/lang/'+$lang+'.json');foreach($key in @('learning.adaptationwheel.lead','learning.adaptationwheel.mode.research.tag','learning.adaptationwheel.change.kept','learning.adaptationwheel.mode.research.knows','learning.adaptationwheel.study.left','learning.adaptationwheel.tile.observations.many','meta.adaptationwheel.changelog.4.36.0','meta.adaptationwheel.changelog.4.37.0','meta.adaptationwheel.changelog.4.39.0','meta.adaptationwheel.changelog.4.40.0','meta.adaptationwheel.changelog.4.43.0','meta.adaptationwheel.changelog.4.44.0','meta.adaptationwheel.changelog.4.45.1','meta.adaptationwheel.changelog.4.45.2','meta.adaptationwheel.changelog.4.46.0','meta.adaptationwheel.changelog.4.47.0','meta.adaptationwheel.changelog.4.48.0','meta.adaptationwheel.changelog.4.48.1','gui.adaptationwheel.card.speed_chip_full','gui.adaptationwheel.hud.hit_speed','learning.adaptationwheel.study.what','learning.adaptationwheel.study.what.pace','config.adaptationwheel.void_stream','config.adaptationwheel.void_stars','config.adaptationwheel.void_rings','gui.adaptationwheel.origin.label','gui.adaptationwheel.origin.mod_without','gui.adaptationwheel.category.picker','skin.adaptationwheel.void.adapt','skin.adaptationwheel.void.read.short','skin.adaptationwheel.malevolent_shrine.description','config.adaptationwheel.shrine_cuts','gui.adaptationwheel.summary.title','gui.adaptationwheel.event.unworn','gui.adaptationwheel.summary.weak.unmet.few')){if(!$text.Contains('"'+$key+'"')){throw "Learning texts missing: $lang $key"}}}
+        foreach($lang in @('ru_ru','en_us')){$text=Read-Entry $archive ('assets/adaptationwheel/lang/'+$lang+'.json');foreach($key in @('learning.adaptationwheel.lead','learning.adaptationwheel.mode.research.tag','learning.adaptationwheel.change.kept','learning.adaptationwheel.mode.research.knows','learning.adaptationwheel.study.left','learning.adaptationwheel.tile.observations.many','meta.adaptationwheel.changelog.4.36.0','meta.adaptationwheel.changelog.4.37.0','meta.adaptationwheel.changelog.4.39.0','meta.adaptationwheel.changelog.4.40.0','meta.adaptationwheel.changelog.4.43.0','meta.adaptationwheel.changelog.4.44.0','meta.adaptationwheel.changelog.4.45.1','meta.adaptationwheel.changelog.4.45.2','meta.adaptationwheel.changelog.4.46.0','meta.adaptationwheel.changelog.4.47.0','meta.adaptationwheel.changelog.4.48.0','meta.adaptationwheel.changelog.4.48.1','meta.adaptationwheel.changelog.4.49.0','gui.adaptationwheel.card.speed_chip_full','gui.adaptationwheel.hud.hit_speed','learning.adaptationwheel.study.what','learning.adaptationwheel.study.what.pace','config.adaptationwheel.void_stream','config.adaptationwheel.void_stars','gui.adaptationwheel.origin.label','gui.adaptationwheel.origin.mod_without','gui.adaptationwheel.category.picker','skin.adaptationwheel.void.adapt','skin.adaptationwheel.void.read.short','skin.adaptationwheel.malevolent_shrine.description','config.adaptationwheel.shrine_cuts','gui.adaptationwheel.summary.title','gui.adaptationwheel.event.unworn','gui.adaptationwheel.summary.weak.unmet.few')){if(!$text.Contains('"'+$key+'"')){throw "Learning texts missing: $lang $key"}}}
         $expectedPayloads=@{
-            # Preserve the reviewed optimization and terrain payloads.
+            # Preserve the reviewed optimization payload (Distant Horizons is no longer bundled since 4.49.0).
             'META-INF/jarjar/adapt-boost-1.20.1-forge-1.7.0.jar'=(Get-FileHash -Algorithm SHA256 -LiteralPath (Join-Path $releaseRoot 'embedded/adapt-boost-1.20.1-forge-1.7.0.jar')).Hash.ToLower()
-            'META-INF/jarjar/distant-horizons-3.3.3-1.20.1.jar'='a537a71171d935540b56b7598d0de2c106f6f5026336c713d89a1d9ea0ea14e3'
         }
         foreach($payload in $expectedPayloads.GetEnumerator()){
             $entry=$archive.GetEntry($payload.Key);if(!$entry -or (Entry-Hash $entry) -ne $payload.Value){throw "Bundled payload changed: $($payload.Key)"}
             $stream=$entry.Open();$nested=[IO.Compression.ZipArchive]::new($stream,[IO.Compression.ZipArchiveMode]::Read)
             try{
-                $required=if($payload.Key.Contains('distant-horizons')){@('LICENSE.txt','LICENSE.LESSER.txt','LICENSE-LOGOS.txt','META-INF/mods.toml')}else{@('pashaboost.mixins.json','LICENSE','META-INF/licenses/ModernFix-5.27.89-LGPL-3.0.txt','META-INF/licenses/ModernFix-GPL-3.0.txt','META-INF/licenses/MODERNFIX-SOURCES.md','META-INF/licenses/FerriteCore-6.0.1-MIT.txt')}
+                $required=@('pashaboost.mixins.json','LICENSE','META-INF/licenses/ModernFix-5.27.89-LGPL-3.0.txt','META-INF/licenses/ModernFix-GPL-3.0.txt','META-INF/licenses/MODERNFIX-SOURCES.md','META-INF/licenses/FerriteCore-6.0.1-MIT.txt')
                 foreach($name in $required){if(!$nested.GetEntry($name)){throw "Missing bundled notice: $name"}}
             }finally{$nested.Dispose();$stream.Dispose()}
         }
@@ -82,7 +83,7 @@ $zip=[IO.Compression.ZipArchive]::new($stream,[IO.Compression.ZipArchiveMode]::C
 try{
     $files=@()
     $files+=@(& git -c core.quotepath=off -C $releaseRoot ls-files | ForEach-Object {Get-Item -LiteralPath (Join-Path $releaseRoot $_)})
-    foreach($name in @('embedded/adapt-boost-1.20.1-forge-1.7.0.jar','embedded/distant-horizons-3.3.3-1.20.1.jar','embedded-src/adapt-boost-1.20.1-forge-1.7.0-sources.zip','embedded-src/distant-horizons-3.3.3-source.zip','embedded-src/distant-horizons-core-3.3.3-source.zip')){$files+=Get-Item -LiteralPath (Join-Path $releaseRoot $name)}
+    foreach($name in @('embedded/adapt-boost-1.20.1-forge-1.7.0.jar','embedded-src/adapt-boost-1.20.1-forge-1.7.0-sources.zip')){$files+=Get-Item -LiteralPath (Join-Path $releaseRoot $name)}
     foreach($file in ($files | Sort-Object FullName -Unique)){
         $name=$file.FullName.Substring($releaseRoot.Length+1).Replace('\','/')
         [IO.Compression.ZipFileExtensions]::CreateEntryFromFile($zip,$file.FullName,$name,[IO.Compression.CompressionLevel]::Optimal) | Out-Null

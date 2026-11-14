@@ -5,7 +5,7 @@ import java.util.List;
 /** Persistent, individually switchable non-combat adaptations. */
 public enum MetaMechanic {
     BORDER("world_border"), NOISE("notification_noise"), POCKET("inventory_pressure"),
-    LANDSCAPE("landscape_memory"), SILENCE("silent_world"), MEMORY("memory_pressure"),
+    SILENCE("silent_world"), MEMORY("memory_pressure"),
     TPS("low_tps"), DEFEAT("defeat_memory"),
     // Outside the game world: the mod pack, files, clock, the computer and the player behind it.
     MODS("foreign_mods"), LOGS("log_errors"), RENAME("world_rename"), CONFIG("config_edit"),

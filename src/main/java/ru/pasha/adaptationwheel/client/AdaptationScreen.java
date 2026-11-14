@@ -1209,7 +1209,6 @@ public final class AdaptationScreen extends Screen {
             if(mechanic!=null){
                 how.add(Line.of(Component.translatable(mechanic.hintKey()), TEXT));
                 for(Component line:OutsideClient.details(mechanic))how.add(Line.of(line, MUTED));
-                if(mechanic==MetaMechanic.LANDSCAPE){how.add(Line.of(Component.translatable("meta.adaptationwheel.landscape.archive",LandscapeMemory.archiveDirectory()), FAINT));if(LandscapeMemory.optifine())how.add(Line.of(Component.translatable("meta.adaptationwheel.landscape.optifine"), GOLD));}
             }
             if(key.equals(FpsAdaptation.KEY)) {
                 how.add(Line.of(Component.translatable("adaptationwheel.fps.explained"), TEXT));
