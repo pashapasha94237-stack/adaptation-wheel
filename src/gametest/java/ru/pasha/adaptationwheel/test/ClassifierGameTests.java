@@ -264,16 +264,20 @@ public final class ClassifierGameTests {
         h.succeed();
     }
 
-    /** 4.49.0 removed landscape memory together with Distant Horizons: an old save loses only that row. */
+    /** Old saves lose retired utility rows and retain active adaptation progress. */
     @GameTest(template="empty",timeoutTicks=40)
-    public static void retiredLandscapeMemoryRowIsDropped(GameTestHelper h) {
+    public static void retiredUtilityRowsAreDropped(GameTestHelper h) {
         TestPlayer p=new TestPlayer(h.getLevel());
-        var entries=new ListTag();entries.add(row("environment:landscape_memory",4));entries.add(row("environment:silent_world",2));
+        var retired=java.util.List.of("environment:landscape_memory","environment:silent_world",
+                "environment:console_commands","environment:wheel_update","environment:foreign_mods");
+        var entries=new ListTag();
+        for(String key:retired)entries.add(row(key,4));
+        entries.add(row("environment:memory_pressure",2));
         var tag=new CompoundTag();tag.putInt("Version",5);tag.putBoolean("Enabled",true);tag.put("Entries",entries);
         p.getPersistentData().put(AdaptationWheel.MOD_ID,tag);
         var state=AdaptationEvents.loadState(p);
-        check(h,state.snapshot("environment:landscape_memory")==null,"The landscape memory row is gone");
-        check(h,state.stage("environment:silent_world")==2,"Other utility adaptations keep their stage");
+        for(String key:retired)check(h,state.snapshot(key)==null,"Retired row survived: "+key);
+        check(h,state.stage("environment:memory_pressure")==2,"Other utility adaptations keep their stage");
         var old=new CompoundTag();var done=new ListTag();done.add(net.minecraft.nbt.StringTag.valueOf("environment:landscape_memory"));old.put("Completed",done);
         p.getPersistentData().put(AdaptationWheel.MOD_ID,old);
         check(h,AdaptationEvents.loadState(p).snapshot("environment:landscape_memory")==null,"The oldest save format drops it too");

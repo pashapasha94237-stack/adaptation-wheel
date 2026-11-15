@@ -9,28 +9,22 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.function.IntFunction;
 import net.minecraft.ChatFormatting;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.storage.LevelResource;
-import net.minecraftforge.event.CommandEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.living.*;
 import net.minecraftforge.event.entity.player.*;
 import net.minecraftforge.event.server.*;
 import net.minecraftforge.eventbus.api.*;
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.loading.FMLPaths;
-import ru.pasha.adaptationwheel.AdaptationWheel;
 import ru.pasha.adaptationwheel.core.*;
 
 /**
@@ -46,8 +40,6 @@ public final class OutsideServer {
     private static final Map<ServerPlayer,OutsideSignals.IdleClock> IDLE=new WeakHashMap<>();
     private static final Set<ServerPlayer> AFK_SHIELD=Collections.newSetFromMap(new WeakHashMap<>());
     private static final Map<ServerPlayer,Long> MENU_OPENED=new WeakHashMap<>(),MENU_WINDOW=new WeakHashMap<>();
-    private static final Set<String> CHEATS=Set.of("kill","effect","gamemode","give","tp","teleport","time","weather","summon","damage",
-            "clear","xp","experience","enchant","attribute","setblock","fill","difficulty","gamerule","item","loot","spreadplayers","ride","defaultgamemode");
     public static final int AFK_EXPOSE=3*60*20,AFK_SHIELD_AFTER=60*20,MENU_SHIELD=20*20,MENU_REARM=30*20;
     private static final OutsideSignals.ClockWatch CLOCK=new OutsideSignals.ClockWatch();
     private static final Random IDS=new Random();
@@ -94,47 +86,8 @@ public final class OutsideServer {
         MinecraftServer server=event.getServer();sessionStart=System.nanoTime();CLOCK.reset();lastOnline=null;
         NetworkWatch.start();
         // None of these may ever stop a world from starting: a broken file only costs the event.
-        try{Path memoryFile=home().resolve("outside-memory.properties");Properties memory=read(memoryFile);modsAndVersion(server,memory);write(memoryFile,memory);}
-        catch(RuntimeException e){LogUtils.getLogger().warn("Mod list / version memory skipped: {}",e.toString());}
         try{worldName(server);}catch(RuntimeException e){worldId="";LogUtils.getLogger().warn("World name memory skipped: {}",e.toString());}
         try{crash(server);}catch(RuntimeException e){LogUtils.getLogger().warn("Crash memory skipped: {}",e.toString());}
-    }
-    /** "4.29.1-trained-online" (or an older "4.20.1-offline") to "4.29.1", the release its changelog line is kept under. */
-    public static String release(String version){return version.replaceFirst("-.*$","");}
-    private static void modsAndVersion(MinecraftServer server,Properties memory){
-        Map<String,String> mods=new TreeMap<>();
-        for(var info:ModList.get().getMods())mods.put(info.getModId(),info.getVersion().toString());
-        String stored=memory.getProperty("mods");
-        if(stored!=null){
-            var changes=OutsideSignals.diffMods(OutsideSignals.decodeMods(stored),mods);
-            if(!changes.empty()){
-                Map<String,Integer> entities=new HashMap<>(),damage=new HashMap<>();
-                for(var id:BuiltInRegistries.ENTITY_TYPE.keySet())entities.merge(id.getNamespace(),1,Integer::sum);
-                for(var id:server.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).keySet())damage.merge(id.getNamespace(),1,Integer::sum);
-                post(MetaMechanic.MODS,stage->{
-                    List<Component> out=new ArrayList<>();
-                    out.add(line("meta.adaptationwheel.foreign_mods.event",changes.added().size(),changes.removed().size(),changes.updated().size()));
-                    if(stage<1)return out;
-                    int shown=0;
-                    for(String id:changes.added())if(shown++<8)out.add(stage>=4?detail("+ "+id+" · "+entities.getOrDefault(id,0)+" mob · "+damage.getOrDefault(id,0)+" dmg"):detail("+ "+id));
-                    for(String id:changes.removed())if(shown++<12)out.add(detail("− "+id));
-                    if(stage>=4)for(String id:changes.updated())if(shown++<16)out.add(detail("↻ "+id));
-                    return out;
-                });
-            }
-        }
-        memory.setProperty("mods",OutsideSignals.encodeMods(mods));
-        String version=ModList.get().getModContainerById(AdaptationWheel.MOD_ID).map(c->c.getModInfo().getVersion().toString()).orElse("?");
-        String old=memory.getProperty("wheelVersion");
-        if(old!=null&&!old.equals(version)){
-            String base=release(version);
-            post(MetaMechanic.UPDATE,stage->{
-                List<Component> out=new ArrayList<>();out.add(line("meta.adaptationwheel.wheel_update.event",old,version));
-                if(stage>=4)out.add(Component.translatableWithFallback("meta.adaptationwheel.changelog."+base,"—").withStyle(ChatFormatting.GRAY));
-                return out;
-            });
-        }
-        memory.setProperty("wheelVersion",version);
     }
     static String worldFolder(MinecraftServer server){
         Path root=server.getWorldPath(LevelResource.ROOT).toAbsolutePath().normalize();
@@ -275,9 +228,6 @@ public final class OutsideServer {
     @SubscribeEvent(priority=EventPriority.HIGHEST) public static void attacked(LivingAttackEvent e){
         if(!(e.getEntity() instanceof ServerPlayer p))return;
         var source=e.getSource();
-        if(source.is(DamageTypes.GENERIC_KILL)&&MetaServer.full(p,MetaMechanic.COMMANDS)){
-            e.setCanceled(true);p.sendSystemMessage(line("meta.adaptationwheel.console_commands.refused"));return;
-        }
         if(!(source.getEntity() instanceof Mob))return;
         if(AFK_SHIELD.contains(p)&&MetaServer.full(p,MetaMechanic.AFK)){e.setCanceled(true);return;}
         if(menuOpen(p)){
@@ -291,14 +241,6 @@ public final class OutsideServer {
     }
     @SubscribeEvent public static void target(LivingChangeTargetEvent e){
         if(e.getNewTarget() instanceof ServerPlayer p&&!(e.getEntity() instanceof Player)&&AFK_SHIELD.contains(p)&&MetaServer.full(p,MetaMechanic.AFK))e.setCanceled(true);
-    }
-    @SubscribeEvent public static void command(CommandEvent e){
-        var parse=e.getParseResults();var source=parse.getContext().getSource();
-        if(!(source.getEntity() instanceof ServerPlayer p)||!source.hasPermission(2))return;
-        String input=parse.getReader().getString().trim();if(input.startsWith("/"))input=input.substring(1);
-        String root=input.split("\\s+",2)[0].toLowerCase(Locale.ROOT);
-        int colon=root.indexOf(':');if(colon>=0)root=root.substring(colon+1);
-        if(CHEATS.contains(root))MetaServer.expose(p,MetaMechanic.COMMANDS);
     }
     @SubscribeEvent public static void logout(PlayerEvent.PlayerLoggedOutEvent e){if(e.getEntity() instanceof ServerPlayer p){IDLE.remove(p);AFK_SHIELD.remove(p);MENU_OPENED.remove(p);MENU_WINDOW.remove(p);}}
 }

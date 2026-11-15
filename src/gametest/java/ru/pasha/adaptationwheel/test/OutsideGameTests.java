@@ -25,24 +25,6 @@ import ru.pasha.adaptationwheel.server.*;
 @PrefixGameTestTemplate(false)
 public final class OutsideGameTests {
     @GameTest(template="empty",timeoutTicks=60)
-    public static void fullConsoleAdaptationRefusesKill(GameTestHelper h) {
-        var p=player(h);learn(p,MetaMechanic.COMMANDS,4);
-        p.kill();check(h,p.isAlive()&&p.getHealth()==20,"/kill went through a full console-command adaptation");
-        AdaptationEvents.state(p).setCategoryEnabled(MetaMechanic.COMMANDS.key,false);
-        p.kill();check(h,p.getHealth()<=0,"Disabled adaptation still blocks /kill");
-        h.succeed();
-    }
-    @GameTest(template="empty",timeoutTicks=60)
-    public static void cheatCommandStartsAdaptation(GameTestHelper h) {
-        var p=player(h);
-        h.getLevel().getServer().getCommands().performPrefixedCommand(p.createCommandSourceStack().withPermission(2),"time set day");
-        check(h,AdaptationEvents.state(p).pending().containsKey(MetaMechanic.COMMANDS.key),"A cheat command typed by the wearer did not start adaptation");
-        var q=player(h);
-        h.getLevel().getServer().getCommands().performPrefixedCommand(q.createCommandSourceStack().withPermission(2),"say hi");
-        check(h,!AdaptationEvents.state(q).pending().containsKey(MetaMechanic.COMMANDS.key),"An ordinary command counted as a cheat");
-        h.succeed();
-    }
-    @GameTest(template="empty",timeoutTicks=60)
     public static void idleWearerIsHiddenFromMobsUntilMoving(GameTestHelper h) {
         var p=player(h);learn(p,MetaMechanic.AFK,4);
         for(int i=0;i<OutsideServer.AFK_SHIELD_AFTER+40;i++)tick(p);
@@ -169,13 +151,6 @@ public final class OutsideGameTests {
         var bare=player(h);bare.setItemSlot(EquipmentSlot.HEAD,ItemStack.EMPTY);
         for(int i=0;i<40;i++)tick(bare);
         check(h,shown.get()==1&&!AdaptationEvents.state(bare).pending().containsKey(MetaMechanic.RENAME.key),"An event reached a player without the wheel");
-        h.succeed();
-    }
-    @GameTest(template="empty",timeoutTicks=20)
-    public static void changelogLineFollowsTheRelease(GameTestHelper h) {
-        check(h,OutsideServer.release("4.29.1-trained-online").equals("4.29.1"),"A build variant hid the changelog line of its release");
-        check(h,OutsideServer.release("4.29.1-untrained").equals("4.29.1"),"An untrained build lost its changelog line");
-        check(h,OutsideServer.release("4.20.1-offline").equals("4.20.1")&&OutsideServer.release("4.29.1").equals("4.29.1"),"An older version string lost its changelog line");
         h.succeed();
     }
     private static void learn(ServerPlayer p,MetaMechanic m,int stage){

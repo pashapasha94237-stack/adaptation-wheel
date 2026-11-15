@@ -4,11 +4,11 @@
 
 [Русская версия](README.ru.md) · [Changelog (RU)](CHANGELOG.md) · [Releases](https://github.com/pashapasha94237-stack/adaptation-wheel/releases) · [Report a bug](https://github.com/pashapasha94237-stack/adaptation-wheel/issues)
 
-![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-5b8c3a) ![Forge 47.4+](https://img.shields.io/badge/Forge-47.4.0%2B-1f6feb) ![Java 17](https://img.shields.io/badge/Java-17-b07219) ![Version 4.49.1](https://img.shields.io/badge/version-4.49.1-d4a017) ![License MIT](https://img.shields.io/badge/license-MIT-green)
+![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-5b8c3a) ![Forge 47.4+](https://img.shields.io/badge/Forge-47.4.0%2B-1f6feb) ![Java 17](https://img.shields.io/badge/Java-17-b07219) ![Version 4.50.0](https://img.shields.io/badge/version-4.50.0-d4a017) ![License MIT](https://img.shields.io/badge/license-MIT-green)
 
 ![The adaptation menu (J): wheel summary, running adaptations, protection by category](docs/screenshots/menu-summary.jpg)
 
-Every damage source, mob species, harmful effect and condition, from vanilla or from any mod, gets its own adaptation. Four stages take it from **20 % to 100 % protection**; every repeat hit speeds the current stage up; bosses get a fifth stage that ends in immunity and a one-hit kill. A local analyzer (no internet, no language model) classifies attacks from any mod. The wheel also learns 44 non-combat annoyances, unlocks an embedded FPS optimizer and comes with the Sword of Extermination and nine looks.
+Every damage source, mob species, harmful effect and condition, from vanilla or from any mod, gets its own adaptation. Four stages take it from **20 % to 100 % protection**; every repeat hit speeds the current stage up; bosses get a fifth stage that ends in immunity and a one-hit kill. A local analyzer (no internet, no language model) classifies attacks from any mod. The wheel also learns 40 non-combat annoyances, unlocks an embedded FPS optimizer and comes with the Sword of Extermination and nine looks.
 
 The mod ships as **one jar**: the wheel, the sword, and **Adapt Boost 1.7.0** (optimizer) are all inside. Distant Horizons is no longer bundled (since 4.49.0); you can still install it as a separate mod, but the wheel does not use it.
 
@@ -92,7 +92,7 @@ The mod ships as **one jar**: the wheel, the sword, and **Adapt Boost 1.7.0** (o
 
 When your FPS stays between 1 and 59, the «Low FPS» adaptation runs. Stage IV unlocks the embedded **Adapt Boost 1.7.0** optimizer (mod ID `pashaboost`): **F8** opens its screen, **F9** runs an A/B measurement, **F10** toggles it. It contains, among other things: a FerriteCore-based memory port, direct glyph lookup, sign text culling, sampler-name and vertex-element caches, entity data lock elision, particle light sharing, primitive-array quad sorting, same-value XP orb merging, a frame cap while the window is unfocused, distant-mob culling and version-gated fixes for hotspots in Alex's Mobs, Twilight Forest, BrandonsCore and Mahou Tsukai. Every feature has a JVM opt-out (`-Dpashaboost.disable*`) and the mixin plugin stands down next to mods that replace the same thing (Embeddium, Sodium-based mods, ModernFix, Clumps, FerriteCore, Lithium, Oculus…). Tested with and without OptiFine; on a dedicated server it does nothing.
 
-### 44 non-combat adaptations
+### 40 non-combat adaptations
 
 All in the «Environment» category, each with its own switch in the menu and in Configured; a refusal by the game (a bed, an anvil, a bow without arrows…) starts or speeds up the stage.
 
@@ -103,12 +103,11 @@ All in the «Environment» category, each with its own switch in the menu and in
 | World border | you reach the border | walk up to 64 blocks past it (personal) |
 | Notification noise | repeated safe notifications | exact repeats are grouped |
 | Inventory pressure | 33 of 36 slots full | **unlimited stacks** in your own inventory (up to 1 000 000 000 per slot) |
-| Silent world | volume at 0 while a sound happens nearby | direction, caption, height of the source |
 | Memory pressure | 10 s of high heap load | render distance drops by 2 chunks at a time (not below 6) while memory is short and returns after 30 calm seconds; garbage collection is never forced |
 | Low server TPS | 10 s of slow ticks | the wheel's own saves and packets are batched |
 | Memory of defeat | death after a fight | ghost trail of the last defeats and a warning at a familiar combo |
 
-**Eleven events outside the world:** foreign mods (a changed mod list is named, with what each new mod brought), log errors (identical errors are trimmed at stage IV, fatal ones never), renamed world, config editing (old → new values), system clock change (timers ignore it), crash memory (30 s of protection after rejoining a crashed world), idle/AFK (mobs lose you after a minute idle), inventory in combat (halved damage, then 20 s of safety after opening), network loss, wheel update (what changed), console commands (`/kill` against you is refused). **Near misses:** miss a mob by less than two blocks and, at stage IV, arrows, bolts and supported gun bullets are guided to a target within 64 blocks (native damage and collisions stay).
+**Eight events outside the world:** log errors (identical errors are trimmed at stage IV, fatal ones never), renamed world, config editing (old → new values), system clock change (timers ignore it), crash memory (30 s of protection after rejoining a crashed world), idle/AFK (mobs lose you after a minute idle), inventory in combat (halved damage, then 20 s of safety after opening), network loss. **Near misses:** miss a mob by less than two blocks and, at stage IV, arrows, bolts and supported gun bullets are guided to a target within 64 blocks (native damage and collisions stay).
 
 **23 everyday adaptations** (4.29): daytime sleep (sleep by day, fast-forward to evening, sneak-click for morning), sleeping near monsters, insomnia (phantoms later, then never), bed in a foreign dimension (no explosion, then a personal spawn point), sticky blocks (cobweb, powder snow, berries, soul sand, honey), waiting in a portal (down to one tick), mining in mid-air or under water, trampled farmland, waiting at the furnace (×1.25 … ×3 within 8 blocks), water in the Nether (3 s … forever), broken tool (warning, then restored to 25 %, 50 %, fully), «Too expensive!» (limit 50, 60, none), empty quiver (counts arrows, then shoots without arrows for durability), item cooldown (−15 … −50 %), enderman gaze, creeper-wrecked buildings (25 … 100 % of blocks survive), piglin gold, villager trading (demand surcharge gone, restock once a minute), surrounded (melee hits splash to mobs targeting you), murky water, sight through lava, unseen foes (invisible mobs outlined), laptop battery (FPS and render distance lowered while on battery, restored safely even after a crash).
 
@@ -148,17 +147,17 @@ Tag names: `fire`, `physical`, `magic`, `effect`, `hunger`, `cold`, `darkness`, 
 
    | File | What it is |
    | --- | --- |
-   | `adaptation-wheel-1.20.1-4.49.1-trained.jar` | **Recommended.** Prepared knowledge base (506 hints) for modded mobs and attacks. |
-   | `adaptation-wheel-1.20.1-4.49.1-untrained.jar` | The same mod without the starting base. |
+   | `adaptation-wheel-1.20.1-4.50.0-trained.jar` | **Recommended.** Prepared knowledge base (506 hints) for modded mobs and attacks. |
+   | `adaptation-wheel-1.20.1-4.50.0-untrained.jar` | The same mod without the starting base. |
    | `…-trained-online.jar`, `…-untrained-online.jar` | Plus an experimental advisor that can call an external OpenAI-compatible API (off until you configure an endpoint and an API key in an environment variable; falls back to the local analyzer on any error). |
 
 2. Put it into `mods`. Remove any older wheel jar: every variant shares the mod ID `adaptationwheel`.
 3. Do **not** install a second copy of Adapt Boost; it is inside. Configured is optional. Distant Horizons is not needed; it can be installed separately and runs on its own (once Adapt Boost is active, its optional lightmap optimisation for Distant Horizons applies too).
-4. **Servers:** the same jar on the server and on every client; versions must match (network protocol 23 in 4.49.1, so 4.48.x and 4.49.1 do not connect to each other).
+4. **Servers:** the same jar on the server and on every client; versions must match (network protocol 24 in 4.50.0, so 4.48.x and 4.50.0 do not connect to each other).
 5. **OptiFine:** works with 1.20.1 HD U I6_pre6.
 6. **Updating from 4.48.x:** saved «Landscape memory» progress is dropped when you join a world. Terrain that Distant Horizons already recorded (`DistantHorizons.sqlite` files) stays on disk; delete it by hand if you do not need it.
 
-Checksums of every file are in `VALIDATION-4.49.1.md` and next to the release assets.
+Checksums of every file are in `VALIDATION-4.50.0.md` and next to the release assets.
 
 ## Configuration
 
@@ -185,7 +184,7 @@ Requires JDK 17; the Gradle wrapper is included (ForgeGradle 6, Forge 1.20.1-47.
 .\gradlew.bat build -PneuralOnline=true            # online variant
 ```
 
-The embedded `embedded/adapt-boost-1.20.1-forge-1.7.0.jar` is copied into the jar as is (its sources are in `embedded-src/`). `release-4.49.1.ps1` builds all four variants with clean builds, checks that the embedded jar stayed byte-identical and writes jars, a sources zip and `SHA256SUMS` into `dist/`.
+The embedded `embedded/adapt-boost-1.20.1-forge-1.7.0.jar` is copied into the jar as is (its sources are in `embedded-src/`). `release-4.50.0.ps1` builds all four variants with clean builds, checks that the embedded jar stayed byte-identical and writes jars, a sources zip and `SHA256SUMS` into `dist/`.
 
 GameTests run separately and without the embedded jars:
 

@@ -1,4 +1,4 @@
-# Licences and integrated components — Adaptation Wheel 4.49.1
+# Licences and integrated components — Adaptation Wheel 4.50.0
 
 The Adaptation Wheel's own code, data, models, textures, sounds and texts are
 released under the **MIT License** (see `LICENSE` in the repository root).
@@ -10,7 +10,7 @@ The release is one installable JAR. Forge loads one further mod from inside it
 keeps its own mod ID, licences, notices and configuration files. No notice or
 author attribution has been removed from it.
 
-Since 4.49.1 the wheel no longer bundles or uses Distant Horizons. Terrain data it
+Since 4.50.0 the wheel no longer bundles or uses Distant Horizons. Terrain data it
 recorded earlier (`DistantHorizons.sqlite` files) stays on disk and can be
 deleted by hand; Distant Horizons can still be installed as a separate mod.
 Adapt Boost's optional Distant Horizons lightmap optimisation only applies then.

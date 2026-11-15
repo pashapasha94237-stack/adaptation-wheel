@@ -156,14 +156,25 @@ public final class MovementAdaptations {
     // ---------- loose footing ----------
     @SubscribeEvent public static void breakSpeed(PlayerEvent.BreakSpeed e){
         var p=e.getEntity();
+        if(p.isCreative()||p.isSpectator())return;
         boolean wet=p.isEyeInFluid(FluidTags.WATER)&&!EnchantmentHelper.hasAquaAffinity(p),air=!p.onGround();
         if(!wet&&!air)return;
-        if(p instanceof ServerPlayer sp)MetaServer.expose(sp,MetaMechanic.AIR_MINING);
+        if(p instanceof ServerPlayer sp&&e.getOriginalSpeed()>0
+                &&e.getPosition().filter(pos->!directlyBelow(p,pos)).isPresent()){
+            MetaServer.expose(sp,MetaMechanic.AIR_MINING);
+        }
         int s=MetaHooks.stage(p,MetaMechanic.AIR_MINING);
         if(s==0)return;
         // Vanilla divides by 5 for each penalty; stage s makes that divisor 5/(1+s), so 1.0 at stage IV.
         float k=1+s;if(wet&&air)k*=k;
         e.setNewSpeed(e.getNewSpeed()*k);
+    }
+
+    private static boolean directlyBelow(Player player, BlockPos pos){
+        var box=player.getBoundingBox();
+        return pos.getY()+1<=box.minY+0.1
+                &&pos.getX()<box.maxX&&pos.getX()+1>box.minX
+                &&pos.getZ()<box.maxZ&&pos.getZ()+1>box.minZ;
     }
 
     // ---------- trampled farmland ----------

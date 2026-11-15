@@ -101,7 +101,7 @@ public final class AdaptationEvents {
         try{return new ru.pasha.adaptationwheel.core.StageDurations(t[0],t[1],t[2],t[3],t[4]);}catch(IllegalArgumentException invalid){return null;}
     }
     /** Adaptations that no longer exist; their saved rows are dropped on load (landscape memory left with Distant Horizons in 4.49.0). */
-    static final Set<String> RETIRED=Set.of("environment:landscape_memory");
+    static final Set<String> RETIRED=Set.of("environment:landscape_memory","environment:silent_world","environment:console_commands","environment:wheel_update","environment:foreign_mods");
     static String migrateKey(String key) {
         return switch(key) {
             case "damage:minecraft:starve" -> AdaptationProfile.HUNGER_KEY;

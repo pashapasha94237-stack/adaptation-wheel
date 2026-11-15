@@ -156,7 +156,11 @@ public final class MovementGameTests {
         p.setPos(pos.getX()+.5,pos.getY(),pos.getZ()+.5);
         p.setOnGround(true);float ground=p.getDigSpeed(stone,pos);
         check(h,ground>0&&!AdaptationEvents.state(p).pending().containsKey(MetaMechanic.AIR_MINING.key),"Digging on the ground started adaptation");
-        p.setOnGround(false);float air=p.getDigSpeed(stone,pos);
+        p.setOnGround(false);
+        p.getDigSpeed(Blocks.DIRT.defaultBlockState(),pos.below());
+        check(h,!AdaptationEvents.state(p).pending().containsKey(MetaMechanic.AIR_MINING.key),
+                "Mining the floor through the player's footprint started adaptation");
+        float air=p.getDigSpeed(stone,pos.east());
         check(h,Math.abs(air-ground/5)<.001,"Vanilla air penalty is not one fifth: "+air+" vs "+ground);
         check(h,AdaptationEvents.state(p).pending().containsKey(MetaMechanic.AIR_MINING.key),"Digging in the air did not start adaptation");
         for(int s=1;s<=4;s++){

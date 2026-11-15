@@ -5,12 +5,12 @@ import java.util.List;
 /** Persistent, individually switchable non-combat adaptations. */
 public enum MetaMechanic {
     BORDER("world_border"), NOISE("notification_noise"), POCKET("inventory_pressure"),
-    SILENCE("silent_world"), MEMORY("memory_pressure"),
+    MEMORY("memory_pressure"),
     TPS("low_tps"), DEFEAT("defeat_memory"),
     // Outside the game world: the mod pack, files, clock, the computer and the player behind it.
-    MODS("foreign_mods"), LOGS("log_errors"), RENAME("world_rename"), CONFIG("config_edit"),
+    LOGS("log_errors"), RENAME("world_rename"), CONFIG("config_edit"),
     CLOCK("clock_shift"), CRASH("crash_memory"), AFK("idle_player"), INVENTORY("open_inventory"),
-    NETWORK("connection_loss"), UPDATE("wheel_update"), COMMANDS("console_commands"), MISSES("near_misses"),
+    NETWORK("connection_loss"), MISSES("near_misses"),
     // 4.29: the game refuses or hinders something again and again; the wheel lifts that limit for its wearer.
     DAY_SLEEP("day_sleep"), RESTLESS("restless_sleep"), INSOMNIA("insomnia"), FOREIGN_BED("foreign_bed"),
     STICKY("sticky_blocks"), PORTAL("portal_wait"), AIR_MINING("loose_footing"), FARMLAND("trampled_farmland"),
