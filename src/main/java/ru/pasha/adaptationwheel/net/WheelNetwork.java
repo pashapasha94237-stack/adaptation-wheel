@@ -21,7 +21,7 @@ import ru.pasha.adaptationwheel.core.WheelSkin;
 
 public final class WheelNetwork {
     private static final com.google.gson.Gson ANALYSIS_JSON=new com.google.gson.Gson();
-    private static final String PROTOCOL="24";
+    private static final String PROTOCOL="25";
     /** Each player's wheel look, as their client chose it (cosmetic, so the client decides). Server thread only. */
     private static final Map<UUID,WheelSkin> SKINS=new HashMap<>();
     private static final Map<ServerPlayer,SwordSettings.Values> SWORD_SIGNATURES=new WeakHashMap<>();

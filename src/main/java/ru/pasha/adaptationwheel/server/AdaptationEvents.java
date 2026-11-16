@@ -101,7 +101,7 @@ public final class AdaptationEvents {
         try{return new ru.pasha.adaptationwheel.core.StageDurations(t[0],t[1],t[2],t[3],t[4]);}catch(IllegalArgumentException invalid){return null;}
     }
     /** Adaptations that no longer exist; their saved rows are dropped on load (landscape memory left with Distant Horizons in 4.49.0). */
-    static final Set<String> RETIRED=Set.of("environment:landscape_memory","environment:silent_world","environment:console_commands","environment:wheel_update","environment:foreign_mods");
+    static final Set<String> RETIRED=Set.of("environment:landscape_memory","environment:silent_world","environment:console_commands","environment:wheel_update","environment:foreign_mods","environment:defeat_memory");
     static String migrateKey(String key) {
         return switch(key) {
             case "damage:minecraft:starve" -> AdaptationProfile.HUNGER_KEY;
@@ -176,7 +176,6 @@ public final class AdaptationEvents {
     }
     private static void queue(ServerPlayer player,DamageSource source,boolean attack,int receipt,double amount) {
         if(!active(player)) return;
-        if(attack)DefeatMemory.contact(player,source);
         List<Hit> hits=RECEIVED_DAMAGE.computeIfAbsent(player,ignored -> new ArrayList<>());
         // An attack and its downstream health damage are one exposure. Separate attack
         // events still count separately, even when Minecraft reuses the same DamageSource.

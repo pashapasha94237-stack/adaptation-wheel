@@ -117,12 +117,10 @@ public final class MetaServer {
         if(Math.abs(distanceToBorder(p))<3)expose(p,MetaMechanic.BORDER);
         if(InventoryPressure.occupied(p)>=33){expose(p,MetaMechanic.POCKET);InventoryPressure.compact(p);}
         if(slowNanos>=10_000_000_000L)expose(p,MetaMechanic.TPS);
-        if(tag(p).getBoolean("PendingDefeat")){expose(p,MetaMechanic.DEFEAT);tag(p).putBoolean("PendingDefeat",false);}
-        DefeatMemory.tick(p);
     }
     @SubscribeEvent public static void clone(PlayerEvent.Clone e){
         if(e.getOriginal() instanceof ServerPlayer old&&e.getEntity() instanceof ServerPlayer replacement){replacement.getPersistentData().put("adaptationwheel_meta",old.getPersistentData().getCompound("adaptationwheel_meta").copy());if(e.isWasDeath())tag(replacement).putBoolean("Outside",false);}
     }
-    @SubscribeEvent public static void logout(PlayerEvent.PlayerLoggedOutEvent e){if(e.getEntity() instanceof ServerPlayer p){HEARTBEATS.remove(p);ATTEMPTS.remove(p);BORDER_COOLDOWN.remove(p);DefeatMemory.forget(p);}}
-    @SubscribeEvent public static void stop(ServerStoppedEvent e){HEARTBEATS.clear();ATTEMPTS.clear();BORDER_COOLDOWN.clear();DefeatMemory.clear();tickStart=slowNanos=0;measuredTps=20;}
+    @SubscribeEvent public static void logout(PlayerEvent.PlayerLoggedOutEvent e){if(e.getEntity() instanceof ServerPlayer p){HEARTBEATS.remove(p);ATTEMPTS.remove(p);BORDER_COOLDOWN.remove(p);}}
+    @SubscribeEvent public static void stop(ServerStoppedEvent e){HEARTBEATS.clear();ATTEMPTS.clear();BORDER_COOLDOWN.clear();tickStart=slowNanos=0;measuredTps=20;}
 }

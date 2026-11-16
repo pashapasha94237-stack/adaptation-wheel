@@ -6,7 +6,7 @@ import java.util.List;
 public enum MetaMechanic {
     BORDER("world_border"), NOISE("notification_noise"), POCKET("inventory_pressure"),
     MEMORY("memory_pressure"),
-    TPS("low_tps"), DEFEAT("defeat_memory"),
+    TPS("low_tps"),
     // Outside the game world: the mod pack, files, clock, the computer and the player behind it.
     LOGS("log_errors"), RENAME("world_rename"), CONFIG("config_edit"),
     CLOCK("clock_shift"), CRASH("crash_memory"), AFK("idle_player"), INVENTORY("open_inventory"),

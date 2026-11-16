@@ -5,9 +5,7 @@ import java.util.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.network.chat.Component;
-import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
-import net.minecraftforge.client.event.RenderLevelStageEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.common.Mod;
@@ -27,9 +25,8 @@ public final class MetaClient {
     private static int ticks;
     private static final SustainedPressure HEAP_WINDOW=new SustainedPressure();
     private static double heapRatio;
-    private static String noise="",warning="",trailDimension="";
-    private static long noiseUntil,warnUntil,trailUntil;
-    private static List<Vec3> trail=List.of();
+    private static String noise="";
+    private static long noiseUntil;
     private static Component forwardedOverlay;
     private MetaClient(){}
     public static boolean active(MetaMechanic m){return equipped&&ENABLED.contains(m)&&MetaConfig.enabled(m);}
@@ -67,24 +64,11 @@ public final class MetaClient {
         return repeat.group();
     }
     @SubscribeEvent public static void chat(ClientChatReceivedEvent e){if(message(e.getMessage(),!e.isSystem()))e.setCanceled(true);else if(e instanceof ClientChatReceivedEvent.System system&&system.isOverlay())forwardedOverlay=e.getMessage();}
-    public static void warning(String dimension,String danger,List<Vec3> points,boolean alert){
-        trailDimension=dimension;trail=List.copyOf(points);trailUntil=System.currentTimeMillis()+15000;
-        if(alert){warning=Component.translatable("meta.adaptationwheel.defeat.warning").getString();warnUntil=System.currentTimeMillis()+3500;}
-    }
     public static void render(GuiGraphics g,int width,int height){
         if(!equipped)return;var mc=Minecraft.getInstance();long now=System.currentTimeMillis();
         if(active(MetaMechanic.NOISE)&&now<noiseUntil)g.drawCenteredString(mc.font,mc.font.plainSubstrByWidth(noise,width-30),width/2,height-72,0xFFEBC568);
-        if(full(MetaMechanic.DEFEAT)&&now<warnUntil){g.fill(width/2-135,30,width/2+135,52,0xC0201515);g.drawCenteredString(mc.font,warning,width/2,37,0xFFFFB078);}
     }
-    @SubscribeEvent public static void ghost(RenderLevelStageEvent e){
-        if(e.getStage()!=RenderLevelStageEvent.Stage.AFTER_TRANSLUCENT_BLOCKS||!active(MetaMechanic.DEFEAT)||stage(MetaMechanic.DEFEAT)<1||System.currentTimeMillis()>trailUntil||trail.isEmpty()||!MetaConfig.GHOSTS.get())return;
-        var mc=Minecraft.getInstance();if(mc.level==null||!mc.level.dimension().location().toString().equals(trailDimension))return;
-        var pose=e.getPoseStack();var camera=e.getCamera().getPosition();var out=mc.renderBuffers().bufferSource();var lines=out.getBuffer(net.minecraft.client.renderer.RenderType.lines());
-        pose.pushPose();pose.translate(-camera.x,-camera.y,-camera.z);
-        for(int i=0;i<trail.size();i+=3){Vec3 p=trail.get(i);if(p.distanceToSqr(camera)>128*128)continue;net.minecraft.client.renderer.LevelRenderer.renderLineBox(pose,lines,p.x-.3,p.y,p.z-.3,p.x+.3,p.y+1.8,p.z+.3,.55F,.75F,1F,.24F);}
-        pose.popPose();out.endBatch(net.minecraft.client.renderer.RenderType.lines());
-    }
-    public static void logout(){equipped=false;ticks=0;HEAP_WINDOW.clear();heapRatio=0;STAGES.clear();ENABLED.clear();SENT.clear();NOTIFICATIONS.clear();forwardedOverlay=null;noise=warning="";trail=List.of();OutsideClient.logout();}
+    public static void logout(){equipped=false;ticks=0;HEAP_WINDOW.clear();heapRatio=0;STAGES.clear();ENABLED.clear();SENT.clear();NOTIFICATIONS.clear();forwardedOverlay=null;noise="";noiseUntil=0;OutsideClient.logout();}
 
     @SubscribeEvent public static void inventory(net.minecraftforge.client.event.ScreenEvent.Render.Post e){
         if(!active(MetaMechanic.POCKET)||stage(MetaMechanic.POCKET)<1||!(e.getScreen() instanceof net.minecraft.client.gui.screens.inventory.AbstractContainerScreen<?> screen))return;

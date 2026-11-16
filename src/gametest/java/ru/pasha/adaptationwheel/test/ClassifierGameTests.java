@@ -269,7 +269,7 @@ public final class ClassifierGameTests {
     public static void retiredUtilityRowsAreDropped(GameTestHelper h) {
         TestPlayer p=new TestPlayer(h.getLevel());
         var retired=java.util.List.of("environment:landscape_memory","environment:silent_world",
-                "environment:console_commands","environment:wheel_update","environment:foreign_mods");
+                "environment:console_commands","environment:wheel_update","environment:foreign_mods","environment:defeat_memory");
         var entries=new ListTag();
         for(String key:retired)entries.add(row(key,4));
         entries.add(row("environment:memory_pressure",2));

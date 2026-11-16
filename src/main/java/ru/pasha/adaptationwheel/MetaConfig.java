@@ -11,7 +11,6 @@ public final class MetaConfig {
     public static final ForgeConfigSpec.IntValue BORDER_REACH,RIPTIDE_DRY_POWER;
     public static final ForgeConfigSpec.DoubleValue LOW_TPS,HEAP_PRESSURE;
     public static final ForgeConfigSpec.DoubleValue NEAR_MISS_RADIUS,HOMING_RANGE;
-    public static final ForgeConfigSpec.BooleanValue GHOSTS;
     static{
         var b=new ForgeConfigSpec.Builder();
         for(var m:MetaMechanic.values())ENABLED.put(m,b.translation(m.nameKey()).comment("Enable this utility adaptation. Saved progress is retained when disabled.").define(m.id,true));
@@ -25,7 +24,6 @@ public final class MetaConfig {
         SERVER=b.build();
         b=new ForgeConfigSpec.Builder();
         HEAP_PRESSURE=b.translation("meta.adaptationwheel.config.heap_pressure").comment("Java heap utilization starting memory adaptation after ten sustained seconds. Does not call System.gc or erase third-party caches.").defineInRange("heapPressureThreshold",0.85,0.5,0.98);
-        GHOSTS=b.translation("meta.adaptationwheel.defeat_ghosts").define("showDefeatTrail",true);
         CLIENT=b.build();
     }
     private MetaConfig(){}
