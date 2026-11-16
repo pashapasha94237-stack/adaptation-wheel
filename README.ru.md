@@ -1,5 +1,12 @@
 # Колесо адаптации и Меч истребления 4.50.0 — Minecraft 1.20.1 / Forge
 
+<img src="docs/publishing/curseforge-logo.png" alt="Колесо адаптации" width="112">
+
+**Среда:** клиент и сервер · **Minecraft Java 1.20.1** · **Forge 47.4.0+** · **Java 17**. Для сетевой игры установи одинаковую версию мода на сервер и всем игрокам.
+
+[Проект на CurseForge](https://www.curseforge.com/minecraft/mc-mods/adaptation-wheel) · [Вращение колеса во время «Адаптации к существованию» (4K, 60 FPS)](https://youtu.be/Bv9UM1Yx0hg)
+
+
 [English README](README.md) · [История версий](CHANGELOG.md) · [Релизы](https://github.com/pashapasha94237-stack/adaptation-wheel/releases) · [Сообщить об ошибке](https://github.com/pashapasha94237-stack/adaptation-wheel/issues)
 
 ![Меню адаптации (J): сводка колеса, идущие адаптации, защита по категориям](docs/screenshots/menu-summary.jpg)
@@ -406,3 +413,12 @@ Configured — PASS, 50 проверок. Результаты 4.33.0 (`VALIDATI
 1146×472, окно лаунчера 462×265 и OptiFine I6_pre6 + Configured 2.2.3 — все три прогона PASS. Прежняя проверка в
 настоящем клиенте (4.32.0, `VALIDATION-4.32.0.md`): достижения без модов и с полным набором Паши (87 jar), 47 шагов,
 оба прогона PASS.
+
+
+## Девять обликов колеса
+
+| | | |
+| --- | --- | --- |
+| ![Golden Wheel](docs/screenshots/wheel-looks/classic.png)<br>Golden Wheel | ![Clockwork Gear](docs/screenshots/wheel-looks/clockwork.png)<br>Clockwork Gear | ![Ice Crown](docs/screenshots/wheel-looks/ice_crown.png)<br>Ice Crown |
+| ![Armillary Sphere](docs/screenshots/wheel-looks/armillary.png)<br>Armillary Sphere | ![Event Horizon](docs/screenshots/wheel-looks/event_horizon.png)<br>Event Horizon | ![Ouroboros](docs/screenshots/wheel-looks/ouroboros.png)<br>Ouroboros |
+| ![Storm Ring](docs/screenshots/wheel-looks/storm_ring.png)<br>Storm Ring | ![Malevolent Shrine](docs/screenshots/wheel-looks/malevolent_shrine.png)<br>Malevolent Shrine | ![Infinite Void](docs/screenshots/wheel-looks/infinite_void.png)<br>Infinite Void |

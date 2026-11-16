@@ -1,5 +1,14 @@
 # Adaptation Wheel
 
+<img src="docs/publishing/curseforge-logo.png" alt="Adaptation Wheel" width="112">
+
+**Wear the wheel. Learn from every hit.** Wear a craftable golden wheel to build resistance to the damage and hazards you survive. Unlock boss immunity and wield the Sword of Extermination.
+
+**Environment:** Client and server · **Minecraft Java 1.20.1** · **Forge 47.4.0+** · **Java 17**. For multiplayer, install the same mod version on the server and every client.
+
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/adaptation-wheel) · [Adaptation to Existence — Wheel Rotation (4K 60 FPS)](https://youtu.be/Bv9UM1Yx0hg) · [Nine wheel looks](#wheel-looks-from-curseforge)
+
+
 **A head-slot artifact for Minecraft 1.20.1 (Forge) that learns to protect you from whatever hurts you.**
 
 [Русская версия](README.ru.md) · [Changelog (RU)](CHANGELOG.md) · [Releases](https://github.com/pashapasha94237-stack/adaptation-wheel/releases) · [Report a bug](https://github.com/pashapasha94237-stack/adaptation-wheel/issues)
@@ -244,3 +253,12 @@ CHANGELOG.md, VALIDATION-*.md, *-ANALYZER.md, UTILITY-MECHANICS.md   history and
 **Author:** Pasha.
 
 Bugs and ideas: [GitHub issues](https://github.com/pashapasha94237-stack/adaptation-wheel/issues). Russian is welcome.
+
+
+## Wheel looks from CurseForge
+
+| | | |
+| --- | --- | --- |
+| ![Golden Wheel](docs/screenshots/wheel-looks/classic.png)<br>Golden Wheel | ![Clockwork Gear](docs/screenshots/wheel-looks/clockwork.png)<br>Clockwork Gear | ![Ice Crown](docs/screenshots/wheel-looks/ice_crown.png)<br>Ice Crown |
+| ![Armillary Sphere](docs/screenshots/wheel-looks/armillary.png)<br>Armillary Sphere | ![Event Horizon](docs/screenshots/wheel-looks/event_horizon.png)<br>Event Horizon | ![Ouroboros](docs/screenshots/wheel-looks/ouroboros.png)<br>Ouroboros |
+| ![Storm Ring](docs/screenshots/wheel-looks/storm_ring.png)<br>Storm Ring | ![Malevolent Shrine](docs/screenshots/wheel-looks/malevolent_shrine.png)<br>Malevolent Shrine | ![Infinite Void](docs/screenshots/wheel-looks/infinite_void.png)<br>Infinite Void |
