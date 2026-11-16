@@ -4,7 +4,7 @@
 
 **Среда:** клиент и сервер · **Minecraft Java 1.20.1** · **Forge 47.4.0+** · **Java 17**. Для сетевой игры установи одинаковую версию мода на сервер и всем игрокам.
 
-[Проект на CurseForge](https://www.curseforge.com/minecraft/mc-mods/adaptation-wheel) · [Вращение колеса во время «Адаптации к существованию» (4K, 60 FPS)](https://youtu.be/Bv9UM1Yx0hg)
+[Проект на CurseForge](https://www.curseforge.com/minecraft/mc-mods/adaptation-wheel) · [Вращение колеса во время «Адаптации к существованию» (4K, 60 FPS)](https://youtu.be/Bv9UM1Yx0hg) · [Годжо — «Безграничная пустота» (4K, 60 FPS)](https://youtu.be/B14F_-cPGTg) · [Сукуна — «Зловещее святилище» (4K, 60 FPS)](https://youtu.be/LTwNyA2Tq_Q)
 
 
 [English README](README.md) · [История версий](CHANGELOG.md) · [Релизы](https://github.com/pashapasha94237-stack/adaptation-wheel/releases) · [Сообщить об ошибке](https://github.com/pashapasha94237-stack/adaptation-wheel/issues)

@@ -6,7 +6,7 @@
 
 **Environment:** Client and server · **Minecraft Java 1.20.1** · **Forge 47.4.0+** · **Java 17**. For multiplayer, install the same mod version on the server and every client.
 
-[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/adaptation-wheel) · [Adaptation to Existence — Wheel Rotation (4K 60 FPS)](https://youtu.be/Bv9UM1Yx0hg) · [Nine wheel looks](#wheel-looks-from-curseforge)
+[CurseForge project](https://www.curseforge.com/minecraft/mc-mods/adaptation-wheel) · [Adaptation to Existence — Wheel Rotation (4K 60 FPS)](https://youtu.be/Bv9UM1Yx0hg) · [Gojo — Infinite Void (4K 60 FPS)](https://youtu.be/B14F_-cPGTg) · [Sukuna — Malevolent Shrine (4K 60 FPS)](https://youtu.be/LTwNyA2Tq_Q) · [Nine wheel looks](#wheel-looks-from-curseforge)
 
 
 **A head-slot artifact for Minecraft 1.20.1 (Forge) that learns to protect you from whatever hurts you.**
