@@ -28,7 +28,7 @@ public final class ForearmBlade {
     private static final HumanoidModel.ArmPose GUARD = HumanoidModel.ArmPose.create("ADAPTATIONWHEEL_FOREARM_GUARD", false, (model, entity, arm) -> {
         ModelPart part = arm == HumanoidArm.RIGHT ? model.rightArm : model.leftArm;
         float side = arm == HumanoidArm.RIGHT ? 1 : -1;
-        part.xRot = model.head.xRot * 0.5F - 1.3F;
+        part.xRot = model.head.xRot * 0.5F + ru.pasha.adaptationwheel.item.BladeGuard.ARM_PITCH;
         part.yRot = side * -0.7F;
         part.zRot = 0;
     });

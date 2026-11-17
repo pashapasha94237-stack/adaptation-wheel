@@ -21,7 +21,7 @@ import ru.pasha.adaptationwheel.core.WheelSkin;
 
 public final class WheelNetwork {
     private static final com.google.gson.Gson ANALYSIS_JSON=new com.google.gson.Gson();
-    private static final String PROTOCOL="25";
+    private static final String PROTOCOL="26";
     /** Each player's wheel look, as their client chose it (cosmetic, so the client decides). Server thread only. */
     private static final Map<UUID,WheelSkin> SKINS=new HashMap<>();
     private static final Map<ServerPlayer,SwordSettings.Values> SWORD_SIGNATURES=new WeakHashMap<>();
@@ -32,6 +32,8 @@ public final class WheelNetwork {
         new ResourceLocation(AdaptationWheel.MOD_ID,"state"),() -> PROTOCOL,PROTOCOL::equals,PROTOCOL::equals);
     private WheelNetwork() {}
     public static void register() {
+        CHANNEL.messageBuilder(ParryPacket.class,11,NetworkDirection.PLAY_TO_CLIENT)
+            .encoder(ParryPacket::encode).decoder(ParryPacket::decode).consumerMainThread(ParryPacket::handle).add();
         CHANNEL.messageBuilder(StatePacket.class,0,NetworkDirection.PLAY_TO_CLIENT)
             .encoder(StatePacket::encode).decoder(StatePacket::decode).consumerMainThread(StatePacket::handle).add();
         CHANNEL.messageBuilder(TogglePacket.class,1,NetworkDirection.PLAY_TO_SERVER)
@@ -308,7 +310,17 @@ public final class WheelNetwork {
         var insight=b.readBoolean()?ANALYSIS_JSON.fromJson(b.readUtf(4096),ru.pasha.adaptationwheel.core.CombatKnowledge.Summary.class):ru.pasha.adaptationwheel.core.CombatKnowledge.Summary.EMPTY;
         return new AnalysisInfo(kind,confidence,reason,count,timings,insight,b.readUtf(64),b.readUtf(32));
     }
+    public static void parryProjectile(net.minecraft.world.entity.projectile.Projectile shot) {
+        CHANNEL.send(PacketDistributor.TRACKING_ENTITY.with(() -> shot),new ParryPacket(shot.getId(),
+                shot.getOwner()==null?-1:shot.getOwner().getId(),shot.position(),shot.getDeltaMovement()));
+    }
+    private record ParryPacket(int id,int owner,net.minecraft.world.phys.Vec3 point,net.minecraft.world.phys.Vec3 velocity) {
+        void encode(FriendlyByteBuf b){b.writeVarInt(id);b.writeInt(owner);b.writeDouble(point.x);b.writeDouble(point.y);b.writeDouble(point.z);b.writeDouble(velocity.x);b.writeDouble(velocity.y);b.writeDouble(velocity.z);}
+        static ParryPacket decode(FriendlyByteBuf b){return new ParryPacket(b.readVarInt(),b.readInt(),new net.minecraft.world.phys.Vec3(b.readDouble(),b.readDouble(),b.readDouble()),new net.minecraft.world.phys.Vec3(b.readDouble(),b.readDouble(),b.readDouble()));}
+        void handle(Supplier<NetworkEvent.Context> ctx){DistExecutor.unsafeRunWhenOn(Dist.CLIENT,()->()->ClientReceiver.parry(this));ctx.get().setPacketHandled(true);}
+    }
     private static final class ClientReceiver {
+        static void parry(ParryPacket p){ru.pasha.adaptationwheel.client.ClientProjectileParry.accept(p.id,p.owner,p.point,p.velocity);}
         static void accept(StatePacket p) { ClientWheelState.accept(p.entityId,p.enabled,p.equipped,p.nightVision,p.entries,p.revision,p.serverTick); }
         static void open() { AdaptationScreen.open(); }
         static void catalogue(CataloguePacket p) { ClientWheelState.acceptCatalogue(p.batch,p.index,p.count,p.entries); }

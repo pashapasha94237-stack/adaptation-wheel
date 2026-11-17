@@ -78,7 +78,7 @@ public final class EnvironmentGameTests {
     }
     @GameTest(template="empty",timeoutTicks=100)
     public static void caveGlowTorchPauseVisionToggleAndCleanup(GameTestHelper h) {
-        TestPlayer p=new TestPlayer(h.getLevel());ServerLevel level=h.getLevel();BlockPos center=new BlockPos(120,80,120);
+        TestPlayer p=new TestPlayer(h.getLevel());ServerLevel level=h.getLevel();BlockPos center=new BlockPos(120,200,120);
         for(BlockPos pos:BlockPos.betweenClosed(center.offset(-3,-1,-3),center.offset(3,4,3)))
             level.setBlock(pos,Blocks.STONE.defaultBlockState(),3);
         for(BlockPos pos:BlockPos.betweenClosed(center.offset(-1,0,-1),center.offset(1,2,1)))

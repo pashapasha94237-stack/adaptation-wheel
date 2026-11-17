@@ -1,0 +1,10 @@
+# Adaptation Wheel 4.51.1
+
+Projectile parry now uses a swept intersection with the raised blade instead of waiting for a body hit and moving the arrow to eye level. The same projectile stops at contact for two ticks, then returns toward the attacker. Position, owner and velocity are synchronized without replacing the ordinary renderer. Guard pose and mirrored left-hand geometry share the physical blade transforms. Successful contacts still cost two durability and record exposure once.
+
+Validation: all four variants build with --offline and run core tests. Forge GameTests: 191/191, including fast-projectile interception, a rejected near miss, left-hand geometry, existing eligibility controls, one durability charge and return ownership/velocity. Real-client checks of the identical gameplay code passed with Forge and ForgeOptiFine; the OptiFine run confirmed an active skeleton AI, 22 durability spent and a reduction of skeleton health from 100 to 52. A continuous native-4K gameplay recording shows four consecutive real arrow returns. The final 4.51.1 trained-online release JAR also passed the ForgeOptiFine smoke test: skeleton AI active, sword durability spent 22, skeleton health reduced from 100 to 54, player health 1000.
+
+All four variants contain byte-identical gameplay classes. Packaging checks the online and prepared-knowledge flags, the 506 trained hints, unchanged embedded Adapt Boost 1.7.0, licensing and the absence of retired components. The source archive includes the new parry classes and tests. SHA-256 checksums are distributed alongside the release.
+
+Network protocol 26: use matching mod builds on the server and clients. The full third-party-mod matrix and shader-pack matrix were not rerun for this patch. Historical integration coverage is retained in the player guides.
+The GameTest bootstrap now creates a controlled flat world for fresh checkouts. The sealed-cave fixture is isolated above the other test structures. The clean release-checkout run completed all 191 required tests after these fixture corrections.

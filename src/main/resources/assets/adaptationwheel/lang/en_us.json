@@ -2355,5 +2355,6 @@
   "gui.adaptationwheel.benefit.inactive_off": "While the wheel is switched off, the protection does not work.",
   "meta.adaptationwheel.changelog.4.49.1": "World Slash travels horizontally at eye height, even when looking up or down.",
   "meta.adaptationwheel.changelog.4.51.0": "Removed Memory of Defeat and its ghost trail at the death site.",
-  "meta.adaptationwheel.changelog.4.50.0": "Removed four utility adaptations. Mining a block directly underfoot no longer starts Loose Footing."
+  "meta.adaptationwheel.changelog.4.50.0": "Removed four utility adaptations. Mining a block directly underfoot no longer starts Loose Footing.",
+  "meta.adaptationwheel.changelog.4.51.1": "Arrows meet the raised blade and return to their shooter. Fixed projectile parry synchronization."
 }

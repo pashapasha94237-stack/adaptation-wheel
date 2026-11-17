@@ -62,6 +62,7 @@ public final class AdaptationWheel {
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.JujutsuCompatibility.class);
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.InfinityAdaptation.class);
         MinecraftForge.EVENT_BUS.register(ExterminationSwordEvents.class);
+        MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.ProjectileParry.class);
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.WorldSlash.class);
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.FirstAidCompatibility.class);
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.MetaServer.class);
@@ -80,4 +81,3 @@ public final class AdaptationWheel {
         MinecraftForge.EVENT_BUS.register(ru.pasha.adaptationwheel.server.TravelAdaptations.class);
     }
 }
-

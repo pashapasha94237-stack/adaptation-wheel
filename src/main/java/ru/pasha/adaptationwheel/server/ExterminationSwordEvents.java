@@ -64,7 +64,7 @@ public final class ExterminationSwordEvents {
         }
     }
 
-    private static boolean learnedGuard(ServerPlayer player,LivingEntity attacker) {
+    static boolean learnedGuard(ServerPlayer player,LivingEntity attacker) {
         if(attacker==player || !player.isAlive() || !player.isUsingItem()
                 || !player.getUseItem().is(AdaptationWheel.EXTERMINATION_SWORD.get()) || !AdaptationEvents.active(player))return false;
         var state=AdaptationEvents.state(player);String key=DamageCategories.forEntity(attacker);
@@ -100,28 +100,15 @@ public final class ExterminationSwordEvents {
     public static void reflectAdaptedProjectile(ProjectileImpactEvent event) {
         if(event.getProjectile().level().isClientSide || !(event.getRayTraceResult() instanceof EntityHitResult hit)
                 || !(hit.getEntity() instanceof ServerPlayer player))return;
-        var projectile=event.getProjectile();
-        if(!(projectile.getOwner() instanceof LivingEntity attacker) || !learnedGuard(player,attacker))return;
+        if(ProjectileParry.tryParry(event.getProjectile(),player))event.setCanceled(true);
+    }
+
+    static void projectileParried(ServerPlayer player,LivingEntity attacker,Vec3 point) {
         String key=DamageCategories.forEntity(attacker);
-        Vec3 incoming=projectile.position().subtract(player.getEyePosition());
-        if(incoming.lengthSqr()<1.0E-6 || player.getLookAngle().dot(incoming.normalize())<0.15)return;
-        Vec3 direction=attacker.getEyePosition().subtract(projectile.position()).normalize();
-        if(direction.lengthSqr()<0.5)return;
-        float speed=(float)Math.max(0.6,Math.min(4,projectile.getDeltaMovement().length()));
-        projectile.setOwner(player);
-        projectile.setPos(player.getEyePosition().add(direction.scale(0.8)));
-        projectile.shoot(direction.x,direction.y,direction.z,speed,0);
-        // Fireballs have acceleration as well as velocity; both must point away from the defender.
-        if(projectile instanceof AbstractHurtingProjectile fireball) {
-            double acceleration=Math.sqrt(fireball.xPower*fireball.xPower+fireball.yPower*fireball.yPower+fireball.zPower*fireball.zPower);
-            fireball.xPower=direction.x*acceleration;fireball.yPower=direction.y*acceleration;fireball.zPower=direction.z*acceleration;
-        }
-        projectile.hurtMarked=true;
-        event.setCanceled(true);
         AdaptationEvents.recordExposure(player,key,DamageCategories.boss(attacker));
         spendParryDurability(player);
-        ServerLevel level=player.serverLevel();
-        level.sendParticles(ParticleTypes.END_ROD,projectile.getX(),projectile.getY(),projectile.getZ(),12,0.15,0.15,0.15,0.08);
-        level.playSound(null,player.blockPosition(),SoundEvents.TRIDENT_RETURN,SoundSource.PLAYERS,0.8F,1.6F);
+        player.serverLevel().sendParticles(ParticleTypes.CRIT,point.x,point.y,point.z,4,.03,.03,.03,.01);
+        player.serverLevel().playSound(null,point.x,point.y,point.z,SoundEvents.SHIELD_BLOCK,SoundSource.PLAYERS,.7F,1.5F);
     }
+
 }

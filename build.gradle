@@ -6,7 +6,7 @@ plugins {
 group = 'ru.pasha.adaptationwheel'
 def onlineAnalysis = providers.gradleProperty('neuralOnline').map { it.toBoolean() }.getOrElse(false)
 def pretrainedKnowledge = providers.gradleProperty('pretrainedKnowledge').map { it.toBoolean() }.getOrElse(true)
-version = '4.51.0-' + (pretrainedKnowledge ? 'trained' : 'untrained') + (onlineAnalysis ? '-online' : '')
+version = '4.51.1-' + (pretrainedKnowledge ? 'trained' : 'untrained') + (onlineAnalysis ? '-online' : '')
 base.archivesName = 'adaptation-wheel-1.20.1'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -109,6 +109,15 @@ tasks.register('neuralTransportTest', JavaExec) {
 }
 
 tasks.matching { it.name == 'runGameTestServer' }.configureEach {
+    doFirst {
+        // Fixture players use fixed coordinates above a flat surface. Random terrain can put
+        // them inside a mountain and start darkness adaptation during unrelated assertions.
+        def properties = file('run/gametest/server.properties')
+        if (!properties.exists()) {
+            properties.parentFile.mkdirs()
+            properties.text = 'level-type=minecraft\\:flat\nlevel-seed=0\ngenerate-structures=false\ngenerator-settings={"biome":"minecraft:plains","layers":[{"block":"minecraft:bedrock","height":1},{"block":"minecraft:dirt","height":2},{"block":"minecraft:grass_block","height":1}],"structure_overrides":[]}\n'
+        }
+    }
     doLast {
         def log=file('run/gametest/logs/latest.log').text
         if (!(log =~ /All \d+ required tests passed/).find()) {

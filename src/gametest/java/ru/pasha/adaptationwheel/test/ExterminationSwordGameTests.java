@@ -162,11 +162,12 @@ public final class ExterminationSwordGameTests {
         check(h,!first.isCanceled() && unlearned.getOwner()==shooter,"Unlearned projectiles are not blocked for free");
         learn(p,shooter);var state=AdaptationEvents.state(p);var before=state.snapshots().get(0);
         var arrow=arrow(p,shooter,true);var reflected=impact(arrow,p);
-        check(h,reflected.isCanceled() && arrow.getOwner()==p && arrow.getDeltaMovement().z>0,"Learned frontal arrow returns to the attacker with correct ownership");
+        check(h,reflected.isCanceled() && arrow.getOwner()==p && arrow.getDeltaMovement().lengthSqr()==0,"Learned frontal arrow stops at the blade with correct ownership");
+        check(h,arrow.getZ()>.3 && arrow.getZ()<1.3,"Contact remains on the blade in front of the body, without jumping to the eyes");
         check(h,p.getUseItem().getDamageValue()==2,"Successful reflection spends sword durability exactly once");
         p.tickCount++;MinecraftForge.EVENT_BUS.post(new TickEvent.PlayerTickEvent(TickEvent.Phase.END,p));
         check(h,state.snapshots().stream().anyMatch(e->e.key().equals(before.key()) && e.hits()==before.hits()+1),"Parried contact still accelerates the running adaptation once");
-        h.succeed();
+        h.runAfterDelay(3,()->{check(h,arrow.getDeltaMovement().z>0,"After blade contact the same arrow flies back toward the shooter");h.succeed();});
     }
 
     @GameTest(template="empty",timeoutTicks=60)
@@ -186,7 +187,8 @@ public final class ExterminationSwordGameTests {
     @GameTest(template="empty",timeoutTicks=60)
     public static void fireballParryRedirectsAccelerationAndPreservesProjectile(GameTestHelper h) {
         TestPlayer p=new TestPlayer(h.getLevel());var blaze=EntityType.BLAZE.create(h.getLevel());blaze.setPos(0,100,8);learn(p,blaze);
-        var ball=EntityType.SMALL_FIREBALL.create(h.getLevel());ball.setOwner(blaze);ball.setPos(0,p.getEyeY(),1);ball.setDeltaMovement(0,0,-1);
+        var edge=ru.pasha.adaptationwheel.item.BladeGuard.edge(p);
+        var ball=EntityType.SMALL_FIREBALL.create(h.getLevel());ball.setOwner(blaze);ball.setPos(edge[0].add(edge[1]).scale(.5).add(0,0,1));ball.setDeltaMovement(0,0,-1);
         ball.zPower=-0.1;var reflected=impact(ball,p);
         check(h,reflected.isCanceled() && !ball.isRemoved() && ball.getOwner()==p,"Parry reuses the original fireball rather than deleting or duplicating it");
         check(h,ball.getDeltaMovement().z>0 && ball.zPower>0,"Both fireball velocity and acceleration point back at the attacker");
@@ -215,8 +217,33 @@ public final class ExterminationSwordGameTests {
         var state=AdaptationEvents.state(p);String key=DamageCategories.forEntity(attacker);state.hit(key,DamageCategories.boss(attacker));
         while(state.stage(key)<1)state.tick();
     }
+    @GameTest(template="empty",timeoutTicks=60)
+    public static void bladeSweepRejectsNearMissAndCatchesFastArrowExactlyOnce(GameTestHelper h) {
+        TestPlayer p=new TestPlayer(h.getLevel());
+        var shooter=EntityType.SKELETON.create(h.getLevel());shooter.setPos(0,100,6);learn(p,shooter);
+        var edge=ru.pasha.adaptationwheel.item.BladeGuard.edge(p);
+        var centre=edge[0].add(edge[1]).scale(.5);
+        var miss=arrow(p,shooter,true);miss.setPos(centre.add(2,0,3));miss.setDeltaMovement(0,0,-6);
+        check(h,!ProjectileParry.tryParry(miss,p)&&miss.getOwner()==shooter,"A nearby arrow missing the blade must remain unreflected");
+        var fast=arrow(p,shooter,true);fast.setPos(centre.add(0,0,3));fast.setDeltaMovement(0,0,-6);
+        check(h,ProjectileParry.tryParry(fast,p),"Swept collision catches an arrow crossing the whole blade in one tick");
+        check(h,fast.position().distanceTo(centre)<.3,"The contact stays on the physical blade");
+        check(h,!ProjectileParry.tryParry(fast,p)&&p.getUseItem().getDamageValue()==2,"The same contact cannot spend durability twice");
+        h.succeed();
+    }
+    @GameTest(template="empty",timeoutTicks=60)
+    public static void leftHandGuardHasAMirroredPhysicalBlade(GameTestHelper h) {
+        TestPlayer p=new TestPlayer(h.getLevel());
+        var right=ru.pasha.adaptationwheel.item.BladeGuard.edge(p);
+        p.setMainArm(HumanoidArm.LEFT);
+        var left=ru.pasha.adaptationwheel.item.BladeGuard.edge(p);
+        for(int i=0;i<2;i++)check(h,Math.abs(right[i].x+left[i].x)<1e-5 && Math.abs(right[i].y-left[i].y)<1e-5
+                && Math.abs(right[i].z-left[i].z)<1e-5,"Both handedness settings must mirror the physical worn blade");
+        h.succeed();
+    }
     private static AbstractArrow arrow(TestPlayer p,LivingEntity owner,boolean front) {
-        var arrow=EntityType.ARROW.create(p.level());arrow.setOwner(owner);arrow.setPos(0,p.getEyeY(),front?1:-1);arrow.setDeltaMovement(0,0,front?-1:1);return arrow;
+        var edge=ru.pasha.adaptationwheel.item.BladeGuard.edge(p);
+        var arrow=EntityType.ARROW.create(p.level());arrow.setOwner(owner);arrow.setPos(0,(edge[0].y+edge[1].y)/2,front?1.5:-1);arrow.setDeltaMovement(0,0,front?-2:1);return arrow;
     }
     private static ProjectileImpactEvent impact(Projectile projectile,TestPlayer p) {
         var event=new ProjectileImpactEvent(projectile,new EntityHitResult(p));MinecraftForge.EVENT_BUS.post(event);return event;
