@@ -2,7 +2,7 @@
 
 <img src="docs/publishing/curseforge-logo.png" alt="Adaptation Wheel" width="112">
 
-**Latest: 4.51.1 — projectile parry now meets the raised blade and returns the same arrow to its shooter. Main download: Trained + Online Advisor (the advisor stays off until configured).**
+**Latest: 4.51.2 — the wheel now requires eight gold ingots around a Nether Star. Main download: Trained + Online Advisor (the advisor stays off until configured).**
 
 **Wear the wheel. Learn from every hit.** Wear a craftable golden wheel to build resistance to the damage and hazards you survive. Unlock boss immunity and wield the Sword of Extermination.
 
@@ -15,7 +15,7 @@
 
 [Русская версия](README.ru.md) · [Changelog (RU)](CHANGELOG.md) · [Releases](https://github.com/pashapasha94237-stack/adaptation-wheel/releases) · [Report a bug](https://github.com/pashapasha94237-stack/adaptation-wheel/issues)
 
-![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-5b8c3a) ![Forge 47.4+](https://img.shields.io/badge/Forge-47.4.0%2B-1f6feb) ![Java 17](https://img.shields.io/badge/Java-17-b07219) ![Version 4.51.1](https://img.shields.io/badge/version-4.51.1-d4a017) ![License MIT](https://img.shields.io/badge/license-MIT-green)
+![Minecraft 1.20.1](https://img.shields.io/badge/Minecraft-1.20.1-5b8c3a) ![Forge 47.4+](https://img.shields.io/badge/Forge-47.4.0%2B-1f6feb) ![Java 17](https://img.shields.io/badge/Java-17-b07219) ![Version 4.51.2](https://img.shields.io/badge/version-4.51.2-d4a017) ![License MIT](https://img.shields.io/badge/license-MIT-green)
 
 ![The adaptation menu (J): wheel summary, running adaptations, protection by category](docs/screenshots/menu-summary.jpg)
 
@@ -48,7 +48,7 @@ The mod ships as **one jar**: the wheel, the sword, and **Adapt Boost 1.7.0** (o
 
 ### The wheel
 
-- **Craft:** 8 gold ingots around an ender pearl (`/give @s adaptationwheel:wheel`). Right-click wears it in the head slot; the previous helmet goes to your hand. No durability, no armour points.
+- **Craft:** 8 gold ingots around a Nether Star (`/give @s adaptationwheel:wheel`). Right-click wears it in the head slot; the previous helmet goes to your hand. No durability, no armour points.
 - **Adaptation starts with the first hit you survive.** Stages **I–IV** give **20 → 40 → 70 → 100 %** protection against that source. Stage time depends on the category (fire 8/20/32/44 s, physical and projectiles 20/50/80/110 s, magic and bosses 40/80/120/160 s, see the table below). The end of a stage: a sound, one 45° turn of the wheel, a full heal (can be turned off).
 - **Repeat hits accelerate.** Each hit of the same source during a stage adds +30 % to the countdown speed (×1.30, ×1.60, ×1.90…). The menu and HUD show time in «seconds of adaptation at ×1» plus a gold speed chip; a hit flashes «+30% speed». **Element experience:** every mastered source of a category makes new sources of that category start 5 % faster, up to +35 %.
 - **Independent scales.** Every mob species, damage type, effect and condition has its own entry; vanilla zombie variants are folded into one. The strongest applicable protection is used; percentages do not add up.
@@ -96,7 +96,7 @@ The mod ships as **one jar**: the wheel, the sword, and **Adapt Boost 1.7.0** (o
 ### Sword of Extermination
 
 - Craft: quartz block, string, end rod, netherite ingot (pattern ` Q ` / `SQS` / `ENE`). 10 damage, **×2 to undead, ×4 to mobs you choose** (each can have its own multiplier in Configured). Worn on the forearm in first person.
-- **Parry:** hold right-click to deflect melee strikes and incoming projectiles of an attacker you have adapted to from stage I (the wheel must be worn). Since 4.51.1, arrows collide with the raised blade, pause briefly at contact and return to their shooter with synchronized client movement.
+- **Parry:** hold right-click to deflect melee strikes and incoming projectiles of an attacker you have adapted to from stage I (the wheel must be worn). Since 4.51.2, arrows collide with the raised blade, pause briefly at contact and return to their shooter with synchronized client movement.
 - **World Slash** (Shift + right-click switches the mode): unlocked by stage V of any boss. A 64-block-long, 20-block-wide horizontal plane at eye height through walls deals exactly **300 HP (150 hearts)** to every target through armour, resistance and absorption, leaves blocks intact by default (enable worldSlashBreaksBlocksOptIn to cut blocks), costs 3 durability, 45 s cooldown. It pierces Jujutsu Craft's Infinity.
 
 ### Low FPS → Adapt Boost
@@ -157,18 +157,18 @@ Tag names: `fire`, `physical`, `magic`, `effect`, `hunger`, `cold`, `darkness`, 
 
    | File | What it is |
    | --- | --- |
-   | `adaptation-wheel-1.20.1-4.51.1-trained-online.jar` | **Main download.** 506 prepared knowledge hints and an optional external API advisor, disabled until configured. |
-   | `adaptation-wheel-1.20.1-4.51.1-trained.jar` | The same prepared knowledge, without the external advisor. |
-   | `adaptation-wheel-1.20.1-4.51.1-untrained-online.jar` | Built-in rules and learning without the extra prepared base; optional external advisor. |
-   | `adaptation-wheel-1.20.1-4.51.1-untrained.jar` | Built-in rules and learning without the extra prepared base or external advisor. |
+   | `adaptation-wheel-1.20.1-4.51.2-trained-online.jar` | **Main download.** 506 prepared knowledge hints and an optional external API advisor, disabled until configured. |
+   | `adaptation-wheel-1.20.1-4.51.2-trained.jar` | The same prepared knowledge, without the external advisor. |
+   | `adaptation-wheel-1.20.1-4.51.2-untrained-online.jar` | Built-in rules and learning without the extra prepared base; optional external advisor. |
+   | `adaptation-wheel-1.20.1-4.51.2-untrained.jar` | Built-in rules and learning without the extra prepared base or external advisor. |
 
 2. Put it into `mods`. Remove any older wheel jar: every variant shares the mod ID `adaptationwheel`.
 3. Do **not** install a second copy of Adapt Boost; it is inside. Configured is optional. Distant Horizons is not needed; it can be installed separately and runs on its own (once Adapt Boost is active, its optional lightmap optimisation for Distant Horizons applies too).
-4. **Servers:** the same jar on the server and on every client; versions must match (network protocol 26 in 4.51.1).
+4. **Servers:** the same jar on the server and on every client; versions must match (network protocol 26 in 4.51.2).
 5. **OptiFine:** works with 1.20.1 HD U I6_pre6.
 6. **Updating from 4.48.x:** saved «Landscape memory» progress is dropped when you join a world. Terrain that Distant Horizons already recorded (`DistantHorizons.sqlite` files) stays on disk; delete it by hand if you do not need it.
 
-Checksums of every file are in `VALIDATION-4.51.1.md` and next to the release assets.
+SHA-256 checksums of every release file are in the accompanying `SHA256SUMS.txt`. Validation details are in `VALIDATION-4.51.2.md`.
 
 ## Configuration
 
@@ -195,7 +195,7 @@ Requires JDK 17; the Gradle wrapper is included (ForgeGradle 6, Forge 1.20.1-47.
 .\gradlew.bat build -PneuralOnline=true            # online variant
 ```
 
-The embedded `embedded/adapt-boost-1.20.1-forge-1.7.0.jar` is copied into the jar as is (its sources are in `embedded-src/`). `release-4.51.1.ps1` builds all four variants with clean builds, checks that the embedded jar stayed byte-identical and writes jars, a sources zip and `SHA256SUMS` into `dist/`.
+The embedded `embedded/adapt-boost-1.20.1-forge-1.7.0.jar` is copied into the jar as is (its sources are in `embedded-src/`). `release-4.51.2.ps1` builds all four variants with clean builds, checks that the embedded jar stayed byte-identical and writes jars, a sources zip and `SHA256SUMS` into `dist/`.
 
 GameTests run separately and without the embedded jars:
 

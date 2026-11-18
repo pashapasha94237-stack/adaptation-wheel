@@ -5,15 +5,15 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {"items": [{"items": ["minecraft:gold_ingot"]}]}
     },
-    "has_ender_pearl": {
+    "has_nether_star": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": {"items": [{"items": ["minecraft:ender_pearl"]}]}
+      "conditions": {"items": [{"items": ["minecraft:nether_star"]}]}
     },
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {"recipe": "adaptationwheel:wheel"}
     }
   },
-  "requirements": [["has_gold_ingot", "has_ender_pearl", "has_the_recipe"]],
+  "requirements": [["has_gold_ingot", "has_nether_star", "has_the_recipe"]],
   "rewards": {"recipes": ["adaptationwheel:wheel"]}
 }

@@ -1,4 +1,4 @@
-# Licences and integrated components — Adaptation Wheel 4.51.1
+# Licences and integrated components — Adaptation Wheel 4.51.2
 
 The Adaptation Wheel's own code, data, models, textures, sounds and texts are
 released under the **MIT License** (see `LICENSE` in the repository root).

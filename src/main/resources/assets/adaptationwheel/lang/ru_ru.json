@@ -60,7 +60,7 @@
   "item.adaptationwheel.wheel": "Колесо адаптации",
   "key.adaptationwheel.menu": "Меню адаптации",
   "advancements.adaptationwheel.root.title": "Колесо адаптации",
-  "advancements.adaptationwheel.root.description": "Добудь Колесо адаптации: его делают из восьми золотых слитков и эндер-жемчуга",
+  "advancements.adaptationwheel.root.description": "Добудь Колесо адаптации: его делают из восьми золотых слитков и звезды Незера",
   "advancements.adaptationwheel.worn.title": "Колесо над головой",
   "advancements.adaptationwheel.worn.description": "Надень колесо на голову",
   "advancements.adaptationwheel.first_adaptation.title": "Первый поворот",
@@ -2356,5 +2356,6 @@
   "meta.adaptationwheel.changelog.4.49.1": "Мировой разрез проходит горизонтально на высоте взгляда, даже если смотреть вверх или вниз.",
   "meta.adaptationwheel.changelog.4.51.0": "Удалена память поражения и её след у места смерти.",
   "meta.adaptationwheel.changelog.4.50.0": "Удалены четыре небоевые адаптации. Добыча блока прямо под ногами больше не запускает «Добычу на весу».",
+  "meta.adaptationwheel.changelog.4.51.2": "Новый рецепт Колеса адаптации: восемь золотых слитков вокруг звезды Незера. Обновлены книга рецептов и подсказка достижения. Исправленное парирование из 4.51.1 сохранено.",
   "meta.adaptationwheel.changelog.4.51.1": "Стрелы сталкиваются с клинком в защитной стойке и возвращаются к стрелку. Исправлена синхронизация парирования."
 }

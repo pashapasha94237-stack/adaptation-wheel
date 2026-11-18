@@ -34,7 +34,7 @@ Against bosses (100 HP or more) there is a fifth stage, **Adaptation to Existenc
    - `adaptation-wheel-1.20.1-4.49.0-trained.jar` — recommended; includes the prepared knowledge base for modded mobs and attacks.
    - `adaptation-wheel-1.20.1-4.49.0-untrained.jar` — the same mod without the starting base; the analyzer relies on game data and your own fights.
 3. Remove any older wheel jar: all variants share one mod ID.
-4. Craft the wheel from 8 gold ingots around an ender pearl (`/give @s adaptationwheel:wheel`), right-click to wear it, press **J** for the menu.
+4. Craft the wheel from 8 gold ingots around a Nether Star (`/give @s adaptationwheel:wheel`), right-click to wear it, press **J** for the menu.
 
 Adapt Boost is already inside the jar. Distant Horizons is no longer bundled and the wheel does not use it; you can still install it as a separate mod. Terrain it already recorded (`DistantHorizons.sqlite` files) stays on disk and can be deleted by hand. No other mod is required; **Configured** (2.2.3 tested) gives a graphical settings screen for everything.
 

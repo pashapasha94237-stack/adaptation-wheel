@@ -60,7 +60,7 @@
   "item.adaptationwheel.wheel": "Adaptation Wheel",
   "key.adaptationwheel.menu": "Adaptation menu",
   "advancements.adaptationwheel.root.title": "Adaptation Wheel",
-  "advancements.adaptationwheel.root.description": "Get the Adaptation Wheel: eight gold ingots around an ender pearl",
+  "advancements.adaptationwheel.root.description": "Get the Adaptation Wheel: eight gold ingots around a Nether Star",
   "advancements.adaptationwheel.worn.title": "Wheel Above Your Head",
   "advancements.adaptationwheel.worn.description": "Put the wheel on your head",
   "advancements.adaptationwheel.first_adaptation.title": "First Turn",
@@ -2356,5 +2356,6 @@
   "meta.adaptationwheel.changelog.4.49.1": "World Slash travels horizontally at eye height, even when looking up or down.",
   "meta.adaptationwheel.changelog.4.51.0": "Removed Memory of Defeat and its ghost trail at the death site.",
   "meta.adaptationwheel.changelog.4.50.0": "Removed four utility adaptations. Mining a block directly underfoot no longer starts Loose Footing.",
+  "meta.adaptationwheel.changelog.4.51.2": "New Adaptation Wheel recipe: eight gold ingots around a Nether Star. Updated the recipe book and advancement hint. Includes the projectile parry fix from 4.51.1.",
   "meta.adaptationwheel.changelog.4.51.1": "Arrows meet the raised blade and return to their shooter. Fixed projectile parry synchronization."
 }
